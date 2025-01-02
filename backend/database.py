@@ -12,7 +12,7 @@ from sqlmodel import create_engine, SQLModel, Session
 from fastapi import Depends
 
 
-SQLITE_FILE_NAME = "./backend/nexa.db"
+SQLITE_FILE_NAME = "nexa.db"
 DATABASE_URL = f"sqlite:///{SQLITE_FILE_NAME}"
 
 connect_args = {

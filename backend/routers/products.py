@@ -13,13 +13,18 @@ logger = logging.getLogger(__name__)
 def create_product(product_input: ProductInput, session: SessionDep) -> Product:
     logger.info("Received product input: %s", product_input)
 
+    # Check if the product URL already exists
+    existing_product = session.exec(select(Product).where(Product.url == product_input.url)).first()
+    if existing_product:
+        raise HTTPException(status_code=400, detail="Product with this URL already exists")
+
     # Convert input models to SQLModel instances
     sizes = []
     for size_input in product_input.sizes:
         parameters = [
             SizeParameter(
-            parameter_name=param.parameter_name,
-            parameter_value=float(param.parameter_value) if param.parameter_value else None
+                parameter_name=param.parameter_name,
+                parameter_value=float(param.parameter_value) if param.parameter_value else None
             )
             for param in size_input.parameters
         ]
