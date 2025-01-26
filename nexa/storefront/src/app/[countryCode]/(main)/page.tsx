@@ -9,9 +9,9 @@ import { LocalizedLink } from "@/components/LocalizedLink"
 import { CollectionsSection } from "@/components/CollectionsSection"
 
 export const metadata: Metadata = {
-  title: "Medusa Next.js Starter Template",
+  title: "Nexa. Your Fit, Everywhere.",
   description:
-    "A performant frontend ecommerce starter template with Next.js 14 and Medusa.",
+    "At NEXA, we solve the shopping issue of niche customer groups by providing a platform that offers a wide range of products that cater to their specific needs.",
 }
 
 const ProductTypesSection: React.FC = async () => {
@@ -71,26 +71,27 @@ export default async function Home({
 
   return (
     <>
-      <div className="max-md:pt-18">
+      <div className="relative max-md:pt-18">
         <Image
-          src="/images/content/living-room.png"
-          width={2880}
-          height={1500}
+          src="/images/content/riesenhemd-hero_1.jpg"
+          width={1800}
+          height={800}
           alt="Living room"
-          className="md:h-screen md:object-cover"
+          className="md:h-[70vh] md:object-cover"
         />
+        <div className="absolute inset-0 bg-red-500 opacity-50 z-10"></div>
       </div>
       <div className="pt-8 pb-26 md:pt-26 md:pb-36">
         <Layout className="mb-26 md:mb-34">
           <LayoutColumn start={1} end={{ base: 13, md: 8 }}>
             <h3 className="text-2xl">
-              Elevate Your Living Space with Unmatched Comfort & Style
+              Never worry about size again. We've got you covered.
             </h3>
           </LayoutColumn>
           <LayoutColumn start={{ base: 1, md: 9 }} end={13}>
             <div className="flex items-center h-full">
               <div className="text-md">
-                <p>Discover Your Perfect Sofa Today</p>
+                <p>Discover Your Perfect Fit Today</p>
                 <LocalizedLink href="/store" variant="underline">
                   Explore Now
                 </LocalizedLink>
@@ -103,7 +104,7 @@ export default async function Home({
         <Layout>
           <LayoutColumn className="col-span-full">
             <h3 className="text-lg md:text-2xl mb-8 md:mb-15">
-              About Sofa Society
+              About Nexa
             </h3>
             <Image
               src="/images/content/sofa2.png"
@@ -115,8 +116,7 @@ export default async function Home({
           </LayoutColumn>
           <LayoutColumn start={1} end={{ base: 13, md: 7 }}>
             <h2 className="text-lg md:text-2xl">
-              At Sofa Society, we believe that a sofa is the heart of every
-              home.
+              At Nexa, we believe that everyone deserves clothes that fit perfectly.
             </h2>
           </LayoutColumn>
           <LayoutColumn
@@ -126,15 +126,13 @@ export default async function Home({
           >
             <div className="md:text-md">
               <p className="mb-5 md:mb-9">
-                We are dedicated to delivering high-quality, thoughtfully
-                designed sofas that merge comfort and style effortlessly.
+                We are dedicated to solving the sizing issues of tall people by connecting them to niche fashion brands.
               </p>
               <p className="mb-5 md:mb-3">
-                Our mission is to transform your living space into a sanctuary
-                of relaxation and beauty, with products built to last.
+                Our mission is to provide stylish and comfortable clothing options that cater to your unique needs.
               </p>
               <LocalizedLink href="/about" variant="underline">
-                Read more about Sofa Society
+                Read more about Nexa
               </LocalizedLink>
             </div>
           </LayoutColumn>
