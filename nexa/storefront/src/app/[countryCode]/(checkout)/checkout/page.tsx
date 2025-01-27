@@ -42,7 +42,7 @@ export default async function Checkout({
         <LayoutColumn>
           <div className="flex justify-between items-center h-18">
             <LocalizedLink href="/" className="text-md font-medium">
-              SofaSocietyCo.
+              NEXA.
             </LocalizedLink>
             <div>
               <p className="font-semibold">Checkout</p>
@@ -64,7 +64,7 @@ export default async function Checkout({
               href="/"
               className="text-md font-medium mb-16 inline-block max-lg:hidden"
             >
-              SofaSocietyCo.
+              NEXA.
             </LocalizedLink>
             <Wrapper cart={cart}>
               <CheckoutForm

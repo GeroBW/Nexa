@@ -111,7 +111,7 @@ export default function CookiePolicyPage() {
           contact us at:
         </p>
         <p>
-          Email: privacy@sofasociety.com
+          Email: privacy@nexa.com
           <br />
           Address: Skärgårdsvägen 12, 124 55 Stockholm
         </p>
