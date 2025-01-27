@@ -29,7 +29,7 @@ export function Pagination({
     const scrollPosition = document.getElementById("products")?.offsetTop || 0;
     window.scrollTo({
       top: scrollPosition - 100,
-      behavior: 'smooth', // Optional: 'auto' or 'smooth'
+      behavior: 'instant', // Optional: 'auto' or 'smooth'
     });
   }
 
