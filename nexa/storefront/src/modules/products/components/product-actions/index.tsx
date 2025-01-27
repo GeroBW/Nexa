@@ -66,14 +66,15 @@ const getInitialOptions = (product: ProductActionsProps["product"]) => {
         {} as Record<string, string>
       )
 
-    // Preselect the first available option if no single option values
-    if (Object.keys(singleOptionValues).length === 0) {
-      product.options.forEach((option) => {
-        if (option.values && option.values.length > 0) {
-          singleOptionValues[option.id] = option.values[0].value
-        }
-      })
-    }
+    //TODO: Preselect option with correct size
+    // // Preselect the first available option if no single option values
+    // if (Object.keys(singleOptionValues).length === 0) {
+    //   product.options.forEach((option) => {
+    //     if (option.values && option.values.length > 0) {
+    //       singleOptionValues[option.id] = option.values[0].value
+    //     }
+    //   })
+    // }
 
     return singleOptionValues
   }
