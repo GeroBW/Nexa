@@ -1,6 +1,7 @@
 import csv
 import os
 import unicodedata
+import json
 
 
 def make_url_safe(name):
@@ -13,7 +14,12 @@ def make_url_safe(name):
     return handle
 
 
-def convert_wc_to_import_template(wc_export_path, import_template_path):
+def convert_wc_to_import_template(
+    wc_export_path, import_template_path, sizing_data_path
+):
+    with open(sizing_data_path, mode="r", encoding="utf-8") as sizing_file:
+        sizing_data = json.load(sizing_file)
+
     with open(wc_export_path, mode="r", encoding="utf-8") as wc_file:
         wc_reader = csv.DictReader(wc_file, delimiter=";")
         os.makedirs(os.path.dirname(import_template_path), exist_ok=True)
@@ -57,7 +63,6 @@ def convert_wc_to_import_template(wc_export_path, import_template_path):
                 "Variant Height",
                 "Variant HS Code",
                 "Variant Origin Country",
-                "Product Sales Channel 1",
                 "Variant MID Code",
                 "Variant Material",
                 "Price EUR",
@@ -68,7 +73,11 @@ def convert_wc_to_import_template(wc_export_path, import_template_path):
                 "Option 2 Value",
                 "Image 1 Url",
                 "Image 2 Url",
+                "Variant Metadata",
+                # "Variant Metadata.",
             ]
+            for key in sizing_data[next(iter(sizing_data))]["sizes"][0].keys():
+                fieldnames.append(f"Variant Metadata.{key}")
             import_writer = csv.DictWriter(
                 import_file, fieldnames=fieldnames, delimiter=";"
             )
@@ -83,7 +92,7 @@ def convert_wc_to_import_template(wc_export_path, import_template_path):
                         "Product Handle": make_url_safe(row["Name"]),
                         "Product Title": row["Name"],
                         "Product Subtitle": "",
-                        "Product Description": row["Beschreibung"],
+                        "Product Description": row["Kurzbeschreibung"].strip(),
                         "Product Status": (
                             "published" if row["Veröffentlicht"] == "1" else "draft"
                         ),
@@ -96,12 +105,12 @@ def convert_wc_to_import_template(wc_export_path, import_template_path):
                         "Product Height": row["Höhe (cm)"],
                         "Product HS Code": "",
                         "Product Origin Country": "",
-                        "Product Sales Channel 1": "Riesenhemd",
+                        # "Product Sales Channel 1": "Riesenhemd",
                         "Product MID Code": "",
                         "Product Material": "",
                         "Product Collection Title": "",
                         "Product Collection Handle": "",
-                        "Product Type": "Dress Shirts",
+                        "Product Type": "Tops",
                         "Product Tags": "",  # row["Schlagwörter"],
                         "Product Discountable": "true",
                         "Product External Id": "",
@@ -117,6 +126,12 @@ def convert_wc_to_import_template(wc_export_path, import_template_path):
                         ),
                     }
                 elif row["Typ"] == "variation":
+                    fit = row["Attribut 1 Wert(e)"]
+                    size = int(row["Attribut 2 Wert(e)"])
+                    sizing_info = next(
+                        (s for s in sizing_data[fit]["sizes"] if s["size"] == size), {}
+                    )
+                    variant_metadata = json.dumps(sizing_info)
                     variant = {
                         **product_info,
                         "Variant Id": "art_" + row["Artikelnummer"],
@@ -140,7 +155,11 @@ def convert_wc_to_import_template(wc_export_path, import_template_path):
                         "Option 1 Value": row["Attribut 1 Wert(e)"],
                         "Option 2 Name": "Size",
                         "Option 2 Value": row["Attribut 2 Wert(e)"],
+                        "Variant Metadata": variant_metadata,
+                        # "Variant Metadata.test": sizing_info.get("test", ""),
                     }
+                    for key in sizing_info.keys():
+                        variant[f"Variant Metadata.{key}"] = sizing_info[key]
                     import_writer.writerow(variant)
 
 
@@ -148,4 +167,5 @@ def convert_wc_to_import_template(wc_export_path, import_template_path):
 convert_wc_to_import_template(
     "/Users/gero/dev/Nexa/nexa_old/python_scripts/importer/riesenhemd/wc-product-export-24-1-2025-1737709004303.csv",
     "/Users/gero/dev/Nexa/nexa_old/python_scripts/importer/riesenhemd/out/product-import-template.csv",
+    "/Users/gero/dev/Nexa/nexa_old/python_scripts/importer/riesenhemd/sizing.json",
 )

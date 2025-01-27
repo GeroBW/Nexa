@@ -1,0 +1,15 @@
+Größenübersicht SLIM FIT
+Größe	39	40	41	42	43
+Brustumfang	108 cm	111 cm	115 cm	118 cm	121 cm
+Taillenumfang	100 cm	103 cm	107 cm	110 cm	113 cm
+Gesamtlänge Hemd (vorn)	85 cm	85 cm	85 cm	85 cm	86 cm
+Gesamtlänge Hemd (hinten)	95 cm	95 cm	95 cm	95 cm	96 cm
+Ärmellänge	72 cm	72 cm	72 cm	72 cm	72 cm
+
+Größenübersicht MODERN FIT
+Größe	41	42	43	44	45	46
+Brustumfang	122 cm	125 cm	127 cm	129 cm	131 cm	133 cm
+Taillenumfang	118 cm	121 cm	123 cm	125 cm	127 cm	129 cm
+Gesamtlänge Hemd (vorn)	85 cm	85 cm	86 cm	86 cm	87 cm	87 cm
+Gesamtlänge Hemd (hinten)	95 cm	95 cm	96 cm	96 cm	97 cm	97 cm
+Ärmellänge	72 cm	72 cm	72 cm	72 cm	72 cm	72 cm

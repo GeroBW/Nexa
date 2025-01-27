@@ -1,0 +1,21 @@
+{
+  "Slim Fit": {
+    "sizes": [
+      { "size": 39, "chest_cm": 108, "waist_cm": 100, "front_length_cm": 85, "back_length_cm": 95, "sleeve_length_cm": 72 },
+      { "size": 40, "chest_cm": 111, "waist_cm": 103, "front_length_cm": 85, "back_length_cm": 95, "sleeve_length_cm": 72 },
+      { "size": 41, "chest_cm": 115, "waist_cm": 107, "front_length_cm": 85, "back_length_cm": 95, "sleeve_length_cm": 72 },
+      { "size": 42, "chest_cm": 118, "waist_cm": 110, "front_length_cm": 85, "back_length_cm": 95, "sleeve_length_cm": 72 },
+      { "size": 43, "chest_cm": 121, "waist_cm": 113, "front_length_cm": 86, "back_length_cm": 96, "sleeve_length_cm": 72 }
+    ]
+  },
+  "Modern Fit": {
+    "sizes": [
+      { "size": 41, "chest_cm": 122, "waist_cm": 118, "front_length_cm": 85, "back_length_cm": 95, "sleeve_length_cm": 72 },
+      { "size": 42, "chest_cm": 125, "waist_cm": 121, "front_length_cm": 85, "back_length_cm": 95, "sleeve_length_cm": 72 },
+      { "size": 43, "chest_cm": 127, "waist_cm": 123, "front_length_cm": 86, "back_length_cm": 96, "sleeve_length_cm": 72 },
+      { "size": 44, "chest_cm": 129, "waist_cm": 125, "front_length_cm": 86, "back_length_cm": 96, "sleeve_length_cm": 72 },
+      { "size": 45, "chest_cm": 131, "waist_cm": 127, "front_length_cm": 87, "back_length_cm": 97, "sleeve_length_cm": 72 },
+      { "size": 46, "chest_cm": 133, "waist_cm": 129, "front_length_cm": 87, "back_length_cm": 97, "sleeve_length_cm": 72 }
+    ]
+  }
+}
