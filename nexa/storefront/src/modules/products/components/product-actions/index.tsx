@@ -4,6 +4,7 @@ import { isEqual } from "lodash"
 import { useEffect, useMemo, useState } from "react"
 import { HttpTypes } from "@medusajs/types"
 import { Popover, Radio, RadioGroup, Select } from "react-aria-components"
+import parse from 'html-react-parser';
 
 import { addToCart } from "@lib/data/cart"
 import { getVariantItemsInStock } from "@lib/util/inventory"
@@ -65,6 +66,15 @@ const getInitialOptions = (product: ProductActionsProps["product"]) => {
         {} as Record<string, string>
       )
 
+    // Preselect the first available option if no single option values
+    if (Object.keys(singleOptionValues).length === 0) {
+      product.options.forEach((option) => {
+        if (option.values && option.values.length > 0) {
+          singleOptionValues[option.id] = option.values[0].value
+        }
+      })
+    }
+
     return singleOptionValues
   }
 
@@ -104,6 +114,7 @@ export default function ProductActions({
 
   // update the options when a variant is selected
   const setOptionValue = (optionId: string, value: string) => {
+    console.log(product)
     setOptions((prev) => ({
       ...prev,
       [optionId]: value,
@@ -170,7 +181,7 @@ export default function ProductActions({
     <>
       <ProductPrice product={product} variant={selectedVariant} />
       <div className="max-md:text-xs mb-8 md:mb-16 max-w-120">
-        <p>{product.description}</p>
+        {product.description ? parse(product.description.replace(/\\n/g, '<br/>')) : null}
       </div>
       {hasMultipleVariants && (
         <div className="flex flex-col gap-8 md:gap-6 mb-10 md:mb-26">
