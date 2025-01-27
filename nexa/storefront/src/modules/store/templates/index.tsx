@@ -11,6 +11,9 @@ import { getProductTypesList } from "@lib/data/product-types"
 import { LocalizedLink } from "@/components/LocalizedLink"
 import { Carousel } from "@/components/Carousel"
 import PaginatedProducts from "./paginated-products"
+import { MetadataFilter, createDefaultMetadataFilter } from "types/metaDataFilter"
+import { create } from "lodash"
+
 
 const CollectionsSlider = async () => {
   const collections = await getCollectionsList(0, 20, [
@@ -40,7 +43,7 @@ const CollectionsSlider = async () => {
               "url" in c.metadata.image &&
               typeof c.metadata.image.url === "string" && (
                 <div className="relative mb-4 md:mb-6 w-full aspect-[3/4]">
-                  <Image src={c.metadata.image.url} alt={c.title} fill objectFit="cover"/>
+                  <Image src={c.metadata.image.url} alt={c.title} fill objectFit="cover" />
                 </div>
               )}
             <h3>{c.title}</h3>
@@ -58,6 +61,7 @@ const StoreTemplate = async ({
   type,
   page,
   countryCode,
+  metadataFilter //= createDefaultMetadataFilter()
 }: {
   sortBy?: SortOptions
   collection?: string[]
@@ -65,6 +69,7 @@ const StoreTemplate = async ({
   type?: string[]
   page?: string
   countryCode: string
+  metadataFilter?: MetadataFilter
 }) => {
   const pageNumber = page ? parseInt(page) : 1
   const collections = await getCollectionsList(0, 100, [
@@ -102,23 +107,24 @@ const StoreTemplate = async ({
             !collection
               ? undefined
               : collections.collections
-                  .filter((c) => collection.includes(c.handle))
-                  .map((c) => c.id)
+                .filter((c) => collection.includes(c.handle))
+                .map((c) => c.id)
           }
           categoryId={
             !category
               ? undefined
               : categories.product_categories
-                  .filter((c) => category.includes(c.handle))
-                  .map((c) => c.id)
+                .filter((c) => category.includes(c.handle))
+                .map((c) => c.id)
           }
           typeId={
             !type
               ? undefined
               : types.productTypes
-                  .filter((t) => type.includes(t.value))
-                  .map((t) => t.id)
+                .filter((t) => type.includes(t.value))
+                .map((t) => t.id)
           }
+          metadataFilter={metadataFilter}
         />
       </Suspense>
     </div>

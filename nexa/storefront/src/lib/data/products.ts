@@ -128,11 +128,13 @@ export const getProductsListWithSort = cache(async function ({
   queryParams,
   sortBy = "created_at",
   countryCode,
+  metadataFilter
 }: {
   page?: number
   queryParams?: HttpTypes.FindParams & HttpTypes.StoreProductParams
   sortBy?: SortOptions
-  countryCode: string
+  countryCode: string,
+  metadataFilter?: MetadataFilter
 }): Promise<{
   response: { products: HttpTypes.StoreProduct[]; count: number }
   nextPage: number | null
@@ -149,6 +151,7 @@ export const getProductsListWithSort = cache(async function ({
       limit: 100,
     },
     countryCode,
+    metadataFilter,
   })
 
   const sortedProducts = sortProducts(products, sortBy)

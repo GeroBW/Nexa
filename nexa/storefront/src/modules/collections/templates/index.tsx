@@ -10,6 +10,8 @@ import PaginatedProducts from "@modules/store/templates/paginated-products"
 import { Layout, LayoutColumn } from "@/components/Layout"
 import { getCategoriesList } from "@lib/data/categories"
 import { getProductTypesList } from "@lib/data/product-types"
+import { MetadataFilter, createDefaultMetadataFilter } from "types/metaDataFilter"
+
 
 export default async function CollectionTemplate({
   sortBy,
@@ -18,6 +20,7 @@ export default async function CollectionTemplate({
   type,
   page,
   countryCode,
+  metadataFilter //= createDefaultMetadataFilter(),
 }: {
   sortBy?: SortOptions
   collection: HttpTypes.StoreCollection
@@ -25,6 +28,7 @@ export default async function CollectionTemplate({
   type?: string[]
   page?: string
   countryCode: string
+  metadataFilter?: MetadataFilter
 }) {
   const pageNumber = page ? parseInt(page) : 1
 
@@ -108,6 +112,7 @@ export default async function CollectionTemplate({
                   .filter((t) => type.includes(t.value))
                   .map((t) => t.id)
           }
+          metadataFilter={metadataFilter}
         />
       </Suspense>
       <div className="pb-26 md:pb-36" />
