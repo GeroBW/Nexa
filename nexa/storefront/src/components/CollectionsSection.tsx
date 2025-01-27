@@ -52,6 +52,7 @@ export const CollectionsSection: React.FC<{ className?: string }> = async ({
                     src={collection.metadata.image.url}
                     alt={collection.title}
                     fill
+                    objectFit="cover"
                   />
                 </div>
               )}
