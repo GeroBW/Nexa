@@ -4,6 +4,7 @@ import { cache } from "react"
 import { getRegion } from "./regions"
 import { SortOptions } from "@modules/store/components/refinement-list/sort-products"
 import { sortProducts } from "@lib/util/sort-products"
+import { MetadataFilter, createDefaultMetadataFilter } from "types/metaDataFilter"
 
 export const getProductsById = cache(async function ({
   ids,
@@ -63,10 +64,12 @@ export const getProductsList = cache(async function ({
   pageParam = 1,
   queryParams,
   countryCode,
+  metadataFilter,// = createDefaultMetadataFilter()
 }: {
   pageParam?: number
   queryParams?: HttpTypes.FindParams & HttpTypes.StoreProductListParams
   countryCode: string
+  metadataFilter?: MetadataFilter
 }): Promise<{
   response: { products: HttpTypes.StoreProduct[]; count: number }
   nextPage: number | null
@@ -95,6 +98,14 @@ export const getProductsList = cache(async function ({
       { next: { tags: ["products"] } }
     )
     .then(({ products, count }) => {
+      products = products.filter((product) => {
+        product.variants = product.variants?.filter((variant) =>
+          metadataFilter ? checkSizing(variant, metadataFilter) : true
+        ) || [];
+        return product.variants.length > 0;
+      })
+      count = products.length;
+    
       const nextPage = count > offset + limit ? page + 1 : null
 
       return {
@@ -157,3 +168,31 @@ export const getProductsListWithSort = cache(async function ({
     queryParams,
   }
 })
+
+function checkSizing(
+  variant: HttpTypes.StoreProductVariant,
+  metadataFilter: MetadataFilter
+): boolean {
+  const metadata = variant.metadata as MetadataFilter;
+  // Check each parameter if it is provided
+  // const sizeMatch = metadataFilter.size ? metadata.size === metadataFilter.size : true;
+  const chestMatch = fits(metadata?.chest_cm, metadataFilter.chest_cm, 2);
+  const waistMatch = fits(metadata?.front_length_cm, metadataFilter.front_length_cm, 2);
+  const backLengthMatch = fits(metadata?.front_length_cm, metadataFilter.front_length_cm, 2);
+  const frontLengthMatch = fits(metadata?.front_length_cm, metadataFilter.front_length_cm, 2);
+  const sleeveLengthMatch = fits(metadata?.sleeve_length_cm, metadataFilter.sleeve_length_cm, 2);
+
+
+  const sizeMatch = true;
+
+  // Return true if all provided parameters match
+  return sizeMatch && chestMatch && waistMatch && backLengthMatch && frontLengthMatch && sleeveLengthMatch;
+}
+
+/**
+ * This function checks if the filterValue and metaDataValue are within the tolerance.
+ * If the filterValue is provided, it will only return true if the metaDataValue exists and is within the tolerance.
+ */
+const fits = (filterValue: number | undefined, metaDataValue: number | undefined, tolerance: number): boolean => {
+  return metaDataValue ? filterValue !== undefined && Math.abs(filterValue - metaDataValue) <= tolerance : true;
+};
