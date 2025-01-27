@@ -24,7 +24,13 @@ export function Pagination({
   const handlePageChange = (newPage: number) => {
     const params = new URLSearchParams(searchParams)
     params.set("page", newPage.toString())
-    router.push(`${pathname}?${params.toString()}`)
+    router.push(`${pathname}?${params.toString()}`, { scroll: false });
+    // Scroll to a specified position after navigation
+    const scrollPosition = document.getElementById("products")?.offsetTop || 0;
+    window.scrollTo({
+      top: scrollPosition - 100,
+      behavior: 'smooth', // Optional: 'auto' or 'smooth'
+    });
   }
 
   // Function to render a page button
