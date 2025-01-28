@@ -44,7 +44,7 @@ const CollectionsSlider = async () => {
               "url" in c.metadata.image &&
               typeof c.metadata.image.url === "string" && (
                 <div className="relative mb-4 md:mb-6 w-full aspect-[3/4]">
-                  <Image src={c.metadata.image.url} alt={c.title} fill objectFit="cover" />
+                  <Image src={c.metadata.image.url} alt={c.title} priority fill sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" className="object-cover z-0" />
                 </div>
               )}
             <h3>{c.title}</h3>
