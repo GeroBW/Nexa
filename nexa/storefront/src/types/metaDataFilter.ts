@@ -9,6 +9,8 @@ export type MetadataFilter = {
 
 export const createDefaultMetadataFilter = (overrides: Partial<MetadataFilter> = {}): MetadataFilter => {
     return {
+        size: 0,
+        chest_cm: 0,
         sleeve_length_cm: 0,
         ...overrides
     };

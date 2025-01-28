@@ -83,7 +83,7 @@ const StoreTemplate = async ({
 
   // const res = await updateSizingData({sizingData: createDefaultMetadataFilter()})
   // console.log(res)
-  const metadataFilter = (await retrieveCart())?.metadata as MetadataFilter
+  const metadataFilter = (await retrieveCart())?.metadata as MetadataFilter ?? createDefaultMetadataFilter()
 
   return (
     <div className="md:pt-47 py-26 md:pb-36">
