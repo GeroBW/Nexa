@@ -40,7 +40,7 @@ export default async function CollectionTemplate({
     collection.metadata ?? {}
   )
 
-  const metadataFilter = (await retrieveCart())?.metadata as MetadataFilter
+  const metadataFilter = (await retrieveCart())?.metadata as MetadataFilter ?? createDefaultMetadataFilter()
 
   return (
     <>

@@ -9,7 +9,7 @@ export type MetadataFilter = {
 
 export const createDefaultMetadataFilter = (overrides: Partial<MetadataFilter> = {}): MetadataFilter => {
     return {
-        // sleeve_length_cm: 75,
+        sleeve_length_cm: 0,
         ...overrides
     };
 };

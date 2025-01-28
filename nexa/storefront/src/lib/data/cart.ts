@@ -455,7 +455,7 @@ export async function updateSizingData({
       throw new Error("No sizing data found when updating sizing data")
     }
 
-    const cartId = await getCartId()
+    const cartId = await getOrSetCart('de')
     if (!cartId) {
       throw new Error("Missing cart ID when updating sizing data")
     }
