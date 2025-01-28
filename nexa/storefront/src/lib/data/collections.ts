@@ -19,7 +19,10 @@ export const getCollectionsList = cache(async function (
       { limit, offset, fields: fields ? fields.join(",") : undefined },
       { next: { tags: ["collections"] } }
     )
-    .then(({ collections }) => ({ collections, count: collections.length }))
+    .then(({ collections }) => ({
+      collections: collections.reverse(),
+      count: collections.length
+    }))
 })
 
 export const getCollectionByHandle = cache(async function (
