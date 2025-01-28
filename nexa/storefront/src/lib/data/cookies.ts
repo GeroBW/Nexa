@@ -1,5 +1,6 @@
 import "server-only"
 import { cookies } from "next/headers"
+import { MetadataFilter, createDefaultMetadataFilter } from "types/metaDataFilter"
 
 export const getAuthHeaders = async (): Promise<
   { authorization: string } | {}
@@ -43,4 +44,19 @@ export const setCartId = async (cartId: string) => {
 
 export const removeCartId = async () => {
   return (await cookies()).set("_medusa_cart_id", "", { maxAge: -1 })
+}
+
+export const getMetadataFilter = async (): Promise<MetadataFilter | null> => {
+  const metadataFilter = (await cookies()).get("metadata_filter")?.value
+  // return metadataFilter ? JSON.parse(metadataFilter) : null
+  return createDefaultMetadataFilter()
+}
+
+export const setMetadataFilter = async (metadataFilter: MetadataFilter) => {
+  return (await cookies()).set("metadata_filter", JSON.stringify(metadataFilter), {
+    maxAge: 60 * 60 * 24 * 7,
+    httpOnly: true,
+    sameSite: "strict",
+    secure: process.env.NODE_ENV === "production",
+  })
 }
