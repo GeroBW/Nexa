@@ -24,7 +24,7 @@ export const MobileFilters: React.FC<{
   category?: string[]
   types?: Record<string, string>
   type?: string[]
-  sizingData?: Record<string, string>
+  sizingData?: MetadataFilter
   setMultipleQueryParams: (params: Record<string, string | string[]>) => void
 }> = ({
   collections,

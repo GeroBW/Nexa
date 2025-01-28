@@ -10,6 +10,7 @@ import { CategoryFilter } from "./category-filter"
 import { TypeFilter } from "./type-filter"
 import { MobileFilters } from "./mobile-filters"
 import { MobileSort } from "./mobile-sort"
+import { MetadataFilter, createDefaultMetadataFilter } from "types/metaDataFilter"
 
 type RefinementListProps = {
   title?: string
@@ -20,6 +21,7 @@ type RefinementListProps = {
   types?: Record<string, string>
   type?: string[]
   sortBy: SortOptions | undefined
+  sizingData: MetadataFilter
   "data-testid"?: string
 }
 
@@ -32,6 +34,7 @@ const RefinementList = ({
   types,
   type,
   sortBy,
+  sizingData,
   "data-testid": dataTestId,
 }: RefinementListProps) => {
   const router = useRouter()
@@ -87,6 +90,7 @@ const RefinementList = ({
             types={types}
             type={type}
             setMultipleQueryParams={setMultipleQueryParams}
+            sizingData={sizingData}
           />
           <MobileSort sortBy={sortBy} setQueryParams={setQueryParams} />
           <div className="flex justify-between gap-6 max-md:hidden">

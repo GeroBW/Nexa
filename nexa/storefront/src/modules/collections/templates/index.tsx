@@ -94,6 +94,7 @@ export default async function CollectionTemplate({
           types.productTypes.map((t) => [t.value, t.value])
         )}
         type={type}
+        sizingData={metadataFilter}
       />
       <Suspense fallback={<SkeletonProductGrid />}>
         <PaginatedProducts
