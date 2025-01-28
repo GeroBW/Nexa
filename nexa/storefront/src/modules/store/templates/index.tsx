@@ -13,7 +13,7 @@ import { Carousel } from "@/components/Carousel"
 import PaginatedProducts from "./paginated-products"
 import { MetadataFilter, createDefaultMetadataFilter } from "types/metaDataFilter"
 import { create } from "lodash"
-import { retrieveCart } from "@lib/data/cart"
+import { retrieveCart, updateSizingData } from "@lib/data/cart"
 
 
 const CollectionsSlider = async () => {
@@ -81,8 +81,9 @@ const StoreTemplate = async ({
   const categories = await getCategoriesList(0, 100, ["id", "name", "handle"])
   const types = await getProductTypesList(0, 100, ["id", "value"])
 
-  const cart = await retrieveCart()
-  const metadataFilter = cart?.metadata as MetadataFilter
+  // const res = await updateSizingData({sizingData: createDefaultMetadataFilter()})
+  // console.log(res)
+  const metadataFilter = (await retrieveCart())?.metadata as MetadataFilter
 
   return (
     <div className="md:pt-47 py-26 md:pb-36">

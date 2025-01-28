@@ -6,7 +6,7 @@ import { Pagination } from "@modules/store/components/pagination"
 import { SortOptions } from "@modules/store/components/refinement-list/sort-products"
 import { Layout, LayoutColumn } from "@/components/Layout"
 import { MetadataFilter } from "types/metaDataFilter"
-
+import SizingData from "@modules/store/components/sizing-data"
 
 const PRODUCT_LIMIT = 12
 
@@ -77,6 +77,7 @@ export default async function PaginatedProducts({
 
   return (
     <>
+      <SizingData initialSizingData={metadataFilter || {}} />
       <Layout className="gap-y-10 md:gap-y-16 mb-16 md:mb-20">
         {products.map((p) => {
           return (

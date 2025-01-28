@@ -11,6 +11,7 @@ import { Layout, LayoutColumn } from "@/components/Layout"
 import { getCategoriesList } from "@lib/data/categories"
 import { getProductTypesList } from "@lib/data/product-types"
 import { MetadataFilter, createDefaultMetadataFilter } from "types/metaDataFilter"
+import { retrieveCart } from "@lib/data/cart"
 
 
 export default async function CollectionTemplate({
@@ -20,7 +21,7 @@ export default async function CollectionTemplate({
   type,
   page,
   countryCode,
-  metadataFilter //= createDefaultMetadataFilter(),
+  // metadataFilter //= createDefaultMetadataFilter(),
 }: {
   sortBy?: SortOptions
   collection: HttpTypes.StoreCollection
@@ -28,7 +29,7 @@ export default async function CollectionTemplate({
   type?: string[]
   page?: string
   countryCode: string
-  metadataFilter?: MetadataFilter
+  // metadataFilter?: MetadataFilter
 }) {
   const pageNumber = page ? parseInt(page) : 1
 
@@ -38,6 +39,8 @@ export default async function CollectionTemplate({
   const collectionDetails = collectionMetadataCustomFieldsSchema.safeParse(
     collection.metadata ?? {}
   )
+
+  const metadataFilter = (await retrieveCart())?.metadata as MetadataFilter
 
   return (
     <>
