@@ -36,8 +36,10 @@ export const MobileFilters: React.FC<{
   sizingData,
   setMultipleQueryParams,
 }) => {
+  const [localSizingData, setLocalSizingData] = React.useState<MetadataFilter>(sizingData || {})
+
   const handleSizingSubmit = async (formData: FormData) => {
-    const sizingData: MetadataFilter = {
+    const updatedSizingData: MetadataFilter = {
       chest_cm: formData.get("chest_cm") ? parseFloat(formData.get("chest_cm") as string) : undefined,
       waist_cm: formData.get("waist_cm") ? parseFloat(formData.get("waist_cm") as string) : undefined,
       back_length_cm: formData.get("back_length_cm") ? parseFloat(formData.get("back_length_cm") as string) : undefined,
@@ -45,7 +47,8 @@ export const MobileFilters: React.FC<{
       sleeve_length_cm: formData.get("sleeve_length_cm") ? parseFloat(formData.get("sleeve_length_cm") as string) : undefined,
     }
 
-    await updateSizingData({ sizingData })
+    await updateSizingData({ sizingData: updatedSizingData })
+    setLocalSizingData(updatedSizingData)
   }
 
   return (
@@ -177,7 +180,7 @@ export const MobileFilters: React.FC<{
                     Sizing
                   </Label>
                   <div className="flex flex-col gap-4">
-                    {Object.entries(sizingData || {}).map(([key, value]) => (
+                    {Object.entries(localSizingData).map(([key, value]) => (
                       <div key={key}>
                         <label htmlFor={key}>{key.replace('_', ' ')}:</label>
                         <input

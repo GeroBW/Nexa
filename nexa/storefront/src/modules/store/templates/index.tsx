@@ -44,7 +44,7 @@ const CollectionsSlider = async () => {
               "url" in c.metadata.image &&
               typeof c.metadata.image.url === "string" && (
                 <div className="relative mb-4 md:mb-6 w-full aspect-[3/4]">
-                  <Image src={c.metadata.image.url} alt={c.title} priority fill sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" className="object-cover z-0" />
+                  <Image src={c.metadata.image.url} alt={c.title} fill objectFit="cover" />
                 </div>
               )}
             <h3>{c.title}</h3>
@@ -83,7 +83,7 @@ const StoreTemplate = async ({
 
   // const res = await updateSizingData({sizingData: createDefaultMetadataFilter()})
   // console.log(res)
-  const metadataFilter = (await retrieveCart())?.metadata as MetadataFilter ?? createDefaultMetadataFilter()
+  const metadataFilter = (await retrieveCart())?.metadata as MetadataFilter
 
   return (
     <div className="md:pt-47 py-26 md:pb-36">
