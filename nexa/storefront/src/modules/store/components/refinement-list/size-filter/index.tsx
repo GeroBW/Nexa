@@ -8,9 +8,10 @@ import { updateSizingData } from "@lib/data/cart"
 
 export const SizeFilter: React.FC<{
   sizingData: MetadataFilter
-}> = ({ sizingData }) => {
+  setSizingData: React.Dispatch<React.SetStateAction<MetadataFilter>>
+}> = ({ sizingData, setSizingData }) => {
   const handleSizingSubmit = async (formData: FormData) => {
-    const sizingData: MetadataFilter = {
+    const updatedSizingData: MetadataFilter = {
       chest_cm: formData.get("chest_cm") ? parseFloat(formData.get("chest_cm") as string) : undefined,
       waist_cm: formData.get("waist_cm") ? parseFloat(formData.get("waist_cm") as string) : undefined,
       back_length_cm: formData.get("back_length_cm") ? parseFloat(formData.get("back_length_cm") as string) : undefined,
@@ -18,7 +19,8 @@ export const SizeFilter: React.FC<{
       sleeve_length_cm: formData.get("sleeve_length_cm") ? parseFloat(formData.get("sleeve_length_cm") as string) : undefined,
     }
 
-    await updateSizingData({ sizingData })
+    await updateSizingData({ sizingData: updatedSizingData })
+    // setSizingData(updatedSizingData)
   }
 
   return (
@@ -28,11 +30,8 @@ export const SizeFilter: React.FC<{
         const formData = new FormData(event.currentTarget)
 
         await handleSizingSubmit(formData)
-
-        close()
       }}
     >
-
       <div className="flex flex-col">
         <Label className="block text-md font-semibold mb-3">
           Sizing
@@ -52,9 +51,6 @@ export const SizeFilter: React.FC<{
           ))}
         </div>
       </div>
-      <button type="submit" className="mt-4 bg-blue-500 text-white py-2 px-4 rounded">
-        Apply
-      </button>
     </form>
   )
 }

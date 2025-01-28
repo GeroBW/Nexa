@@ -26,6 +26,7 @@ export const MobileFilters: React.FC<{
   type?: string[]
   sizingData?: MetadataFilter
   setMultipleQueryParams: (params: Record<string, string | string[]>) => void
+  setSizingData: React.Dispatch<React.SetStateAction<MetadataFilter>>
 }> = ({
   collections,
   collection,
@@ -35,9 +36,8 @@ export const MobileFilters: React.FC<{
   type,
   sizingData,
   setMultipleQueryParams,
+  setSizingData,
 }) => {
-  const [localSizingData, setLocalSizingData] = React.useState<MetadataFilter>(sizingData || {})
-
   const handleSizingSubmit = async (formData: FormData) => {
     const updatedSizingData: MetadataFilter = {
       chest_cm: formData.get("chest_cm") ? parseFloat(formData.get("chest_cm") as string) : undefined,
@@ -48,7 +48,7 @@ export const MobileFilters: React.FC<{
     }
 
     await updateSizingData({ sizingData: updatedSizingData })
-    setLocalSizingData(updatedSizingData)
+    setSizingData(updatedSizingData)
   }
 
   return (
@@ -180,7 +180,7 @@ export const MobileFilters: React.FC<{
                     Sizing
                   </Label>
                   <div className="flex flex-col gap-4">
-                    {Object.entries(localSizingData).map(([key, value]) => (
+                    {Object.entries(sizingData).map(([key, value]) => (
                       <div key={key}>
                         <label htmlFor={key}>{key.replace('_', ' ')}:</label>
                         <input
