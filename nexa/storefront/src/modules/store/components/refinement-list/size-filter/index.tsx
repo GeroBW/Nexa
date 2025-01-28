@@ -23,7 +23,7 @@ export const SizeFilter: React.FC<{
 
   return (
     <form
-      onSubmit={async (event) => {
+      onChange={async (event) => {
         event.preventDefault()
         const formData = new FormData(event.currentTarget)
 
