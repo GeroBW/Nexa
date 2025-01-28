@@ -93,12 +93,10 @@ const RefinementList = ({
             type={type}
             setMultipleQueryParams={setMultipleQueryParams}
             sizingData={sizingDataState}
+            setSizingData={setSizingDataState}
           />
           <MobileSort sortBy={sortBy} setQueryParams={setQueryParams} />
           <div className="flex justify-between gap-6 max-md:hidden">
-            <div className="flex flex-col gap-4">
-              <SizeFilter sizingData={sizingDataState}/>
-            </div>
             {typeof collections !== "undefined" && (
               <CollectionFilter
                 collections={collections}
@@ -118,6 +116,12 @@ const RefinementList = ({
                 types={types}
                 type={type}
                 setQueryParams={setQueryParams}
+              />
+            )}
+            {typeof sizingDataState !== "undefined" && (
+              <SizeFilter
+                sizingData={sizingDataState}
+                setSizingData={setSizingDataState}
               />
             )}
           </div>
