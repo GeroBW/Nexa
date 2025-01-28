@@ -73,9 +73,10 @@ export default async function Home({
     <>
       <div className="relative max-md:pt-18">
         <Image
-          src="/images/content/riesenhemd-hero_1.jpg"
-          width={1800}
-          height={800}
+          src="/images/content/Hemd-Stockholm-3A.jpg"
+          width={2880}
+          height={1000}
+          objectPosition="top"
           alt="Living room"
           className="md:h-[70vh] md:object-cover"
         />
@@ -85,7 +86,8 @@ export default async function Home({
         <Layout className="mb-26 md:mb-34">
           <LayoutColumn start={1} end={{ base: 13, md: 8 }}>
             <h3 className="text-2xl">
-              Never worry about size again. We've got you covered.
+              We've got your sleeves covered. 
+              {/* Never worry about size again. */}
             </h3>
           </LayoutColumn>
           <LayoutColumn start={{ base: 1, md: 9 }} end={13}>
