@@ -14,6 +14,8 @@ import {
   Modal,
   ModalOverlay,
 } from "react-aria-components"
+import { MetadataFilter } from "types/metaDataFilter"
+import { updateSizingData } from "@lib/data/cart"
 
 export const MobileFilters: React.FC<{
   collections?: Record<string, string>
@@ -22,6 +24,7 @@ export const MobileFilters: React.FC<{
   category?: string[]
   types?: Record<string, string>
   type?: string[]
+  sizingData?: Record<string, string>
   setMultipleQueryParams: (params: Record<string, string | string[]>) => void
 }> = ({
   collections,
@@ -30,8 +33,21 @@ export const MobileFilters: React.FC<{
   category,
   types,
   type,
+  sizingData,
   setMultipleQueryParams,
 }) => {
+  const handleSizingSubmit = async (formData: FormData) => {
+    const sizingData: MetadataFilter = {
+      chest_cm: formData.get("chest_cm") ? parseFloat(formData.get("chest_cm") as string) : undefined,
+      waist_cm: formData.get("waist_cm") ? parseFloat(formData.get("waist_cm") as string) : undefined,
+      back_length_cm: formData.get("back_length_cm") ? parseFloat(formData.get("back_length_cm") as string) : undefined,
+      front_length_cm: formData.get("front_length_cm") ? parseFloat(formData.get("front_length_cm") as string) : undefined,
+      sleeve_length_cm: formData.get("sleeve_length_cm") ? parseFloat(formData.get("sleeve_length_cm") as string) : undefined,
+    }
+
+    await updateSizingData({ sizingData })
+  }
+
   return (
     <DialogTrigger>
       <Button
@@ -49,7 +65,8 @@ export const MobileFilters: React.FC<{
           <Dialog className="focus-visible:outline-none">
             {({ close }) => (
               <form
-                onSubmit={(event) => {
+                onSubmit={async (event) => {
+                  event.preventDefault()
                   const formData = new FormData(event.currentTarget)
 
                   const collection = formData
@@ -67,6 +84,8 @@ export const MobileFilters: React.FC<{
                     category,
                     type,
                   })
+
+                  await handleSizingSubmit(formData)
 
                   close()
                 }}
@@ -150,6 +169,28 @@ export const MobileFilters: React.FC<{
                     ))}
                   </CheckboxGroup>
                 )}
+                {types && Object.keys(types).length > 0 && (
+                  <hr className="my-6" />
+                )}
+                <div className="flex flex-col">
+                  <Label className="block text-md font-semibold mb-3">
+                    Sizing
+                  </Label>
+                  <div className="flex flex-col gap-4">
+                    {Object.entries(sizingData || {}).map(([key, value]) => (
+                      <div key={key}>
+                        <label htmlFor={key}>{key.replace('_', ' ')}:</label>
+                        <input
+                          type="number"
+                          id={key}
+                          name={key}
+                          className="w-full border border-gray-300 rounded-md p-2"
+                          defaultValue={value}
+                        />
+                      </div>
+                    ))}
+                  </div>
+                </div>
                 <footer className="flex items-center h-21 fixed bottom-0 left-0 w-full bg-white px-6 border-t border-grayscale-100">
                   <Button type="submit" isFullWidth>
                     Show results
