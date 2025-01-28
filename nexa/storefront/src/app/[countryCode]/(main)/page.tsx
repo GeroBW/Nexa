@@ -109,7 +109,7 @@ export default async function Home({
               About Nexa
             </h3>
             <Image
-              src="/images/content/sofa2.png"
+              src="/images/content/team.png"
               width={2496}
               height={1400}
               alt="Sofa"
