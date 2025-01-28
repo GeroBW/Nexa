@@ -1,7 +1,7 @@
 "use client"
 
 import { usePathname, useRouter, useSearchParams } from "next/navigation"
-import { useCallback } from "react"
+import { useCallback, useState } from "react"
 
 import { Layout, LayoutColumn } from "@/components/Layout"
 import SortProducts, { SortOptions } from "./sort-products"
@@ -10,7 +10,8 @@ import { CategoryFilter } from "./category-filter"
 import { TypeFilter } from "./type-filter"
 import { MobileFilters } from "./mobile-filters"
 import { MobileSort } from "./mobile-sort"
-import { MetadataFilter, createDefaultMetadataFilter } from "types/metaDataFilter"
+import { SizeFilter } from "./size-filter"
+import { MetadataFilter } from "types/metaDataFilter"
 
 type RefinementListProps = {
   title?: string
@@ -40,6 +41,7 @@ const RefinementList = ({
   const router = useRouter()
   const pathname = usePathname()
   const searchParams = useSearchParams()
+  const [sizingDataState, setSizingDataState] = useState<MetadataFilter>(sizingData)
 
   const setQueryParams = useCallback(
     (name: string, value: string | string[]) => {
@@ -90,10 +92,13 @@ const RefinementList = ({
             types={types}
             type={type}
             setMultipleQueryParams={setMultipleQueryParams}
-            sizingData={sizingData}
+            sizingData={sizingDataState}
           />
           <MobileSort sortBy={sortBy} setQueryParams={setQueryParams} />
           <div className="flex justify-between gap-6 max-md:hidden">
+            <div className="flex flex-col gap-4">
+              <SizeFilter sizingData={sizingDataState}/>
+            </div>
             {typeof collections !== "undefined" && (
               <CollectionFilter
                 collections={collections}

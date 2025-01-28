@@ -185,7 +185,7 @@ export const MobileFilters: React.FC<{
                           id={key}
                           name={key}
                           className="w-full border border-gray-300 rounded-md p-2"
-                          defaultValue={value}
+                          defaultValue={value || ""}
                         />
                       </div>
                     ))}
