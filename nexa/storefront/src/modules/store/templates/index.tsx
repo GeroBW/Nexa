@@ -13,6 +13,7 @@ import { Carousel } from "@/components/Carousel"
 import PaginatedProducts from "./paginated-products"
 import { MetadataFilter, createDefaultMetadataFilter } from "types/metaDataFilter"
 import { create } from "lodash"
+import { retrieveCart } from "@lib/data/cart"
 
 
 const CollectionsSlider = async () => {
@@ -61,7 +62,7 @@ const StoreTemplate = async ({
   type,
   page,
   countryCode,
-  metadataFilter //= createDefaultMetadataFilter()
+  // metadataFilter //= createDefaultMetadataFilter()
 }: {
   sortBy?: SortOptions
   collection?: string[]
@@ -69,7 +70,7 @@ const StoreTemplate = async ({
   type?: string[]
   page?: string
   countryCode: string
-  metadataFilter?: MetadataFilter
+  // metadataFilter?: MetadataFilter
 }) => {
   const pageNumber = page ? parseInt(page) : 1
   const collections = await getCollectionsList(0, 100, [
@@ -79,6 +80,9 @@ const StoreTemplate = async ({
   ])
   const categories = await getCategoriesList(0, 100, ["id", "name", "handle"])
   const types = await getProductTypesList(0, 100, ["id", "value"])
+
+  const cart = await retrieveCart()
+  const metadataFilter = cart?.metadata as MetadataFilter
 
   return (
     <div className="md:pt-47 py-26 md:pb-36">
@@ -124,7 +128,7 @@ const StoreTemplate = async ({
                 .filter((t) => type.includes(t.value))
                 .map((t) => t.id)
           }
-          metadataFilter={metadataFilter}
+          metadataFilter= {metadataFilter}
         />
       </Suspense>
     </div>

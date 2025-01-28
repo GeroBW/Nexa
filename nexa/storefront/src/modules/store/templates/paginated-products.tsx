@@ -5,7 +5,8 @@ import ProductPreview from "@modules/products/components/product-preview"
 import { Pagination } from "@modules/store/components/pagination"
 import { SortOptions } from "@modules/store/components/refinement-list/sort-products"
 import { Layout, LayoutColumn } from "@/components/Layout"
-import { getMetadataFilter } from "@lib/data/cookies"
+import { MetadataFilter } from "types/metaDataFilter"
+
 
 const PRODUCT_LIMIT = 12
 
@@ -17,6 +18,7 @@ export default async function PaginatedProducts({
   typeId,
   productsIds,
   countryCode,
+  metadataFilter
 }: {
   sortBy?: SortOptions
   page: number
@@ -25,6 +27,7 @@ export default async function PaginatedProducts({
   typeId?: string | string[]
   productsIds?: string[]
   countryCode: string
+  metadataFilter?: MetadataFilter
 }) {
   const queryParams: HttpTypes.StoreProductListParams = {
     limit: PRODUCT_LIMIT,
@@ -59,8 +62,6 @@ export default async function PaginatedProducts({
   if (!region) {
     return null
   }
-
-  const metadataFilter = await getMetadataFilter() || undefined
 
   let {
     response: { products, count },

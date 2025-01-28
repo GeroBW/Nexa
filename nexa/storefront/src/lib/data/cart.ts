@@ -10,6 +10,7 @@ import medusaError from "@lib/util/medusa-error"
 import { enrichLineItems } from "@lib/util/enrich-line-items"
 import { getAuthHeaders, getCartId, removeCartId, setCartId } from "./cookies"
 import { getRegion } from "./regions"
+import { MetadataFilter,createDefaultMetadataFilter } from "types/metaDataFilter"
 
 export async function retrieveCart() {
   const cartId = await getCartId()
@@ -128,7 +129,7 @@ export async function addToCart({
   if (!cart) {
     throw new Error("Error retrieving or creating cart")
   }
-
+  
   await sdk.store.cart
     .createLineItem(
       cart.id,
@@ -443,3 +444,27 @@ export async function updateRegion(countryCode: string, currentPath: string) {
 
   redirect(`/${countryCode}${currentPath}`)
 }
+
+export async function updateSizingData({
+  sizingData,
+}: {
+  sizingData: MetadataFilter
+}) {
+  try {
+    if (!sizingData) {
+      throw new Error("No sizing data found when updating sizing data")
+    }
+
+    const cartId = await getCartId()
+    if (!cartId) {
+      throw new Error("Missing cart ID when updating sizing data")
+    }
+
+    await updateCart({
+      metadata: sizingData,
+    })
+
+  } catch (e: any) {
+    return e.message
+  }
+} 
