@@ -4,7 +4,7 @@ import * as React from "react"
 import { MetadataFilter } from "types/metaDataFilter"
 import { Label } from "react-aria-components"
 import { updateSizingData } from "@lib/data/cart"
-
+import SizeVariable from "../size-variable"
 
 export const SizeFilter: React.FC<{
   sizingData: MetadataFilter
@@ -38,16 +38,7 @@ export const SizeFilter: React.FC<{
         </Label>
         <div className="flex flex-col gap-4">
           {Object.entries(sizingData).map(([key, value]) => (
-            <div key={key}>
-              <label htmlFor={key}>{key.replace('_', ' ')}:</label>
-              <input
-                type="number"
-                id={key}
-                name={key}
-                className="w-full border border-gray-300 rounded-md p-2"
-                defaultValue={value || ""}
-              />
-            </div>
+            <SizeVariable key={key} name={key} value={value} />
           ))}
         </div>
       </div>
