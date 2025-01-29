@@ -6,7 +6,8 @@ import { HttpTypes } from "@medusajs/types"
 import { Popover, Radio, RadioGroup, Select } from "react-aria-components"
 import parse from 'html-react-parser';
 
-import { addToCart } from "@lib/data/cart"
+import { addToCart, retrieveCart } from "@lib/data/cart"
+import { MetadataFilter } from "types/metaDataFilter"
 import { getVariantItemsInStock } from "@lib/util/inventory"
 import { Button } from "@/components/Button"
 import { NumberField } from "@/components/NumberField"
@@ -65,7 +66,8 @@ const getInitialOptions = (product: ProductActionsProps["product"]) => {
         },
         {} as Record<string, string>
       )
-
+    
+    // const metadataFilter = (await retrieveCart())?.metadata as MetadataFilter ?? return
     //TODO: Preselect option with correct size
     // // Preselect the first available option if no single option values
     // if (Object.keys(singleOptionValues).length === 0) {

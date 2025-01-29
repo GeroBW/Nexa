@@ -80,6 +80,17 @@ const RefinementList = ({
   return (
     <Layout className="mb-4 md:mb-6">
       <LayoutColumn>
+      <div className="flex">
+        {typeof sizingDataState !== "undefined" && (
+                <SizeFilter
+                  sizingData={sizingDataState}
+                  setSizingData={setSizingDataState}
+                />
+        )}
+      </div>
+      </LayoutColumn>
+      
+      <LayoutColumn>
         <h2 className="text-lg md:text-2xl mb-6" id="products">
           {title}
         </h2>
@@ -118,12 +129,7 @@ const RefinementList = ({
                 setQueryParams={setQueryParams}
               />
             )}
-            {typeof sizingDataState !== "undefined" && (
-              <SizeFilter
-                sizingData={sizingDataState}
-                setSizingData={setSizingDataState}
-              />
-            )}
+            
           </div>
           <SortProducts
             sortBy={sortBy}
