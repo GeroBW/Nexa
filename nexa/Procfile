@@ -1,0 +1,2 @@
+backend: cd nexa/medusa && yarn start
+frontend: cd nexa/storefront && yarn start
