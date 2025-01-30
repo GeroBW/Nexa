@@ -20,6 +20,7 @@ import {
 } from "@/components/ui/Select"
 import { useCountryCode } from "hooks/country-code"
 import ProductPrice from "../product-price"
+import { checkSizing } from "@lib/data/products"
 
 type ProductActionsProps = {
   product: HttpTypes.StoreProduct
@@ -34,6 +35,7 @@ type ProductActionsProps = {
   }[]
   region: HttpTypes.StoreRegion
   disabled?: boolean
+  metadataFilter?: MetadataFilter
 }
 
 const optionsAsKeymap = (
@@ -88,6 +90,7 @@ export default function ProductActions({
   product,
   materials,
   disabled,
+  metadataFilter,
 }: ProductActionsProps) {
   const [options, setOptions] = useState<Record<string, string | undefined>>(
     getInitialOptions(product) ?? {}
@@ -170,7 +173,27 @@ export default function ProductActions({
       : productOptions
 
   otherOptions.map((option=> {
-    option.values = option.values?.filter((value) => product.variants?.some(variant => variant.options?.some(varopt => varopt.value === value.value)))
+        // .then(async ({ products }) => {
+        //   const metadataFilter = (await retrieveCart())?.metadata as MetadataFilter;
+    
+        //   return products.filter((product) => 
+        //     {
+        //     product.variants = product.variants?.filter((variant) =>
+        //       metadataFilter ? checkSizing(variant, metadataFilter) : true
+        //     ) || [];
+        //     return product.variants.length > 0;
+        //   })
+          
+        // }
+        // )
+    // option.values = option.values?.filter((value) => product.variants?.some(variant => variant.options?.some(varopt => varopt.value === value.value)))
+    option.values = option.values?.filter((value) => {
+      option.values = option.values?.filter((value) => product.variants?.some(variant => variant.options?.some(varopt => varopt.value === value.value)))
+      let fittingVariants = product.variants?.filter(variant => metadataFilter ? checkSizing(variant, metadataFilter) : false)
+      console.log({metadataFilter})
+      console.log({fittingVariants})
+      return fittingVariants?.some(variant => variant.options?.some(varopt => varopt.value === value.value))}
+    )
     return options
   }))
 
