@@ -1,6 +1,6 @@
 "use client"
 
-import { isEqual } from "lodash"
+import { get, isEqual } from "lodash"
 import { useEffect, useMemo, useState } from "react"
 import { HttpTypes } from "@medusajs/types"
 import { Popover, Radio, RadioGroup, Select } from "react-aria-components"
@@ -95,7 +95,7 @@ export default function ProductActions({
   const [quantity, setQuantity] = useState(1)
   const [isAdding, setIsAdding] = useState(false)
   const countryCode = useCountryCode()
-
+  
   // If there is only 1 variant, preselect the options
   useEffect(() => {
     const initialOptions = getInitialOptions(product)
@@ -169,6 +169,11 @@ export default function ProductActions({
         )
       : productOptions
 
+  otherOptions.map((option=> {
+    option.values = option.values?.filter((value) => product.variants?.some(variant => variant.options?.some(varopt => varopt.value === value.value)))
+    return options
+  }))
+
   const selectedMaterial =
     materialOption && options[materialOption.id]
       ? materials.find((m) => m.name === options[materialOption.id])
@@ -179,7 +184,7 @@ export default function ProductActions({
     !colorOption ||
     (selectedMaterial &&
       (selectedMaterial.colors.length < 2 || options[colorOption.id]))
-
+  
   return (
     <>
       <ProductPrice product={product} variant={selectedVariant} />

@@ -5,6 +5,8 @@ import { getRegion } from "./regions"
 import { SortOptions } from "@modules/store/components/refinement-list/sort-products"
 import { sortProducts } from "@lib/util/sort-products"
 import { MetadataFilter, createDefaultMetadataFilter } from "types/metaDataFilter"
+import { retrieveCart } from "./cart"
+import { metadata } from "app/layout"
 
 export const getProductsById = cache(async function ({
   ids,
@@ -22,7 +24,18 @@ export const getProductsById = cache(async function ({
       },
       { next: { tags: ["products"] } }
     )
-    .then(({ products }) => products)
+    .then(async ({ products }) => {
+      const metadataFilter = (await retrieveCart())?.metadata as MetadataFilter;
+
+      return products.filter((product) => {
+        product.variants = product.variants?.filter((variant) =>
+          metadataFilter ? checkSizing(variant, metadataFilter) : true
+        ) || [];
+        return product.variants.length > 0;
+      })
+      
+    }
+    )
 })
 
 export const getProductByHandle = cache(async function (
