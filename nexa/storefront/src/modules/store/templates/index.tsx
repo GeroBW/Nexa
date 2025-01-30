@@ -13,7 +13,7 @@ import { Carousel } from "@/components/Carousel"
 import PaginatedProducts from "./paginated-products"
 import { MetadataFilter, createDefaultMetadataFilter } from "types/metaDataFilter"
 import { create } from "lodash"
-import { retrieveCart, updateSizingData } from "@lib/data/cart"
+import { retrieveCart } from "@lib/data/cart"
 
 
 const CollectionsSlider = async () => {

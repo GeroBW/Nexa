@@ -1,6 +1,7 @@
 import { getProductsById } from "@lib/data/products"
 import { HttpTypes } from "@medusajs/types"
 import ProductActions from "@modules/products/components/product-actions"
+import { MetadataFilter } from "types/metaDataFilter"
 
 /**
  * Fetches real time pricing for a product and renders the product actions component.
@@ -9,6 +10,7 @@ export default async function ProductActionsWrapper({
   id,
   materials,
   region,
+  metadataFilter,
 }: {
   id: string
   materials: {
@@ -21,6 +23,7 @@ export default async function ProductActionsWrapper({
     }[]
   }[]
   region: HttpTypes.StoreRegion
+  metadataFilter?: MetadataFilter
 }) {
   const [product] = await getProductsById({
     ids: [id],
@@ -32,6 +35,6 @@ export default async function ProductActionsWrapper({
   }
 
   return (
-    <ProductActions product={product} materials={materials} region={region} />
+    <ProductActions product={product} materials={materials} region={region} metadataFilter={metadataFilter} />
   )
 }

@@ -12,6 +12,7 @@ import SkeletonRelatedProducts from "@modules/skeletons/templates/skeleton-relat
 import { LocalizedLink } from "@/components/LocalizedLink"
 import { Layout, LayoutColumn } from "@/components/Layout"
 import ProductActionsWrapper from "./product-actions-wrapper"
+import { MetadataFilter } from "types/metaDataFilter"
 
 type ProductTemplateProps = {
   product: HttpTypes.StoreProduct
@@ -26,6 +27,7 @@ type ProductTemplateProps = {
   }[]
   region: HttpTypes.StoreRegion
   countryCode: string
+  metadataFilter?: MetadataFilter
 }
 
 const ProductTemplate: React.FC<ProductTemplateProps> = ({
@@ -33,11 +35,12 @@ const ProductTemplate: React.FC<ProductTemplateProps> = ({
   materials,
   region,
   countryCode,
+  metadataFilter,
 }) => {
   if (!product || !product.id) {
     return notFound()
   }
-
+  
   const images = product.images || []
   const hasImages = Boolean(
     product.images &&
@@ -71,6 +74,7 @@ const ProductTemplate: React.FC<ProductTemplateProps> = ({
                     product={product}
                     materials={materials}
                     region={region}
+                    metadataFilter={metadataFilter}
                   />
                 }
               >
@@ -78,6 +82,7 @@ const ProductTemplate: React.FC<ProductTemplateProps> = ({
                   id={product.id}
                   materials={materials}
                   region={region}
+                  metadataFilter={metadataFilter}
                 />
               </Suspense>
             </div>

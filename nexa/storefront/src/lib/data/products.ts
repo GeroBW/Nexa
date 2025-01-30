@@ -24,18 +24,7 @@ export const getProductsById = cache(async function ({
       },
       { next: { tags: ["products"] } }
     )
-    .then(async ({ products }) => {
-      const metadataFilter = (await retrieveCart())?.metadata as MetadataFilter;
-
-      return products.filter((product) => {
-        product.variants = product.variants?.filter((variant) =>
-          metadataFilter ? checkSizing(variant, metadataFilter) : true
-        ) || [];
-        return product.variants.length > 0;
-      })
-      
-    }
-    )
+    .then(({ products }) => products)
 })
 
 export const getProductByHandle = cache(async function (
@@ -184,7 +173,7 @@ export const getProductsListWithSort = cache(async function ({
   }
 })
 
-function checkSizing(
+export function checkSizing(
   variant: HttpTypes.StoreProductVariant,
   metadataFilter: MetadataFilter
 ): boolean {

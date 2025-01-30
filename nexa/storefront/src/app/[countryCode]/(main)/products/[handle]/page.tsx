@@ -8,6 +8,8 @@ import {
   getProductFashionDataByHandle,
 } from "@lib/data/products"
 import ProductTemplate from "@modules/products/templates"
+import { retrieveCart } from "@lib/data/cart"
+import { MetadataFilter } from "types/metaDataFilter"
 
 type Props = {
   params: Promise<{ countryCode: string; handle: string }>
@@ -94,6 +96,7 @@ export default async function ProductPage({ params }: Props) {
   if (!pricedProduct) {
     notFound()
   }
+  const metadataFilter = (await retrieveCart())?.metadata as MetadataFilter;
 
   return (
     <ProductTemplate
@@ -101,6 +104,7 @@ export default async function ProductPage({ params }: Props) {
       materials={fashionData.materials}
       region={region}
       countryCode={countryCode}
+      metadataFilter={metadataFilter}
     />
   )
 }
