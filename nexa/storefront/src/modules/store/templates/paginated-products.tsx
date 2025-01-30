@@ -7,7 +7,6 @@ import { SortOptions } from "@modules/store/components/refinement-list/sort-prod
 import { Layout, LayoutColumn } from "@/components/Layout"
 import { MetadataFilter } from "types/metaDataFilter"
 // import SizingData from "@modules/store/components/sizing-data"
-import { SizeFilter } from "../components/refinement-list/size-filter"
 
 const PRODUCT_LIMIT = 12
 

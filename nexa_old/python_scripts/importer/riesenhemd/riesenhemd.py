@@ -73,6 +73,11 @@ def convert_wc_to_import_template(
                 "Option 2 Value",
                 "Image 1 Url",
                 "Image 2 Url",
+                "Image 3 Url",
+                "Image 4 Url",
+                "Image 5 Url",
+                "Image 6 Url",
+                "Image 7 Url",
                 "Variant Metadata",
                 # "Variant Metadata.",
             ]
@@ -87,10 +92,11 @@ def convert_wc_to_import_template(
 
             for row in wc_reader:
                 if row["Typ"] == "variable":
+                    title = "RH " + row["Name"].split(" - ")[0].replace("Hemd ", "")
                     product_info = {
                         "Product Id": "prod_" + row["ID"],
-                        "Product Handle": make_url_safe(row["Name"]),
-                        "Product Title": row["Name"],
+                        "Product Handle": make_url_safe(title),
+                        "Product Title": title,
                         "Product Subtitle": "",
                         "Product Description": row["Kurzbeschreibung"].strip(),
                         "Product Status": (
@@ -110,21 +116,17 @@ def convert_wc_to_import_template(
                         "Product Material": "",
                         "Product Collection Title": "",
                         "Product Collection Handle": "",
-                        "Product Type": "Tops",
+                        "Product Type": "Dress Shirts",
                         "Product Tags": "",  # row["Schlagwörter"],
                         "Product Discountable": "true",
                         "Product External Id": "",
                         "Product Profile Name": "",
                         "Product Profile Type": "",
-                        "Image 1 Url": (
-                            row["Bilder"].split(",")[0] if row["Bilder"] else ""
-                        ),
-                        "Image 2 Url": (
-                            row["Bilder"].split(",")[1]
-                            if len(row["Bilder"].split(",")) > 1
-                            else ""
-                        ),
                     }
+
+                    for i, image in enumerate(row["Bilder"].split(",")):
+                        product_info[f"Image {i+1} Url"] = image
+
                 elif row["Typ"] == "variation":
                     fit = row["Attribut 1 Wert(e)"]
                     size = int(row["Attribut 2 Wert(e)"])

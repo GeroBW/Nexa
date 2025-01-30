@@ -16,6 +16,7 @@ export function sortProducts(
   sortBy: SortOptions
 ): HttpTypes.StoreProduct[] {
   let sortedProducts = products as MinPricedProduct[]
+  sortedProducts = sortedProducts.sort((a, b) => Math.random() - 0.5)
 
   if (["price_asc", "price_desc"].includes(sortBy)) {
     // Precompute the minimum price for each product

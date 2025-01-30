@@ -107,7 +107,6 @@ export const getProductsList = cache(async function ({
       count = products.length;
     
       const nextPage = count > offset + limit ? page + 1 : null
-
       return {
         response: {
           products,
@@ -126,7 +125,7 @@ export const getProductsList = cache(async function ({
 export const getProductsListWithSort = cache(async function ({
   page = 0,
   queryParams,
-  sortBy = "created_at",
+  sortBy,// = "created_at",
   countryCode,
   metadataFilter
 }: {

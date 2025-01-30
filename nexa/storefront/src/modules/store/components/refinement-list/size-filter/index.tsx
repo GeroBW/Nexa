@@ -67,7 +67,7 @@ export const SizeFilter: React.FC<{
   return (
     <div className="flex flex-col gap-4">
       <Label className="text-md font-semibold">Sizing</Label>
-      <Group className="flex flex-col gap-4">
+      <Group className="flex flex-col gap-2">
         {Object.entries(SIZING_OPTIONS).map(([key, label]) => {
           let value = pendingChanges[key as SizingKey] ?? sizingData[key as SizingKey]
           const isSet = value !== undefined || value !== null

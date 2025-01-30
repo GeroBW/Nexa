@@ -25,6 +25,10 @@ const nextConfig = {
         protocol: "https",
         hostname: "www.riesenhemd.com",
       },
+      {
+        protocol: "https",
+        hostname: "cdn.shopify.com",
+      },
     ],
   },
 }

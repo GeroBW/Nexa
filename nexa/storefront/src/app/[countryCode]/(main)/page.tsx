@@ -101,7 +101,7 @@ export default async function Home({
             </div>
           </LayoutColumn>
         </Layout>
-        <ProductTypesSection />
+        {/* <ProductTypesSection /> */}
         <CollectionsSection className="mb-26 md:mb-36" />
         <Layout>
           <LayoutColumn className="col-span-full">

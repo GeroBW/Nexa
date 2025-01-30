@@ -1,0 +1,32 @@
+{
+    "MT": {
+        "Fits Chest": "38-40\"",
+        "chest_cm": 104,
+        "front_length_cm": 78,
+        "sleeve_length_cm": 73
+    },
+    "LT": {
+        "Fits Chest": "40-42\"",
+        "chest_cm": 110,
+        "front_length_cm": 79,
+        "sleeve_length_cm": 74
+    },
+    "XLT": {
+        "Fits Chest": "42-44\"",
+        "chest_cm": 114,
+        "front_length_cm": 81,
+        "sleeve_length_cm": 75
+    },
+    "2XLT": {
+        "Fits Chest": "44-46\"",
+        "chest_cm": 122,
+        "front_length_cm": 81,
+        "sleeve_length_cm": 75
+    },
+    "3XLT": {
+        "Fits Chest": "46-48\"",
+        "chest_cm": 126,
+        "front_length_cm": 82,
+        "sleeve_length_cm": 75
+    }
+}
