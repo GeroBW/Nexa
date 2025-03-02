@@ -11,7 +11,7 @@ ROOT_DIR="$(pwd)/nexa"
 
 # Setup Medusa backend
 echo "Setting up Medusa backend..."
-cd "$ROOT_DIR/medusa"
+cd "$ROOT_DIR/prototype"
 
 # Create .env file
 echo "Creating .env file..."
