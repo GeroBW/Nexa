@@ -7,7 +7,7 @@ set -e
 echo "Starting Nexa Project Setup..."
 
 # Set root directory
-ROOT_DIR="$(pwd)/nexa"
+ROOT_DIR="$(pwd)/prototype"
 
 # Setup Medusa backend
 echo "Setting up Medusa backend..."
