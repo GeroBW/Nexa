@@ -180,7 +180,7 @@ export function checkSizing(
   const metadata = variant.metadata as MetadataFilter;
   // Check each parameter if it is provided
   // const sizeMatch = metadataFilter.size ? metadata.size === metadataFilter.size : true;
-  const chestMatch = fits(metadata?.chest_cm, metadataFilter.chest_cm, 2);
+  const chestMatch = fits(metadata?.chest_cm, metadataFilter.chest_cm, 0);
   const waistMatch = fits(metadata?.front_length_cm, metadataFilter.front_length_cm, 2);
   const backLengthMatch = fits(metadata?.front_length_cm, metadataFilter.front_length_cm, 2);
   const frontLengthMatch = fits(metadata?.front_length_cm, metadataFilter.front_length_cm, 2);

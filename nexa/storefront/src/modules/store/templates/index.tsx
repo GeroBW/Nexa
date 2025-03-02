@@ -103,6 +103,7 @@ const StoreTemplate = async ({
         type={type}
         sortBy={sortBy}
         sizingData={metadataFilter}
+        showSizeFilter={false}
       />
       <Suspense fallback={<SkeletonProductGrid />}>
         <PaginatedProducts

@@ -23,6 +23,7 @@ type RefinementListProps = {
   type?: string[]
   sortBy: SortOptions | undefined
   sizingData: MetadataFilter
+  showSizeFilter?: boolean
   "data-testid"?: string
 }
 
@@ -36,6 +37,7 @@ const RefinementList = ({
   type,
   sortBy,
   sizingData,
+  showSizeFilter = true,
   "data-testid": dataTestId,
 }: RefinementListProps) => {
   const router = useRouter()
@@ -81,7 +83,7 @@ const RefinementList = ({
     <Layout className="mb-4 md:mb-6">
       <LayoutColumn>
         <div className="flex justify-between gap-6">
-          {typeof sizingDataState !== "undefined" && (
+          {typeof sizingDataState !== "undefined" && showSizeFilter && (
             <SizeFilter
               sizingData={sizingDataState}
               setSizingData={setSizingDataState}

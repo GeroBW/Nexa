@@ -86,7 +86,7 @@ export default async function Home({
         <Layout className="mb-26 md:mb-34">
           <LayoutColumn start={1} end={{ base: 13, md: 8 }}>
             <h3 className="text-2xl">
-              We've got your sleeves covered. 
+              We've got your wrists covered. 
               {/* Never worry about size again. */}
             </h3>
           </LayoutColumn>
