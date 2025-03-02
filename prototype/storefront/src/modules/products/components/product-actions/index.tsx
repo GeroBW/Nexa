@@ -189,7 +189,7 @@ export default function ProductActions({
     // option.values = option.values?.filter((value) => product.variants?.some(variant => variant.options?.some(varopt => varopt.value === value.value)))
     option.values = option.values?.filter((value) => {
       option.values = option.values?.filter((value) => product.variants?.some(variant => variant.options?.some(varopt => varopt.value === value.value)))
-      let fittingVariants = product.variants?.filter(variant => metadataFilter ? checkSizing(variant, metadataFilter) : false)
+      let fittingVariants = product.variants?.filter(variant => metadataFilter ? checkSizing(variant, metadataFilter) : true)
       console.log({metadataFilter})
       console.log({fittingVariants})
       return fittingVariants?.some(variant => variant.options?.some(varopt => varopt.value === value.value))}
