@@ -3168,126 +3168,126 @@ COPY public.color (id, name, hex_code, material_id, created_at, updated_at, dele
 --
 
 COPY public.currency (code, symbol, symbol_native, decimal_digits, rounding, raw_rounding, name, created_at, updated_at, deleted_at) FROM stdin;
-kmf	CF	FC	0	0	{"value": "0", "precision": 20}	Comorian Franc	2025-01-26 19:59:43.219+00	2025-03-02 11:03:36.019+00	\N
-bam	KM	KM	2	0	{"value": "0", "precision": 20}	Bosnia-Herzegovina Convertible Mark	2025-01-26 19:59:43.219+00	2025-03-02 11:03:36.018+00	\N
-bif	FBu	FBu	0	0	{"value": "0", "precision": 20}	Burundian Franc	2025-01-26 19:59:43.219+00	2025-03-02 11:03:36.018+00	\N
-bnd	BN$	$	2	0	{"value": "0", "precision": 20}	Brunei Dollar	2025-01-26 19:59:43.219+00	2025-03-02 11:03:36.018+00	\N
-bob	Bs	Bs	2	0	{"value": "0", "precision": 20}	Bolivian Boliviano	2025-01-26 19:59:43.219+00	2025-03-02 11:03:36.018+00	\N
-brl	R$	R$	2	0	{"value": "0", "precision": 20}	Brazilian Real	2025-01-26 19:59:43.219+00	2025-03-02 11:03:36.018+00	\N
-bhd	BD	د.ب.‏	3	0	{"value": "0", "precision": 20}	Bahraini Dinar	2025-01-26 19:59:43.219+00	2025-03-02 11:03:36.018+00	\N
-mur	MURs	MURs	0	0	{"value": "0", "precision": 20}	Mauritian Rupee	2025-01-26 19:59:43.22+00	2025-03-02 11:03:36.019+00	\N
-aud	AU$	$	2	0	{"value": "0", "precision": 20}	Australian Dollar	2025-01-26 19:59:43.219+00	2025-03-02 11:03:36.018+00	\N
-azn	man.	ман.	2	0	{"value": "0", "precision": 20}	Azerbaijani Manat	2025-01-26 19:59:43.219+00	2025-03-02 11:03:36.018+00	\N
-bwp	BWP	P	2	0	{"value": "0", "precision": 20}	Botswanan Pula	2025-01-26 19:59:43.219+00	2025-03-02 11:03:36.018+00	\N
-byn	Br	руб.	2	0	{"value": "0", "precision": 20}	Belarusian Ruble	2025-01-26 19:59:43.219+00	2025-03-02 11:03:36.018+00	\N
-bzd	BZ$	$	2	0	{"value": "0", "precision": 20}	Belize Dollar	2025-01-26 19:59:43.219+00	2025-03-02 11:03:36.018+00	\N
-cdf	CDF	FrCD	2	0	{"value": "0", "precision": 20}	Congolese Franc	2025-01-26 19:59:43.219+00	2025-03-02 11:03:36.018+00	\N
-chf	CHF	CHF	2	0.05	{"value": "0.05", "precision": 20}	Swiss Franc	2025-01-26 19:59:43.219+00	2025-03-02 11:03:36.018+00	\N
-clp	CL$	$	0	0	{"value": "0", "precision": 20}	Chilean Peso	2025-01-26 19:59:43.219+00	2025-03-02 11:03:36.018+00	\N
-cny	CN¥	CN¥	2	0	{"value": "0", "precision": 20}	Chinese Yuan	2025-01-26 19:59:43.219+00	2025-03-02 11:03:36.018+00	\N
-cop	CO$	$	0	0	{"value": "0", "precision": 20}	Colombian Peso	2025-01-26 19:59:43.219+00	2025-03-02 11:03:36.018+00	\N
-crc	₡	₡	0	0	{"value": "0", "precision": 20}	Costa Rican Colón	2025-01-26 19:59:43.219+00	2025-03-02 11:03:36.018+00	\N
-cve	CV$	CV$	2	0	{"value": "0", "precision": 20}	Cape Verdean Escudo	2025-01-26 19:59:43.219+00	2025-03-02 11:03:36.018+00	\N
-mxn	MX$	$	2	0	{"value": "0", "precision": 20}	Mexican Peso	2025-01-26 19:59:43.22+00	2025-03-02 11:03:36.019+00	\N
-myr	RM	RM	2	0	{"value": "0", "precision": 20}	Malaysian Ringgit	2025-01-26 19:59:43.22+00	2025-03-02 11:03:36.019+00	\N
-mzn	MTn	MTn	2	0	{"value": "0", "precision": 20}	Mozambican Metical	2025-01-26 19:59:43.22+00	2025-03-02 11:03:36.019+00	\N
-nad	N$	N$	2	0	{"value": "0", "precision": 20}	Namibian Dollar	2025-01-26 19:59:43.22+00	2025-03-02 11:03:36.019+00	\N
-ngn	₦	₦	2	0	{"value": "0", "precision": 20}	Nigerian Naira	2025-01-26 19:59:43.22+00	2025-03-02 11:03:36.019+00	\N
-nio	C$	C$	2	0	{"value": "0", "precision": 20}	Nicaraguan Córdoba	2025-01-26 19:59:43.22+00	2025-03-02 11:03:36.019+00	\N
-nok	Nkr	kr	2	0	{"value": "0", "precision": 20}	Norwegian Krone	2025-01-26 19:59:43.22+00	2025-03-02 11:03:36.019+00	\N
-czk	Kč	Kč	2	0	{"value": "0", "precision": 20}	Czech Republic Koruna	2025-01-26 19:59:43.219+00	2025-03-02 11:03:36.018+00	\N
-djf	Fdj	Fdj	0	0	{"value": "0", "precision": 20}	Djiboutian Franc	2025-01-26 19:59:43.219+00	2025-03-02 11:03:36.018+00	\N
-egp	EGP	ج.م.‏	2	0	{"value": "0", "precision": 20}	Egyptian Pound	2025-01-26 19:59:43.219+00	2025-03-02 11:03:36.019+00	\N
-etb	Br	Br	2	0	{"value": "0", "precision": 20}	Ethiopian Birr	2025-01-26 19:59:43.219+00	2025-03-02 11:03:36.019+00	\N
-eur	€	€	2	0	{"value": "0", "precision": 20}	Euro	2025-01-26 19:59:43.219+00	2025-03-02 11:03:36.018+00	\N
-aed	AED	د.إ.‏	2	0	{"value": "0", "precision": 20}	United Arab Emirates Dirham	2025-01-26 19:59:43.219+00	2025-03-02 11:03:36.018+00	\N
-afn	Af	؋	0	0	{"value": "0", "precision": 20}	Afghan Afghani	2025-01-26 19:59:43.219+00	2025-03-02 11:03:36.018+00	\N
-all	ALL	Lek	0	0	{"value": "0", "precision": 20}	Albanian Lek	2025-01-26 19:59:43.219+00	2025-03-02 11:03:36.018+00	\N
-dkk	Dkr	kr	2	0	{"value": "0", "precision": 20}	Danish Krone	2025-01-26 19:59:43.219+00	2025-03-02 11:03:36.018+00	\N
-dop	RD$	RD$	2	0	{"value": "0", "precision": 20}	Dominican Peso	2025-01-26 19:59:43.219+00	2025-03-02 11:03:36.018+00	\N
-dzd	DA	د.ج.‏	2	0	{"value": "0", "precision": 20}	Algerian Dinar	2025-01-26 19:59:43.219+00	2025-03-02 11:03:36.018+00	\N
-ghs	GH₵	GH₵	2	0	{"value": "0", "precision": 20}	Ghanaian Cedi	2025-01-26 19:59:43.219+00	2025-03-02 11:03:36.019+00	\N
-gnf	FG	FG	0	0	{"value": "0", "precision": 20}	Guinean Franc	2025-01-26 19:59:43.219+00	2025-03-02 11:03:36.019+00	\N
-gtq	GTQ	Q	2	0	{"value": "0", "precision": 20}	Guatemalan Quetzal	2025-01-26 19:59:43.219+00	2025-03-02 11:03:36.019+00	\N
-hkd	HK$	$	2	0	{"value": "0", "precision": 20}	Hong Kong Dollar	2025-01-26 19:59:43.219+00	2025-03-02 11:03:36.019+00	\N
-hnl	HNL	L	2	0	{"value": "0", "precision": 20}	Honduran Lempira	2025-01-26 19:59:43.219+00	2025-03-02 11:03:36.019+00	\N
-hrk	kn	kn	2	0	{"value": "0", "precision": 20}	Croatian Kuna	2025-01-26 19:59:43.219+00	2025-03-02 11:03:36.019+00	\N
-huf	Ft	Ft	0	0	{"value": "0", "precision": 20}	Hungarian Forint	2025-01-26 19:59:43.219+00	2025-03-02 11:03:36.019+00	\N
-idr	Rp	Rp	0	0	{"value": "0", "precision": 20}	Indonesian Rupiah	2025-01-26 19:59:43.219+00	2025-03-02 11:03:36.019+00	\N
-ils	₪	₪	2	0	{"value": "0", "precision": 20}	Israeli New Sheqel	2025-01-26 19:59:43.219+00	2025-03-02 11:03:36.019+00	\N
-inr	Rs	₹	2	0	{"value": "0", "precision": 20}	Indian Rupee	2025-01-26 19:59:43.219+00	2025-03-02 11:03:36.019+00	\N
-irr	IRR	﷼	0	0	{"value": "0", "precision": 20}	Iranian Rial	2025-01-26 19:59:43.219+00	2025-03-02 11:03:36.019+00	\N
-php	₱	₱	2	0	{"value": "0", "precision": 20}	Philippine Peso	2025-01-26 19:59:43.22+00	2025-03-02 11:03:36.019+00	\N
-pkr	PKRs	₨	0	0	{"value": "0", "precision": 20}	Pakistani Rupee	2025-01-26 19:59:43.22+00	2025-03-02 11:03:36.019+00	\N
-pln	zł	zł	2	0	{"value": "0", "precision": 20}	Polish Zloty	2025-01-26 19:59:43.22+00	2025-03-02 11:03:36.02+00	\N
-pyg	₲	₲	0	0	{"value": "0", "precision": 20}	Paraguayan Guarani	2025-01-26 19:59:43.22+00	2025-03-02 11:03:36.02+00	\N
-qar	QR	ر.ق.‏	2	0	{"value": "0", "precision": 20}	Qatari Rial	2025-01-26 19:59:43.22+00	2025-03-02 11:03:36.02+00	\N
-ron	RON	RON	2	0	{"value": "0", "precision": 20}	Romanian Leu	2025-01-26 19:59:43.22+00	2025-03-02 11:03:36.02+00	\N
-rsd	din.	дин.	0	0	{"value": "0", "precision": 20}	Serbian Dinar	2025-01-26 19:59:43.22+00	2025-03-02 11:03:36.02+00	\N
-rub	RUB	₽.	2	0	{"value": "0", "precision": 20}	Russian Ruble	2025-01-26 19:59:43.22+00	2025-03-02 11:03:36.02+00	\N
-rwf	RWF	FR	0	0	{"value": "0", "precision": 20}	Rwandan Franc	2025-01-26 19:59:43.22+00	2025-03-02 11:03:36.02+00	\N
-lkr	SLRs	SL Re	2	0	{"value": "0", "precision": 20}	Sri Lankan Rupee	2025-01-26 19:59:43.219+00	2025-03-02 11:03:36.019+00	\N
-ern	Nfk	Nfk	2	0	{"value": "0", "precision": 20}	Eritrean Nakfa	2025-01-26 19:59:43.219+00	2025-03-02 11:03:36.019+00	\N
-ugx	USh	USh	0	0	{"value": "0", "precision": 20}	Ugandan Shilling	2025-01-26 19:59:43.22+00	2025-03-02 11:03:36.02+00	\N
-uyu	$U	$	2	0	{"value": "0", "precision": 20}	Uruguayan Peso	2025-01-26 19:59:43.22+00	2025-03-02 11:03:36.02+00	\N
-uzs	UZS	UZS	0	0	{"value": "0", "precision": 20}	Uzbekistan Som	2025-01-26 19:59:43.22+00	2025-03-02 11:03:36.02+00	\N
-vef	Bs.F.	Bs.F.	2	0	{"value": "0", "precision": 20}	Venezuelan Bolívar	2025-01-26 19:59:43.22+00	2025-03-02 11:03:36.02+00	\N
-vnd	₫	₫	0	0	{"value": "0", "precision": 20}	Vietnamese Dong	2025-01-26 19:59:43.22+00	2025-03-02 11:03:36.02+00	\N
-xaf	FCFA	FCFA	0	0	{"value": "0", "precision": 20}	CFA Franc BEAC	2025-01-26 19:59:43.22+00	2025-03-02 11:03:36.02+00	\N
-xof	CFA	CFA	0	0	{"value": "0", "precision": 20}	CFA Franc BCEAO	2025-01-26 19:59:43.22+00	2025-03-02 11:03:36.02+00	\N
-amd	AMD	դր.	0	0	{"value": "0", "precision": 20}	Armenian Dram	2025-01-26 19:59:43.219+00	2025-03-02 11:03:36.018+00	\N
-khr	KHR	៛	2	0	{"value": "0", "precision": 20}	Cambodian Riel	2025-01-26 19:59:43.219+00	2025-03-02 11:03:36.019+00	\N
-cad	CA$	$	2	0	{"value": "0", "precision": 20}	Canadian Dollar	2025-01-26 19:59:43.219+00	2025-03-02 11:03:36.018+00	\N
-npr	NPRs	नेरू	2	0	{"value": "0", "precision": 20}	Nepalese Rupee	2025-01-26 19:59:43.22+00	2025-03-02 11:03:36.019+00	\N
-sar	SR	ر.س.‏	2	0	{"value": "0", "precision": 20}	Saudi Riyal	2025-01-26 19:59:43.22+00	2025-03-02 11:03:36.02+00	\N
-sdg	SDG	SDG	2	0	{"value": "0", "precision": 20}	Sudanese Pound	2025-01-26 19:59:43.22+00	2025-03-02 11:03:36.02+00	\N
-sek	Skr	kr	2	0	{"value": "0", "precision": 20}	Swedish Krona	2025-01-26 19:59:43.22+00	2025-03-02 11:03:36.02+00	\N
-sgd	S$	$	2	0	{"value": "0", "precision": 20}	Singapore Dollar	2025-01-26 19:59:43.22+00	2025-03-02 11:03:36.02+00	\N
-sos	Ssh	Ssh	0	0	{"value": "0", "precision": 20}	Somali Shilling	2025-01-26 19:59:43.22+00	2025-03-02 11:03:36.02+00	\N
-syp	SY£	ل.س.‏	0	0	{"value": "0", "precision": 20}	Syrian Pound	2025-01-26 19:59:43.22+00	2025-03-02 11:03:36.02+00	\N
-thb	฿	฿	2	0	{"value": "0", "precision": 20}	Thai Baht	2025-01-26 19:59:43.22+00	2025-03-02 11:03:36.02+00	\N
-tnd	DT	د.ت.‏	3	0	{"value": "0", "precision": 20}	Tunisian Dinar	2025-01-26 19:59:43.22+00	2025-03-02 11:03:36.02+00	\N
-top	T$	T$	2	0	{"value": "0", "precision": 20}	Tongan Paʻanga	2025-01-26 19:59:43.22+00	2025-03-02 11:03:36.02+00	\N
-try	TL	TL	2	0	{"value": "0", "precision": 20}	Turkish Lira	2025-01-26 19:59:43.22+00	2025-03-02 11:03:36.02+00	\N
-eek	Ekr	kr	2	0	{"value": "0", "precision": 20}	Estonian Kroon	2025-01-26 19:59:43.219+00	2025-03-02 11:03:36.019+00	\N
-gbp	£	£	2	0	{"value": "0", "precision": 20}	British Pound Sterling	2025-01-26 19:59:43.219+00	2025-03-02 11:03:36.019+00	\N
-gel	GEL	GEL	2	0	{"value": "0", "precision": 20}	Georgian Lari	2025-01-26 19:59:43.219+00	2025-03-02 11:03:36.019+00	\N
-kwd	KD	د.ك.‏	3	0	{"value": "0", "precision": 20}	Kuwaiti Dinar	2025-01-26 19:59:43.219+00	2025-03-02 11:03:36.019+00	\N
-kzt	KZT	тңг.	2	0	{"value": "0", "precision": 20}	Kazakhstani Tenge	2025-01-26 19:59:43.219+00	2025-03-02 11:03:36.019+00	\N
-usd	$	$	2	0	{"value": "0", "precision": 20}	US Dollar	2025-01-26 19:59:43.218+00	2025-03-02 11:03:36.018+00	\N
-mad	MAD	د.م.‏	2	0	{"value": "0", "precision": 20}	Moroccan Dirham	2025-01-26 19:59:43.219+00	2025-03-02 11:03:36.019+00	\N
-mdl	MDL	MDL	2	0	{"value": "0", "precision": 20}	Moldovan Leu	2025-01-26 19:59:43.219+00	2025-03-02 11:03:36.019+00	\N
-mga	MGA	MGA	0	0	{"value": "0", "precision": 20}	Malagasy Ariary	2025-01-26 19:59:43.219+00	2025-03-02 11:03:36.019+00	\N
-mkd	MKD	MKD	2	0	{"value": "0", "precision": 20}	Macedonian Denar	2025-01-26 19:59:43.219+00	2025-03-02 11:03:36.019+00	\N
-mmk	MMK	K	0	0	{"value": "0", "precision": 20}	Myanma Kyat	2025-01-26 19:59:43.219+00	2025-03-02 11:03:36.019+00	\N
-mnt	MNT	₮	0	0	{"value": "0", "precision": 20}	Mongolian Tugrig	2025-01-26 19:59:43.219+00	2025-03-02 11:03:36.019+00	\N
-iqd	IQD	د.ع.‏	0	0	{"value": "0", "precision": 20}	Iraqi Dinar	2025-01-26 19:59:43.219+00	2025-03-02 11:03:36.019+00	\N
-isk	Ikr	kr	0	0	{"value": "0", "precision": 20}	Icelandic Króna	2025-01-26 19:59:43.219+00	2025-03-02 11:03:36.019+00	\N
-jmd	J$	$	2	0	{"value": "0", "precision": 20}	Jamaican Dollar	2025-01-26 19:59:43.219+00	2025-03-02 11:03:36.019+00	\N
-jod	JD	د.أ.‏	3	0	{"value": "0", "precision": 20}	Jordanian Dinar	2025-01-26 19:59:43.219+00	2025-03-02 11:03:36.019+00	\N
-jpy	¥	￥	0	0	{"value": "0", "precision": 20}	Japanese Yen	2025-01-26 19:59:43.219+00	2025-03-02 11:03:36.019+00	\N
-kes	Ksh	Ksh	2	0	{"value": "0", "precision": 20}	Kenyan Shilling	2025-01-26 19:59:43.219+00	2025-03-02 11:03:36.019+00	\N
-nzd	NZ$	$	2	0	{"value": "0", "precision": 20}	New Zealand Dollar	2025-01-26 19:59:43.22+00	2025-03-02 11:03:36.019+00	\N
-krw	₩	₩	0	0	{"value": "0", "precision": 20}	South Korean Won	2025-01-26 19:59:43.219+00	2025-03-02 11:03:36.019+00	\N
-omr	OMR	ر.ع.‏	3	0	{"value": "0", "precision": 20}	Omani Rial	2025-01-26 19:59:43.22+00	2025-03-02 11:03:36.019+00	\N
-pab	B/.	B/.	2	0	{"value": "0", "precision": 20}	Panamanian Balboa	2025-01-26 19:59:43.22+00	2025-03-02 11:03:36.019+00	\N
-lyd	LD	د.ل.‏	3	0	{"value": "0", "precision": 20}	Libyan Dinar	2025-01-26 19:59:43.219+00	2025-03-02 11:03:36.019+00	\N
-ars	AR$	$	2	0	{"value": "0", "precision": 20}	Argentine Peso	2025-01-26 19:59:43.219+00	2025-03-02 11:03:36.018+00	\N
-lbp	LB£	ل.ل.‏	0	0	{"value": "0", "precision": 20}	Lebanese Pound	2025-01-26 19:59:43.219+00	2025-03-02 11:03:36.019+00	\N
-ttd	TT$	$	2	0	{"value": "0", "precision": 20}	Trinidad and Tobago Dollar	2025-01-26 19:59:43.22+00	2025-03-02 11:03:36.02+00	\N
-twd	NT$	NT$	2	0	{"value": "0", "precision": 20}	New Taiwan Dollar	2025-01-26 19:59:43.22+00	2025-03-02 11:03:36.02+00	\N
-tzs	TSh	TSh	0	0	{"value": "0", "precision": 20}	Tanzanian Shilling	2025-01-26 19:59:43.22+00	2025-03-02 11:03:36.02+00	\N
-uah	₴	₴	2	0	{"value": "0", "precision": 20}	Ukrainian Hryvnia	2025-01-26 19:59:43.22+00	2025-03-02 11:03:36.02+00	\N
-yer	YR	ر.ي.‏	0	0	{"value": "0", "precision": 20}	Yemeni Rial	2025-01-26 19:59:43.22+00	2025-03-02 11:03:36.02+00	\N
-zar	R	R	2	0	{"value": "0", "precision": 20}	South African Rand	2025-01-26 19:59:43.22+00	2025-03-02 11:03:36.02+00	\N
-zmk	ZK	ZK	0	0	{"value": "0", "precision": 20}	Zambian Kwacha	2025-01-26 19:59:43.22+00	2025-03-02 11:03:36.02+00	\N
-zwl	ZWL$	ZWL$	0	0	{"value": "0", "precision": 20}	Zimbabwean Dollar	2025-01-26 19:59:43.22+00	2025-03-02 11:03:36.02+00	\N
-mop	MOP$	MOP$	2	0	{"value": "0", "precision": 20}	Macanese Pataca	2025-01-26 19:59:43.219+00	2025-03-02 11:03:36.019+00	\N
-pen	S/.	S/.	2	0	{"value": "0", "precision": 20}	Peruvian Nuevo Sol	2025-01-26 19:59:43.22+00	2025-03-02 11:03:36.019+00	\N
-ltl	Lt	Lt	2	0	{"value": "0", "precision": 20}	Lithuanian Litas	2025-01-26 19:59:43.219+00	2025-03-02 11:03:36.019+00	\N
-lvl	Ls	Ls	2	0	{"value": "0", "precision": 20}	Latvian Lats	2025-01-26 19:59:43.219+00	2025-03-02 11:03:36.019+00	\N
-bdt	Tk	৳	2	0	{"value": "0", "precision": 20}	Bangladeshi Taka	2025-01-26 19:59:43.219+00	2025-03-02 11:03:36.018+00	\N
-bgn	BGN	лв.	2	0	{"value": "0", "precision": 20}	Bulgarian Lev	2025-01-26 19:59:43.219+00	2025-03-02 11:03:36.018+00	\N
+kmf	CF	FC	0	0	{"value": "0", "precision": 20}	Comorian Franc	2025-01-26 19:59:43.219+00	2025-03-02 15:41:00.642+00	\N
+bam	KM	KM	2	0	{"value": "0", "precision": 20}	Bosnia-Herzegovina Convertible Mark	2025-01-26 19:59:43.219+00	2025-03-02 15:41:00.642+00	\N
+bif	FBu	FBu	0	0	{"value": "0", "precision": 20}	Burundian Franc	2025-01-26 19:59:43.219+00	2025-03-02 15:41:00.642+00	\N
+bnd	BN$	$	2	0	{"value": "0", "precision": 20}	Brunei Dollar	2025-01-26 19:59:43.219+00	2025-03-02 15:41:00.642+00	\N
+bob	Bs	Bs	2	0	{"value": "0", "precision": 20}	Bolivian Boliviano	2025-01-26 19:59:43.219+00	2025-03-02 15:41:00.642+00	\N
+brl	R$	R$	2	0	{"value": "0", "precision": 20}	Brazilian Real	2025-01-26 19:59:43.219+00	2025-03-02 15:41:00.642+00	\N
+bhd	BD	د.ب.‏	3	0	{"value": "0", "precision": 20}	Bahraini Dinar	2025-01-26 19:59:43.219+00	2025-03-02 15:41:00.642+00	\N
+mur	MURs	MURs	0	0	{"value": "0", "precision": 20}	Mauritian Rupee	2025-01-26 19:59:43.22+00	2025-03-02 15:41:00.643+00	\N
+aud	AU$	$	2	0	{"value": "0", "precision": 20}	Australian Dollar	2025-01-26 19:59:43.219+00	2025-03-02 15:41:00.642+00	\N
+azn	man.	ман.	2	0	{"value": "0", "precision": 20}	Azerbaijani Manat	2025-01-26 19:59:43.219+00	2025-03-02 15:41:00.642+00	\N
+bwp	BWP	P	2	0	{"value": "0", "precision": 20}	Botswanan Pula	2025-01-26 19:59:43.219+00	2025-03-02 15:41:00.642+00	\N
+byn	Br	руб.	2	0	{"value": "0", "precision": 20}	Belarusian Ruble	2025-01-26 19:59:43.219+00	2025-03-02 15:41:00.642+00	\N
+bzd	BZ$	$	2	0	{"value": "0", "precision": 20}	Belize Dollar	2025-01-26 19:59:43.219+00	2025-03-02 15:41:00.642+00	\N
+cdf	CDF	FrCD	2	0	{"value": "0", "precision": 20}	Congolese Franc	2025-01-26 19:59:43.219+00	2025-03-02 15:41:00.642+00	\N
+chf	CHF	CHF	2	0.05	{"value": "0.05", "precision": 20}	Swiss Franc	2025-01-26 19:59:43.219+00	2025-03-02 15:41:00.642+00	\N
+clp	CL$	$	0	0	{"value": "0", "precision": 20}	Chilean Peso	2025-01-26 19:59:43.219+00	2025-03-02 15:41:00.642+00	\N
+cny	CN¥	CN¥	2	0	{"value": "0", "precision": 20}	Chinese Yuan	2025-01-26 19:59:43.219+00	2025-03-02 15:41:00.642+00	\N
+cop	CO$	$	0	0	{"value": "0", "precision": 20}	Colombian Peso	2025-01-26 19:59:43.219+00	2025-03-02 15:41:00.642+00	\N
+crc	₡	₡	0	0	{"value": "0", "precision": 20}	Costa Rican Colón	2025-01-26 19:59:43.219+00	2025-03-02 15:41:00.642+00	\N
+cve	CV$	CV$	2	0	{"value": "0", "precision": 20}	Cape Verdean Escudo	2025-01-26 19:59:43.219+00	2025-03-02 15:41:00.642+00	\N
+mxn	MX$	$	2	0	{"value": "0", "precision": 20}	Mexican Peso	2025-01-26 19:59:43.22+00	2025-03-02 15:41:00.643+00	\N
+myr	RM	RM	2	0	{"value": "0", "precision": 20}	Malaysian Ringgit	2025-01-26 19:59:43.22+00	2025-03-02 15:41:00.643+00	\N
+mzn	MTn	MTn	2	0	{"value": "0", "precision": 20}	Mozambican Metical	2025-01-26 19:59:43.22+00	2025-03-02 15:41:00.643+00	\N
+nad	N$	N$	2	0	{"value": "0", "precision": 20}	Namibian Dollar	2025-01-26 19:59:43.22+00	2025-03-02 15:41:00.643+00	\N
+ngn	₦	₦	2	0	{"value": "0", "precision": 20}	Nigerian Naira	2025-01-26 19:59:43.22+00	2025-03-02 15:41:00.643+00	\N
+nio	C$	C$	2	0	{"value": "0", "precision": 20}	Nicaraguan Córdoba	2025-01-26 19:59:43.22+00	2025-03-02 15:41:00.643+00	\N
+nok	Nkr	kr	2	0	{"value": "0", "precision": 20}	Norwegian Krone	2025-01-26 19:59:43.22+00	2025-03-02 15:41:00.643+00	\N
+czk	Kč	Kč	2	0	{"value": "0", "precision": 20}	Czech Republic Koruna	2025-01-26 19:59:43.219+00	2025-03-02 15:41:00.642+00	\N
+djf	Fdj	Fdj	0	0	{"value": "0", "precision": 20}	Djiboutian Franc	2025-01-26 19:59:43.219+00	2025-03-02 15:41:00.642+00	\N
+egp	EGP	ج.م.‏	2	0	{"value": "0", "precision": 20}	Egyptian Pound	2025-01-26 19:59:43.219+00	2025-03-02 15:41:00.642+00	\N
+etb	Br	Br	2	0	{"value": "0", "precision": 20}	Ethiopian Birr	2025-01-26 19:59:43.219+00	2025-03-02 15:41:00.642+00	\N
+eur	€	€	2	0	{"value": "0", "precision": 20}	Euro	2025-01-26 19:59:43.219+00	2025-03-02 15:41:00.641+00	\N
+aed	AED	د.إ.‏	2	0	{"value": "0", "precision": 20}	United Arab Emirates Dirham	2025-01-26 19:59:43.219+00	2025-03-02 15:41:00.641+00	\N
+afn	Af	؋	0	0	{"value": "0", "precision": 20}	Afghan Afghani	2025-01-26 19:59:43.219+00	2025-03-02 15:41:00.641+00	\N
+all	ALL	Lek	0	0	{"value": "0", "precision": 20}	Albanian Lek	2025-01-26 19:59:43.219+00	2025-03-02 15:41:00.642+00	\N
+dkk	Dkr	kr	2	0	{"value": "0", "precision": 20}	Danish Krone	2025-01-26 19:59:43.219+00	2025-03-02 15:41:00.642+00	\N
+dop	RD$	RD$	2	0	{"value": "0", "precision": 20}	Dominican Peso	2025-01-26 19:59:43.219+00	2025-03-02 15:41:00.642+00	\N
+dzd	DA	د.ج.‏	2	0	{"value": "0", "precision": 20}	Algerian Dinar	2025-01-26 19:59:43.219+00	2025-03-02 15:41:00.642+00	\N
+ghs	GH₵	GH₵	2	0	{"value": "0", "precision": 20}	Ghanaian Cedi	2025-01-26 19:59:43.219+00	2025-03-02 15:41:00.642+00	\N
+gnf	FG	FG	0	0	{"value": "0", "precision": 20}	Guinean Franc	2025-01-26 19:59:43.219+00	2025-03-02 15:41:00.642+00	\N
+gtq	GTQ	Q	2	0	{"value": "0", "precision": 20}	Guatemalan Quetzal	2025-01-26 19:59:43.219+00	2025-03-02 15:41:00.642+00	\N
+hkd	HK$	$	2	0	{"value": "0", "precision": 20}	Hong Kong Dollar	2025-01-26 19:59:43.219+00	2025-03-02 15:41:00.642+00	\N
+hnl	HNL	L	2	0	{"value": "0", "precision": 20}	Honduran Lempira	2025-01-26 19:59:43.219+00	2025-03-02 15:41:00.642+00	\N
+hrk	kn	kn	2	0	{"value": "0", "precision": 20}	Croatian Kuna	2025-01-26 19:59:43.219+00	2025-03-02 15:41:00.642+00	\N
+huf	Ft	Ft	0	0	{"value": "0", "precision": 20}	Hungarian Forint	2025-01-26 19:59:43.219+00	2025-03-02 15:41:00.642+00	\N
+idr	Rp	Rp	0	0	{"value": "0", "precision": 20}	Indonesian Rupiah	2025-01-26 19:59:43.219+00	2025-03-02 15:41:00.642+00	\N
+ils	₪	₪	2	0	{"value": "0", "precision": 20}	Israeli New Sheqel	2025-01-26 19:59:43.219+00	2025-03-02 15:41:00.642+00	\N
+inr	Rs	₹	2	0	{"value": "0", "precision": 20}	Indian Rupee	2025-01-26 19:59:43.219+00	2025-03-02 15:41:00.642+00	\N
+irr	IRR	﷼	0	0	{"value": "0", "precision": 20}	Iranian Rial	2025-01-26 19:59:43.219+00	2025-03-02 15:41:00.642+00	\N
+php	₱	₱	2	0	{"value": "0", "precision": 20}	Philippine Peso	2025-01-26 19:59:43.22+00	2025-03-02 15:41:00.643+00	\N
+pkr	PKRs	₨	0	0	{"value": "0", "precision": 20}	Pakistani Rupee	2025-01-26 19:59:43.22+00	2025-03-02 15:41:00.643+00	\N
+pln	zł	zł	2	0	{"value": "0", "precision": 20}	Polish Zloty	2025-01-26 19:59:43.22+00	2025-03-02 15:41:00.643+00	\N
+pyg	₲	₲	0	0	{"value": "0", "precision": 20}	Paraguayan Guarani	2025-01-26 19:59:43.22+00	2025-03-02 15:41:00.643+00	\N
+qar	QR	ر.ق.‏	2	0	{"value": "0", "precision": 20}	Qatari Rial	2025-01-26 19:59:43.22+00	2025-03-02 15:41:00.643+00	\N
+ron	RON	RON	2	0	{"value": "0", "precision": 20}	Romanian Leu	2025-01-26 19:59:43.22+00	2025-03-02 15:41:00.643+00	\N
+rsd	din.	дин.	0	0	{"value": "0", "precision": 20}	Serbian Dinar	2025-01-26 19:59:43.22+00	2025-03-02 15:41:00.643+00	\N
+rub	RUB	₽.	2	0	{"value": "0", "precision": 20}	Russian Ruble	2025-01-26 19:59:43.22+00	2025-03-02 15:41:00.643+00	\N
+rwf	RWF	FR	0	0	{"value": "0", "precision": 20}	Rwandan Franc	2025-01-26 19:59:43.22+00	2025-03-02 15:41:00.643+00	\N
+lkr	SLRs	SL Re	2	0	{"value": "0", "precision": 20}	Sri Lankan Rupee	2025-01-26 19:59:43.219+00	2025-03-02 15:41:00.643+00	\N
+ern	Nfk	Nfk	2	0	{"value": "0", "precision": 20}	Eritrean Nakfa	2025-01-26 19:59:43.219+00	2025-03-02 15:41:00.642+00	\N
+ugx	USh	USh	0	0	{"value": "0", "precision": 20}	Ugandan Shilling	2025-01-26 19:59:43.22+00	2025-03-02 15:41:00.643+00	\N
+uyu	$U	$	2	0	{"value": "0", "precision": 20}	Uruguayan Peso	2025-01-26 19:59:43.22+00	2025-03-02 15:41:00.643+00	\N
+uzs	UZS	UZS	0	0	{"value": "0", "precision": 20}	Uzbekistan Som	2025-01-26 19:59:43.22+00	2025-03-02 15:41:00.643+00	\N
+vef	Bs.F.	Bs.F.	2	0	{"value": "0", "precision": 20}	Venezuelan Bolívar	2025-01-26 19:59:43.22+00	2025-03-02 15:41:00.643+00	\N
+vnd	₫	₫	0	0	{"value": "0", "precision": 20}	Vietnamese Dong	2025-01-26 19:59:43.22+00	2025-03-02 15:41:00.643+00	\N
+xaf	FCFA	FCFA	0	0	{"value": "0", "precision": 20}	CFA Franc BEAC	2025-01-26 19:59:43.22+00	2025-03-02 15:41:00.643+00	\N
+xof	CFA	CFA	0	0	{"value": "0", "precision": 20}	CFA Franc BCEAO	2025-01-26 19:59:43.22+00	2025-03-02 15:41:00.643+00	\N
+amd	AMD	դր.	0	0	{"value": "0", "precision": 20}	Armenian Dram	2025-01-26 19:59:43.219+00	2025-03-02 15:41:00.642+00	\N
+khr	KHR	៛	2	0	{"value": "0", "precision": 20}	Cambodian Riel	2025-01-26 19:59:43.219+00	2025-03-02 15:41:00.642+00	\N
+cad	CA$	$	2	0	{"value": "0", "precision": 20}	Canadian Dollar	2025-01-26 19:59:43.219+00	2025-03-02 15:41:00.641+00	\N
+npr	NPRs	नेरू	2	0	{"value": "0", "precision": 20}	Nepalese Rupee	2025-01-26 19:59:43.22+00	2025-03-02 15:41:00.643+00	\N
+sar	SR	ر.س.‏	2	0	{"value": "0", "precision": 20}	Saudi Riyal	2025-01-26 19:59:43.22+00	2025-03-02 15:41:00.643+00	\N
+sdg	SDG	SDG	2	0	{"value": "0", "precision": 20}	Sudanese Pound	2025-01-26 19:59:43.22+00	2025-03-02 15:41:00.643+00	\N
+sek	Skr	kr	2	0	{"value": "0", "precision": 20}	Swedish Krona	2025-01-26 19:59:43.22+00	2025-03-02 15:41:00.643+00	\N
+sgd	S$	$	2	0	{"value": "0", "precision": 20}	Singapore Dollar	2025-01-26 19:59:43.22+00	2025-03-02 15:41:00.643+00	\N
+sos	Ssh	Ssh	0	0	{"value": "0", "precision": 20}	Somali Shilling	2025-01-26 19:59:43.22+00	2025-03-02 15:41:00.643+00	\N
+syp	SY£	ل.س.‏	0	0	{"value": "0", "precision": 20}	Syrian Pound	2025-01-26 19:59:43.22+00	2025-03-02 15:41:00.643+00	\N
+thb	฿	฿	2	0	{"value": "0", "precision": 20}	Thai Baht	2025-01-26 19:59:43.22+00	2025-03-02 15:41:00.643+00	\N
+tnd	DT	د.ت.‏	3	0	{"value": "0", "precision": 20}	Tunisian Dinar	2025-01-26 19:59:43.22+00	2025-03-02 15:41:00.643+00	\N
+top	T$	T$	2	0	{"value": "0", "precision": 20}	Tongan Paʻanga	2025-01-26 19:59:43.22+00	2025-03-02 15:41:00.643+00	\N
+try	TL	TL	2	0	{"value": "0", "precision": 20}	Turkish Lira	2025-01-26 19:59:43.22+00	2025-03-02 15:41:00.643+00	\N
+eek	Ekr	kr	2	0	{"value": "0", "precision": 20}	Estonian Kroon	2025-01-26 19:59:43.219+00	2025-03-02 15:41:00.642+00	\N
+gbp	£	£	2	0	{"value": "0", "precision": 20}	British Pound Sterling	2025-01-26 19:59:43.219+00	2025-03-02 15:41:00.642+00	\N
+gel	GEL	GEL	2	0	{"value": "0", "precision": 20}	Georgian Lari	2025-01-26 19:59:43.219+00	2025-03-02 15:41:00.642+00	\N
+kwd	KD	د.ك.‏	3	0	{"value": "0", "precision": 20}	Kuwaiti Dinar	2025-01-26 19:59:43.219+00	2025-03-02 15:41:00.642+00	\N
+kzt	KZT	тңг.	2	0	{"value": "0", "precision": 20}	Kazakhstani Tenge	2025-01-26 19:59:43.219+00	2025-03-02 15:41:00.642+00	\N
+usd	$	$	2	0	{"value": "0", "precision": 20}	US Dollar	2025-01-26 19:59:43.218+00	2025-03-02 15:41:00.641+00	\N
+mad	MAD	د.م.‏	2	0	{"value": "0", "precision": 20}	Moroccan Dirham	2025-01-26 19:59:43.219+00	2025-03-02 15:41:00.643+00	\N
+mdl	MDL	MDL	2	0	{"value": "0", "precision": 20}	Moldovan Leu	2025-01-26 19:59:43.219+00	2025-03-02 15:41:00.643+00	\N
+mga	MGA	MGA	0	0	{"value": "0", "precision": 20}	Malagasy Ariary	2025-01-26 19:59:43.219+00	2025-03-02 15:41:00.643+00	\N
+mkd	MKD	MKD	2	0	{"value": "0", "precision": 20}	Macedonian Denar	2025-01-26 19:59:43.219+00	2025-03-02 15:41:00.643+00	\N
+mmk	MMK	K	0	0	{"value": "0", "precision": 20}	Myanma Kyat	2025-01-26 19:59:43.219+00	2025-03-02 15:41:00.643+00	\N
+mnt	MNT	₮	0	0	{"value": "0", "precision": 20}	Mongolian Tugrig	2025-01-26 19:59:43.219+00	2025-03-02 15:41:00.643+00	\N
+iqd	IQD	د.ع.‏	0	0	{"value": "0", "precision": 20}	Iraqi Dinar	2025-01-26 19:59:43.219+00	2025-03-02 15:41:00.642+00	\N
+isk	Ikr	kr	0	0	{"value": "0", "precision": 20}	Icelandic Króna	2025-01-26 19:59:43.219+00	2025-03-02 15:41:00.642+00	\N
+jmd	J$	$	2	0	{"value": "0", "precision": 20}	Jamaican Dollar	2025-01-26 19:59:43.219+00	2025-03-02 15:41:00.642+00	\N
+jod	JD	د.أ.‏	3	0	{"value": "0", "precision": 20}	Jordanian Dinar	2025-01-26 19:59:43.219+00	2025-03-02 15:41:00.642+00	\N
+jpy	¥	￥	0	0	{"value": "0", "precision": 20}	Japanese Yen	2025-01-26 19:59:43.219+00	2025-03-02 15:41:00.642+00	\N
+kes	Ksh	Ksh	2	0	{"value": "0", "precision": 20}	Kenyan Shilling	2025-01-26 19:59:43.219+00	2025-03-02 15:41:00.642+00	\N
+nzd	NZ$	$	2	0	{"value": "0", "precision": 20}	New Zealand Dollar	2025-01-26 19:59:43.22+00	2025-03-02 15:41:00.643+00	\N
+krw	₩	₩	0	0	{"value": "0", "precision": 20}	South Korean Won	2025-01-26 19:59:43.219+00	2025-03-02 15:41:00.642+00	\N
+omr	OMR	ر.ع.‏	3	0	{"value": "0", "precision": 20}	Omani Rial	2025-01-26 19:59:43.22+00	2025-03-02 15:41:00.643+00	\N
+pab	B/.	B/.	2	0	{"value": "0", "precision": 20}	Panamanian Balboa	2025-01-26 19:59:43.22+00	2025-03-02 15:41:00.643+00	\N
+lyd	LD	د.ل.‏	3	0	{"value": "0", "precision": 20}	Libyan Dinar	2025-01-26 19:59:43.219+00	2025-03-02 15:41:00.643+00	\N
+ars	AR$	$	2	0	{"value": "0", "precision": 20}	Argentine Peso	2025-01-26 19:59:43.219+00	2025-03-02 15:41:00.642+00	\N
+lbp	LB£	ل.ل.‏	0	0	{"value": "0", "precision": 20}	Lebanese Pound	2025-01-26 19:59:43.219+00	2025-03-02 15:41:00.643+00	\N
+ttd	TT$	$	2	0	{"value": "0", "precision": 20}	Trinidad and Tobago Dollar	2025-01-26 19:59:43.22+00	2025-03-02 15:41:00.643+00	\N
+twd	NT$	NT$	2	0	{"value": "0", "precision": 20}	New Taiwan Dollar	2025-01-26 19:59:43.22+00	2025-03-02 15:41:00.643+00	\N
+tzs	TSh	TSh	0	0	{"value": "0", "precision": 20}	Tanzanian Shilling	2025-01-26 19:59:43.22+00	2025-03-02 15:41:00.643+00	\N
+uah	₴	₴	2	0	{"value": "0", "precision": 20}	Ukrainian Hryvnia	2025-01-26 19:59:43.22+00	2025-03-02 15:41:00.643+00	\N
+yer	YR	ر.ي.‏	0	0	{"value": "0", "precision": 20}	Yemeni Rial	2025-01-26 19:59:43.22+00	2025-03-02 15:41:00.643+00	\N
+zar	R	R	2	0	{"value": "0", "precision": 20}	South African Rand	2025-01-26 19:59:43.22+00	2025-03-02 15:41:00.643+00	\N
+zmk	ZK	ZK	0	0	{"value": "0", "precision": 20}	Zambian Kwacha	2025-01-26 19:59:43.22+00	2025-03-02 15:41:00.643+00	\N
+zwl	ZWL$	ZWL$	0	0	{"value": "0", "precision": 20}	Zimbabwean Dollar	2025-01-26 19:59:43.22+00	2025-03-02 15:41:00.643+00	\N
+mop	MOP$	MOP$	2	0	{"value": "0", "precision": 20}	Macanese Pataca	2025-01-26 19:59:43.219+00	2025-03-02 15:41:00.643+00	\N
+pen	S/.	S/.	2	0	{"value": "0", "precision": 20}	Peruvian Nuevo Sol	2025-01-26 19:59:43.22+00	2025-03-02 15:41:00.643+00	\N
+ltl	Lt	Lt	2	0	{"value": "0", "precision": 20}	Lithuanian Litas	2025-01-26 19:59:43.219+00	2025-03-02 15:41:00.643+00	\N
+lvl	Ls	Ls	2	0	{"value": "0", "precision": 20}	Latvian Lats	2025-01-26 19:59:43.219+00	2025-03-02 15:41:00.643+00	\N
+bdt	Tk	৳	2	0	{"value": "0", "precision": 20}	Bangladeshi Taka	2025-01-26 19:59:43.219+00	2025-03-02 15:41:00.642+00	\N
+bgn	BGN	лв.	2	0	{"value": "0", "precision": 20}	Bulgarian Lev	2025-01-26 19:59:43.219+00	2025-03-02 15:41:00.642+00	\N
 \.
 
 
@@ -3406,44 +3406,40 @@ fgz_01JJJJ3VG2CN8DBNTVKGR895J4	country	nl	\N	\N	serzo_01JJJJ3VG24YQEED4F9AHCFAKD
 --
 
 COPY public.image (id, url, metadata, created_at, updated_at, deleted_at, rank, product_id) FROM stdin;
-astrid-curve-01JJJ37ZDFZWMWXKSDCB0H06MJ.png	http://localhost:9090/medusa/astrid-curve-01JJJ37ZDFZWMWXKSDCB0H06MJ.png	\N	2025-01-26 20:00:58.329214+00	2025-01-26 20:00:58.329214+00	\N	0	prod_01JJJ37ZEXST341KJMS57F71ST
-astrid-curve-2-01JJJ37ZDFZQDRPSRK98BS8MM9.png	http://localhost:9090/medusa/astrid-curve-2-01JJJ37ZDFZQDRPSRK98BS8MM9.png	\N	2025-01-26 20:00:58.329214+00	2025-01-26 20:00:58.329214+00	\N	1	prod_01JJJ37ZEXST341KJMS57F71ST
-belime-estate-01JJJ3817JQZ41JD3M187HQB3S.png	http://localhost:9090/medusa/belime-estate-01JJJ3817JQZ41JD3M187HQB3S.png	\N	2025-01-26 20:01:00.192368+00	2025-01-26 20:01:00.192368+00	\N	0	prod_01JJJ38193C3DTKCMMPZWKP3AP
-belime-estate-2-01JJJ3817J424RS38BFSJNNKM3.png	http://localhost:9090/medusa/belime-estate-2-01JJJ3817J424RS38BFSJNNKM3.png	\N	2025-01-26 20:01:00.192368+00	2025-01-26 20:01:00.192368+00	\N	1	prod_01JJJ38193C3DTKCMMPZWKP3AP
-cypress-retreat-01JJJ38398Q8ASGFHE11EMMGFG.png	http://localhost:9090/medusa/cypress-retreat-01JJJ38398Q8ASGFHE11EMMGFG.png	\N	2025-01-26 20:01:02.283278+00	2025-01-26 20:01:02.283278+00	\N	0	prod_01JJJ383AFX3GEATMCJ324VWK0
-cypress-retreat-2-01JJJ38398N25DPYEGAWEY305F.png	http://localhost:9090/medusa/cypress-retreat-2-01JJJ38398N25DPYEGAWEY305F.png	\N	2025-01-26 20:01:02.283278+00	2025-01-26 20:01:02.283278+00	\N	1	prod_01JJJ383AFX3GEATMCJ324VWK0
-everly-estate-01JJJ385A5MGQH3GDFDD341WGR.png	http://localhost:9090/medusa/everly-estate-01JJJ385A5MGQH3GDFDD341WGR.png	\N	2025-01-26 20:01:04.340058+00	2025-01-26 20:01:04.340058+00	\N	0	prod_01JJJ385AN5AQBRT6HF26TPCY7
-everly-estate-2-01JJJ385A521RHFC1XHE4VHMT5.png	http://localhost:9090/medusa/everly-estate-2-01JJJ385A521RHFC1XHE4VHMT5.png	\N	2025-01-26 20:01:04.340058+00	2025-01-26 20:01:04.340058+00	\N	1	prod_01JJJ385AN5AQBRT6HF26TPCY7
-havenhill-estate-01JJJ398RXD5Z8TD14CVG45SV5.png	http://localhost:9090/medusa/havenhill-estate-01JJJ398RXD5Z8TD14CVG45SV5.png	\N	2025-01-26 20:01:40.690004+00	2025-01-26 20:01:40.690004+00	\N	0	prod_01JJJ398TN3WTWMPHJE6CA2J6J
-havenhill-estate-2-01JJJ398RYKC1SGKR2KVTKHNEE.png	http://localhost:9090/medusa/havenhill-estate-2-01JJJ398RYKC1SGKR2KVTKHNEE.png	\N	2025-01-26 20:01:40.690004+00	2025-01-26 20:01:40.690004+00	\N	1	prod_01JJJ398TN3WTWMPHJE6CA2J6J
-monaco-flair-01JJJ39B4YJ97TXRHC2W8PAHG9.png	http://localhost:9090/medusa/monaco-flair-01JJJ39B4YJ97TXRHC2W8PAHG9.png	\N	2025-01-26 20:01:43.111275+00	2025-01-26 20:01:43.111275+00	\N	0	prod_01JJJ39B69A6DTJ3VQ0AWEV825
-monaco-flair-2-01JJJ39B4ZRVKTZ57Z2RDAB3RT.png	http://localhost:9090/medusa/monaco-flair-2-01JJJ39B4ZRVKTZ57Z2RDAB3RT.png	\N	2025-01-26 20:01:43.111275+00	2025-01-26 20:01:43.111275+00	\N	1	prod_01JJJ39B69A6DTJ3VQ0AWEV825
-nordic-breeze-01JJJ39D9RA9JE6TVNYG0KV9Y3.png	http://localhost:9090/medusa/nordic-breeze-01JJJ39D9RA9JE6TVNYG0KV9Y3.png	\N	2025-01-26 20:01:45.296063+00	2025-01-26 20:01:45.296063+00	\N	0	prod_01JJJ39DAHARPP8F8HPZ7SGA0X
-nordic-breeze-2-01JJJ39D9RDWR809X1NBAS4V5M.png	http://localhost:9090/medusa/nordic-breeze-2-01JJJ39D9RDWR809X1NBAS4V5M.png	\N	2025-01-26 20:01:45.296063+00	2025-01-26 20:01:45.296063+00	\N	1	prod_01JJJ39DAHARPP8F8HPZ7SGA0X
-nordic-haven-01JJJ3A6DJQC19ZV2Q7V6A9AV9.png	http://localhost:9090/medusa/nordic-haven-01JJJ3A6DJQC19ZV2Q7V6A9AV9.png	\N	2025-01-26 20:02:11.04189+00	2025-01-26 20:02:11.04189+00	\N	0	prod_01JJJ3A6F5JPSR5NN1GWF28DEV
-nordic-haven-2-01JJJ3A6DK35F4X6SC8GR64YKM.png	http://localhost:9090/medusa/nordic-haven-2-01JJJ3A6DK35F4X6SC8GR64YKM.png	\N	2025-01-26 20:02:11.04189+00	2025-01-26 20:02:11.04189+00	\N	1	prod_01JJJ3A6F5JPSR5NN1GWF28DEV
-oslo-drift-01JJJ3A911GB73P0R1RM4XGVBP.png	http://localhost:9090/medusa/oslo-drift-01JJJ3A911GB73P0R1RM4XGVBP.png	\N	2025-01-26 20:02:13.692151+00	2025-01-26 20:02:13.692151+00	\N	0	prod_01JJJ3A91ZGCMK6R0J81QCD4FM
-oslo-drift-2-01JJJ3A911WKCCRYPRX4JCJF86.png	http://localhost:9090/medusa/oslo-drift-2-01JJJ3A911WKCCRYPRX4JCJF86.png	\N	2025-01-26 20:02:13.692151+00	2025-01-26 20:02:13.692151+00	\N	1	prod_01JJJ3A91ZGCMK6R0J81QCD4FM
-oslo-serenity-01JJJ3ABEEZVJAAMBG4S4XWAB1.png	http://localhost:9090/medusa/oslo-serenity-01JJJ3ABEEZVJAAMBG4S4XWAB1.png	\N	2025-01-26 20:02:16.176195+00	2025-01-26 20:02:16.176195+00	\N	0	prod_01JJJ3ABFJWP331DGMYATE39P6
-oslo-serenity-2-01JJJ3ABEE83GJ6K8AXDSDMF35.png	http://localhost:9090/medusa/oslo-serenity-2-01JJJ3ABEE83GJ6K8AXDSDMF35.png	\N	2025-01-26 20:02:16.176195+00	2025-01-26 20:02:16.176195+00	\N	1	prod_01JJJ3ABFJWP331DGMYATE39P6
-paloma-haven-01JJJ3ADA88CNK93TNRKW54DPP.png	http://localhost:9090/medusa/paloma-haven-01JJJ3ADA88CNK93TNRKW54DPP.png	\N	2025-01-26 20:02:18.089337+00	2025-01-26 20:02:18.089337+00	\N	0	prod_01JJJ3ADBBRSNAQ4M082DBNTGE
-paloma-haven-2-01JJJ3ADA8MHG6TNRMD2FE0TQY.png	http://localhost:9090/medusa/paloma-haven-2-01JJJ3ADA8MHG6TNRMD2FE0TQY.png	\N	2025-01-26 20:02:18.089337+00	2025-01-26 20:02:18.089337+00	\N	1	prod_01JJJ3ADBBRSNAQ4M082DBNTGE
-savannah-grove-01JJJ3BJ5ANK5PV11VWAFP4GFV.png	http://localhost:9090/medusa/savannah-grove-01JJJ3BJ5ANK5PV11VWAFP4GFV.png	\N	2025-01-26 20:02:55.864849+00	2025-01-26 20:02:55.864849+00	\N	0	prod_01JJJ3BJ7WNNR061TVQSN4J32T
-savannah-grove-2-01JJJ3BJ5AK6PVFJPEAHHSBCH2.png	http://localhost:9090/medusa/savannah-grove-2-01JJJ3BJ5AK6PVFJPEAHHSBCH2.png	\N	2025-01-26 20:02:55.864849+00	2025-01-26 20:02:55.864849+00	\N	1	prod_01JJJ3BJ7WNNR061TVQSN4J32T
-serena-meadow-01JJJ3BME1NTQMWZAA1XPMYBME.png	http://localhost:9090/medusa/serena-meadow-01JJJ3BME1NTQMWZAA1XPMYBME.png	\N	2025-01-26 20:02:58.136169+00	2025-01-26 20:02:58.136169+00	\N	0	prod_01JJJ3BMF5RSY4ET62G6DFZ9H7
-serena-meadow-2-01JJJ3BME1HX608NX22WW71C7N.png	http://localhost:9090/medusa/serena-meadow-2-01JJJ3BME1HX608NX22WW71C7N.png	\N	2025-01-26 20:02:58.136169+00	2025-01-26 20:02:58.136169+00	\N	1	prod_01JJJ3BMF5RSY4ET62G6DFZ9H7
-sutton-royale-01JJJ3BQ3ACK12T9KB7T9RQBZN.png	http://localhost:9090/medusa/sutton-royale-01JJJ3BQ3ACK12T9KB7T9RQBZN.png	\N	2025-01-26 20:03:00.859502+00	2025-01-26 20:03:00.859502+00	\N	0	prod_01JJJ3BQ3YZ56QQ55JMRXTT8BE
-sutton-royale-2-01JJJ3BQ3AFHE95MEZ0CY6SDDH.png	http://localhost:9090/medusa/sutton-royale-2-01JJJ3BQ3AFHE95MEZ0CY6SDDH.png	\N	2025-01-26 20:03:00.859502+00	2025-01-26 20:03:00.859502+00	\N	1	prod_01JJJ3BQ3YZ56QQ55JMRXTT8BE
-velar-loft-01JJJ3BS33HM7336FZXB33DDTB.png	http://localhost:9090/medusa/velar-loft-01JJJ3BS33HM7336FZXB33DDTB.png	\N	2025-01-26 20:03:02.943018+00	2025-01-26 20:03:02.943018+00	\N	0	prod_01JJJ3BS52QYC6ER938B1DY026
-velar-loft-2-01JJJ3BS33MMQJYYXVS8966A2X.png	http://localhost:9090/medusa/velar-loft-2-01JJJ3BS33MMQJYYXVS8966A2X.png	\N	2025-01-26 20:03:02.943018+00	2025-01-26 20:03:02.943018+00	\N	1	prod_01JJJ3BS52QYC6ER938B1DY026
-velora-luxe-01JJJ3BV3V7DQFGVNQQ891EJ48.png	http://localhost:9090/medusa/velora-luxe-01JJJ3BV3V7DQFGVNQQ891EJ48.png	\N	2025-01-26 20:03:04.992002+00	2025-01-26 20:03:04.992002+00	\N	0	prod_01JJJ3BV521BJC2NR2QRM5F6ES
-velora-luxe-2-01JJJ3BV3VPN6MXHJW4FX3RPYB.png	http://localhost:9090/medusa/velora-luxe-2-01JJJ3BV3VPN6MXHJW4FX3RPYB.png	\N	2025-01-26 20:03:04.992002+00	2025-01-26 20:03:04.992002+00	\N	1	prod_01JJJ3BV521BJC2NR2QRM5F6ES
 img_01JJTC6FM276G3YMKV3P9F059H	https://cdn.shopify.com/s/files/1/0618/4045/7924/files/Evolve-Quarter-Zip-Navy-2.jpg?v=1737048335	\N	2025-01-30 01:11:21.788137+00	2025-01-30 01:23:21.754+00	2025-01-30 01:23:21.74+00	1	prod_01JJTC6FFHKA1KRVGWBC1WGA0C
 img_01JJTC6FMCM8EB4NH8RWSV0NTD	https://cdn.shopify.com/s/files/1/0618/4045/7924/files/t_shirt_black_back_1.jpg?v=1698195911	\N	2025-01-30 01:11:21.788137+00	2025-01-30 01:23:23.491+00	2025-01-30 01:23:23.479+00	1	prod_01JJTC6FFJC1SWV0WTF2HK761G
 img_01JJJGFK5T040ZETMZ9SBQ58HZ	https://www.riesenhemd.com/wp-content/uploads/2018/11/Hemd-extra-langer-Arm-72-cm-Überlaenge-RIESENHEMD-Paris-4.jpg	\N	2025-01-26 23:52:19.262276+00	2025-01-27 00:00:08.147+00	2025-01-27 00:00:08.104+00	0	prod_01JJJGFK2WSQGDPG4X4Y7TV5QX
 img_01JJJGFK5TK8NYW41M5MQ57DQC	 https://www.riesenhemd.com/wp-content/uploads/2018/11/Hemd-extra-langer-Arm-72-cm-Überlaenge-RIESENHEMD-Paris-3.jpg\r	\N	2025-01-26 23:52:19.262276+00	2025-01-27 00:00:08.147+00	2025-01-27 00:00:08.104+00	1	prod_01JJJGFK2WSQGDPG4X4Y7TV5QX
 img_01JJJGFK5P5QMY7RG6HEDHZNR9	https://www.riesenhemd.com/wp-content/uploads/2018/11/Hemd-extra-langer-Arm-72-cm-Überlaenge-RIESENHEMD-Zuerich-5.jpg	\N	2025-01-26 23:52:19.262276+00	2025-01-27 00:00:11.125+00	2025-01-27 00:00:11.099+00	0	prod_01JJJGFK2WT6V4XJDCAMRMJECV
 img_01JJJGFK5PE30SVN8K5EEVFFFR	 https://www.riesenhemd.com/wp-content/uploads/2018/11/Hemd-extra-langer-Arm-72-cm-Überlaenge-RIESENHEMD-Zuerich-3.jpg\r	\N	2025-01-26 23:52:19.262276+00	2025-01-27 00:00:11.125+00	2025-01-27 00:00:11.099+00	1	prod_01JJJGFK2WT6V4XJDCAMRMJECV
+belime-estate-01JJJ3817JQZ41JD3M187HQB3S.png	http://localhost:9090/medusa/belime-estate-01JJJ3817JQZ41JD3M187HQB3S.png	\N	2025-01-26 20:01:00.192368+00	2025-03-02 15:43:05.121+00	2025-03-02 15:43:05.094+00	0	prod_01JJJ38193C3DTKCMMPZWKP3AP
+belime-estate-2-01JJJ3817J424RS38BFSJNNKM3.png	http://localhost:9090/medusa/belime-estate-2-01JJJ3817J424RS38BFSJNNKM3.png	\N	2025-01-26 20:01:00.192368+00	2025-03-02 15:43:05.122+00	2025-03-02 15:43:05.094+00	1	prod_01JJJ38193C3DTKCMMPZWKP3AP
+cypress-retreat-01JJJ38398Q8ASGFHE11EMMGFG.png	http://localhost:9090/medusa/cypress-retreat-01JJJ38398Q8ASGFHE11EMMGFG.png	\N	2025-01-26 20:01:02.283278+00	2025-03-02 15:43:07.825+00	2025-03-02 15:43:07.8+00	0	prod_01JJJ383AFX3GEATMCJ324VWK0
+cypress-retreat-2-01JJJ38398N25DPYEGAWEY305F.png	http://localhost:9090/medusa/cypress-retreat-2-01JJJ38398N25DPYEGAWEY305F.png	\N	2025-01-26 20:01:02.283278+00	2025-03-02 15:43:07.825+00	2025-03-02 15:43:07.8+00	1	prod_01JJJ383AFX3GEATMCJ324VWK0
+everly-estate-01JJJ385A5MGQH3GDFDD341WGR.png	http://localhost:9090/medusa/everly-estate-01JJJ385A5MGQH3GDFDD341WGR.png	\N	2025-01-26 20:01:04.340058+00	2025-03-02 15:43:11.435+00	2025-03-02 15:43:11.396+00	0	prod_01JJJ385AN5AQBRT6HF26TPCY7
+everly-estate-2-01JJJ385A521RHFC1XHE4VHMT5.png	http://localhost:9090/medusa/everly-estate-2-01JJJ385A521RHFC1XHE4VHMT5.png	\N	2025-01-26 20:01:04.340058+00	2025-03-02 15:43:11.435+00	2025-03-02 15:43:11.396+00	1	prod_01JJJ385AN5AQBRT6HF26TPCY7
+havenhill-estate-01JJJ398RXD5Z8TD14CVG45SV5.png	http://localhost:9090/medusa/havenhill-estate-01JJJ398RXD5Z8TD14CVG45SV5.png	\N	2025-01-26 20:01:40.690004+00	2025-03-02 15:43:13.844+00	2025-03-02 15:43:13.823+00	0	prod_01JJJ398TN3WTWMPHJE6CA2J6J
+monaco-flair-01JJJ39B4YJ97TXRHC2W8PAHG9.png	http://localhost:9090/medusa/monaco-flair-01JJJ39B4YJ97TXRHC2W8PAHG9.png	\N	2025-01-26 20:01:43.111275+00	2025-03-02 15:43:16.402+00	2025-03-02 15:43:16.369+00	0	prod_01JJJ39B69A6DTJ3VQ0AWEV825
+monaco-flair-2-01JJJ39B4ZRVKTZ57Z2RDAB3RT.png	http://localhost:9090/medusa/monaco-flair-2-01JJJ39B4ZRVKTZ57Z2RDAB3RT.png	\N	2025-01-26 20:01:43.111275+00	2025-03-02 15:43:16.402+00	2025-03-02 15:43:16.369+00	1	prod_01JJJ39B69A6DTJ3VQ0AWEV825
+nordic-breeze-01JJJ39D9RA9JE6TVNYG0KV9Y3.png	http://localhost:9090/medusa/nordic-breeze-01JJJ39D9RA9JE6TVNYG0KV9Y3.png	\N	2025-01-26 20:01:45.296063+00	2025-03-02 15:43:19.387+00	2025-03-02 15:43:19.368+00	0	prod_01JJJ39DAHARPP8F8HPZ7SGA0X
+nordic-breeze-2-01JJJ39D9RDWR809X1NBAS4V5M.png	http://localhost:9090/medusa/nordic-breeze-2-01JJJ39D9RDWR809X1NBAS4V5M.png	\N	2025-01-26 20:01:45.296063+00	2025-03-02 15:43:19.387+00	2025-03-02 15:43:19.368+00	1	prod_01JJJ39DAHARPP8F8HPZ7SGA0X
+nordic-haven-01JJJ3A6DJQC19ZV2Q7V6A9AV9.png	http://localhost:9090/medusa/nordic-haven-01JJJ3A6DJQC19ZV2Q7V6A9AV9.png	\N	2025-01-26 20:02:11.04189+00	2025-03-02 15:43:21.996+00	2025-03-02 15:43:21.968+00	0	prod_01JJJ3A6F5JPSR5NN1GWF28DEV
+nordic-haven-2-01JJJ3A6DK35F4X6SC8GR64YKM.png	http://localhost:9090/medusa/nordic-haven-2-01JJJ3A6DK35F4X6SC8GR64YKM.png	\N	2025-01-26 20:02:11.04189+00	2025-03-02 15:43:21.996+00	2025-03-02 15:43:21.968+00	1	prod_01JJJ3A6F5JPSR5NN1GWF28DEV
+oslo-drift-01JJJ3A911GB73P0R1RM4XGVBP.png	http://localhost:9090/medusa/oslo-drift-01JJJ3A911GB73P0R1RM4XGVBP.png	\N	2025-01-26 20:02:13.692151+00	2025-03-02 15:43:24.742+00	2025-03-02 15:43:24.728+00	0	prod_01JJJ3A91ZGCMK6R0J81QCD4FM
+oslo-drift-2-01JJJ3A911WKCCRYPRX4JCJF86.png	http://localhost:9090/medusa/oslo-drift-2-01JJJ3A911WKCCRYPRX4JCJF86.png	\N	2025-01-26 20:02:13.692151+00	2025-03-02 15:43:24.742+00	2025-03-02 15:43:24.728+00	1	prod_01JJJ3A91ZGCMK6R0J81QCD4FM
+oslo-serenity-01JJJ3ABEEZVJAAMBG4S4XWAB1.png	http://localhost:9090/medusa/oslo-serenity-01JJJ3ABEEZVJAAMBG4S4XWAB1.png	\N	2025-01-26 20:02:16.176195+00	2025-03-02 15:43:27.907+00	2025-03-02 15:43:27.884+00	0	prod_01JJJ3ABFJWP331DGMYATE39P6
+oslo-serenity-2-01JJJ3ABEE83GJ6K8AXDSDMF35.png	http://localhost:9090/medusa/oslo-serenity-2-01JJJ3ABEE83GJ6K8AXDSDMF35.png	\N	2025-01-26 20:02:16.176195+00	2025-03-02 15:43:27.907+00	2025-03-02 15:43:27.884+00	1	prod_01JJJ3ABFJWP331DGMYATE39P6
+paloma-haven-01JJJ3ADA88CNK93TNRKW54DPP.png	http://localhost:9090/medusa/paloma-haven-01JJJ3ADA88CNK93TNRKW54DPP.png	\N	2025-01-26 20:02:18.089337+00	2025-03-02 15:43:35.514+00	2025-03-02 15:43:35.471+00	0	prod_01JJJ3ADBBRSNAQ4M082DBNTGE
+paloma-haven-2-01JJJ3ADA8MHG6TNRMD2FE0TQY.png	http://localhost:9090/medusa/paloma-haven-2-01JJJ3ADA8MHG6TNRMD2FE0TQY.png	\N	2025-01-26 20:02:18.089337+00	2025-03-02 15:43:35.514+00	2025-03-02 15:43:35.471+00	1	prod_01JJJ3ADBBRSNAQ4M082DBNTGE
+savannah-grove-01JJJ3BJ5ANK5PV11VWAFP4GFV.png	http://localhost:9090/medusa/savannah-grove-01JJJ3BJ5ANK5PV11VWAFP4GFV.png	\N	2025-01-26 20:02:55.864849+00	2025-03-02 15:43:39.925+00	2025-03-02 15:43:39.899+00	0	prod_01JJJ3BJ7WNNR061TVQSN4J32T
+savannah-grove-2-01JJJ3BJ5AK6PVFJPEAHHSBCH2.png	http://localhost:9090/medusa/savannah-grove-2-01JJJ3BJ5AK6PVFJPEAHHSBCH2.png	\N	2025-01-26 20:02:55.864849+00	2025-03-02 15:43:39.925+00	2025-03-02 15:43:39.899+00	1	prod_01JJJ3BJ7WNNR061TVQSN4J32T
+serena-meadow-01JJJ3BME1NTQMWZAA1XPMYBME.png	http://localhost:9090/medusa/serena-meadow-01JJJ3BME1NTQMWZAA1XPMYBME.png	\N	2025-01-26 20:02:58.136169+00	2025-03-02 15:43:42.683+00	2025-03-02 15:43:42.644+00	0	prod_01JJJ3BMF5RSY4ET62G6DFZ9H7
+serena-meadow-2-01JJJ3BME1HX608NX22WW71C7N.png	http://localhost:9090/medusa/serena-meadow-2-01JJJ3BME1HX608NX22WW71C7N.png	\N	2025-01-26 20:02:58.136169+00	2025-03-02 15:43:42.683+00	2025-03-02 15:43:42.644+00	1	prod_01JJJ3BMF5RSY4ET62G6DFZ9H7
+sutton-royale-01JJJ3BQ3ACK12T9KB7T9RQBZN.png	http://localhost:9090/medusa/sutton-royale-01JJJ3BQ3ACK12T9KB7T9RQBZN.png	\N	2025-01-26 20:03:00.859502+00	2025-03-02 15:43:45.654+00	2025-03-02 15:43:45.63+00	0	prod_01JJJ3BQ3YZ56QQ55JMRXTT8BE
+velar-loft-01JJJ3BS33HM7336FZXB33DDTB.png	http://localhost:9090/medusa/velar-loft-01JJJ3BS33HM7336FZXB33DDTB.png	\N	2025-01-26 20:03:02.943018+00	2025-03-02 15:43:48.13+00	2025-03-02 15:43:48.108+00	0	prod_01JJJ3BS52QYC6ER938B1DY026
+velar-loft-2-01JJJ3BS33MMQJYYXVS8966A2X.png	http://localhost:9090/medusa/velar-loft-2-01JJJ3BS33MMQJYYXVS8966A2X.png	\N	2025-01-26 20:03:02.943018+00	2025-03-02 15:43:48.13+00	2025-03-02 15:43:48.108+00	1	prod_01JJJ3BS52QYC6ER938B1DY026
+velora-luxe-01JJJ3BV3V7DQFGVNQQ891EJ48.png	http://localhost:9090/medusa/velora-luxe-01JJJ3BV3V7DQFGVNQQ891EJ48.png	\N	2025-01-26 20:03:04.992002+00	2025-03-02 15:43:50.337+00	2025-03-02 15:43:50.304+00	0	prod_01JJJ3BV521BJC2NR2QRM5F6ES
+velora-luxe-2-01JJJ3BV3VPN6MXHJW4FX3RPYB.png	http://localhost:9090/medusa/velora-luxe-2-01JJJ3BV3VPN6MXHJW4FX3RPYB.png	\N	2025-01-26 20:03:04.992002+00	2025-03-02 15:43:50.337+00	2025-03-02 15:43:50.304+00	1	prod_01JJJ3BV521BJC2NR2QRM5F6ES
 img_01JJTC6FM2007G7WXZC4XXV6D1	https://cdn.shopify.com/s/files/1/0618/4045/7924/files/Evolve-Quarter-Zip-Navy-1.jpg?v=1737048335	\N	2025-01-30 01:11:21.788137+00	2025-01-30 01:23:21.754+00	2025-01-30 01:23:21.74+00	0	prod_01JJTC6FFHKA1KRVGWBC1WGA0C
 img_01JJJTAZ884YT6KQ7C28VXZMRS	https://www.riesenhemd.com/wp-content/uploads/2018/11/Hemd-extra-langer-Arm-72-cm-Überlaenge-RIESENHEMD-London-5.jpg	\N	2025-01-27 02:44:33.540404+00	2025-01-27 02:46:29.401+00	2025-01-27 02:46:29.375+00	0	prod_01JJJTAZ58NDPD6PNQPH00PRFH
 img_01JJJTAZ89KCG9V404PK4CJ7D3	 https://www.riesenhemd.com/wp-content/uploads/2018/11/Hemd-extra-langer-Arm-72-cm-Überlaenge-RIESENHEMD-London-3.jpg	\N	2025-01-27 02:44:33.540404+00	2025-01-27 02:46:29.401+00	2025-01-27 02:46:29.375+00	1	prod_01JJJTAZ58NDPD6PNQPH00PRFH
@@ -4040,6 +4036,10 @@ img_01JJTE6QAR94MDVCMZNNTWTJDM	 https://www.riesenhemd.com/wp-content/uploads/20
 img_01JJTE6QAREGWXADDKGATFAZZ4	 https://www.riesenhemd.com/wp-content/uploads/2019/06/Hemd-extra-langer-Arm-72-Ueberlaenge-Stockholm-4.jpg	\N	2025-01-30 01:46:26.824169+00	2025-01-30 01:46:26.824169+00	\N	2	prod_01JJTE6Q5G6W0V56MRA5CVX60H
 img_01JJTE6QARG7CEST3289AFKYPE	 https://www.riesenhemd.com/wp-content/uploads/2019/06/Hemd-extra-langer-Arm-72-cm-Ueberlaenge-RIESENHEMD-Stockholm-1.jpg	\N	2025-01-30 01:46:26.824169+00	2025-01-30 01:46:26.824169+00	\N	3	prod_01JJTE6Q5G6W0V56MRA5CVX60H
 img_01JJTE6QARTZCXJMVTTYQQP8BS	 https://www.riesenhemd.com/wp-content/uploads/2019/06/Hemd-extra-langer-Arm-72-cm-Ueberlaenge-RIESENHEMD-Stockholm-3.jpg	\N	2025-01-30 01:46:26.824169+00	2025-01-30 01:46:26.824169+00	\N	4	prod_01JJTE6Q5G6W0V56MRA5CVX60H
+astrid-curve-01JJJ37ZDFZWMWXKSDCB0H06MJ.png	http://localhost:9090/medusa/astrid-curve-01JJJ37ZDFZWMWXKSDCB0H06MJ.png	\N	2025-01-26 20:00:58.329214+00	2025-03-02 15:43:02.317+00	2025-03-02 15:43:02.286+00	0	prod_01JJJ37ZEXST341KJMS57F71ST
+astrid-curve-2-01JJJ37ZDFZQDRPSRK98BS8MM9.png	http://localhost:9090/medusa/astrid-curve-2-01JJJ37ZDFZQDRPSRK98BS8MM9.png	\N	2025-01-26 20:00:58.329214+00	2025-03-02 15:43:02.317+00	2025-03-02 15:43:02.286+00	1	prod_01JJJ37ZEXST341KJMS57F71ST
+havenhill-estate-2-01JJJ398RYKC1SGKR2KVTKHNEE.png	http://localhost:9090/medusa/havenhill-estate-2-01JJJ398RYKC1SGKR2KVTKHNEE.png	\N	2025-01-26 20:01:40.690004+00	2025-03-02 15:43:13.844+00	2025-03-02 15:43:13.823+00	1	prod_01JJJ398TN3WTWMPHJE6CA2J6J
+sutton-royale-2-01JJJ3BQ3AFHE95MEZ0CY6SDDH.png	http://localhost:9090/medusa/sutton-royale-2-01JJJ3BQ3AFHE95MEZ0CY6SDDH.png	\N	2025-01-26 20:03:00.859502+00	2025-03-02 15:43:45.654+00	2025-03-02 15:43:45.63+00	1	prod_01JJJ3BQ3YZ56QQ55JMRXTT8BE
 \.
 
 
@@ -4678,90 +4678,53 @@ price_01JJJ35PVRKFFDC5TRQAHRJ3H9	\N	pset_01JJJ35PVR0X0T9FS8CKX8ZSJD	eur	{"value"
 price_01JJJ35PXFW8XZSPYJ0HJZ6K3Y	\N	pset_01JJJ35PXFNWXTER6YTKWWVND1	usd	{"value": "0", "precision": 20}	0	2025-01-26 19:59:44.047+00	2025-01-26 19:59:44.047+00	\N	\N	0	\N	\N
 price_01JJJ35PXFAJZ4Y3H0NQ3RA1NA	\N	pset_01JJJ35PXFNWXTER6YTKWWVND1	eur	{"value": "0", "precision": 20}	0	2025-01-26 19:59:44.047+00	2025-01-26 19:59:44.047+00	\N	\N	0	\N	\N
 price_01JJJ35PXFK5RH3YR6T8VKN7DS	\N	pset_01JJJ35PXFNWXTER6YTKWWVND1	eur	{"value": "0", "precision": 20}	1	2025-01-26 19:59:44.047+00	2025-01-26 19:59:44.047+00	\N	\N	0	\N	\N
-price_01JJJ37ZG693H50W9SFW1M68CJ	\N	pset_01JJJ37ZG7PZ5502M9YD76J199	eur	{"value": "1500", "precision": 20}	0	2025-01-26 20:00:58.375+00	2025-01-26 20:00:58.375+00	\N	\N	1500	\N	\N
-price_01JJJ37ZG6T0GSVVE3BZCHBMTW	\N	pset_01JJJ37ZG7PZ5502M9YD76J199	usd	{"value": "1700", "precision": 20}	0	2025-01-26 20:00:58.375+00	2025-01-26 20:00:58.375+00	\N	\N	1700	\N	\N
-price_01JJJ37ZG7PA9FZZQ851JKFNPW	\N	pset_01JJJ37ZG7QTDF28Z5APZZ8WBC	eur	{"value": "2000", "precision": 20}	0	2025-01-26 20:00:58.375+00	2025-01-26 20:00:58.375+00	\N	\N	2000	\N	\N
-price_01JJJ37ZG7YGWZZ3C4J7Z3AS1T	\N	pset_01JJJ37ZG7QTDF28Z5APZZ8WBC	usd	{"value": "2200", "precision": 20}	0	2025-01-26 20:00:58.375+00	2025-01-26 20:00:58.375+00	\N	\N	2200	\N	\N
-price_01JJJ381ANGAKNE6VJVC308PN4	\N	pset_01JJJ381ANB73NC5C6R04ZM9V3	eur	{"value": "1500", "precision": 20}	0	2025-01-26 20:01:00.246+00	2025-01-26 20:01:00.246+00	\N	\N	1500	\N	\N
-price_01JJJ381ANDJ67YQTTAM6GSX34	\N	pset_01JJJ381ANB73NC5C6R04ZM9V3	usd	{"value": "1700", "precision": 20}	0	2025-01-26 20:01:00.246+00	2025-01-26 20:01:00.246+00	\N	\N	1700	\N	\N
-price_01JJJ381AN3MBSMWJ4ZDQGFDYY	\N	pset_01JJJ381AP4G4Z9EHJSK986862	eur	{"value": "1500", "precision": 20}	0	2025-01-26 20:01:00.246+00	2025-01-26 20:01:00.246+00	\N	\N	1500	\N	\N
-price_01JJJ381ANM004JZXFVJA1BPCQ	\N	pset_01JJJ381AP4G4Z9EHJSK986862	usd	{"value": "1700", "precision": 20}	0	2025-01-26 20:01:00.246+00	2025-01-26 20:01:00.246+00	\N	\N	1700	\N	\N
-price_01JJJ381AP731D3PCC8VYD9PPC	\N	pset_01JJJ381APJKYXK8X7HR35F276	eur	{"value": "2000", "precision": 20}	0	2025-01-26 20:01:00.246+00	2025-01-26 20:01:00.246+00	\N	\N	2000	\N	\N
-price_01JJJ381AP6MKXGT19QZKYHEC8	\N	pset_01JJJ381APJKYXK8X7HR35F276	usd	{"value": "2200", "precision": 20}	0	2025-01-26 20:01:00.246+00	2025-01-26 20:01:00.246+00	\N	\N	2200	\N	\N
-price_01JJJ383CZ15PQNVBX3BABR3J0	\N	pset_01JJJ383CZP33VKRHXKXGYW89Z	eur	{"value": "1500", "precision": 20}	0	2025-01-26 20:01:02.368+00	2025-01-26 20:01:02.368+00	\N	\N	1500	\N	\N
-price_01JJJ383CZ5N69K5981NH88C1C	\N	pset_01JJJ383CZP33VKRHXKXGYW89Z	usd	{"value": "1700", "precision": 20}	0	2025-01-26 20:01:02.368+00	2025-01-26 20:01:02.368+00	\N	\N	1700	\N	\N
-price_01JJJ383CZC1TMD0N414NNXDGV	\N	pset_01JJJ383D093EQAPA5CQ6V330D	eur	{"value": "2000", "precision": 20}	0	2025-01-26 20:01:02.368+00	2025-01-26 20:01:02.368+00	\N	\N	2000	\N	\N
-price_01JJJ383D0WNSJQ9V2QSGYBHTR	\N	pset_01JJJ383D093EQAPA5CQ6V330D	usd	{"value": "2200", "precision": 20}	0	2025-01-26 20:01:02.368+00	2025-01-26 20:01:02.368+00	\N	\N	2200	\N	\N
-price_01JJJ385BP39CPME6K2M5EGRK1	\N	pset_01JJJ385BPBD48EF6PAHF85PP2	eur	{"value": "1500", "precision": 20}	0	2025-01-26 20:01:04.374+00	2025-01-26 20:01:04.374+00	\N	\N	1500	\N	\N
-price_01JJJ385BPEFPWFRQ3J4SZBQVJ	\N	pset_01JJJ385BPBD48EF6PAHF85PP2	usd	{"value": "1700", "precision": 20}	0	2025-01-26 20:01:04.374+00	2025-01-26 20:01:04.374+00	\N	\N	1700	\N	\N
-price_01JJJ385BPN435NSH380CRQX5W	\N	pset_01JJJ385BPFBD705K1YG0XD2BZ	eur	{"value": "2000", "precision": 20}	0	2025-01-26 20:01:04.374+00	2025-01-26 20:01:04.374+00	\N	\N	2000	\N	\N
-price_01JJJ385BPSASMF8961JVPM1PT	\N	pset_01JJJ385BPFBD705K1YG0XD2BZ	usd	{"value": "2200", "precision": 20}	0	2025-01-26 20:01:04.374+00	2025-01-26 20:01:04.374+00	\N	\N	2200	\N	\N
-price_01JJJ398W9Z5J86BPPS2FX2W4Z	\N	pset_01JJJ398W9VHC8P8SJPFTFH5RG	eur	{"value": "1000", "precision": 20}	0	2025-01-26 20:01:40.746+00	2025-01-26 20:01:40.746+00	\N	\N	1000	\N	\N
-price_01JJJ398W99S9VPSZXXFA6JR6K	\N	pset_01JJJ398W9VHC8P8SJPFTFH5RG	usd	{"value": "1200", "precision": 20}	0	2025-01-26 20:01:40.746+00	2025-01-26 20:01:40.746+00	\N	\N	1200	\N	\N
-price_01JJJ398W96X89E8WRH6XZF1BH	\N	pset_01JJJ398W9FDD92D8T7MAXSFQR	eur	{"value": "1200", "precision": 20}	0	2025-01-26 20:01:40.746+00	2025-01-26 20:01:40.746+00	\N	\N	1200	\N	\N
-price_01JJJ398W9MZS1X0K2M7FPHG9Q	\N	pset_01JJJ398W9FDD92D8T7MAXSFQR	usd	{"value": "1400", "precision": 20}	0	2025-01-26 20:01:40.746+00	2025-01-26 20:01:40.746+00	\N	\N	1400	\N	\N
-price_01JJJ39B7TSEE3RAF2EDPZK0M8	\N	pset_01JJJ39B7T91MBD5APD2CADG6H	eur	{"value": "1500", "precision": 20}	0	2025-01-26 20:01:43.163+00	2025-01-26 20:01:43.163+00	\N	\N	1500	\N	\N
-price_01JJJ39B7T9TGRPBMX5H1M1K3B	\N	pset_01JJJ39B7T91MBD5APD2CADG6H	usd	{"value": "1700", "precision": 20}	0	2025-01-26 20:01:43.163+00	2025-01-26 20:01:43.163+00	\N	\N	1700	\N	\N
-price_01JJJ39B7T3AJGX3SPQYJ6J83F	\N	pset_01JJJ39B7TGQ0954YBZX7Y20H7	eur	{"value": "2000", "precision": 20}	0	2025-01-26 20:01:43.163+00	2025-01-26 20:01:43.163+00	\N	\N	2000	\N	\N
-price_01JJJ39B7T372TZH1CMNCCPH0J	\N	pset_01JJJ39B7TGQ0954YBZX7Y20H7	usd	{"value": "2200", "precision": 20}	0	2025-01-26 20:01:43.163+00	2025-01-26 20:01:43.163+00	\N	\N	2200	\N	\N
-price_01JJJ39B7TRYN2XKCD4TVG6XK7	\N	pset_01JJJ39B7TXQKCEQNX7YMT3JJJ	eur	{"value": "2000", "precision": 20}	0	2025-01-26 20:01:43.163+00	2025-01-26 20:01:43.163+00	\N	\N	2000	\N	\N
-price_01JJJ39B7TMK28G62SE5XAXTD2	\N	pset_01JJJ39B7TXQKCEQNX7YMT3JJJ	usd	{"value": "2200", "precision": 20}	0	2025-01-26 20:01:43.163+00	2025-01-26 20:01:43.163+00	\N	\N	2200	\N	\N
-price_01JJJ39DC75K76JGAC5PYJYJCJ	\N	pset_01JJJ39DC71MB2XZWTJT9WEEMW	eur	{"value": "1200", "precision": 20}	0	2025-01-26 20:01:45.352+00	2025-01-26 20:01:45.352+00	\N	\N	1200	\N	\N
-price_01JJJ39DC7RTE93SAXHSBQXY15	\N	pset_01JJJ39DC71MB2XZWTJT9WEEMW	usd	{"value": "1400", "precision": 20}	0	2025-01-26 20:01:45.352+00	2025-01-26 20:01:45.352+00	\N	\N	1400	\N	\N
-price_01JJJ39DC7TEHRYX8V6MMB0D81	\N	pset_01JJJ39DC72AYANW3V6AN7FS1K	eur	{"value": "1200", "precision": 20}	0	2025-01-26 20:01:45.352+00	2025-01-26 20:01:45.352+00	\N	\N	1200	\N	\N
-price_01JJJ39DC7ZFAYNCETNWV3CEKW	\N	pset_01JJJ39DC72AYANW3V6AN7FS1K	usd	{"value": "1400", "precision": 20}	0	2025-01-26 20:01:45.352+00	2025-01-26 20:01:45.352+00	\N	\N	1400	\N	\N
-price_01JJJ39DC71C0K43VZSPJB407D	\N	pset_01JJJ39DC7J7W7PTH1Z2G6FFW9	eur	{"value": "1800", "precision": 20}	0	2025-01-26 20:01:45.352+00	2025-01-26 20:01:45.352+00	\N	\N	1800	\N	\N
-price_01JJJ39DC7NVR2G9TTJCMP1F5G	\N	pset_01JJJ39DC7J7W7PTH1Z2G6FFW9	usd	{"value": "2000", "precision": 20}	0	2025-01-26 20:01:45.352+00	2025-01-26 20:01:45.352+00	\N	\N	2000	\N	\N
-price_01JJJ3A6GNGXQZ5NZWTVNFAZY7	\N	pset_01JJJ3A6GPGZFZQE4M0XPS7F79	eur	{"value": "1500", "precision": 20}	0	2025-01-26 20:02:11.094+00	2025-01-26 20:02:11.094+00	\N	\N	1500	\N	\N
-price_01JJJ3A6GP75N8JV6DFEJHYF17	\N	pset_01JJJ3A6GPGZFZQE4M0XPS7F79	usd	{"value": "1700", "precision": 20}	0	2025-01-26 20:02:11.094+00	2025-01-26 20:02:11.094+00	\N	\N	1700	\N	\N
-price_01JJJ3A6GPXCP8QY23CS7SCJDY	\N	pset_01JJJ3A6GPM445RAFR4V2M2FXK	eur	{"value": "2000", "precision": 20}	0	2025-01-26 20:02:11.094+00	2025-01-26 20:02:11.094+00	\N	\N	2000	\N	\N
-price_01JJJ3A6GP9WBC7VE6QR03AB5E	\N	pset_01JJJ3A6GPM445RAFR4V2M2FXK	usd	{"value": "2200", "precision": 20}	0	2025-01-26 20:02:11.094+00	2025-01-26 20:02:11.094+00	\N	\N	2200	\N	\N
-price_01JJJ3A6GP4C70RGWXG6CEYY5J	\N	pset_01JJJ3A6GP8ZHGXHEF05Q8SBKF	eur	{"value": "2000", "precision": 20}	0	2025-01-26 20:02:11.094+00	2025-01-26 20:02:11.094+00	\N	\N	2000	\N	\N
-price_01JJJ3A6GP542DNCZ8C2EAX5M7	\N	pset_01JJJ3A6GP8ZHGXHEF05Q8SBKF	usd	{"value": "2200", "precision": 20}	0	2025-01-26 20:02:11.094+00	2025-01-26 20:02:11.094+00	\N	\N	2200	\N	\N
-price_01JJJ3A92X097C0G9RHSTHRVKS	\N	pset_01JJJ3A92XFQBZ6CB26P6F3DVX	eur	{"value": "1500", "precision": 20}	0	2025-01-26 20:02:13.726+00	2025-01-26 20:02:13.726+00	\N	\N	1500	\N	\N
-price_01JJJ3A92X0XMK98JE5TQJ7SE4	\N	pset_01JJJ3A92XFQBZ6CB26P6F3DVX	usd	{"value": "1700", "precision": 20}	0	2025-01-26 20:02:13.726+00	2025-01-26 20:02:13.726+00	\N	\N	1700	\N	\N
-price_01JJJ3A92X4TJHVPVMZ6H9QNFC	\N	pset_01JJJ3A92X1DF6QJ9JMPRHV72C	eur	{"value": "2000", "precision": 20}	0	2025-01-26 20:02:13.726+00	2025-01-26 20:02:13.726+00	\N	\N	2000	\N	\N
-price_01JJJ3A92XYMSMKAJCM0MV3MX2	\N	pset_01JJJ3A92X1DF6QJ9JMPRHV72C	usd	{"value": "2200", "precision": 20}	0	2025-01-26 20:02:13.726+00	2025-01-26 20:02:13.726+00	\N	\N	2200	\N	\N
-price_01JJJ3A92XC352T7T9MYM0K02B	\N	pset_01JJJ3A92X0RDRNBR38K3N76KK	eur	{"value": "2000", "precision": 20}	0	2025-01-26 20:02:13.726+00	2025-01-26 20:02:13.726+00	\N	\N	2000	\N	\N
-price_01JJJ3A92X0FCT72P7306Z9CVB	\N	pset_01JJJ3A92X0RDRNBR38K3N76KK	usd	{"value": "2200", "precision": 20}	0	2025-01-26 20:02:13.726+00	2025-01-26 20:02:13.726+00	\N	\N	2200	\N	\N
-price_01JJJ3ABGD30SEPVFE17S6A0E3	\N	pset_01JJJ3ABGEDYKZ83H7R3E0E5RV	eur	{"value": "1500", "precision": 20}	0	2025-01-26 20:02:16.206+00	2025-01-26 20:02:16.206+00	\N	\N	1500	\N	\N
-price_01JJJ3ABGDZWCVB0WD40YGTJW2	\N	pset_01JJJ3ABGEDYKZ83H7R3E0E5RV	usd	{"value": "1700", "precision": 20}	0	2025-01-26 20:02:16.206+00	2025-01-26 20:02:16.206+00	\N	\N	1700	\N	\N
-price_01JJJ3ABGESH5NP1YGFZ94C665	\N	pset_01JJJ3ABGEEEKQD9GGGKVXX6BX	eur	{"value": "2000", "precision": 20}	0	2025-01-26 20:02:16.206+00	2025-01-26 20:02:16.206+00	\N	\N	2000	\N	\N
-price_01JJJ3ABGET8S0ZNQJ56D3M7EX	\N	pset_01JJJ3ABGEEEKQD9GGGKVXX6BX	usd	{"value": "2200", "precision": 20}	0	2025-01-26 20:02:16.206+00	2025-01-26 20:02:16.206+00	\N	\N	2200	\N	\N
-price_01JJJ3ADC8XJQDBD4W9QZP3XY0	\N	pset_01JJJ3ADC8M7XGCZZMMHM6QDN7	eur	{"value": "900", "precision": 20}	0	2025-01-26 20:02:18.12+00	2025-01-26 20:02:18.12+00	\N	\N	900	\N	\N
-price_01JJJ3ADC8D48ANK3MB3NMX57A	\N	pset_01JJJ3ADC8M7XGCZZMMHM6QDN7	usd	{"value": "1100", "precision": 20}	0	2025-01-26 20:02:18.12+00	2025-01-26 20:02:18.12+00	\N	\N	1100	\N	\N
-price_01JJJ3ADC8NQ40YTE5JEW5DZ4D	\N	pset_01JJJ3ADC8F2NM89YM1KWJP4W3	eur	{"value": "900", "precision": 20}	0	2025-01-26 20:02:18.12+00	2025-01-26 20:02:18.12+00	\N	\N	900	\N	\N
-price_01JJJ3ADC8X8ZTXYBJ33D5D6K1	\N	pset_01JJJ3ADC8F2NM89YM1KWJP4W3	usd	{"value": "1100", "precision": 20}	0	2025-01-26 20:02:18.12+00	2025-01-26 20:02:18.12+00	\N	\N	1100	\N	\N
-price_01JJJ3ADC835AH59W0ZXZ1ADGR	\N	pset_01JJJ3ADC82R99ATZS1RR4Y24T	eur	{"value": "1200", "precision": 20}	0	2025-01-26 20:02:18.12+00	2025-01-26 20:02:18.12+00	\N	\N	1200	\N	\N
-price_01JJJ3ADC8R5765HHQZA70Q5ZN	\N	pset_01JJJ3ADC82R99ATZS1RR4Y24T	usd	{"value": "1400", "precision": 20}	0	2025-01-26 20:02:18.12+00	2025-01-26 20:02:18.12+00	\N	\N	1400	\N	\N
-price_01JJJ3BJ9AEACH13VANGXGSQS1	\N	pset_01JJJ3BJ9AJ4Z7T3ADEXY3HXVM	eur	{"value": "1200", "precision": 20}	0	2025-01-26 20:02:55.915+00	2025-01-26 20:02:55.915+00	\N	\N	1200	\N	\N
-price_01JJJ3BJ9APYE28E1GK9VQ01KB	\N	pset_01JJJ3BJ9AJ4Z7T3ADEXY3HXVM	usd	{"value": "1400", "precision": 20}	0	2025-01-26 20:02:55.915+00	2025-01-26 20:02:55.915+00	\N	\N	1400	\N	\N
-price_01JJJ3BJ9AD1BTDCHRT2WKWN43	\N	pset_01JJJ3BJ9A4ANBNPZ7DXA5BSJT	eur	{"value": "900", "precision": 20}	0	2025-01-26 20:02:55.915+00	2025-01-26 20:02:55.915+00	\N	\N	900	\N	\N
-price_01JJJ3BJ9A2TFH27NW5MVDRAWY	\N	pset_01JJJ3BJ9A4ANBNPZ7DXA5BSJT	usd	{"value": "1100", "precision": 20}	0	2025-01-26 20:02:55.915+00	2025-01-26 20:02:55.915+00	\N	\N	1100	\N	\N
-price_01JJJ3BJ9AV7FKVAE5WZEVSRFQ	\N	pset_01JJJ3BJ9AD8PVH1CQ7E3Q0CQV	eur	{"value": "900", "precision": 20}	0	2025-01-26 20:02:55.915+00	2025-01-26 20:02:55.915+00	\N	\N	900	\N	\N
-price_01JJJ3BJ9AKNCNDD2WV43YM2VX	\N	pset_01JJJ3BJ9AD8PVH1CQ7E3Q0CQV	usd	{"value": "1100", "precision": 20}	0	2025-01-26 20:02:55.915+00	2025-01-26 20:02:55.915+00	\N	\N	1100	\N	\N
-price_01JJJ3BMGH07EQW3HHJS3H6DXZ	\N	pset_01JJJ3BMGHR1YV572A5MSDTB47	eur	{"value": "1500", "precision": 20}	0	2025-01-26 20:02:58.194+00	2025-01-26 20:02:58.194+00	\N	\N	1500	\N	\N
-price_01JJJ3BMGHF53BCY1006PVW61G	\N	pset_01JJJ3BMGHR1YV572A5MSDTB47	usd	{"value": "1700", "precision": 20}	0	2025-01-26 20:02:58.194+00	2025-01-26 20:02:58.194+00	\N	\N	1700	\N	\N
-price_01JJJ3BMGHY0W92EQQP1N633XB	\N	pset_01JJJ3BMGJHCES3V0FJFQB34SD	eur	{"value": "2000", "precision": 20}	0	2025-01-26 20:02:58.194+00	2025-01-26 20:02:58.194+00	\N	\N	2000	\N	\N
-price_01JJJ3BMGJFY4AQZ3FVH8QET27	\N	pset_01JJJ3BMGJHCES3V0FJFQB34SD	usd	{"value": "2200", "precision": 20}	0	2025-01-26 20:02:58.194+00	2025-01-26 20:02:58.194+00	\N	\N	2200	\N	\N
-price_01JJJ3BMGJ1DT2N624H86NQXPJ	\N	pset_01JJJ3BMGJGWETE2QJMV01JC7W	eur	{"value": "2000", "precision": 20}	0	2025-01-26 20:02:58.194+00	2025-01-26 20:02:58.194+00	\N	\N	2000	\N	\N
-price_01JJJ3BMGJS3QQ7HB0V9GJ9Q0D	\N	pset_01JJJ3BMGJGWETE2QJMV01JC7W	usd	{"value": "2200", "precision": 20}	0	2025-01-26 20:02:58.194+00	2025-01-26 20:02:58.194+00	\N	\N	2200	\N	\N
-price_01JJJ3BQ54G5JXAZHWJTAS3S05	\N	pset_01JJJ3BQ54ECFJKKC8MMC4VJDY	eur	{"value": "1500", "precision": 20}	0	2025-01-26 20:03:00.9+00	2025-01-26 20:03:00.9+00	\N	\N	1500	\N	\N
-price_01JJJ3BQ546GVNGHME0HF5MDWS	\N	pset_01JJJ3BQ54ECFJKKC8MMC4VJDY	usd	{"value": "1700", "precision": 20}	0	2025-01-26 20:03:00.9+00	2025-01-26 20:03:00.9+00	\N	\N	1700	\N	\N
-price_01JJJ3BQ545A31QGK6HBAFNV72	\N	pset_01JJJ3BQ54J74HDFF872Y3ECE2	eur	{"value": "2000", "precision": 20}	0	2025-01-26 20:03:00.9+00	2025-01-26 20:03:00.9+00	\N	\N	2000	\N	\N
-price_01JJJ3BQ549E09AMBN0GM7R3CA	\N	pset_01JJJ3BQ54J74HDFF872Y3ECE2	usd	{"value": "2200", "precision": 20}	0	2025-01-26 20:03:00.9+00	2025-01-26 20:03:00.9+00	\N	\N	2200	\N	\N
-price_01JJJ3BS6232Q3CS47CNF3E7RR	\N	pset_01JJJ3BS62WNXNAKMBC6ST3V75	eur	{"value": "1300", "precision": 20}	0	2025-01-26 20:03:02.978+00	2025-01-26 20:03:02.978+00	\N	\N	1300	\N	\N
-price_01JJJ3BS62A8957AKGND2VYZKZ	\N	pset_01JJJ3BS62WNXNAKMBC6ST3V75	usd	{"value": "1500", "precision": 20}	0	2025-01-26 20:03:02.978+00	2025-01-26 20:03:02.978+00	\N	\N	1500	\N	\N
-price_01JJJ3BS622M8QJFPEWFF36X7H	\N	pset_01JJJ3BS62JK309PBVG0ZGA45B	eur	{"value": "1100", "precision": 20}	0	2025-01-26 20:03:02.978+00	2025-01-26 20:03:02.978+00	\N	\N	1100	\N	\N
-price_01JJJ3BS622TX9GQXTZKT2T635	\N	pset_01JJJ3BS62JK309PBVG0ZGA45B	usd	{"value": "1300", "precision": 20}	0	2025-01-26 20:03:02.978+00	2025-01-26 20:03:02.978+00	\N	\N	1300	\N	\N
-price_01JJJ3BV60YMQYSK19TXQNVKAZ	\N	pset_01JJJ3BV60VVZQD96E9CGS92Q9	eur	{"value": "1500", "precision": 20}	0	2025-01-26 20:03:05.025+00	2025-01-26 20:03:05.025+00	\N	\N	1500	\N	\N
-price_01JJJ3BV60FCHPF755FKKAMYJ3	\N	pset_01JJJ3BV60VVZQD96E9CGS92Q9	usd	{"value": "1700", "precision": 20}	0	2025-01-26 20:03:05.025+00	2025-01-26 20:03:05.025+00	\N	\N	1700	\N	\N
-price_01JJJ3BV603PYR8HFSV3AMHX5V	\N	pset_01JJJ3BV608AEH330JK0591BXJ	eur	{"value": "2000", "precision": 20}	0	2025-01-26 20:03:05.025+00	2025-01-26 20:03:05.025+00	\N	\N	2000	\N	\N
-price_01JJJ3BV608B24B0NE1H8SHEB0	\N	pset_01JJJ3BV608AEH330JK0591BXJ	usd	{"value": "2200", "precision": 20}	0	2025-01-26 20:03:05.025+00	2025-01-26 20:03:05.025+00	\N	\N	2200	\N	\N
+price_01JJJ381ANGAKNE6VJVC308PN4	\N	pset_01JJJ381ANB73NC5C6R04ZM9V3	eur	{"value": "1500", "precision": 20}	0	2025-01-26 20:01:00.246+00	2025-03-02 15:43:05.115+00	2025-03-02 15:43:05.101+00	\N	1500	\N	\N
+price_01JJJ383CZ15PQNVBX3BABR3J0	\N	pset_01JJJ383CZP33VKRHXKXGYW89Z	eur	{"value": "1500", "precision": 20}	0	2025-01-26 20:01:02.368+00	2025-03-02 15:43:07.818+00	2025-03-02 15:43:07.809+00	\N	1500	\N	\N
+price_01JJJ383CZ5N69K5981NH88C1C	\N	pset_01JJJ383CZP33VKRHXKXGYW89Z	usd	{"value": "1700", "precision": 20}	0	2025-01-26 20:01:02.368+00	2025-03-02 15:43:07.822+00	2025-03-02 15:43:07.809+00	\N	1700	\N	\N
+price_01JJJ383CZC1TMD0N414NNXDGV	\N	pset_01JJJ383D093EQAPA5CQ6V330D	eur	{"value": "2000", "precision": 20}	0	2025-01-26 20:01:02.368+00	2025-03-02 15:43:07.833+00	2025-03-02 15:43:07.809+00	\N	2000	\N	\N
+price_01JJJ385BP39CPME6K2M5EGRK1	\N	pset_01JJJ385BPBD48EF6PAHF85PP2	eur	{"value": "1500", "precision": 20}	0	2025-01-26 20:01:04.374+00	2025-03-02 15:43:11.413+00	2025-03-02 15:43:11.403+00	\N	1500	\N	\N
+price_01JJJ385BPEFPWFRQ3J4SZBQVJ	\N	pset_01JJJ385BPBD48EF6PAHF85PP2	usd	{"value": "1700", "precision": 20}	0	2025-01-26 20:01:04.374+00	2025-03-02 15:43:11.418+00	2025-03-02 15:43:11.403+00	\N	1700	\N	\N
+price_01JJJ385BPN435NSH380CRQX5W	\N	pset_01JJJ385BPFBD705K1YG0XD2BZ	eur	{"value": "2000", "precision": 20}	0	2025-01-26 20:01:04.374+00	2025-03-02 15:43:11.44+00	2025-03-02 15:43:11.403+00	\N	2000	\N	\N
+price_01JJJ398W96X89E8WRH6XZF1BH	\N	pset_01JJJ398W9FDD92D8T7MAXSFQR	eur	{"value": "1200", "precision": 20}	0	2025-01-26 20:01:40.746+00	2025-03-02 15:43:13.836+00	2025-03-02 15:43:13.827+00	\N	1200	\N	\N
+price_01JJJ398W9MZS1X0K2M7FPHG9Q	\N	pset_01JJJ398W9FDD92D8T7MAXSFQR	usd	{"value": "1400", "precision": 20}	0	2025-01-26 20:01:40.746+00	2025-03-02 15:43:13.84+00	2025-03-02 15:43:13.827+00	\N	1400	\N	\N
+price_01JJJ398W9Z5J86BPPS2FX2W4Z	\N	pset_01JJJ398W9VHC8P8SJPFTFH5RG	eur	{"value": "1000", "precision": 20}	0	2025-01-26 20:01:40.746+00	2025-03-02 15:43:13.85+00	2025-03-02 15:43:13.827+00	\N	1000	\N	\N
+price_01JJJ398W99S9VPSZXXFA6JR6K	\N	pset_01JJJ398W9VHC8P8SJPFTFH5RG	usd	{"value": "1200", "precision": 20}	0	2025-01-26 20:01:40.746+00	2025-03-02 15:43:13.853+00	2025-03-02 15:43:13.827+00	\N	1200	\N	\N
+price_01JJJ39B7TSEE3RAF2EDPZK0M8	\N	pset_01JJJ39B7T91MBD5APD2CADG6H	eur	{"value": "1500", "precision": 20}	0	2025-01-26 20:01:43.163+00	2025-03-02 15:43:16.397+00	2025-03-02 15:43:16.379+00	\N	1500	\N	\N
+price_01JJJ39B7T9TGRPBMX5H1M1K3B	\N	pset_01JJJ39B7T91MBD5APD2CADG6H	usd	{"value": "1700", "precision": 20}	0	2025-01-26 20:01:43.163+00	2025-03-02 15:43:16.403+00	2025-03-02 15:43:16.379+00	\N	1700	\N	\N
+price_01JJJ39B7T3AJGX3SPQYJ6J83F	\N	pset_01JJJ39B7TGQ0954YBZX7Y20H7	eur	{"value": "2000", "precision": 20}	0	2025-01-26 20:01:43.163+00	2025-03-02 15:43:16.421+00	2025-03-02 15:43:16.379+00	\N	2000	\N	\N
+price_01JJJ39B7T372TZH1CMNCCPH0J	\N	pset_01JJJ39B7TGQ0954YBZX7Y20H7	usd	{"value": "2200", "precision": 20}	0	2025-01-26 20:01:43.163+00	2025-03-02 15:43:16.424+00	2025-03-02 15:43:16.379+00	\N	2200	\N	\N
+price_01JJJ39DC75K76JGAC5PYJYJCJ	\N	pset_01JJJ39DC71MB2XZWTJT9WEEMW	eur	{"value": "1200", "precision": 20}	0	2025-01-26 20:01:45.352+00	2025-03-02 15:43:19.383+00	2025-03-02 15:43:19.376+00	\N	1200	\N	\N
+price_01JJJ39DC7RTE93SAXHSBQXY15	\N	pset_01JJJ39DC71MB2XZWTJT9WEEMW	usd	{"value": "1400", "precision": 20}	0	2025-01-26 20:01:45.352+00	2025-03-02 15:43:19.385+00	2025-03-02 15:43:19.376+00	\N	1400	\N	\N
+price_01JJJ39DC7TEHRYX8V6MMB0D81	\N	pset_01JJJ39DC72AYANW3V6AN7FS1K	eur	{"value": "1200", "precision": 20}	0	2025-01-26 20:01:45.352+00	2025-03-02 15:43:19.394+00	2025-03-02 15:43:19.376+00	\N	1200	\N	\N
+price_01JJJ39DC7ZFAYNCETNWV3CEKW	\N	pset_01JJJ39DC72AYANW3V6AN7FS1K	usd	{"value": "1400", "precision": 20}	0	2025-01-26 20:01:45.352+00	2025-03-02 15:43:19.398+00	2025-03-02 15:43:19.376+00	\N	1400	\N	\N
+price_01JJJ3A92XC352T7T9MYM0K02B	\N	pset_01JJJ3A92X0RDRNBR38K3N76KK	eur	{"value": "2000", "precision": 20}	0	2025-01-26 20:02:13.726+00	2025-03-02 15:43:24.737+00	2025-03-02 15:43:24.731+00	\N	2000	\N	\N
+price_01JJJ3A92X0FCT72P7306Z9CVB	\N	pset_01JJJ3A92X0RDRNBR38K3N76KK	usd	{"value": "2200", "precision": 20}	0	2025-01-26 20:02:13.726+00	2025-03-02 15:43:24.74+00	2025-03-02 15:43:24.731+00	\N	2200	\N	\N
+price_01JJJ3ABGD30SEPVFE17S6A0E3	\N	pset_01JJJ3ABGEDYKZ83H7R3E0E5RV	eur	{"value": "1500", "precision": 20}	0	2025-01-26 20:02:16.206+00	2025-03-02 15:43:27.898+00	2025-03-02 15:43:27.889+00	\N	1500	\N	\N
+price_01JJJ3ABGDZWCVB0WD40YGTJW2	\N	pset_01JJJ3ABGEDYKZ83H7R3E0E5RV	usd	{"value": "1700", "precision": 20}	0	2025-01-26 20:02:16.206+00	2025-03-02 15:43:27.902+00	2025-03-02 15:43:27.889+00	\N	1700	\N	\N
+price_01JJJ3ABGESH5NP1YGFZ94C665	\N	pset_01JJJ3ABGEEEKQD9GGGKVXX6BX	eur	{"value": "2000", "precision": 20}	0	2025-01-26 20:02:16.206+00	2025-03-02 15:43:27.909+00	2025-03-02 15:43:27.889+00	\N	2000	\N	\N
+price_01JJJ3ADC835AH59W0ZXZ1ADGR	\N	pset_01JJJ3ADC82R99ATZS1RR4Y24T	eur	{"value": "1200", "precision": 20}	0	2025-01-26 20:02:18.12+00	2025-03-02 15:43:35.504+00	2025-03-02 15:43:35.495+00	\N	1200	\N	\N
+price_01JJJ3ADC8R5765HHQZA70Q5ZN	\N	pset_01JJJ3ADC82R99ATZS1RR4Y24T	usd	{"value": "1400", "precision": 20}	0	2025-01-26 20:02:18.12+00	2025-03-02 15:43:35.508+00	2025-03-02 15:43:35.495+00	\N	1400	\N	\N
+price_01JJJ3ADC8NQ40YTE5JEW5DZ4D	\N	pset_01JJJ3ADC8F2NM89YM1KWJP4W3	eur	{"value": "900", "precision": 20}	0	2025-01-26 20:02:18.12+00	2025-03-02 15:43:35.517+00	2025-03-02 15:43:35.495+00	\N	900	\N	\N
+price_01JJJ3ADC8X8ZTXYBJ33D5D6K1	\N	pset_01JJJ3ADC8F2NM89YM1KWJP4W3	usd	{"value": "1100", "precision": 20}	0	2025-01-26 20:02:18.12+00	2025-03-02 15:43:35.521+00	2025-03-02 15:43:35.495+00	\N	1100	\N	\N
+price_01JJJ3BJ9AD1BTDCHRT2WKWN43	\N	pset_01JJJ3BJ9A4ANBNPZ7DXA5BSJT	eur	{"value": "900", "precision": 20}	0	2025-01-26 20:02:55.915+00	2025-03-02 15:43:39.917+00	2025-03-02 15:43:39.907+00	\N	900	\N	\N
+price_01JJJ3BJ9A2TFH27NW5MVDRAWY	\N	pset_01JJJ3BJ9A4ANBNPZ7DXA5BSJT	usd	{"value": "1100", "precision": 20}	0	2025-01-26 20:02:55.915+00	2025-03-02 15:43:39.921+00	2025-03-02 15:43:39.907+00	\N	1100	\N	\N
+price_01JJJ3BJ9AV7FKVAE5WZEVSRFQ	\N	pset_01JJJ3BJ9AD8PVH1CQ7E3Q0CQV	eur	{"value": "900", "precision": 20}	0	2025-01-26 20:02:55.915+00	2025-03-02 15:43:39.931+00	2025-03-02 15:43:39.907+00	\N	900	\N	\N
+price_01JJJ3BJ9AKNCNDD2WV43YM2VX	\N	pset_01JJJ3BJ9AD8PVH1CQ7E3Q0CQV	usd	{"value": "1100", "precision": 20}	0	2025-01-26 20:02:55.915+00	2025-03-02 15:43:39.934+00	2025-03-02 15:43:39.907+00	\N	1100	\N	\N
+price_01JJJ3BMGH07EQW3HHJS3H6DXZ	\N	pset_01JJJ3BMGHR1YV572A5MSDTB47	eur	{"value": "1500", "precision": 20}	0	2025-01-26 20:02:58.194+00	2025-03-02 15:43:42.68+00	2025-03-02 15:43:42.65+00	\N	1500	\N	\N
+price_01JJJ3BMGHF53BCY1006PVW61G	\N	pset_01JJJ3BMGHR1YV572A5MSDTB47	usd	{"value": "1700", "precision": 20}	0	2025-01-26 20:02:58.194+00	2025-03-02 15:43:42.682+00	2025-03-02 15:43:42.65+00	\N	1700	\N	\N
+price_01JJJ3BMGJ1DT2N624H86NQXPJ	\N	pset_01JJJ3BMGJGWETE2QJMV01JC7W	eur	{"value": "2000", "precision": 20}	0	2025-01-26 20:02:58.194+00	2025-03-02 15:43:42.688+00	2025-03-02 15:43:42.65+00	\N	2000	\N	\N
+price_01JJJ3BMGJS3QQ7HB0V9GJ9Q0D	\N	pset_01JJJ3BMGJGWETE2QJMV01JC7W	usd	{"value": "2200", "precision": 20}	0	2025-01-26 20:02:58.194+00	2025-03-02 15:43:42.689+00	2025-03-02 15:43:42.65+00	\N	2200	\N	\N
+price_01JJJ3BMGHY0W92EQQP1N633XB	\N	pset_01JJJ3BMGJHCES3V0FJFQB34SD	eur	{"value": "2000", "precision": 20}	0	2025-01-26 20:02:58.194+00	2025-03-02 15:43:42.694+00	2025-03-02 15:43:42.65+00	\N	2000	\N	\N
+price_01JJJ3BQ54G5JXAZHWJTAS3S05	\N	pset_01JJJ3BQ54ECFJKKC8MMC4VJDY	eur	{"value": "1500", "precision": 20}	0	2025-01-26 20:03:00.9+00	2025-03-02 15:43:45.644+00	2025-03-02 15:43:45.635+00	\N	1500	\N	\N
+price_01JJJ3BQ546GVNGHME0HF5MDWS	\N	pset_01JJJ3BQ54ECFJKKC8MMC4VJDY	usd	{"value": "1700", "precision": 20}	0	2025-01-26 20:03:00.9+00	2025-03-02 15:43:45.648+00	2025-03-02 15:43:45.635+00	\N	1700	\N	\N
+price_01JJJ3BQ545A31QGK6HBAFNV72	\N	pset_01JJJ3BQ54J74HDFF872Y3ECE2	eur	{"value": "2000", "precision": 20}	0	2025-01-26 20:03:00.9+00	2025-03-02 15:43:45.658+00	2025-03-02 15:43:45.635+00	\N	2000	\N	\N
+price_01JJJ3BQ549E09AMBN0GM7R3CA	\N	pset_01JJJ3BQ54J74HDFF872Y3ECE2	usd	{"value": "2200", "precision": 20}	0	2025-01-26 20:03:00.9+00	2025-03-02 15:43:45.663+00	2025-03-02 15:43:45.635+00	\N	2200	\N	\N
+price_01JJJ3BS622M8QJFPEWFF36X7H	\N	pset_01JJJ3BS62JK309PBVG0ZGA45B	eur	{"value": "1100", "precision": 20}	0	2025-01-26 20:03:02.978+00	2025-03-02 15:43:48.122+00	2025-03-02 15:43:48.113+00	\N	1100	\N	\N
+price_01JJJ3BS622TX9GQXTZKT2T635	\N	pset_01JJJ3BS62JK309PBVG0ZGA45B	usd	{"value": "1300", "precision": 20}	0	2025-01-26 20:03:02.978+00	2025-03-02 15:43:48.125+00	2025-03-02 15:43:48.113+00	\N	1300	\N	\N
+price_01JJJ3BV60YMQYSK19TXQNVKAZ	\N	pset_01JJJ3BV60VVZQD96E9CGS92Q9	eur	{"value": "1500", "precision": 20}	0	2025-01-26 20:03:05.025+00	2025-03-02 15:43:50.345+00	2025-03-02 15:43:50.315+00	\N	1500	\N	\N
+price_01JJJ3BS6232Q3CS47CNF3E7RR	\N	pset_01JJJ3BS62WNXNAKMBC6ST3V75	eur	{"value": "1300", "precision": 20}	0	2025-01-26 20:03:02.978+00	2025-03-02 15:43:48.135+00	2025-03-02 15:43:48.113+00	\N	1300	\N	\N
+price_01JJJ3BS62A8957AKGND2VYZKZ	\N	pset_01JJJ3BS62WNXNAKMBC6ST3V75	usd	{"value": "1500", "precision": 20}	0	2025-01-26 20:03:02.978+00	2025-03-02 15:43:48.14+00	2025-03-02 15:43:48.113+00	\N	1500	\N	\N
 price_01JJJGFKE5KCC6FJ06XMQTRR4W	\N	pset_01JJJGFKE5AWMRYRV2CZ1NDT7E	eur	{"value": "75", "precision": 20}	0	2025-01-26 23:52:19.66+00	2025-01-26 23:59:45.866+00	2025-01-26 23:59:45.858+00	\N	75	\N	\N
-price_01JJJ54DTHV18J4V802JDRSEA6	\N	pset_01JJJ54DTHCD1KKP03K3VRYCQD	eur	{"value": "1232", "precision": 20}	1	2025-01-26 20:33:59.122+00	2025-01-26 20:33:59.122+00	\N	\N	1232	\N	\N
-price_01JJJ54DTHM7DW4GS8E4951H39	\N	pset_01JJJ54DTHCD1KKP03K3VRYCQD	eur	{"value": "23434", "precision": 20}	0	2025-01-26 20:33:59.122+00	2025-01-26 20:33:59.122+00	\N	\N	23434	\N	\N
-price_01JJJ54DTHSPEYYX6450F8103X	\N	pset_01JJJ54DTHCD1KKP03K3VRYCQD	usd	{"value": "12312", "precision": 20}	0	2025-01-26 20:33:59.122+00	2025-01-26 20:33:59.122+00	\N	\N	12312	\N	\N
 price_01JJJGZ92GASQ33C2A2CT9D4DW	\N	pset_01JJJGZ92GCH60BG4PWJX7DGYT	eur	{"value": "75", "precision": 20}	0	2025-01-27 00:00:53.335+00	2025-01-27 02:16:46.016+00	2025-01-27 02:16:45.969+00	\N	75	\N	\N
 price_01JJJGZ92GZ084S83A7TEE3E8W	\N	pset_01JJJGZ92GHX7H1N0R2F1YHQ2Q	eur	{"value": "75", "precision": 20}	0	2025-01-27 00:00:53.335+00	2025-01-27 02:16:46.024+00	2025-01-27 02:16:45.969+00	\N	75	\N	\N
 price_01JJJGZ92GY1Y2A4W1ZV32X9EV	\N	pset_01JJJGZ92GA0RE305QBYQJN2TJ	eur	{"value": "75", "precision": 20}	0	2025-01-27 00:00:53.335+00	2025-01-27 02:16:46.033+00	2025-01-27 02:16:45.969+00	\N	75	\N	\N
@@ -6681,6 +6644,43 @@ price_01JJTE6QH8N6DS0Z1YWF2GYGPG	\N	pset_01JJTE6QH8C9KQEWQRBWRX3J5R	eur	{"value"
 price_01JJTE6QH84AZTNYCR7F78FMVP	\N	pset_01JJTE6QH8DM96TM2SG2Z77C4B	eur	{"value": "75", "precision": 20}	0	2025-01-30 01:46:27.243+00	2025-01-30 01:46:27.243+00	\N	\N	75	\N	\N
 price_01JJTE6QH8W4B1AY7DBMD2JQTY	\N	pset_01JJTE6QH8S1RRRCPDRJX18PRV	eur	{"value": "75", "precision": 20}	0	2025-01-30 01:46:27.243+00	2025-01-30 01:46:27.243+00	\N	\N	75	\N	\N
 price_01JJTE6QH836ASGEXRWXHBE3VK	\N	pset_01JJTE6QH82V6NQXZAC6YRVVXK	eur	{"value": "75", "precision": 20}	0	2025-01-30 01:46:27.243+00	2025-01-30 01:46:27.243+00	\N	\N	75	\N	\N
+price_01JJJ37ZG693H50W9SFW1M68CJ	\N	pset_01JJJ37ZG7PZ5502M9YD76J199	eur	{"value": "1500", "precision": 20}	0	2025-01-26 20:00:58.375+00	2025-03-02 15:43:02.31+00	2025-03-02 15:43:02.297+00	\N	1500	\N	\N
+price_01JJJ37ZG6T0GSVVE3BZCHBMTW	\N	pset_01JJJ37ZG7PZ5502M9YD76J199	usd	{"value": "1700", "precision": 20}	0	2025-01-26 20:00:58.375+00	2025-03-02 15:43:02.314+00	2025-03-02 15:43:02.297+00	\N	1700	\N	\N
+price_01JJJ37ZG7PA9FZZQ851JKFNPW	\N	pset_01JJJ37ZG7QTDF28Z5APZZ8WBC	eur	{"value": "2000", "precision": 20}	0	2025-01-26 20:00:58.375+00	2025-03-02 15:43:02.324+00	2025-03-02 15:43:02.297+00	\N	2000	\N	\N
+price_01JJJ37ZG7YGWZZ3C4J7Z3AS1T	\N	pset_01JJJ37ZG7QTDF28Z5APZZ8WBC	usd	{"value": "2200", "precision": 20}	0	2025-01-26 20:00:58.375+00	2025-03-02 15:43:02.326+00	2025-03-02 15:43:02.297+00	\N	2200	\N	\N
+price_01JJJ381ANDJ67YQTTAM6GSX34	\N	pset_01JJJ381ANB73NC5C6R04ZM9V3	usd	{"value": "1700", "precision": 20}	0	2025-01-26 20:01:00.246+00	2025-03-02 15:43:05.119+00	2025-03-02 15:43:05.101+00	\N	1700	\N	\N
+price_01JJJ381AN3MBSMWJ4ZDQGFDYY	\N	pset_01JJJ381AP4G4Z9EHJSK986862	eur	{"value": "1500", "precision": 20}	0	2025-01-26 20:01:00.246+00	2025-03-02 15:43:05.129+00	2025-03-02 15:43:05.101+00	\N	1500	\N	\N
+price_01JJJ381ANM004JZXFVJA1BPCQ	\N	pset_01JJJ381AP4G4Z9EHJSK986862	usd	{"value": "1700", "precision": 20}	0	2025-01-26 20:01:00.246+00	2025-03-02 15:43:05.133+00	2025-03-02 15:43:05.101+00	\N	1700	\N	\N
+price_01JJJ381AP731D3PCC8VYD9PPC	\N	pset_01JJJ381APJKYXK8X7HR35F276	eur	{"value": "2000", "precision": 20}	0	2025-01-26 20:01:00.246+00	2025-03-02 15:43:05.143+00	2025-03-02 15:43:05.101+00	\N	2000	\N	\N
+price_01JJJ381AP6MKXGT19QZKYHEC8	\N	pset_01JJJ381APJKYXK8X7HR35F276	usd	{"value": "2200", "precision": 20}	0	2025-01-26 20:01:00.246+00	2025-03-02 15:43:05.148+00	2025-03-02 15:43:05.101+00	\N	2200	\N	\N
+price_01JJJ383D0WNSJQ9V2QSGYBHTR	\N	pset_01JJJ383D093EQAPA5CQ6V330D	usd	{"value": "2200", "precision": 20}	0	2025-01-26 20:01:02.368+00	2025-03-02 15:43:07.836+00	2025-03-02 15:43:07.809+00	\N	2200	\N	\N
+price_01JJJ385BPSASMF8961JVPM1PT	\N	pset_01JJJ385BPFBD705K1YG0XD2BZ	usd	{"value": "2200", "precision": 20}	0	2025-01-26 20:01:04.374+00	2025-03-02 15:43:11.442+00	2025-03-02 15:43:11.403+00	\N	2200	\N	\N
+price_01JJJ39B7TRYN2XKCD4TVG6XK7	\N	pset_01JJJ39B7TXQKCEQNX7YMT3JJJ	eur	{"value": "2000", "precision": 20}	0	2025-01-26 20:01:43.163+00	2025-03-02 15:43:16.433+00	2025-03-02 15:43:16.379+00	\N	2000	\N	\N
+price_01JJJ39B7TMK28G62SE5XAXTD2	\N	pset_01JJJ39B7TXQKCEQNX7YMT3JJJ	usd	{"value": "2200", "precision": 20}	0	2025-01-26 20:01:43.163+00	2025-03-02 15:43:16.437+00	2025-03-02 15:43:16.379+00	\N	2200	\N	\N
+price_01JJJ39DC71C0K43VZSPJB407D	\N	pset_01JJJ39DC7J7W7PTH1Z2G6FFW9	eur	{"value": "1800", "precision": 20}	0	2025-01-26 20:01:45.352+00	2025-03-02 15:43:19.407+00	2025-03-02 15:43:19.376+00	\N	1800	\N	\N
+price_01JJJ39DC7NVR2G9TTJCMP1F5G	\N	pset_01JJJ39DC7J7W7PTH1Z2G6FFW9	usd	{"value": "2000", "precision": 20}	0	2025-01-26 20:01:45.352+00	2025-03-02 15:43:19.411+00	2025-03-02 15:43:19.376+00	\N	2000	\N	\N
+price_01JJJ3A6GP4C70RGWXG6CEYY5J	\N	pset_01JJJ3A6GP8ZHGXHEF05Q8SBKF	eur	{"value": "2000", "precision": 20}	0	2025-01-26 20:02:11.094+00	2025-03-02 15:43:21.989+00	2025-03-02 15:43:21.979+00	\N	2000	\N	\N
+price_01JJJ3A6GP542DNCZ8C2EAX5M7	\N	pset_01JJJ3A6GP8ZHGXHEF05Q8SBKF	usd	{"value": "2200", "precision": 20}	0	2025-01-26 20:02:11.094+00	2025-03-02 15:43:21.992+00	2025-03-02 15:43:21.979+00	\N	2200	\N	\N
+price_01JJJ3A92X4TJHVPVMZ6H9QNFC	\N	pset_01JJJ3A92X1DF6QJ9JMPRHV72C	eur	{"value": "2000", "precision": 20}	0	2025-01-26 20:02:13.726+00	2025-03-02 15:43:24.746+00	2025-03-02 15:43:24.731+00	\N	2000	\N	\N
+price_01JJJ3A6GNGXQZ5NZWTVNFAZY7	\N	pset_01JJJ3A6GPGZFZQE4M0XPS7F79	eur	{"value": "1500", "precision": 20}	0	2025-01-26 20:02:11.094+00	2025-03-02 15:43:22.003+00	2025-03-02 15:43:21.979+00	\N	1500	\N	\N
+price_01JJJ3A6GP75N8JV6DFEJHYF17	\N	pset_01JJJ3A6GPGZFZQE4M0XPS7F79	usd	{"value": "1700", "precision": 20}	0	2025-01-26 20:02:11.094+00	2025-03-02 15:43:22.006+00	2025-03-02 15:43:21.979+00	\N	1700	\N	\N
+price_01JJJ3A6GPXCP8QY23CS7SCJDY	\N	pset_01JJJ3A6GPM445RAFR4V2M2FXK	eur	{"value": "2000", "precision": 20}	0	2025-01-26 20:02:11.094+00	2025-03-02 15:43:22.017+00	2025-03-02 15:43:21.979+00	\N	2000	\N	\N
+price_01JJJ3A6GP9WBC7VE6QR03AB5E	\N	pset_01JJJ3A6GPM445RAFR4V2M2FXK	usd	{"value": "2200", "precision": 20}	0	2025-01-26 20:02:11.094+00	2025-03-02 15:43:22.022+00	2025-03-02 15:43:21.979+00	\N	2200	\N	\N
+price_01JJJ3ABGET8S0ZNQJ56D3M7EX	\N	pset_01JJJ3ABGEEEKQD9GGGKVXX6BX	usd	{"value": "2200", "precision": 20}	0	2025-01-26 20:02:16.206+00	2025-03-02 15:43:27.913+00	2025-03-02 15:43:27.889+00	\N	2200	\N	\N
+price_01JJJ3BJ9AEACH13VANGXGSQS1	\N	pset_01JJJ3BJ9AJ4Z7T3ADEXY3HXVM	eur	{"value": "1200", "precision": 20}	0	2025-01-26 20:02:55.915+00	2025-03-02 15:43:39.942+00	2025-03-02 15:43:39.907+00	\N	1200	\N	\N
+price_01JJJ3BJ9APYE28E1GK9VQ01KB	\N	pset_01JJJ3BJ9AJ4Z7T3ADEXY3HXVM	usd	{"value": "1400", "precision": 20}	0	2025-01-26 20:02:55.915+00	2025-03-02 15:43:39.946+00	2025-03-02 15:43:39.907+00	\N	1400	\N	\N
+price_01JJJ3A92XYMSMKAJCM0MV3MX2	\N	pset_01JJJ3A92X1DF6QJ9JMPRHV72C	usd	{"value": "2200", "precision": 20}	0	2025-01-26 20:02:13.726+00	2025-03-02 15:43:24.748+00	2025-03-02 15:43:24.731+00	\N	2200	\N	\N
+price_01JJJ3A92X097C0G9RHSTHRVKS	\N	pset_01JJJ3A92XFQBZ6CB26P6F3DVX	eur	{"value": "1500", "precision": 20}	0	2025-01-26 20:02:13.726+00	2025-03-02 15:43:24.754+00	2025-03-02 15:43:24.731+00	\N	1500	\N	\N
+price_01JJJ3A92X0XMK98JE5TQJ7SE4	\N	pset_01JJJ3A92XFQBZ6CB26P6F3DVX	usd	{"value": "1700", "precision": 20}	0	2025-01-26 20:02:13.726+00	2025-03-02 15:43:24.756+00	2025-03-02 15:43:24.731+00	\N	1700	\N	\N
+price_01JJJ3ADC8XJQDBD4W9QZP3XY0	\N	pset_01JJJ3ADC8M7XGCZZMMHM6QDN7	eur	{"value": "900", "precision": 20}	0	2025-01-26 20:02:18.12+00	2025-03-02 15:43:35.528+00	2025-03-02 15:43:35.495+00	\N	900	\N	\N
+price_01JJJ3ADC8D48ANK3MB3NMX57A	\N	pset_01JJJ3ADC8M7XGCZZMMHM6QDN7	usd	{"value": "1100", "precision": 20}	0	2025-01-26 20:02:18.12+00	2025-03-02 15:43:35.531+00	2025-03-02 15:43:35.495+00	\N	1100	\N	\N
+price_01JJJ3BMGJFY4AQZ3FVH8QET27	\N	pset_01JJJ3BMGJHCES3V0FJFQB34SD	usd	{"value": "2200", "precision": 20}	0	2025-01-26 20:02:58.194+00	2025-03-02 15:43:42.696+00	2025-03-02 15:43:42.65+00	\N	2200	\N	\N
+price_01JJJ3BV603PYR8HFSV3AMHX5V	\N	pset_01JJJ3BV608AEH330JK0591BXJ	eur	{"value": "2000", "precision": 20}	0	2025-01-26 20:03:05.025+00	2025-03-02 15:43:50.328+00	2025-03-02 15:43:50.315+00	\N	2000	\N	\N
+price_01JJJ3BV608B24B0NE1H8SHEB0	\N	pset_01JJJ3BV608AEH330JK0591BXJ	usd	{"value": "2200", "precision": 20}	0	2025-01-26 20:03:05.025+00	2025-03-02 15:43:50.332+00	2025-03-02 15:43:50.315+00	\N	2200	\N	\N
+price_01JJJ3BV60FCHPF755FKKAMYJ3	\N	pset_01JJJ3BV60VVZQD96E9CGS92Q9	usd	{"value": "1700", "precision": 20}	0	2025-01-26 20:03:05.025+00	2025-03-02 15:43:50.35+00	2025-03-02 15:43:50.315+00	\N	1700	\N	\N
+price_01JJJ54DTHV18J4V802JDRSEA6	\N	pset_01JJJ54DTHCD1KKP03K3VRYCQD	eur	{"value": "1232", "precision": 20}	1	2025-01-26 20:33:59.122+00	2025-03-02 15:43:50.368+00	2025-03-02 15:43:50.315+00	\N	1232	\N	\N
+price_01JJJ54DTHM7DW4GS8E4951H39	\N	pset_01JJJ54DTHCD1KKP03K3VRYCQD	eur	{"value": "23434", "precision": 20}	0	2025-01-26 20:33:59.122+00	2025-03-02 15:43:50.373+00	2025-03-02 15:43:50.315+00	\N	23434	\N	\N
+price_01JJJ54DTHSPEYYX6450F8103X	\N	pset_01JJJ54DTHCD1KKP03K3VRYCQD	usd	{"value": "12312", "precision": 20}	0	2025-01-26 20:33:59.122+00	2025-03-02 15:43:50.377+00	2025-03-02 15:43:50.315+00	\N	12312	\N	\N
 \.
 
 
@@ -6719,7 +6719,7 @@ COPY public.price_rule (id, value, priority, price_id, created_at, updated_at, d
 prule_01JJJ35PVQPJJKKYW1REY3EKJT	reg_01JJJ35PQK0JK53D95PKE9TK1A	0	price_01JJJ35PVQVPHQXJVP7H6H211K	2025-01-26 19:59:43.992+00	2025-01-26 19:59:43.992+00	\N	region_id	eq
 prule_01JJJ35PVR54BQY2F2M27Y7M1T	reg_01JJJ35PQK0JK53D95PKE9TK1A	0	price_01JJJ35PVRKFFDC5TRQAHRJ3H9	2025-01-26 19:59:43.992+00	2025-01-26 19:59:43.992+00	\N	region_id	eq
 prule_01JJJ35PXF7AG9TS0SSKEB4VHR	reg_01JJJ35PQK0JK53D95PKE9TK1A	0	price_01JJJ35PXFK5RH3YR6T8VKN7DS	2025-01-26 19:59:44.047+00	2025-01-26 19:59:44.047+00	\N	region_id	eq
-prule_01JJJ5E6RV333PE4GA5MAP52MB	reg_01JJJ35PQK0JK53D95PKE9TK1A	0	price_01JJJ54DTHV18J4V802JDRSEA6	2025-01-26 20:39:19.572645+00	2025-01-26 20:39:19.572645+00	\N	region_id	eq
+prule_01JJJ5E6RV333PE4GA5MAP52MB	reg_01JJJ35PQK0JK53D95PKE9TK1A	0	price_01JJJ54DTHV18J4V802JDRSEA6	2025-01-26 20:39:19.572645+00	2025-03-02 15:43:50.368+00	2025-03-02 15:43:50.315+00	region_id	eq
 \.
 
 
@@ -6731,47 +6731,6 @@ COPY public.price_set (id, created_at, updated_at, deleted_at) FROM stdin;
 pset_01JJJ35PVQPGZ4DB58Y0SMAPJK	2025-01-26 19:59:43.992+00	2025-01-26 19:59:43.992+00	\N
 pset_01JJJ35PVR0X0T9FS8CKX8ZSJD	2025-01-26 19:59:43.992+00	2025-01-26 19:59:43.992+00	\N
 pset_01JJJ35PXFNWXTER6YTKWWVND1	2025-01-26 19:59:44.047+00	2025-01-26 19:59:44.047+00	\N
-pset_01JJJ37ZG7PZ5502M9YD76J199	2025-01-26 20:00:58.375+00	2025-01-26 20:00:58.375+00	\N
-pset_01JJJ37ZG7QTDF28Z5APZZ8WBC	2025-01-26 20:00:58.375+00	2025-01-26 20:00:58.375+00	\N
-pset_01JJJ381ANB73NC5C6R04ZM9V3	2025-01-26 20:01:00.246+00	2025-01-26 20:01:00.246+00	\N
-pset_01JJJ381AP4G4Z9EHJSK986862	2025-01-26 20:01:00.246+00	2025-01-26 20:01:00.246+00	\N
-pset_01JJJ381APJKYXK8X7HR35F276	2025-01-26 20:01:00.246+00	2025-01-26 20:01:00.246+00	\N
-pset_01JJJ383CZP33VKRHXKXGYW89Z	2025-01-26 20:01:02.368+00	2025-01-26 20:01:02.368+00	\N
-pset_01JJJ383D093EQAPA5CQ6V330D	2025-01-26 20:01:02.368+00	2025-01-26 20:01:02.368+00	\N
-pset_01JJJ385BPBD48EF6PAHF85PP2	2025-01-26 20:01:04.374+00	2025-01-26 20:01:04.374+00	\N
-pset_01JJJ385BPFBD705K1YG0XD2BZ	2025-01-26 20:01:04.374+00	2025-01-26 20:01:04.374+00	\N
-pset_01JJJ398W9VHC8P8SJPFTFH5RG	2025-01-26 20:01:40.745+00	2025-01-26 20:01:40.745+00	\N
-pset_01JJJ398W9FDD92D8T7MAXSFQR	2025-01-26 20:01:40.746+00	2025-01-26 20:01:40.746+00	\N
-pset_01JJJ39B7T91MBD5APD2CADG6H	2025-01-26 20:01:43.163+00	2025-01-26 20:01:43.163+00	\N
-pset_01JJJ39B7TGQ0954YBZX7Y20H7	2025-01-26 20:01:43.163+00	2025-01-26 20:01:43.163+00	\N
-pset_01JJJ39B7TXQKCEQNX7YMT3JJJ	2025-01-26 20:01:43.163+00	2025-01-26 20:01:43.163+00	\N
-pset_01JJJ39DC71MB2XZWTJT9WEEMW	2025-01-26 20:01:45.352+00	2025-01-26 20:01:45.352+00	\N
-pset_01JJJ39DC72AYANW3V6AN7FS1K	2025-01-26 20:01:45.352+00	2025-01-26 20:01:45.352+00	\N
-pset_01JJJ39DC7J7W7PTH1Z2G6FFW9	2025-01-26 20:01:45.352+00	2025-01-26 20:01:45.352+00	\N
-pset_01JJJ3A6GPGZFZQE4M0XPS7F79	2025-01-26 20:02:11.094+00	2025-01-26 20:02:11.094+00	\N
-pset_01JJJ3A6GPM445RAFR4V2M2FXK	2025-01-26 20:02:11.094+00	2025-01-26 20:02:11.094+00	\N
-pset_01JJJ3A6GP8ZHGXHEF05Q8SBKF	2025-01-26 20:02:11.094+00	2025-01-26 20:02:11.094+00	\N
-pset_01JJJ3A92XFQBZ6CB26P6F3DVX	2025-01-26 20:02:13.726+00	2025-01-26 20:02:13.726+00	\N
-pset_01JJJ3A92X1DF6QJ9JMPRHV72C	2025-01-26 20:02:13.726+00	2025-01-26 20:02:13.726+00	\N
-pset_01JJJ3A92X0RDRNBR38K3N76KK	2025-01-26 20:02:13.726+00	2025-01-26 20:02:13.726+00	\N
-pset_01JJJ3ABGEDYKZ83H7R3E0E5RV	2025-01-26 20:02:16.206+00	2025-01-26 20:02:16.206+00	\N
-pset_01JJJ3ABGEEEKQD9GGGKVXX6BX	2025-01-26 20:02:16.206+00	2025-01-26 20:02:16.206+00	\N
-pset_01JJJ3ADC8M7XGCZZMMHM6QDN7	2025-01-26 20:02:18.12+00	2025-01-26 20:02:18.12+00	\N
-pset_01JJJ3ADC8F2NM89YM1KWJP4W3	2025-01-26 20:02:18.12+00	2025-01-26 20:02:18.12+00	\N
-pset_01JJJ3ADC82R99ATZS1RR4Y24T	2025-01-26 20:02:18.12+00	2025-01-26 20:02:18.12+00	\N
-pset_01JJJ3BJ9AJ4Z7T3ADEXY3HXVM	2025-01-26 20:02:55.915+00	2025-01-26 20:02:55.915+00	\N
-pset_01JJJ3BJ9A4ANBNPZ7DXA5BSJT	2025-01-26 20:02:55.915+00	2025-01-26 20:02:55.915+00	\N
-pset_01JJJ3BJ9AD8PVH1CQ7E3Q0CQV	2025-01-26 20:02:55.915+00	2025-01-26 20:02:55.915+00	\N
-pset_01JJJ3BMGHR1YV572A5MSDTB47	2025-01-26 20:02:58.194+00	2025-01-26 20:02:58.194+00	\N
-pset_01JJJ3BMGJHCES3V0FJFQB34SD	2025-01-26 20:02:58.194+00	2025-01-26 20:02:58.194+00	\N
-pset_01JJJ3BMGJGWETE2QJMV01JC7W	2025-01-26 20:02:58.194+00	2025-01-26 20:02:58.194+00	\N
-pset_01JJJ3BQ54ECFJKKC8MMC4VJDY	2025-01-26 20:03:00.9+00	2025-01-26 20:03:00.9+00	\N
-pset_01JJJ3BQ54J74HDFF872Y3ECE2	2025-01-26 20:03:00.9+00	2025-01-26 20:03:00.9+00	\N
-pset_01JJJ3BS62WNXNAKMBC6ST3V75	2025-01-26 20:03:02.978+00	2025-01-26 20:03:02.978+00	\N
-pset_01JJJ3BS62JK309PBVG0ZGA45B	2025-01-26 20:03:02.978+00	2025-01-26 20:03:02.978+00	\N
-pset_01JJJ3BV60VVZQD96E9CGS92Q9	2025-01-26 20:03:05.025+00	2025-01-26 20:03:05.025+00	\N
-pset_01JJJ3BV608AEH330JK0591BXJ	2025-01-26 20:03:05.025+00	2025-01-26 20:03:05.025+00	\N
-pset_01JJJ54DTHCD1KKP03K3VRYCQD	2025-01-26 20:33:59.122+00	2025-01-26 20:33:59.122+00	\N
 pset_01JJJJ7NSHVS94WAEKTJKC4S3Y	2025-01-27 00:22:57.073+00	2025-01-27 00:22:57.073+00	\N
 pset_01JJJGZ92FXBRDTSXDEM9G93NH	2025-01-27 00:00:53.334+00	2025-01-27 02:16:50.614+00	2025-01-27 02:16:50.614+00
 pset_01JJJGZ92FH954Y5EZAMWQR3HB	2025-01-27 00:00:53.334+00	2025-01-27 02:16:50.622+00	2025-01-27 02:16:50.614+00
@@ -6829,6 +6788,39 @@ pset_01JJJGFKE794WP7RC8C8XF6EJK	2025-01-26 23:52:19.66+00	2025-01-27 00:00:22.53
 pset_01JJJRSFB9K5DGQX4XKP00482D	2025-01-27 02:17:31.76+00	2025-01-27 02:43:09.744+00	2025-01-27 02:43:09.744+00
 pset_01JJJRSFB9W9V76RC7H7CBHSXX	2025-01-27 02:17:31.76+00	2025-01-27 02:43:09.756+00	2025-01-27 02:43:09.744+00
 pset_01JJJRSFB9X5KQ2AZZ28ZWYXD7	2025-01-27 02:17:31.76+00	2025-01-27 02:43:09.769+00	2025-01-27 02:43:09.744+00
+pset_01JJJ381ANB73NC5C6R04ZM9V3	2025-01-26 20:01:00.246+00	2025-03-02 15:43:05.101+00	2025-03-02 15:43:05.101+00
+pset_01JJJ381AP4G4Z9EHJSK986862	2025-01-26 20:01:00.246+00	2025-03-02 15:43:05.119+00	2025-03-02 15:43:05.101+00
+pset_01JJJ383CZP33VKRHXKXGYW89Z	2025-01-26 20:01:02.368+00	2025-03-02 15:43:07.809+00	2025-03-02 15:43:07.809+00
+pset_01JJJ383D093EQAPA5CQ6V330D	2025-01-26 20:01:02.368+00	2025-03-02 15:43:07.822+00	2025-03-02 15:43:07.809+00
+pset_01JJJ385BPBD48EF6PAHF85PP2	2025-01-26 20:01:04.374+00	2025-03-02 15:43:11.403+00	2025-03-02 15:43:11.403+00
+pset_01JJJ385BPFBD705K1YG0XD2BZ	2025-01-26 20:01:04.374+00	2025-03-02 15:43:11.418+00	2025-03-02 15:43:11.403+00
+pset_01JJJ398W9FDD92D8T7MAXSFQR	2025-01-26 20:01:40.746+00	2025-03-02 15:43:13.827+00	2025-03-02 15:43:13.827+00
+pset_01JJJ398W9VHC8P8SJPFTFH5RG	2025-01-26 20:01:40.745+00	2025-03-02 15:43:13.84+00	2025-03-02 15:43:13.827+00
+pset_01JJJ39B7T91MBD5APD2CADG6H	2025-01-26 20:01:43.163+00	2025-03-02 15:43:16.379+00	2025-03-02 15:43:16.379+00
+pset_01JJJ39DC71MB2XZWTJT9WEEMW	2025-01-26 20:01:45.352+00	2025-03-02 15:43:19.376+00	2025-03-02 15:43:19.376+00
+pset_01JJJ39DC72AYANW3V6AN7FS1K	2025-01-26 20:01:45.352+00	2025-03-02 15:43:19.385+00	2025-03-02 15:43:19.376+00
+pset_01JJJ39DC7J7W7PTH1Z2G6FFW9	2025-01-26 20:01:45.352+00	2025-03-02 15:43:19.398+00	2025-03-02 15:43:19.376+00
+pset_01JJJ3A6GP8ZHGXHEF05Q8SBKF	2025-01-26 20:02:11.094+00	2025-03-02 15:43:21.979+00	2025-03-02 15:43:21.979+00
+pset_01JJJ3A6GPGZFZQE4M0XPS7F79	2025-01-26 20:02:11.094+00	2025-03-02 15:43:21.992+00	2025-03-02 15:43:21.979+00
+pset_01JJJ3A6GPM445RAFR4V2M2FXK	2025-01-26 20:02:11.094+00	2025-03-02 15:43:22.006+00	2025-03-02 15:43:21.979+00
+pset_01JJJ3A92X0RDRNBR38K3N76KK	2025-01-26 20:02:13.726+00	2025-03-02 15:43:24.731+00	2025-03-02 15:43:24.731+00
+pset_01JJJ3A92X1DF6QJ9JMPRHV72C	2025-01-26 20:02:13.726+00	2025-03-02 15:43:24.74+00	2025-03-02 15:43:24.731+00
+pset_01JJJ3ABGEDYKZ83H7R3E0E5RV	2025-01-26 20:02:16.206+00	2025-03-02 15:43:27.889+00	2025-03-02 15:43:27.889+00
+pset_01JJJ3ABGEEEKQD9GGGKVXX6BX	2025-01-26 20:02:16.206+00	2025-03-02 15:43:27.902+00	2025-03-02 15:43:27.889+00
+pset_01JJJ3ADC82R99ATZS1RR4Y24T	2025-01-26 20:02:18.12+00	2025-03-02 15:43:35.495+00	2025-03-02 15:43:35.495+00
+pset_01JJJ3ADC8F2NM89YM1KWJP4W3	2025-01-26 20:02:18.12+00	2025-03-02 15:43:35.508+00	2025-03-02 15:43:35.495+00
+pset_01JJJ3BJ9A4ANBNPZ7DXA5BSJT	2025-01-26 20:02:55.915+00	2025-03-02 15:43:39.908+00	2025-03-02 15:43:39.907+00
+pset_01JJJ3BJ9AD8PVH1CQ7E3Q0CQV	2025-01-26 20:02:55.915+00	2025-03-02 15:43:39.921+00	2025-03-02 15:43:39.907+00
+pset_01JJJ3BJ9AJ4Z7T3ADEXY3HXVM	2025-01-26 20:02:55.915+00	2025-03-02 15:43:39.934+00	2025-03-02 15:43:39.907+00
+pset_01JJJ3BMGHR1YV572A5MSDTB47	2025-01-26 20:02:58.194+00	2025-03-02 15:43:42.65+00	2025-03-02 15:43:42.65+00
+pset_01JJJ3BMGJGWETE2QJMV01JC7W	2025-01-26 20:02:58.194+00	2025-03-02 15:43:42.682+00	2025-03-02 15:43:42.65+00
+pset_01JJJ3BMGJHCES3V0FJFQB34SD	2025-01-26 20:02:58.194+00	2025-03-02 15:43:42.69+00	2025-03-02 15:43:42.65+00
+pset_01JJJ3BQ54ECFJKKC8MMC4VJDY	2025-01-26 20:03:00.9+00	2025-03-02 15:43:45.635+00	2025-03-02 15:43:45.635+00
+pset_01JJJ3BQ54J74HDFF872Y3ECE2	2025-01-26 20:03:00.9+00	2025-03-02 15:43:45.648+00	2025-03-02 15:43:45.635+00
+pset_01JJJ3BS62JK309PBVG0ZGA45B	2025-01-26 20:03:02.978+00	2025-03-02 15:43:48.113+00	2025-03-02 15:43:48.113+00
+pset_01JJJ3BS62WNXNAKMBC6ST3V75	2025-01-26 20:03:02.978+00	2025-03-02 15:43:48.125+00	2025-03-02 15:43:48.113+00
+pset_01JJJ3BV608AEH330JK0591BXJ	2025-01-26 20:03:05.025+00	2025-03-02 15:43:50.315+00	2025-03-02 15:43:50.315+00
+pset_01JJJ3BV60VVZQD96E9CGS92Q9	2025-01-26 20:03:05.025+00	2025-03-02 15:43:50.332+00	2025-03-02 15:43:50.315+00
 pset_01JJJRSFB9XKSBYQ4G74D6CMRA	2025-01-27 02:17:31.76+00	2025-01-27 02:43:09.78+00	2025-01-27 02:43:09.744+00
 pset_01JJJRSFB95YCTXGR15NCMESQA	2025-01-27 02:17:31.76+00	2025-01-27 02:43:09.788+00	2025-01-27 02:43:09.744+00
 pset_01JJJRSFBANA2PTBS4WP4KTTAR	2025-01-27 02:17:31.76+00	2025-01-27 02:43:09.801+00	2025-01-27 02:43:09.744+00
@@ -8694,6 +8686,14 @@ pset_01JJJVVMN3KMDVDG8RY65VMEYY	2025-01-27 03:11:08.452+00	2025-01-30 01:43:31.8
 pset_01JJJVVMN3PABVMRJJJNDNED2D	2025-01-27 03:11:08.452+00	2025-01-30 01:43:31.876+00	2025-01-30 01:43:31.816+00
 pset_01JJJVVMN2VHQM37E6X9RAH8RG	2025-01-27 03:11:08.452+00	2025-01-30 01:43:32.284+00	2025-01-30 01:43:32.225+00
 pset_01JJJVVMN2YJABRAM66HF0R6VP	2025-01-27 03:11:08.452+00	2025-01-30 01:43:32.293+00	2025-01-30 01:43:32.225+00
+pset_01JJJ37ZG7PZ5502M9YD76J199	2025-01-26 20:00:58.375+00	2025-03-02 15:43:02.298+00	2025-03-02 15:43:02.297+00
+pset_01JJJ37ZG7QTDF28Z5APZZ8WBC	2025-01-26 20:00:58.375+00	2025-03-02 15:43:02.314+00	2025-03-02 15:43:02.297+00
+pset_01JJJ381APJKYXK8X7HR35F276	2025-01-26 20:01:00.246+00	2025-03-02 15:43:05.133+00	2025-03-02 15:43:05.101+00
+pset_01JJJ39B7TGQ0954YBZX7Y20H7	2025-01-26 20:01:43.163+00	2025-03-02 15:43:16.403+00	2025-03-02 15:43:16.379+00
+pset_01JJJ39B7TXQKCEQNX7YMT3JJJ	2025-01-26 20:01:43.163+00	2025-03-02 15:43:16.424+00	2025-03-02 15:43:16.379+00
+pset_01JJJ3A92XFQBZ6CB26P6F3DVX	2025-01-26 20:02:13.726+00	2025-03-02 15:43:24.748+00	2025-03-02 15:43:24.731+00
+pset_01JJJ3ADC8M7XGCZZMMHM6QDN7	2025-01-26 20:02:18.12+00	2025-03-02 15:43:35.521+00	2025-03-02 15:43:35.495+00
+pset_01JJJ54DTHCD1KKP03K3VRYCQD	2025-01-26 20:33:59.122+00	2025-03-02 15:43:50.35+00	2025-03-02 15:43:50.315+00
 \.
 
 
@@ -8702,23 +8702,20 @@ pset_01JJJVVMN2YJABRAM66HF0R6VP	2025-01-27 03:11:08.452+00	2025-01-30 01:43:32.2
 --
 
 COPY public.product (id, title, handle, subtitle, description, is_giftcard, status, thumbnail, weight, length, height, width, origin_country, hs_code, mid_code, material, collection_id, type_id, discountable, external_id, created_at, updated_at, deleted_at, metadata) FROM stdin;
-prod_01JJJ38193C3DTKCMMPZWKP3AP	Belime Estate	belime-estate	\N	The Belime Estate exudes classic sophistication with its tufted back and rich fabric. Its luxurious look and enduring comfort make it a perfect fit for traditional, elegant interiors.	f	published	http://localhost:9090/medusa/belime-estate-01JJJ3817JQZ41JD3M187HQB3S.png	\N	\N	\N	\N	\N	\N	\N	\N	pcol_01JJJ37XMNYTRAF8KZVJAV434Y	ptyp_01JJJ35SGJC14EFNVPY25E8RYX	t	\N	2025-01-26 20:01:00.192368+00	2025-01-26 20:01:00.192368+00	\N	\N
-prod_01JJJ383AFX3GEATMCJ324VWK0	Cypress Retreat	cypress-retreat	\N	The Cypress Retreat is a nod to traditional design with its elegant lines and durable, high-quality upholstery. A timeless choice, it offers long-lasting comfort and a refined aesthetic for any home.	f	published	http://localhost:9090/medusa/cypress-retreat-01JJJ38398Q8ASGFHE11EMMGFG.png	\N	\N	\N	\N	\N	\N	\N	\N	pcol_01JJJ37XMNYTRAF8KZVJAV434Y	ptyp_01JJJ35SGJC14EFNVPY25E8RYX	t	\N	2025-01-26 20:01:02.283278+00	2025-01-26 20:01:02.283278+00	\N	\N
-prod_01JJJ385AN5AQBRT6HF26TPCY7	Everly Estate	everly-estate	\N	The Everly Estate offers a blend of modern elegance and plush luxury, with its sleek lines and soft velvet upholstery. Perfect for upscale interiors, it exudes sophistication and comfort in equal measure.	f	published	http://localhost:9090/medusa/everly-estate-01JJJ385A5MGQH3GDFDD341WGR.png	\N	\N	\N	\N	\N	\N	\N	\N	pcol_01JJJ37XMMVYZHZWJ92C156F69	ptyp_01JJJ35SGJC14EFNVPY25E8RYX	t	\N	2025-01-26 20:01:04.340058+00	2025-01-26 20:01:04.340058+00	\N	\N
-prod_01JJJ398TN3WTWMPHJE6CA2J6J	Havenhill Estate	havenhill-estate	\N	The Havenhill Estate brings a touch of traditional charm with its elegant curves and classic silhouette. Upholstered in durable, luxurious fabric, it’s a timeless piece that combines comfort and style, fitting seamlessly into any sophisticated home.	f	published	http://localhost:9090/medusa/havenhill-estate-01JJJ398RXD5Z8TD14CVG45SV5.png	\N	\N	\N	\N	\N	\N	\N	\N	pcol_01JJJ37XMNYTRAF8KZVJAV434Y	ptyp_01JJJ35SGJ89JC61TS9WYBKZ6C	t	\N	2025-01-26 20:01:40.690004+00	2025-01-26 20:01:40.690004+00	\N	\N
-prod_01JJJ39B69A6DTJ3VQ0AWEV825	Monaco Flair	monaco-flair	\N	The Monaco Flair combines sleek metallic accents with rich fabric, delivering a bold, luxurious statement. Its minimalist design and deep seating make it a standout piece for modern living rooms.	f	published	http://localhost:9090/medusa/monaco-flair-01JJJ39B4YJ97TXRHC2W8PAHG9.png	\N	\N	\N	\N	\N	\N	\N	\N	pcol_01JJJ37XMMVYZHZWJ92C156F69	ptyp_01JJJ35SGJC14EFNVPY25E8RYX	t	\N	2025-01-26 20:01:43.111275+00	2025-01-26 20:01:43.111275+00	\N	\N
-prod_01JJJ39DAHARPP8F8HPZ7SGA0X	Nordic Breeze	nordic-breeze	\N	The Nordic Breeze is a refined expression of Scandinavian minimalism, with its crisp silhouette and airy aesthetic. Crafted for both comfort and simplicity, it’s perfect for creating a serene living space.	f	published	http://localhost:9090/medusa/nordic-breeze-01JJJ39D9RA9JE6TVNYG0KV9Y3.png	\N	\N	\N	\N	\N	\N	\N	\N	pcol_01JJJ37XMM7DMRXQA2SHWCDM5X	ptyp_01JJJ35SGJ89JC61TS9WYBKZ6C	t	\N	2025-01-26 20:01:45.296063+00	2025-01-26 20:01:45.296063+00	\N	\N
-prod_01JJJ3A6F5JPSR5NN1GWF28DEV	Nordic Haven	nordic-haven	\N	The Nordic Haven features clean lines and soft textures, embodying the essence of Scandinavian design. Its natural tones and minimalist frame bring effortless serenity and comfort to any home.	f	published	http://localhost:9090/medusa/nordic-haven-01JJJ3A6DJQC19ZV2Q7V6A9AV9.png	\N	\N	\N	\N	\N	\N	\N	\N	pcol_01JJJ37XMM7DMRXQA2SHWCDM5X	ptyp_01JJJ35SGJC14EFNVPY25E8RYX	t	\N	2025-01-26 20:02:11.04189+00	2025-01-26 20:02:11.04189+00	\N	\N
-prod_01JJJ3A91ZGCMK6R0J81QCD4FM	Oslo Drift	oslo-drift	\N	The Oslo Drift is designed for ultimate relaxation, with soft, supportive cushions and a sleek, modern frame. Its understated elegance and neutral tones make it an ideal fit for contemporary, minimalist homes.	f	published	http://localhost:9090/medusa/oslo-drift-01JJJ3A911GB73P0R1RM4XGVBP.png	\N	\N	\N	\N	\N	\N	\N	\N	pcol_01JJJ37XMM7DMRXQA2SHWCDM5X	ptyp_01JJJ35SGJC14EFNVPY25E8RYX	t	\N	2025-01-26 20:02:13.692151+00	2025-01-26 20:02:13.692151+00	\N	\N
-prod_01JJJ3ABFJWP331DGMYATE39P6	Oslo Serenity	oslo-serenity	\N	The Oslo Serenity embodies Scandinavian minimalism with clean lines and a soft, neutral palette. Its tailored silhouette and plush cushions deliver a balance of simplicity and comfort, making it perfect for those who value understated elegance.	f	published	http://localhost:9090/medusa/oslo-serenity-01JJJ3ABEEZVJAAMBG4S4XWAB1.png	\N	\N	\N	\N	\N	\N	\N	\N	pcol_01JJJ37XMM7DMRXQA2SHWCDM5X	ptyp_01JJJ35SGJC14EFNVPY25E8RYX	t	\N	2025-01-26 20:02:16.176195+00	2025-01-26 20:02:16.176195+00	\N	\N
-prod_01JJJ3ADBBRSNAQ4M082DBNTGE	Paloma Haven	paloma-haven	\N	Minimalistic designs, neutral colors, and high-quality textures. Perfect for those who seek comfort with a clean and understated aesthetic. This collection brings the essence of Scandinavian elegance to your living room.	f	published	http://localhost:9090/medusa/paloma-haven-01JJJ3ADA88CNK93TNRKW54DPP.png	\N	\N	\N	\N	\N	\N	\N	\N	pcol_01JJJ37XMMVYZHZWJ92C156F69	ptyp_01JJJ35SGJ89JC61TS9WYBKZ6C	t	\N	2025-01-26 20:02:18.089337+00	2025-01-26 20:02:18.089337+00	\N	\N
-prod_01JJJ3BJ7WNNR061TVQSN4J32T	Savannah Grove	savannah-grove	\N	The Savannah Grove captures the essence of boho style with its relaxed, oversized form and eclectic fabric choices. Designed for both comfort and personality, it’s the ideal piece for those who seek a cozy, free-spirited vibe in their living spaces.	f	published	http://localhost:9090/medusa/savannah-grove-01JJJ3BJ5ANK5PV11VWAFP4GFV.png	\N	\N	\N	\N	\N	\N	\N	\N	pcol_01JJJ37XMN438QA1RVG8KT65C0	ptyp_01JJJ35SGJ89JC61TS9WYBKZ6C	t	\N	2025-01-26 20:02:55.864849+00	2025-01-26 20:02:55.864849+00	\N	\N
-prod_01JJJ3BMF5RSY4ET62G6DFZ9H7	Serena Meadow	serena-meadow	\N	The Serena Meadow combines a classic silhouette with modern comfort, offering a relaxed yet polished look. Its soft upholstery and subtle curves bring a timeless elegance to any living room.	f	published	http://localhost:9090/medusa/serena-meadow-01JJJ3BME1NTQMWZAA1XPMYBME.png	\N	\N	\N	\N	\N	\N	\N	\N	pcol_01JJJ37XMNYTRAF8KZVJAV434Y	ptyp_01JJJ35SGJC14EFNVPY25E8RYX	t	\N	2025-01-26 20:02:58.136169+00	2025-01-26 20:02:58.136169+00	\N	\N
-prod_01JJJ3BQ3YZ56QQ55JMRXTT8BE	Sutton Royale	sutton-royale	\N	The Sutton Royale blends eclectic design with classic bohemian comfort, featuring soft, tufted fabric and a wide, welcoming frame. Its unique style adds a touch of vintage flair to any space.	f	published	http://localhost:9090/medusa/sutton-royale-01JJJ3BQ3ACK12T9KB7T9RQBZN.png	\N	\N	\N	\N	\N	\N	\N	\N	pcol_01JJJ37XMN438QA1RVG8KT65C0	ptyp_01JJJ35SGJC14EFNVPY25E8RYX	t	\N	2025-01-26 20:03:00.859502+00	2025-01-26 20:03:00.859502+00	\N	\N
-prod_01JJJ3BS52QYC6ER938B1DY026	Velar Loft	velar-loft	\N	The Velar Loft offers a refined blend of modern design and opulent comfort. Upholstered in rich fabric with sleek metallic accents, this sofa delivers both luxury and a contemporary edge, making it a striking centerpiece for sophisticated interiors.	f	published	http://localhost:9090/medusa/velar-loft-01JJJ3BS33HM7336FZXB33DDTB.png	\N	\N	\N	\N	\N	\N	\N	\N	pcol_01JJJ37XMMVYZHZWJ92C156F69	ptyp_01JJJ35SGJ89JC61TS9WYBKZ6C	t	\N	2025-01-26 20:03:02.943018+00	2025-01-26 20:03:02.943018+00	\N	\N
 prod_01JJJVQGM2C468K41AJ71FMR2E	Hemd London - 72 cm Armlänge	hemd-london-72-cm-armlange	\N	<div class="woocommerce-product-details__short-description">\n\\n<p>Unser Hemd London – ein klassisches weißes Bürohemd, das natürlich auch perfekt abends angezogen werden kann. Aus einem tollem Fil-à-fil Stoff, aus 100% Baumwolle. Und sogar bügelleicht.</p>\n\\n<p>Perfekt für sehr große Männer - in Überlänge, und mit 72 cm langen Ärmeln.</p>\n\\n</div>\n\\n<p>In den Paßformen <span class="a-text-bold">Slim Fit</span> und in <span class="a-text-bold">Modern Fit</span> erhältlich.</p>	f	published	https://www.riesenhemd.com/wp-content/uploads/2018/11/Hemd-extra-langer-Arm-72-cm-Überlaenge-RIESENHEMD-London-5.jpg	\N	\N	\N	\N	\N	\N	\N	\N	\N	ptyp_01JJJEMQKERV4WHBBR6HFKW4PP	t	\N	2025-01-27 03:08:53.207064+00	2025-01-27 03:10:50.015+00	2025-01-27 03:10:50.015+00	\N
-prod_01JJJ37ZEXST341KJMS57F71ST	Astrid Curve	astrid-curve	\N	The Astrid Curve combines flowing curves and cozy, textured fabric for a truly bohemian vibe. Its relaxed design adds character and comfort, perfect for eclectic living spaces with a free-spirited charm.	f	published	http://localhost:9090/medusa/astrid-curve-01JJJ37ZDFZWMWXKSDCB0H06MJ.png	\N	\N	\N	\N	\N	\N	\N	\N	pcol_01JJJ37XMN438QA1RVG8KT65C0	ptyp_01JJJ35SGJC14EFNVPY25E8RYX	t	\N	2025-01-26 20:00:58.329214+00	2025-01-26 20:00:58.329214+00	\N	\N
-prod_01JJJ3BV521BJC2NR2QRM5F6ES	Velora Luxe Test	velora-luxe	\N	The Velora Luxe brings a touch of luxury to bohemian design with its bold patterns and plush comfort. Its oversized shape and inviting cushions make it an ideal centerpiece for laid-back, stylish interiors.	f	published	http://localhost:9090/medusa/velora-luxe-01JJJ3BV3V7DQFGVNQQ891EJ48.png	\N	\N	\N	\N	\N	\N	\N	\N	pcol_01JJJ37XMN438QA1RVG8KT65C0	ptyp_01JJJ35SGJC14EFNVPY25E8RYX	t	\N	2025-01-26 20:03:04.992002+00	2025-01-26 20:03:04.992002+00	\N	\N
+prod_01JJJ38193C3DTKCMMPZWKP3AP	Belime Estate	belime-estate	\N	The Belime Estate exudes classic sophistication with its tufted back and rich fabric. Its luxurious look and enduring comfort make it a perfect fit for traditional, elegant interiors.	f	published	http://localhost:9090/medusa/belime-estate-01JJJ3817JQZ41JD3M187HQB3S.png	\N	\N	\N	\N	\N	\N	\N	\N	pcol_01JJJ37XMNYTRAF8KZVJAV434Y	ptyp_01JJJ35SGJC14EFNVPY25E8RYX	t	\N	2025-01-26 20:01:00.192368+00	2025-03-02 15:43:05.094+00	2025-03-02 15:43:05.094+00	\N
+prod_01JJJ383AFX3GEATMCJ324VWK0	Cypress Retreat	cypress-retreat	\N	The Cypress Retreat is a nod to traditional design with its elegant lines and durable, high-quality upholstery. A timeless choice, it offers long-lasting comfort and a refined aesthetic for any home.	f	published	http://localhost:9090/medusa/cypress-retreat-01JJJ38398Q8ASGFHE11EMMGFG.png	\N	\N	\N	\N	\N	\N	\N	\N	pcol_01JJJ37XMNYTRAF8KZVJAV434Y	ptyp_01JJJ35SGJC14EFNVPY25E8RYX	t	\N	2025-01-26 20:01:02.283278+00	2025-03-02 15:43:07.8+00	2025-03-02 15:43:07.8+00	\N
+prod_01JJJ385AN5AQBRT6HF26TPCY7	Everly Estate	everly-estate	\N	The Everly Estate offers a blend of modern elegance and plush luxury, with its sleek lines and soft velvet upholstery. Perfect for upscale interiors, it exudes sophistication and comfort in equal measure.	f	published	http://localhost:9090/medusa/everly-estate-01JJJ385A5MGQH3GDFDD341WGR.png	\N	\N	\N	\N	\N	\N	\N	\N	pcol_01JJJ37XMMVYZHZWJ92C156F69	ptyp_01JJJ35SGJC14EFNVPY25E8RYX	t	\N	2025-01-26 20:01:04.340058+00	2025-03-02 15:43:11.396+00	2025-03-02 15:43:11.396+00	\N
+prod_01JJJ398TN3WTWMPHJE6CA2J6J	Havenhill Estate	havenhill-estate	\N	The Havenhill Estate brings a touch of traditional charm with its elegant curves and classic silhouette. Upholstered in durable, luxurious fabric, it’s a timeless piece that combines comfort and style, fitting seamlessly into any sophisticated home.	f	published	http://localhost:9090/medusa/havenhill-estate-01JJJ398RXD5Z8TD14CVG45SV5.png	\N	\N	\N	\N	\N	\N	\N	\N	pcol_01JJJ37XMNYTRAF8KZVJAV434Y	ptyp_01JJJ35SGJ89JC61TS9WYBKZ6C	t	\N	2025-01-26 20:01:40.690004+00	2025-03-02 15:43:13.823+00	2025-03-02 15:43:13.823+00	\N
+prod_01JJJ39B69A6DTJ3VQ0AWEV825	Monaco Flair	monaco-flair	\N	The Monaco Flair combines sleek metallic accents with rich fabric, delivering a bold, luxurious statement. Its minimalist design and deep seating make it a standout piece for modern living rooms.	f	published	http://localhost:9090/medusa/monaco-flair-01JJJ39B4YJ97TXRHC2W8PAHG9.png	\N	\N	\N	\N	\N	\N	\N	\N	pcol_01JJJ37XMMVYZHZWJ92C156F69	ptyp_01JJJ35SGJC14EFNVPY25E8RYX	t	\N	2025-01-26 20:01:43.111275+00	2025-03-02 15:43:16.369+00	2025-03-02 15:43:16.369+00	\N
+prod_01JJJ39DAHARPP8F8HPZ7SGA0X	Nordic Breeze	nordic-breeze	\N	The Nordic Breeze is a refined expression of Scandinavian minimalism, with its crisp silhouette and airy aesthetic. Crafted for both comfort and simplicity, it’s perfect for creating a serene living space.	f	published	http://localhost:9090/medusa/nordic-breeze-01JJJ39D9RA9JE6TVNYG0KV9Y3.png	\N	\N	\N	\N	\N	\N	\N	\N	pcol_01JJJ37XMM7DMRXQA2SHWCDM5X	ptyp_01JJJ35SGJ89JC61TS9WYBKZ6C	t	\N	2025-01-26 20:01:45.296063+00	2025-03-02 15:43:19.368+00	2025-03-02 15:43:19.368+00	\N
+prod_01JJJ3A6F5JPSR5NN1GWF28DEV	Nordic Haven	nordic-haven	\N	The Nordic Haven features clean lines and soft textures, embodying the essence of Scandinavian design. Its natural tones and minimalist frame bring effortless serenity and comfort to any home.	f	published	http://localhost:9090/medusa/nordic-haven-01JJJ3A6DJQC19ZV2Q7V6A9AV9.png	\N	\N	\N	\N	\N	\N	\N	\N	pcol_01JJJ37XMM7DMRXQA2SHWCDM5X	ptyp_01JJJ35SGJC14EFNVPY25E8RYX	t	\N	2025-01-26 20:02:11.04189+00	2025-03-02 15:43:21.968+00	2025-03-02 15:43:21.968+00	\N
+prod_01JJJ3A91ZGCMK6R0J81QCD4FM	Oslo Drift	oslo-drift	\N	The Oslo Drift is designed for ultimate relaxation, with soft, supportive cushions and a sleek, modern frame. Its understated elegance and neutral tones make it an ideal fit for contemporary, minimalist homes.	f	published	http://localhost:9090/medusa/oslo-drift-01JJJ3A911GB73P0R1RM4XGVBP.png	\N	\N	\N	\N	\N	\N	\N	\N	pcol_01JJJ37XMM7DMRXQA2SHWCDM5X	ptyp_01JJJ35SGJC14EFNVPY25E8RYX	t	\N	2025-01-26 20:02:13.692151+00	2025-03-02 15:43:24.728+00	2025-03-02 15:43:24.728+00	\N
+prod_01JJJ3ADBBRSNAQ4M082DBNTGE	Paloma Haven	paloma-haven	\N	Minimalistic designs, neutral colors, and high-quality textures. Perfect for those who seek comfort with a clean and understated aesthetic. This collection brings the essence of Scandinavian elegance to your living room.	f	published	http://localhost:9090/medusa/paloma-haven-01JJJ3ADA88CNK93TNRKW54DPP.png	\N	\N	\N	\N	\N	\N	\N	\N	pcol_01JJJ37XMMVYZHZWJ92C156F69	ptyp_01JJJ35SGJ89JC61TS9WYBKZ6C	t	\N	2025-01-26 20:02:18.089337+00	2025-03-02 15:43:35.471+00	2025-03-02 15:43:35.471+00	\N
+prod_01JJJ3BJ7WNNR061TVQSN4J32T	Savannah Grove	savannah-grove	\N	The Savannah Grove captures the essence of boho style with its relaxed, oversized form and eclectic fabric choices. Designed for both comfort and personality, it’s the ideal piece for those who seek a cozy, free-spirited vibe in their living spaces.	f	published	http://localhost:9090/medusa/savannah-grove-01JJJ3BJ5ANK5PV11VWAFP4GFV.png	\N	\N	\N	\N	\N	\N	\N	\N	pcol_01JJJ37XMN438QA1RVG8KT65C0	ptyp_01JJJ35SGJ89JC61TS9WYBKZ6C	t	\N	2025-01-26 20:02:55.864849+00	2025-03-02 15:43:39.899+00	2025-03-02 15:43:39.899+00	\N
+prod_01JJJ3BMF5RSY4ET62G6DFZ9H7	Serena Meadow	serena-meadow	\N	The Serena Meadow combines a classic silhouette with modern comfort, offering a relaxed yet polished look. Its soft upholstery and subtle curves bring a timeless elegance to any living room.	f	published	http://localhost:9090/medusa/serena-meadow-01JJJ3BME1NTQMWZAA1XPMYBME.png	\N	\N	\N	\N	\N	\N	\N	\N	pcol_01JJJ37XMNYTRAF8KZVJAV434Y	ptyp_01JJJ35SGJC14EFNVPY25E8RYX	t	\N	2025-01-26 20:02:58.136169+00	2025-03-02 15:43:42.644+00	2025-03-02 15:43:42.644+00	\N
+prod_01JJJ3BQ3YZ56QQ55JMRXTT8BE	Sutton Royale	sutton-royale	\N	The Sutton Royale blends eclectic design with classic bohemian comfort, featuring soft, tufted fabric and a wide, welcoming frame. Its unique style adds a touch of vintage flair to any space.	f	published	http://localhost:9090/medusa/sutton-royale-01JJJ3BQ3ACK12T9KB7T9RQBZN.png	\N	\N	\N	\N	\N	\N	\N	\N	pcol_01JJJ37XMN438QA1RVG8KT65C0	ptyp_01JJJ35SGJC14EFNVPY25E8RYX	t	\N	2025-01-26 20:03:00.859502+00	2025-03-02 15:43:45.63+00	2025-03-02 15:43:45.63+00	\N
+prod_01JJJ3BS52QYC6ER938B1DY026	Velar Loft	velar-loft	\N	The Velar Loft offers a refined blend of modern design and opulent comfort. Upholstered in rich fabric with sleek metallic accents, this sofa delivers both luxury and a contemporary edge, making it a striking centerpiece for sophisticated interiors.	f	published	http://localhost:9090/medusa/velar-loft-01JJJ3BS33HM7336FZXB33DDTB.png	\N	\N	\N	\N	\N	\N	\N	\N	pcol_01JJJ37XMMVYZHZWJ92C156F69	ptyp_01JJJ35SGJ89JC61TS9WYBKZ6C	t	\N	2025-01-26 20:03:02.943018+00	2025-03-02 15:43:48.108+00	2025-03-02 15:43:48.108+00	\N
 prod_01JJTDC6RZKN33ZE502KZQQ89F	2t Hamish Tall Heavyweight Regular Fit Sweatshirt (dusky blue)	2t-hamish-tall-heavyweight-regular-fit-sweatshirt-dusky-blue	\N	<div><ul>\n<li>Our extra long Hamish Heavyweight Regular Fit Sweatshirts are made exclusively for 2tall.com.</li>\n<li>Designed by us to specifically cater to tall, slim and athletic build guys.</li>\n<li>Made with extra length in the body and arms.</li>\n<li>Heavyweight sweatshirt.</li>\n<li>Available in sizes MT to 3XLT. </li>\n</ul></div>	f	published	https://cdn.shopify.com/s/files/1/0618/4045/7924/files/Sweatshirt_202T_20Hamish_20Reg_20Dusky_20Blue_20front_20cropped.jpg?v=1737046481	\N	\N	\N	\N	\N	\N	\N	\N	\N	ptyp_01JJT6NMF9ACABPW8JCRJVPJNM	t	\N	2025-01-30 01:31:58.044631+00	2025-01-30 01:31:58.044631+00	\N	\N
 prod_01JJJTAZ58NDPD6PNQPH00PRFH	Hemd London - 72 cm Armlänge	hemd-london-72-cm-armlange	\N	<div class="woocommerce-product-details__short-description">\n\\n<p>Unser Hemd London – ein klassisches weißes Bürohemd, das natürlich auch perfekt abends angezogen werden kann. Aus einem tollem Fil-à-fil Stoff, aus 100% Baumwolle. Und sogar bügelleicht.</p>\n\\n<p>Perfekt für sehr große Männer - in Überlänge, und mit 72 cm langen Ärmeln.</p>\n\\n</div>\n\\n<p>In den Paßformen <span class="a-text-bold">Slim Fit</span> und in <span class="a-text-bold">Modern Fit</span> erhältlich.</p>	f	published	https://www.riesenhemd.com/wp-content/uploads/2018/11/Hemd-extra-langer-Arm-72-cm-Überlaenge-RIESENHEMD-London-5.jpg	\N	\N	\N	\N	\N	\N	\N	\N	\N	ptyp_01JJJEMQKERV4WHBBR6HFKW4PP	t	\N	2025-01-27 02:44:33.540404+00	2025-01-27 02:46:29.375+00	2025-01-27 02:46:29.375+00	\N
 prod_01JJJGFK2W4CR3GS1CFT121K6K	Hemd London - 72 cm Armlänge	hemd-london-72-cm-armlange	\N	<!-- wp:paragraph {"fontSize":"medium"} -->\\n<p class="has-medium-font-size"></p>\\n<!-- /wp:paragraph -->\\n\\n<!-- wp:columns -->\\n<div class="wp-block-columns"><!-- wp:column {"width":"33.33%"} -->\\n<div class="wp-block-column" style="flex-basis:33.33%"><!-- wp:image {"id":14748,"sizeSlug":"full","linkDestination":"media"} -->\\n<figure class="wp-block-image size-full"><a href="https://www.riesenhemd.com/wp-content/uploads/2022/10/Hemd-London-4A.jpg"><img src="https://www.riesenhemd.com/wp-content/uploads/2022/10/Hemd-London-4A.jpg" alt="" class="wp-image-14748"/></a></figure>\\n<!-- /wp:image --></div>\\n<!-- /wp:column -->\\n\\n<!-- wp:column {"verticalAlignment":"top","width":"66.66%"} -->\\n<div class="wp-block-column is-vertically-aligned-top" style="flex-basis:66.66%"><!-- wp:heading {"level":3} -->\\n<h3 class="wp-block-heading">Das Hemd London - ein klassisches weißes Businesshemd für Ihren stilvollen Eindruck&nbsp;</h3>\\n<!-- /wp:heading -->\\n\\n<!-- wp:paragraph -->\\n<p>Unser Hemd London ist ein klassisches weißes Bürohemd aus einem bügelleichten Stoff.</p>\\n<!-- /wp:paragraph -->\\n\\n<!-- wp:paragraph -->\\n<p>Das Hemd ist besonders elegant durch seinen italienischen Kent-Kragen.&nbsp;</p>\\n<!-- /wp:paragraph -->\\n\\n<!-- wp:paragraph -->\\n<p>Mit diesem Hemd sind Sie sowohl im Büro als auch abends bei Geschäftsessen immer perfekt angezogen.</p>\\n<!-- /wp:paragraph --></div>\\n<!-- /wp:column --></div>\\n<!-- /wp:columns -->\\n\\n<!-- wp:columns -->\\n<div class="wp-block-columns"><!-- wp:column {"width":"33.33%"} -->\\n<div class="wp-block-column" style="flex-basis:33.33%"><!-- wp:image {"id":14744,"sizeSlug":"full","linkDestination":"media"} -->\\n<figure class="wp-block-image size-full"><a href="https://www.riesenhemd.com/wp-content/uploads/2022/10/Hemd-Londo-2A.jpg"><img src="https://www.riesenhemd.com/wp-content/uploads/2022/10/Hemd-Londo-2A.jpg" alt="" class="wp-image-14744"/></a></figure>\\n<!-- /wp:image --></div>\\n<!-- /wp:column -->\\n\\n<!-- wp:column {"verticalAlignment":"top","width":"66.66%"} -->\\n<div class="wp-block-column is-vertically-aligned-top" style="flex-basis:66.66%"><!-- wp:heading {"level":3} -->\\n<h3 class="wp-block-heading">Hochwertiger Stoff, sorgfältig verarbeitet, interessante Design-Details&nbsp;</h3>\\n<!-- /wp:heading -->\\n\\n<!-- wp:paragraph -->\\n<p>Das Hemd London ist hergestellt aus einem tollem Fil-à-fil Stoff, aus 100% Baumwolle und somit besonders atmungsaktiv.</p>\\n<!-- /wp:paragraph -->\\n\\n<!-- wp:paragraph -->\\n<p>Der Stoff ist bügelleicht und knittert weniger.</p>\\n<!-- /wp:paragraph -->\\n\\n<!-- wp:paragraph -->\\n<p>Die italienisch inspirierte Kent-Kragenform ist sehr lässig - damit ist man ist mit oder ohne Krawatte immer toll angezogen.</p>\\n<!-- /wp:paragraph -->\\n\\n<!-- wp:paragraph -->\\n<p>Das Hemd ist hinten noch einmal 10 cm länger geschnitten - damit es auch noch nach einem langen Bürotag nicht aus der Hose rutscht.</p>\\n<!-- /wp:paragraph --></div>\\n<!-- /wp:column --></div>\\n<!-- /wp:columns -->\\n\\n<!-- wp:columns -->\\n<div class="wp-block-columns"><!-- wp:column {"width":"33.33%"} -->\\n<div class="wp-block-column" style="flex-basis:33.33%"><!-- wp:image {"id":14746,"sizeSlug":"full","linkDestination":"media"} -->\\n<figure class="wp-block-image size-full"><a href="https://www.riesenhemd.com/wp-content/uploads/2022/10/Hemd-London-3A.jpg"><img src="https://www.riesenhemd.com/wp-content/uploads/2022/10/Hemd-London-3A.jpg" alt="" class="wp-image-14746"/></a></figure>\\n<!-- /wp:image --></div>\\n<!-- /wp:column -->\\n\\n<!-- wp:column {"verticalAlignment":"top","width":"66.66%"} -->\\n<div class="wp-block-column is-vertically-aligned-top" style="flex-basis:66.66%"><!-- wp:heading {"level":3} -->\\n<h3 class="wp-block-heading">Sie kaufen ein hochwertiges Produkt&nbsp;</h3>\\n<!-- /wp:heading -->\\n\\n<!-- wp:paragraph -->\\n<p>Wir achten auf sehr enge Nahtabstände, damit das Hemd lange seine Form behält.</p>\\n<!-- /wp:paragraph -->\\n\\n<!-- wp:paragraph -->\\n<p>Der Stoff weist eine Stärke von 120 Gramm pro Quadratmeter aus.</p>\\n<!-- /wp:paragraph -->\\n\\n<!-- wp:paragraph -->\\n<p>Wir nutzen nur hochwertige Naturfaserstoffe, die sorgfältig verarbeitet werden und produzieren in Europa unter Einhaltung aller europäischen Arbeitsstandards.</p>\\n<!-- /wp:paragraph -->\\n\\n<!-- wp:paragraph -->\\n<p>Unser Stoff wird nach dem strengen „OEKO-TEX® – STANDARD 100 by OEKO-TEX“-Verfahren auf Schadstoffe überprüft und zertifiziert.</p>\\n<!-- /wp:paragraph --></div>\\n<!-- /wp:column --></div>\\n<!-- /wp:columns -->\\n\\n<!-- wp:columns -->\\n<div class="wp-block-columns"><!-- wp:column {"width":"33.33%"} -->\\n<div class="wp-block-column" style="flex-basis:33.33%"><!-- wp:image {"id":2283,"sizeSlug":"large","linkDestination":"media"} -->\\n<figure class="wp-block-image size-large"><a href="https://www.riesenhemd.com/wp-content/uploads/2018/11/Hemd-extra-langer-Arm-72-cm-Überlaenge-RIESENHEMD-London-4.jpg"><img src="https://www.riesenhemd.com/wp-content/uploads/2018/11/Hemd-extra-langer-Arm-72-cm-Überlaenge-RIESENHEMD-London-4-1024x1024.jpg" alt="Tolles Herren Hemd für grosse Männer mit extra langem Arm 72 cm und Überlänge von RIESENHEMD" class="wp-image-2283"/></a></figure>\\n<!-- /wp:image --></div>\\n<!-- /wp:column -->\\n\\n<!-- wp:column {"verticalAlignment":"top","width":"66.66%"} -->\\n<div class="wp-block-column is-vertically-aligned-top" style="flex-basis:66.66%"><!-- wp:heading {"level":3} -->\\n<h3 class="wp-block-heading">Für große Männer entworfen, in Slim Fit und Modern Fit erhältlich&nbsp;</h3>\\n<!-- /wp:heading -->\\n\\n<!-- wp:paragraph -->\\n<p>Unser Hemd London ist in den Paßformen&nbsp;<strong>Slim Fit</strong>&nbsp;und in&nbsp;<strong>Modern Fit</strong>&nbsp;erhältlich.&nbsp;</p>\\n<!-- /wp:paragraph -->\\n\\n<!-- wp:list -->\\n<ul><!-- wp:list-item -->\\n<li><strong>Slim Fit</strong>&nbsp;ist stärker tailliert, und liegt eng am Körper - für sehr schlanke große Männer</li>\\n<!-- /wp:list-item -->\\n\\n<!-- wp:list-item -->\\n<li><strong>Modern Fit</strong>&nbsp;ist leicht tailliert, hat aber am Bauch etwas mehr Luft - für "normal-schlanke" große Männer.</li>\\n<!-- /wp:list-item --></ul>\\n<!-- /wp:list -->\\n\\n<!-- wp:paragraph -->\\n<p>Beide Paßformen sind speziell für große Männer entworfen: hinten und vorn länger als normal, und mit 72 cm Armlänge. </p>\\n<!-- /wp:paragraph --></div>\\n<!-- /wp:column --></div>\\n<!-- /wp:columns -->\\n\\n<!-- wp:columns -->\\n<div class="wp-block-columns"><!-- wp:column -->\\n<div class="wp-block-column"><!-- wp:heading {"level":3} -->\\n<h3 class="wp-block-heading">Größenübersicht SLIM FIT</h3>\\n<!-- /wp:heading -->\\n\\n<!-- wp:table -->\\n<figure class="wp-block-table"><table><thead><tr><th class="has-text-align-left" data-align="left">Größe</th><th class="has-text-align-left" data-align="left">39</th><th class="has-text-align-left" data-align="left">40</th><th>41</th><th class="has-text-align-left" data-align="left">42</th><th class="has-text-align-left" data-align="left">43</th></tr></thead><tbody><tr><td class="has-text-align-left" data-align="left">Brustumfang</td><td class="has-text-align-left" data-align="left">108 cm</td><td class="has-text-align-left" data-align="left">111 cm</td><td>115 cm</td><td class="has-text-align-left" data-align="left">118 cm</td><td class="has-text-align-left" data-align="left">121 cm</td></tr><tr><td class="has-text-align-left" data-align="left">Taillenumfang</td><td class="has-text-align-left" data-align="left">100 cm</td><td class="has-text-align-left" data-align="left">103 cm</td><td>107 cm</td><td class="has-text-align-left" data-align="left">110 cm</td><td class="has-text-align-left" data-align="left">113 cm</td></tr><tr><td class="has-text-align-left" data-align="left">Gesamtlänge Hemd (vorn)</td><td class="has-text-align-left" data-align="left">85 cm</td><td class="has-text-align-left" data-align="left">85 cm</td><td>85 cm</td><td class="has-text-align-left" data-align="left">85 cm</td><td class="has-text-align-left" data-align="left">86 cm</td></tr><tr><td class="has-text-align-left" data-align="left">Gesamtlänge Hemd (hinten)</td><td class="has-text-align-left" data-align="left">95 cm</td><td class="has-text-align-left" data-align="left">95 cm</td><td>95 cm</td><td class="has-text-align-left" data-align="left">95 cm</td><td class="has-text-align-left" data-align="left">96 cm</td></tr><tr><td class="has-text-align-left" data-align="left">Ärmellänge</td><td class="has-text-align-left" data-align="left">72 cm</td><td class="has-text-align-left" data-align="left">72 cm</td><td>72 cm</td><td class="has-text-align-left" data-align="left">72 cm</td><td class="has-text-align-left" data-align="left">72 cm</td></tr></tbody></table></figure>\\n<!-- /wp:table -->\\n\\n<!-- wp:paragraph -->\\n<p><a href="/de?page_id=1881">So ermitteln Sie Ihre Maße</a></p>\\n<!-- /wp:paragraph --></div>\\n<!-- /wp:column -->\\n\\n<!-- wp:column -->\\n<div class="wp-block-column"><!-- wp:heading {"level":3} -->\\n<h3 class="wp-block-heading">Größenübersicht MODERN FIT</h3>\\n<!-- /wp:heading -->\\n\\n<!-- wp:table -->\\n<figure class="wp-block-table"><table><thead><tr><th class="has-text-align-left" data-align="left">Größe</th><th class="has-text-align-left" data-align="left">41</th><th class="has-text-align-left" data-align="left">42</th><th>43</th><th>44</th><th class="has-text-align-left" data-align="left">45</th><th class="has-text-align-left" data-align="left">46</th></tr></thead><tbody><tr><td class="has-text-align-left" data-align="left">Brustumfang</td><td class="has-text-align-left" data-align="left">122 cm</td><td class="has-text-align-left" data-align="left">125 cm</td><td>127 cm</td><td>129 cm</td><td class="has-text-align-left" data-align="left">131 cm</td><td class="has-text-align-left" data-align="left">133 cm</td></tr><tr><td class="has-text-align-left" data-align="left">Taillenumfang</td><td class="has-text-align-left" data-align="left">118 cm</td><td class="has-text-align-left" data-align="left">121 cm</td><td>123 cm</td><td>125 cm</td><td class="has-text-align-left" data-align="left">127 cm</td><td class="has-text-align-left" data-align="left">129 cm</td></tr><tr><td class="has-text-align-left" data-align="left">Gesamtlänge Hemd (vorn)</td><td class="has-text-align-left" data-align="left">85 cm</td><td class="has-text-align-left" data-align="left">85 cm</td><td>86 cm</td><td>86 cm</td><td class="has-text-align-left" data-align="left">87 cm</td><td class="has-text-align-left" data-align="left">87 cm</td></tr><tr><td class="has-text-align-left" data-align="left">Gesamtlänge Hemd (hinten)</td><td class="has-text-align-left" data-align="left">95 cm</td><td class="has-text-align-left" data-align="left">95 cm</td><td>96 cm</td><td>96 cm</td><td class="has-text-align-left" data-align="left">97 cm</td><td class="has-text-align-left" data-align="left">97 cm</td></tr><tr><td class="has-text-align-left" data-align="left">Ärmellänge</td><td class="has-text-align-left" data-align="left">72 cm</td><td class="has-text-align-left" data-align="left">72 cm</td><td>72 cm</td><td>72 cm</td><td class="has-text-align-left" data-align="left">72 cm</td><td class="has-text-align-left" data-align="left">72 cm</td></tr></tbody></table></figure>\\n<!-- /wp:table --></div>\\n<!-- /wp:column --></div>\\n<!-- /wp:columns -->\\n\\n<!-- wp:embed {"url":"https://youtu.be/zJ662ceZhD4","type":"video","providerNameSlug":"youtube","responsive":true,"className":"wp-embed-aspect-16-9 wp-has-aspect-ratio"} -->\\n<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">\\nhttps://youtu.be/zJ662ceZhD4\\n</div></figure>\\n<!-- /wp:embed -->\\n\\n<!-- wp:columns -->\\n<div class="wp-block-columns"><!-- wp:column {"width":"33.33%"} -->\\n<div class="wp-block-column" style="flex-basis:33.33%"><!-- wp:image {"id":15067,"sizeSlug":"large","linkDestination":"media"} -->\\n<figure class="wp-block-image size-large"><a href="https://www.riesenhemd.com/wp-content/uploads/2022/10/RIESENHEMD-Gruender-2-1-2.jpg"><img src="https://www.riesenhemd.com/wp-content/uploads/2022/10/RIESENHEMD-Gruender-2-1-2-1024x1024.jpg" alt="" class="wp-image-15067"/></a></figure>\\n<!-- /wp:image --></div>\\n<!-- /wp:column -->\\n\\n<!-- wp:column {"verticalAlignment":"top","width":"66.66%"} -->\\n<div class="wp-block-column is-vertically-aligned-top" style="flex-basis:66.66%"><!-- wp:heading {"level":3} -->\\n<h3 class="wp-block-heading">RIESENHEMD Hamburg ist ein junges Familienunternehmen, das ausschließlich Hemden für große Männer herstellt</h3>\\n<!-- /wp:heading -->\\n\\n<!-- wp:paragraph -->\\n<p>Was zeichnet unsere Hemden aus:&nbsp;</p>\\n<!-- /wp:paragraph -->\\n\\n<!-- wp:list -->\\n<ul><!-- wp:list-item -->\\n<li>Wir nutzen nur hochwertige Stoffe und achten auf eine sorgfältige Verarbeitung und interessante Design-Details</li>\\n<!-- /wp:list-item -->\\n\\n<!-- wp:list-item -->\\n<li>Die Hemden sind ausschließlich entworfen für große Männer über 1,90 Meter - sie sind vorn und hinten länger geschnitten, und mit besonders langen Ärmeln (72 cm) ausgestattet&nbsp;</li>\\n<!-- /wp:list-item -->\\n\\n<!-- wp:list-item -->\\n<li>Unsere Hemden werden in Hamburg entworfen und in Spanien aus europäischen Stoffen hergestellt</li>\\n<!-- /wp:list-item --></ul>\\n<!-- /wp:list -->\\n\\n<!-- wp:paragraph -->\\n<p>Vielen Dank für Ihr Interesse an unseren Hemden - das Team von RIESENHEMD Hamburg</p>\\n<!-- /wp:paragraph -->\\n\\n<!-- wp:buttons -->\\n<div class="wp-block-buttons"><!-- wp:button /--></div>\\n<!-- /wp:buttons --></div>\\n<!-- /wp:column --></div>\\n<!-- /wp:columns -->\\n\\n<!-- wp:block {"ref":14492} /-->	f	published	https://www.riesenhemd.com/wp-content/uploads/2018/11/Hemd-extra-langer-Arm-72-cm-Überlaenge-RIESENHEMD-London-5.jpg	\N	\N	\N	\N	\N	\N	\N	\N	\N	ptyp_01JJJEMQKERV4WHBBR6HFKW4PP	t	\N	2025-01-26 23:52:19.262276+00	2025-01-26 23:59:45.847+00	2025-01-26 23:59:45.847+00	\N
@@ -8783,6 +8780,7 @@ prod_01JJJTAZ59NWAM1A8QBG6G1FBC	Hemd Prag - 72 cm Armlänge	hemd-prag-72-cm-arml
 prod_01JJJTAZ59T5Q4SKF5THVD5YBE	Hemd Monaco - 72 cm Armlänge	hemd-monaco-72-cm-armlange	\N	<div class="woocommerce-product-details__short-description">\n\\n<p>Unser Hemd Monaco – jetzt nur noch ein wenig Sonne, und man fühlt sich damit wie an der Côte d’Azur. Ein toller Stoff aus Baumwolle und Leinen. Sehr lässig, und zugleich elegant. Auf der Strandpromenade, an der Bar, aber auch im Büro und Home Office – dieses Hemd weiß zu begeistern. Kleine Details wie die farblich abstimmten Knöpfe und der “geheime” Steg zum Hochkrempeln der Ärmel geben diesem Hemd das gewisse Etwas.</p>\n\\n<p>Perfekt für sehr große Männer - in Überlänge, und mit 72 cm langen Ärmeln.</p>\n\\n</div>\n\\n<p>In den Paßformen <span class="a-text-bold">Slim Fit</span> und in <span class="a-text-bold">Modern Fit</span> erhältlich.</p>	f	published	https://www.riesenhemd.com/wp-content/uploads/2021/05/Hemd-extra-langer-Arm-72-cm-Ueberlaenge-RIESENHEMD-Monaco-4.jpg	\N	\N	\N	\N	\N	\N	\N	\N	\N	ptyp_01JJJEMQKERV4WHBBR6HFKW4PP	t	\N	2025-01-27 02:44:33.540404+00	2025-01-27 02:46:31.58+00	2025-01-27 02:46:31.58+00	\N
 prod_01JJTDC6S0X4DCAHMV8DHJA74C	2t Arran Tall Striped Swim Shorts (navy/white)	2t-arran-tall-striped-swim-shorts-navy-white	\N	<div><ul>\n<li>Our 2t Arran Swim Shorts are designed to specifically cater to tall, slim and athletic build guys.</li>\n<li>Elasticated waistband.</li>\n<li>Drawstring fastening.</li>\n<li>Mesh lining.</li>\n<li>Side slit open pockets.</li>\n<li>Open rear pocket</li>\n<li>Relaxed fit.</li>\n</ul></div>	f	published	https://cdn.shopify.com/s/files/1/0618/4045/7924/files/Swimshorts-Arran-Stripped-Navy-front.jpg?v=1738151762	\N	\N	\N	\N	\N	\N	\N	\N	\N	ptyp_01JJT6Q2V1X3PXEVG8STTR5BAG	t	\N	2025-01-30 01:31:58.044631+00	2025-01-30 01:31:58.044631+00	\N	\N
 prod_01JJT75C9YVSYWCP5RJZQJ7NB3	2t Arran Tall Swim Shorts (light blue)	2t-arran-tall-swim-shorts-light-blue	\N	<ul>\n<li>Our 2t Arran Swim Shorts are designed to specifically cater to tall, slim and athletic build guys.</li>\n<li>Elasticated waistband.</li>\n<li>Drawstring fastening.</li>\n<li>Mesh lining.</li>\n<li>Side slit open pockets.</li>\n<li>Open rear pocket</li>\n<li>Relaxed fit.</li>\n</ul>	f	draft	https://cdn.shopify.com/s/files/1/0618/4045/7924/files/Swimshorts-Arran-light-blue-front.jpg?v=1738151045	\N	\N	\N	\N	\N	\N	\N	\N	\N	ptyp_01JJT6Q2V1X3PXEVG8STTR5BAG	t	\N	2025-01-29 23:43:22.890381+00	2025-01-30 01:05:35.511+00	2025-01-30 01:05:35.511+00	\N
+prod_01JJJ37ZEXST341KJMS57F71ST	Astrid Curve	astrid-curve	\N	The Astrid Curve combines flowing curves and cozy, textured fabric for a truly bohemian vibe. Its relaxed design adds character and comfort, perfect for eclectic living spaces with a free-spirited charm.	f	published	http://localhost:9090/medusa/astrid-curve-01JJJ37ZDFZWMWXKSDCB0H06MJ.png	\N	\N	\N	\N	\N	\N	\N	\N	pcol_01JJJ37XMN438QA1RVG8KT65C0	ptyp_01JJJ35SGJC14EFNVPY25E8RYX	t	\N	2025-01-26 20:00:58.329214+00	2025-03-02 15:43:02.287+00	2025-03-02 15:43:02.286+00	\N
 prod_01JJJTEVES2CXWN8A168DN71AX	Hemd Paris - 72 cm Armlänge - Umschlagmanschette	hemd-paris-72-cm-armlange-umschlagmanschette	\N	<div class="woocommerce-product-details__short-description">\n\\n<p>Unser Hemd Paris – ein klassisches weißes Bürohemd, das natürlich auch perfekt abends angezogen werden kann. Aus einem tollem Fil-à-fil Stoff, aus 100% Baumwolle. Und sogar bügelleicht. Besonders elegant durch eine Umschlagmanschette.</p>\n\\n<p>Perfekt für sehr große Männer - in Überlänge, und mit 72 cm langen Ärmeln.</p>\n\\n</div>\n\\n<p>In den Paßformen <span class="a-text-bold">Slim Fit</span> und in <span class="a-text-bold">Modern Fit</span> erhältlich.</p>	f	published	https://www.riesenhemd.com/wp-content/uploads/2018/11/Hemd-extra-langer-Arm-72-cm-Überlaenge-RIESENHEMD-Paris-4.jpg	\N	\N	\N	\N	\N	\N	\N	\N	\N	ptyp_01JJJEMQKERV4WHBBR6HFKW4PP	t	\N	2025-01-27 02:46:40.81272+00	2025-01-27 02:49:38.805+00	2025-01-27 02:49:38.805+00	\N
 prod_01JJJTEVES7D37FJZHAGT5DTZ1	Hemd Brüssel - 72 cm Armlänge	hemd-brussel-72-cm-armlange	\N	<div class="woocommerce-product-details__short-description">\n\\n<p>Unser Hemd Brüssel – ein klassisches hell-blaues Bürohemd, das natürlich auch perfekt abends angezogen werden kann. Aus einem tollem Vollzwirn (2-Ply) Stoff, aus 100% Baumwolle. Sehr elegant in der Anmutung.</p>\n\\n<p>Perfekt für sehr große Männer - in Überlänge, und mit 72 cm langen Ärmeln.</p>\n\\n</div>\n\\n<p>In den Paßformen <span class="a-text-bold">Slim Fit</span> und in <span class="a-text-bold">Modern Fit</span> erhältlich.</p>	f	published	https://www.riesenhemd.com/wp-content/uploads/2021/05/Hemd-extra-langer-Arm-72-cm-Ueberlaenge-RIESENHEMD-Bruessel-5.jpg	\N	\N	\N	\N	\N	\N	\N	\N	\N	ptyp_01JJJEMQKERV4WHBBR6HFKW4PP	t	\N	2025-01-27 02:46:40.81272+00	2025-01-27 02:49:39.096+00	2025-01-27 02:49:39.095+00	\N
 prod_01JJJTEVES9CTWPAGHQ1DKC85T	Hemd Rom - 72 cm Armlänge - Umschlagmanschette	hemd-rom-72-cm-armlange-umschlagmanschette	\N	<p>Unser Hemd Rom – ein klassisches fein hellblau-weiß gestreiftes Bürohemd, das natürlich auch perfekt abends angezogen werden kann. Aus einem tollem Oxford Stoff, aus 100% Baumwolle.  Besonders elegant durch eine Umschlagmanschette.</p>\n\\n<p>Perfekt für sehr große Männer - in Überlänge, und mit 72 cm langen Ärmeln.</p>\n\\n<p>In den Paßformen <span class="a-text-bold">Slim Fit</span> und in <span class="a-text-bold">Modern Fit</span> erhältlich.</p>	f	published	https://www.riesenhemd.com/wp-content/uploads/2019/06/Hemd-extra-langer-Arm-72-Ueberlaenge-Rom-4.jpg	\N	\N	\N	\N	\N	\N	\N	\N	\N	ptyp_01JJJEMQKERV4WHBBR6HFKW4PP	t	\N	2025-01-27 02:46:40.81272+00	2025-01-27 02:49:39.478+00	2025-01-27 02:49:39.478+00	\N
@@ -8802,6 +8800,7 @@ prod_01JJJTMNCBV8P6NDAKGPTB8G54	Hemd Lissabon - 72 cm Armlänge	hemd-lissabon-72
 prod_01JJJTEVETJAQJ9HEANCEEKA5Y	Hemd Prag - 72 cm Armlänge	hemd-prag-72-cm-armlange	\N	<div class="woocommerce-product-details__short-description">\n\\n<p>Unser Hemd Prag – in einem elegant-lässigem Hellgrau. In der Freizeit ein echter Hingucker, lässt sich wunderbar mit Jeans oder Chinos kombinieren. Aber auch im Büro oder Home Office ist man mit diesem Modell perfekt gekleidet. Kleine Details wie die tollen Perlmutt-Knöpfe geben diesem Hemd das gewisse Etwas.</p>\n\\n<p>Perfekt für sehr große Männer - in Überlänge, und mit 72 cm langen Ärmeln.</p>\n\\n</div>\n\\n<p>In den Paßformen <span class="a-text-bold">Slim Fit</span> und in <span class="a-text-bold">Modern Fit</span> erhältlich.</p>	f	published	https://www.riesenhemd.com/wp-content/uploads/2021/05/Hemd-extra-langer-Arm-72-cm-Ueberlaenge-RIESENHEMD-Prag-4.jpg	\N	\N	\N	\N	\N	\N	\N	\N	\N	ptyp_01JJJEMQKERV4WHBBR6HFKW4PP	t	\N	2025-01-27 02:46:40.81272+00	2025-01-27 02:49:41.443+00	2025-01-27 02:49:41.443+00	\N
 prod_01JJTDC6S0AT6ZXAKRGYZ3SRT5	2t Arran Tall Geometric Swim Shorts (black/white)	2t-arran-tall-geometric-swim-shorts-black-white	\N	<div><ul>\n<li>Our 2t Arran Swim Shorts are designed to specifically cater to tall, slim and athletic build guys.</li>\n<li>Elasticated waistband.</li>\n<li>Drawstring fastening.</li>\n<li>Mesh lining.</li>\n<li>Side slit open pockets.</li>\n<li>Open rear pocket</li>\n<li>Relaxed fit.</li>\n</ul></div>	f	published	https://cdn.shopify.com/s/files/1/0618/4045/7924/files/Swimshorts-Arran-Geometric-Black-front.jpg?v=1738151378	\N	\N	\N	\N	\N	\N	\N	\N	\N	ptyp_01JJT6Q2V1X3PXEVG8STTR5BAG	t	\N	2025-01-30 01:31:58.044631+00	2025-01-30 01:31:58.044631+00	\N	\N
 prod_01JJT75C9YF39ZS34JT98JD3XX	2t Arran Tall Embroidered Palm Swim Shorts (khaki)	2t-arran-tall-embroidered-palm-swim-shorts-khaki	\N	<ul>\n<li>Our 2t Arran Swim Shorts are designed to specifically cater to tall, slim and athletic build guys.</li>\n<li>Elasticated waistband.</li>\n<li>Drawstring fastening.</li>\n<li>Mesh lining.</li>\n<li>Side slit open pockets.</li>\n<li>Open rear pocket</li>\n<li>Relaxed fit.</li>\n</ul>	f	draft	https://cdn.shopify.com/s/files/1/0618/4045/7924/files/Swimshorts-Arran-Stripped-Geometric-Khaki-Palm-front.jpg?v=1738151608	\N	\N	\N	\N	\N	\N	\N	\N	\N	ptyp_01JJT6Q2V1X3PXEVG8STTR5BAG	t	\N	2025-01-29 23:43:22.890381+00	2025-01-30 01:05:34.637+00	2025-01-30 01:05:34.637+00	\N
+prod_01JJJ3ABFJWP331DGMYATE39P6	Oslo Serenity	oslo-serenity	\N	The Oslo Serenity embodies Scandinavian minimalism with clean lines and a soft, neutral palette. Its tailored silhouette and plush cushions deliver a balance of simplicity and comfort, making it perfect for those who value understated elegance.	f	published	http://localhost:9090/medusa/oslo-serenity-01JJJ3ABEEZVJAAMBG4S4XWAB1.png	\N	\N	\N	\N	\N	\N	\N	\N	pcol_01JJJ37XMM7DMRXQA2SHWCDM5X	ptyp_01JJJ35SGJC14EFNVPY25E8RYX	t	\N	2025-01-26 20:02:16.176195+00	2025-03-02 15:43:27.885+00	2025-03-02 15:43:27.884+00	\N
 prod_01JJJTMNCA9P0KV1AMYMS3F7TW	Hemd Rom - 72 cm Armlänge - Umschlagmanschette	hemd-rom-72-cm-armlange-umschlagmanschette	\N	<p>Unser Hemd Rom – ein klassisches fein hellblau-weiß gestreiftes Bürohemd, das natürlich auch perfekt abends angezogen werden kann. Aus einem tollem Oxford Stoff, aus 100% Baumwolle.  Besonders elegant durch eine Umschlagmanschette.</p>\n\\n<p>Perfekt für sehr große Männer - in Überlänge, und mit 72 cm langen Ärmeln.</p>\n\\n<p>In den Paßformen <span class="a-text-bold">Slim Fit</span> und in <span class="a-text-bold">Modern Fit</span> erhältlich.</p>	f	published	https://www.riesenhemd.com/wp-content/uploads/2019/06/Hemd-extra-langer-Arm-72-Ueberlaenge-Rom-4.jpg	\N	\N	\N	\N	\N	\N	\N	\N	\N	ptyp_01JJJEMQKERV4WHBBR6HFKW4PP	t	\N	2025-01-27 02:49:51.200426+00	2025-01-27 02:54:25.477+00	2025-01-27 02:54:25.477+00	\N
 prod_01JJJTMNCAEDKRNNSDF7WJNBF1	Hemd Brüssel - 72 cm Armlänge	hemd-brussel-72-cm-armlange	\N	<div class="woocommerce-product-details__short-description">\n\\n<p>Unser Hemd Brüssel – ein klassisches hell-blaues Bürohemd, das natürlich auch perfekt abends angezogen werden kann. Aus einem tollem Vollzwirn (2-Ply) Stoff, aus 100% Baumwolle. Sehr elegant in der Anmutung.</p>\n\\n<p>Perfekt für sehr große Männer - in Überlänge, und mit 72 cm langen Ärmeln.</p>\n\\n</div>\n\\n<p>In den Paßformen <span class="a-text-bold">Slim Fit</span> und in <span class="a-text-bold">Modern Fit</span> erhältlich.</p>	f	published	https://www.riesenhemd.com/wp-content/uploads/2021/05/Hemd-extra-langer-Arm-72-cm-Ueberlaenge-RIESENHEMD-Bruessel-5.jpg	\N	\N	\N	\N	\N	\N	\N	\N	\N	ptyp_01JJJEMQKERV4WHBBR6HFKW4PP	t	\N	2025-01-27 02:49:51.200426+00	2025-01-27 02:54:25.68+00	2025-01-27 02:54:25.68+00	\N
 prod_01JJJTMNCAFD7XVBPSRXN80GC5	Hemd London - 72 cm Armlänge	hemd-london-72-cm-armlange	\N	<div class="woocommerce-product-details__short-description">\n\\n<p>Unser Hemd London – ein klassisches weißes Bürohemd, das natürlich auch perfekt abends angezogen werden kann. Aus einem tollem Fil-à-fil Stoff, aus 100% Baumwolle. Und sogar bügelleicht.</p>\n\\n<p>Perfekt für sehr große Männer - in Überlänge, und mit 72 cm langen Ärmeln.</p>\n\\n</div>\n\\n<p>In den Paßformen <span class="a-text-bold">Slim Fit</span> und in <span class="a-text-bold">Modern Fit</span> erhältlich.</p>	f	published	https://www.riesenhemd.com/wp-content/uploads/2018/11/Hemd-extra-langer-Arm-72-cm-Überlaenge-RIESENHEMD-London-5.jpg	\N	\N	\N	\N	\N	\N	\N	\N	\N	ptyp_01JJJEMQKERV4WHBBR6HFKW4PP	t	\N	2025-01-27 02:49:51.200426+00	2025-01-27 02:54:25.944+00	2025-01-27 02:54:25.944+00	\N
@@ -8850,6 +8849,7 @@ prod_01JJJVVMBNTPF9CFSPWS2HMNPT	Hemd Lissabon - 72 cm Armlänge	hemd-lissabon-72
 prod_01JJJTZWKS0SZ4HD01RTZJVH43	Hemd London - 72 cm Armlänge	hemd-london-72-cm-armlange	\N	<div class="woocommerce-product-details__short-description">\n\\n<p>Unser Hemd London – ein klassisches weißes Bürohemd, das natürlich auch perfekt abends angezogen werden kann. Aus einem tollem Fil-à-fil Stoff, aus 100% Baumwolle. Und sogar bügelleicht.</p>\n\\n<p>Perfekt für sehr große Männer - in Überlänge, und mit 72 cm langen Ärmeln.</p>\n\\n</div>\n\\n<p>In den Paßformen <span class="a-text-bold">Slim Fit</span> und in <span class="a-text-bold">Modern Fit</span> erhältlich.</p>	f	published	https://www.riesenhemd.com/wp-content/uploads/2018/11/Hemd-extra-langer-Arm-72-cm-Überlaenge-RIESENHEMD-London-5.jpg	\N	\N	\N	\N	\N	\N	\N	\N	\N	ptyp_01JJJEMQKERV4WHBBR6HFKW4PP	t	\N	2025-01-27 02:55:59.014953+00	2025-01-27 03:08:42.635+00	2025-01-27 03:08:42.635+00	\N
 prod_01JJJTZWKT4KY9G86HVVBPDY3H	Hemd Prag - 72 cm Armlänge	hemd-prag-72-cm-armlange	\N	<div class="woocommerce-product-details__short-description">\n\\n<p>Unser Hemd Prag – in einem elegant-lässigem Hellgrau. In der Freizeit ein echter Hingucker, lässt sich wunderbar mit Jeans oder Chinos kombinieren. Aber auch im Büro oder Home Office ist man mit diesem Modell perfekt gekleidet. Kleine Details wie die tollen Perlmutt-Knöpfe geben diesem Hemd das gewisse Etwas.</p>\n\\n<p>Perfekt für sehr große Männer - in Überlänge, und mit 72 cm langen Ärmeln.</p>\n\\n</div>\n\\n<p>In den Paßformen <span class="a-text-bold">Slim Fit</span> und in <span class="a-text-bold">Modern Fit</span> erhältlich.</p>	f	published	https://www.riesenhemd.com/wp-content/uploads/2021/05/Hemd-extra-langer-Arm-72-cm-Ueberlaenge-RIESENHEMD-Prag-4.jpg	\N	\N	\N	\N	\N	\N	\N	\N	\N	ptyp_01JJJEMQKERV4WHBBR6HFKW4PP	t	\N	2025-01-27 02:55:59.014953+00	2025-01-27 03:08:43.812+00	2025-01-27 03:08:43.812+00	\N
 prod_01JJJTZWKTJ3W2DZAWVXP2K7DQ	Hemd Stockholm - 72 cm Armlänge	hemd-stockholm-72-cm-armlange	\N	<div class="woocommerce-product-details__short-description">\n\\n<p>Unser Hemd Stockholm – für den “Man in Black.” Ein super Hemd zum Ausgehen abends, das lässig auch im Büro getragen werden kann. Aus einem tollem Popeline-Stoff, schwarz-dunkelgrau meliert, mit feinen Karos, aus 100% Baumwolle.</p>\n\\n<p>Perfekt für sehr große Männer - in Überlänge, und mit 72 cm langen Ärmeln.</p>\n\\n</div>\n\\n<p>In den Paßformen <span class="a-text-bold">Slim Fit</span> und in <span class="a-text-bold">Modern Fit</span> erhältlich.</p>	f	published	https://www.riesenhemd.com/wp-content/uploads/2019/06/Hemd-extra-langer-Arm-72-Ueberlaenge-Stockholm-5.jpg	\N	\N	\N	\N	\N	\N	\N	\N	\N	ptyp_01JJJEMQKERV4WHBBR6HFKW4PP	t	\N	2025-01-27 02:55:59.014953+00	2025-01-27 03:08:44.428+00	2025-01-27 03:08:44.428+00	\N
+prod_01JJJ3BV521BJC2NR2QRM5F6ES	Velora Luxe Test	velora-luxe	\N	The Velora Luxe brings a touch of luxury to bohemian design with its bold patterns and plush comfort. Its oversized shape and inviting cushions make it an ideal centerpiece for laid-back, stylish interiors.	f	published	http://localhost:9090/medusa/velora-luxe-01JJJ3BV3V7DQFGVNQQ891EJ48.png	\N	\N	\N	\N	\N	\N	\N	\N	pcol_01JJJ37XMN438QA1RVG8KT65C0	ptyp_01JJJ35SGJC14EFNVPY25E8RYX	t	\N	2025-01-26 20:03:04.992002+00	2025-03-02 15:43:50.304+00	2025-03-02 15:43:50.304+00	\N
 prod_01JJJTZWKTYEX1PZ0CH43PWT53	Hemd Berlin - 72 cm Armlänge	hemd-berlin-72-cm-armlange	\N	<div class="woocommerce-product-details__short-description">\n\\n<p>Unser Hemd Berlin – ein super Hemd zum Ausgehen abends, das lässig auch im Büro getragen werden kann. Aus einem tollem Popeline-Stoff, dunkelblau-meliert, mit feinen Karos, aus 100% Baumwolle.</p>\n\\n<p>Perfekt für sehr große Männer - in Überlänge, und mit 72 cm langen Ärmeln.</p>\n\\n</div>\n\\n<p>In den Paßformen <span class="a-text-bold">Slim Fit</span> und in <span class="a-text-bold">Modern Fit</span> erhältlich.</p>	f	published	https://www.riesenhemd.com/wp-content/uploads/2018/11/Hemd-extra-langer-Arm-72-cm-Überlaenge-RIESENHEMD-Berlin-4.jpg	\N	\N	\N	\N	\N	\N	\N	\N	\N	ptyp_01JJJEMQKERV4WHBBR6HFKW4PP	t	\N	2025-01-27 02:55:59.014953+00	2025-01-27 03:08:45.51+00	2025-01-27 03:08:45.51+00	\N
 prod_01JJTDC6S0YJEB8EPEQJHMZAMM	2t Tall Slim Fit Long Sleeve Corduroy Shirt (olive)	2t-tall-slim-fit-long-sleeve-corduroy-shirt-olive	\N	<div><ul>\n<li>Made exclusively for 2tall.com.</li>\n<li>Designed by tall men to create the perfect fit.</li>\n<li>Slim fit shirt with a fitted torso.</li>\n<li>Longer length in the body and sleeves.</li>\n<li>Button placket.</li>\n</ul></div>	f	published	https://cdn.shopify.com/s/files/1/0618/4045/7924/files/shirt_2t_2ts-23296_olive_front.jpg?v=1698225852	\N	\N	\N	\N	\N	\N	\N	\N	pcol_01JJJK5X0DJJQG2E6XRX6WM9RB	ptyp_01JJT6PR6MSYCAPQYC2223WPM0	t	\N	2025-01-30 01:31:58.044631+00	2025-01-30 02:14:21.928+00	\N	\N
 prod_01JJTDC6S0KSYAPQ4WCYQZ98FE	2t Tall T-Shirt (burgundy)	2t-tall-t-shirt-burgundy	\N	<div><li>Our extra long T-Shirts are designed specifically to cater for tall, slim and athletic built guys.</li>\n<li>4 inches (10cm) longer than regular t-shirts.</li></div>	f	published	https://cdn.shopify.com/s/files/1/0618/4045/7924/files/t-shirt_2tall_burgandy_front.jpg?v=1698196897	\N	\N	\N	\N	\N	\N	\N	\N	\N	ptyp_01JJT6P0D7GDZRKB8SNGZ3RF3S	t	\N	2025-01-30 01:31:58.044631+00	2025-01-30 01:31:58.044631+00	\N	\N
@@ -9036,38 +9036,6 @@ pcol_01JJQ48EAWD90WQN82JD8QM1DA	Bottoms	bottoms	{"image": {"id": "1595e80c-f6f2-
 --
 
 COPY public.product_option (id, title, product_id, metadata, created_at, updated_at, deleted_at) FROM stdin;
-opt_01JJJ37ZF3NJ4YPQCNPW6EN7QS	Material	prod_01JJJ37ZEXST341KJMS57F71ST	\N	2025-01-26 20:00:58.329214+00	2025-01-26 20:00:58.329214+00	\N
-opt_01JJJ37ZF3DNYTVN4AEVEZYPRG	Color	prod_01JJJ37ZEXST341KJMS57F71ST	\N	2025-01-26 20:00:58.329214+00	2025-01-26 20:00:58.329214+00	\N
-opt_01JJJ38198ER4HQW1T2N5Z1PA6	Material	prod_01JJJ38193C3DTKCMMPZWKP3AP	\N	2025-01-26 20:01:00.192368+00	2025-01-26 20:01:00.192368+00	\N
-opt_01JJJ381985XJRT7FNAR2HSP1Y	Color	prod_01JJJ38193C3DTKCMMPZWKP3AP	\N	2025-01-26 20:01:00.192368+00	2025-01-26 20:01:00.192368+00	\N
-opt_01JJJ383B05HHXJVXKSGZNRNY9	Material	prod_01JJJ383AFX3GEATMCJ324VWK0	\N	2025-01-26 20:01:02.283278+00	2025-01-26 20:01:02.283278+00	\N
-opt_01JJJ383B0E0NZRG3HRR9TN5YG	Color	prod_01JJJ383AFX3GEATMCJ324VWK0	\N	2025-01-26 20:01:02.283278+00	2025-01-26 20:01:02.283278+00	\N
-opt_01JJJ385ASXSGVVXW5HV8PVW7F	Material	prod_01JJJ385AN5AQBRT6HF26TPCY7	\N	2025-01-26 20:01:04.340058+00	2025-01-26 20:01:04.340058+00	\N
-opt_01JJJ385AT3VAYY2155HBYRB9C	Color	prod_01JJJ385AN5AQBRT6HF26TPCY7	\N	2025-01-26 20:01:04.340058+00	2025-01-26 20:01:04.340058+00	\N
-opt_01JJJ398TX35RQFVFAY99DJCFZ	Material	prod_01JJJ398TN3WTWMPHJE6CA2J6J	\N	2025-01-26 20:01:40.690004+00	2025-01-26 20:01:40.690004+00	\N
-opt_01JJJ398TXE3ZX92P869MA0DBW	Color	prod_01JJJ398TN3WTWMPHJE6CA2J6J	\N	2025-01-26 20:01:40.690004+00	2025-01-26 20:01:40.690004+00	\N
-opt_01JJJ39B6ES472GPRV37BE7Y7Z	Material	prod_01JJJ39B69A6DTJ3VQ0AWEV825	\N	2025-01-26 20:01:43.111275+00	2025-01-26 20:01:43.111275+00	\N
-opt_01JJJ39B6EHY23A60NTZ0M42J3	Color	prod_01JJJ39B69A6DTJ3VQ0AWEV825	\N	2025-01-26 20:01:43.111275+00	2025-01-26 20:01:43.111275+00	\N
-opt_01JJJ39DAPKBQ22ZRJMYRZ04QM	Material	prod_01JJJ39DAHARPP8F8HPZ7SGA0X	\N	2025-01-26 20:01:45.296063+00	2025-01-26 20:01:45.296063+00	\N
-opt_01JJJ39DAPQDJ33T279RB11BX8	Color	prod_01JJJ39DAHARPP8F8HPZ7SGA0X	\N	2025-01-26 20:01:45.296063+00	2025-01-26 20:01:45.296063+00	\N
-opt_01JJJ3A6FBSSQ6XBQYEYZN8S3R	Material	prod_01JJJ3A6F5JPSR5NN1GWF28DEV	\N	2025-01-26 20:02:11.04189+00	2025-01-26 20:02:11.04189+00	\N
-opt_01JJJ3A6FBPCV9K8XAM5QG1R8M	Color	prod_01JJJ3A6F5JPSR5NN1GWF28DEV	\N	2025-01-26 20:02:11.04189+00	2025-01-26 20:02:11.04189+00	\N
-opt_01JJJ3A9220PW6KVXWGER6KM46	Material	prod_01JJJ3A91ZGCMK6R0J81QCD4FM	\N	2025-01-26 20:02:13.692151+00	2025-01-26 20:02:13.692151+00	\N
-opt_01JJJ3A922Z8DKVCQ1B7Z900G8	Color	prod_01JJJ3A91ZGCMK6R0J81QCD4FM	\N	2025-01-26 20:02:13.692151+00	2025-01-26 20:02:13.692151+00	\N
-opt_01JJJ3ABFP1SAY64PDM62DGX84	Material	prod_01JJJ3ABFJWP331DGMYATE39P6	\N	2025-01-26 20:02:16.176195+00	2025-01-26 20:02:16.176195+00	\N
-opt_01JJJ3ABFPD3DSWYNF2DN2C1BN	Color	prod_01JJJ3ABFJWP331DGMYATE39P6	\N	2025-01-26 20:02:16.176195+00	2025-01-26 20:02:16.176195+00	\N
-opt_01JJJ3ADBE9T09G96DDTH3ZD1T	Material	prod_01JJJ3ADBBRSNAQ4M082DBNTGE	\N	2025-01-26 20:02:18.089337+00	2025-01-26 20:02:18.089337+00	\N
-opt_01JJJ3ADBE8PE3QFV02SD103G2	Color	prod_01JJJ3ADBBRSNAQ4M082DBNTGE	\N	2025-01-26 20:02:18.089337+00	2025-01-26 20:02:18.089337+00	\N
-opt_01JJJ3BJ80SEWGZXHXDCPEE00H	Material	prod_01JJJ3BJ7WNNR061TVQSN4J32T	\N	2025-01-26 20:02:55.864849+00	2025-01-26 20:02:55.864849+00	\N
-opt_01JJJ3BJ8061WPV1XG2XSD4TMW	Color	prod_01JJJ3BJ7WNNR061TVQSN4J32T	\N	2025-01-26 20:02:55.864849+00	2025-01-26 20:02:55.864849+00	\N
-opt_01JJJ3BMFBJBC925M830B319MA	Material	prod_01JJJ3BMF5RSY4ET62G6DFZ9H7	\N	2025-01-26 20:02:58.136169+00	2025-01-26 20:02:58.136169+00	\N
-opt_01JJJ3BMFBMF4TN6SVV4T3ZH1A	Color	prod_01JJJ3BMF5RSY4ET62G6DFZ9H7	\N	2025-01-26 20:02:58.136169+00	2025-01-26 20:02:58.136169+00	\N
-opt_01JJJ3BQ42WM1PNSW9B92HESH8	Material	prod_01JJJ3BQ3YZ56QQ55JMRXTT8BE	\N	2025-01-26 20:03:00.859502+00	2025-01-26 20:03:00.859502+00	\N
-opt_01JJJ3BQ42QVYB5JSVJCY7Y9V9	Color	prod_01JJJ3BQ3YZ56QQ55JMRXTT8BE	\N	2025-01-26 20:03:00.859502+00	2025-01-26 20:03:00.859502+00	\N
-opt_01JJJ3BS56NXH01RR6B5E7FV7S	Material	prod_01JJJ3BS52QYC6ER938B1DY026	\N	2025-01-26 20:03:02.943018+00	2025-01-26 20:03:02.943018+00	\N
-opt_01JJJ3BS56S16BJZT49Z7BRY4B	Color	prod_01JJJ3BS52QYC6ER938B1DY026	\N	2025-01-26 20:03:02.943018+00	2025-01-26 20:03:02.943018+00	\N
-opt_01JJJ3BV557AEBB4TQD9BVC67E	Material	prod_01JJJ3BV521BJC2NR2QRM5F6ES	\N	2025-01-26 20:03:04.992002+00	2025-01-26 20:03:04.992002+00	\N
-opt_01JJJ3BV559P4SZGBB78F7Z94B	Color	prod_01JJJ3BV521BJC2NR2QRM5F6ES	\N	2025-01-26 20:03:04.992002+00	2025-01-26 20:03:04.992002+00	\N
 opt_01JJTC6FG5R9TZHPH6Z09QR0XE	Fit	prod_01JJTC6FFH6KY25TNRC9QPZRK6	\N	2025-01-30 01:11:21.788137+00	2025-01-30 01:23:21.59+00	2025-01-30 01:23:21.583+00
 opt_01JJJGFK3ND93VE8T9RPRKYHHY	Fit	prod_01JJJGFK2W4CR3GS1CFT121K6K	\N	2025-01-26 23:52:19.262276+00	2025-01-26 23:59:45.854+00	2025-01-26 23:59:45.847+00
 opt_01JJJGFK3NMKQHB3GBDAY78DYH	Size	prod_01JJJGFK2W4CR3GS1CFT121K6K	\N	2025-01-26 23:52:19.262276+00	2025-01-26 23:59:45.859+00	2025-01-26 23:59:45.847+00
@@ -9103,6 +9071,34 @@ opt_01JJJGZ8TDCNH9SW1QB0GBXKF9	Fit	prod_01JJJGZ8SJZVZ0ARZV492Z68PC	\N	2025-01-27
 opt_01JJJGZ8TDG6H36MFW2GXJC6B5	Size	prod_01JJJGZ8SJZVZ0ARZV492Z68PC	\N	2025-01-27 00:00:53.016348+00	2025-01-27 02:16:53.477+00	2025-01-27 02:16:53.466+00
 opt_01JJJGZ8TDNHR2Z7Q28H3F3DP8	Fit	prod_01JJJGZ8SKTCYKV455QCMBGK4C	\N	2025-01-27 00:00:53.016348+00	2025-01-27 02:17:17.135+00	2025-01-27 02:17:17.119+00
 opt_01JJJRSF2MJN5GQX49BCDG8QHF	Fit	prod_01JJJRSF1ZR7M1RM2H8V0A7YJJ	\N	2025-01-27 02:17:31.425957+00	2025-01-27 02:43:12.133+00	2025-01-27 02:43:12.125+00
+opt_01JJJ38198ER4HQW1T2N5Z1PA6	Material	prod_01JJJ38193C3DTKCMMPZWKP3AP	\N	2025-01-26 20:01:00.192368+00	2025-03-02 15:43:05.104+00	2025-03-02 15:43:05.094+00
+opt_01JJJ381985XJRT7FNAR2HSP1Y	Color	prod_01JJJ38193C3DTKCMMPZWKP3AP	\N	2025-01-26 20:01:00.192368+00	2025-03-02 15:43:05.112+00	2025-03-02 15:43:05.094+00
+opt_01JJJ383B05HHXJVXKSGZNRNY9	Material	prod_01JJJ383AFX3GEATMCJ324VWK0	\N	2025-01-26 20:01:02.283278+00	2025-03-02 15:43:07.81+00	2025-03-02 15:43:07.8+00
+opt_01JJJ383B0E0NZRG3HRR9TN5YG	Color	prod_01JJJ383AFX3GEATMCJ324VWK0	\N	2025-01-26 20:01:02.283278+00	2025-03-02 15:43:07.816+00	2025-03-02 15:43:07.8+00
+opt_01JJJ385ASXSGVVXW5HV8PVW7F	Material	prod_01JJJ385AN5AQBRT6HF26TPCY7	\N	2025-01-26 20:01:04.340058+00	2025-03-02 15:43:11.405+00	2025-03-02 15:43:11.396+00
+opt_01JJJ385AT3VAYY2155HBYRB9C	Color	prod_01JJJ385AN5AQBRT6HF26TPCY7	\N	2025-01-26 20:01:04.340058+00	2025-03-02 15:43:11.412+00	2025-03-02 15:43:11.396+00
+opt_01JJJ398TX35RQFVFAY99DJCFZ	Material	prod_01JJJ398TN3WTWMPHJE6CA2J6J	\N	2025-01-26 20:01:40.690004+00	2025-03-02 15:43:13.829+00	2025-03-02 15:43:13.823+00
+opt_01JJJ398TXE3ZX92P869MA0DBW	Color	prod_01JJJ398TN3WTWMPHJE6CA2J6J	\N	2025-01-26 20:01:40.690004+00	2025-03-02 15:43:13.835+00	2025-03-02 15:43:13.823+00
+opt_01JJJ39B6ES472GPRV37BE7Y7Z	Material	prod_01JJJ39B69A6DTJ3VQ0AWEV825	\N	2025-01-26 20:01:43.111275+00	2025-03-02 15:43:16.38+00	2025-03-02 15:43:16.369+00
+opt_01JJJ39DAPKBQ22ZRJMYRZ04QM	Material	prod_01JJJ39DAHARPP8F8HPZ7SGA0X	\N	2025-01-26 20:01:45.296063+00	2025-03-02 15:43:19.376+00	2025-03-02 15:43:19.368+00
+opt_01JJJ39DAPQDJ33T279RB11BX8	Color	prod_01JJJ39DAHARPP8F8HPZ7SGA0X	\N	2025-01-26 20:01:45.296063+00	2025-03-02 15:43:19.381+00	2025-03-02 15:43:19.368+00
+opt_01JJJ3A6FBSSQ6XBQYEYZN8S3R	Material	prod_01JJJ3A6F5JPSR5NN1GWF28DEV	\N	2025-01-26 20:02:11.04189+00	2025-03-02 15:43:21.98+00	2025-03-02 15:43:21.968+00
+opt_01JJJ3A6FBPCV9K8XAM5QG1R8M	Color	prod_01JJJ3A6F5JPSR5NN1GWF28DEV	\N	2025-01-26 20:02:11.04189+00	2025-03-02 15:43:21.986+00	2025-03-02 15:43:21.968+00
+opt_01JJJ3A9220PW6KVXWGER6KM46	Material	prod_01JJJ3A91ZGCMK6R0J81QCD4FM	\N	2025-01-26 20:02:13.692151+00	2025-03-02 15:43:24.732+00	2025-03-02 15:43:24.728+00
+opt_01JJJ3A922Z8DKVCQ1B7Z900G8	Color	prod_01JJJ3A91ZGCMK6R0J81QCD4FM	\N	2025-01-26 20:02:13.692151+00	2025-03-02 15:43:24.737+00	2025-03-02 15:43:24.728+00
+opt_01JJJ3ABFP1SAY64PDM62DGX84	Material	prod_01JJJ3ABFJWP331DGMYATE39P6	\N	2025-01-26 20:02:16.176195+00	2025-03-02 15:43:27.893+00	2025-03-02 15:43:27.884+00
+opt_01JJJ3ABFPD3DSWYNF2DN2C1BN	Color	prod_01JJJ3ABFJWP331DGMYATE39P6	\N	2025-01-26 20:02:16.176195+00	2025-03-02 15:43:27.899+00	2025-03-02 15:43:27.884+00
+opt_01JJJ3ADBE9T09G96DDTH3ZD1T	Material	prod_01JJJ3ADBBRSNAQ4M082DBNTGE	\N	2025-01-26 20:02:18.089337+00	2025-03-02 15:43:35.496+00	2025-03-02 15:43:35.471+00
+opt_01JJJ3ADBE8PE3QFV02SD103G2	Color	prod_01JJJ3ADBBRSNAQ4M082DBNTGE	\N	2025-01-26 20:02:18.089337+00	2025-03-02 15:43:35.505+00	2025-03-02 15:43:35.471+00
+opt_01JJJ3BJ80SEWGZXHXDCPEE00H	Material	prod_01JJJ3BJ7WNNR061TVQSN4J32T	\N	2025-01-26 20:02:55.864849+00	2025-03-02 15:43:39.909+00	2025-03-02 15:43:39.899+00
+opt_01JJJ3BMFBJBC925M830B319MA	Material	prod_01JJJ3BMF5RSY4ET62G6DFZ9H7	\N	2025-01-26 20:02:58.136169+00	2025-03-02 15:43:42.652+00	2025-03-02 15:43:42.644+00
+opt_01JJJ3BMFBMF4TN6SVV4T3ZH1A	Color	prod_01JJJ3BMF5RSY4ET62G6DFZ9H7	\N	2025-01-26 20:02:58.136169+00	2025-03-02 15:43:42.678+00	2025-03-02 15:43:42.644+00
+opt_01JJJ3BQ42WM1PNSW9B92HESH8	Material	prod_01JJJ3BQ3YZ56QQ55JMRXTT8BE	\N	2025-01-26 20:03:00.859502+00	2025-03-02 15:43:45.639+00	2025-03-02 15:43:45.63+00
+opt_01JJJ3BQ42QVYB5JSVJCY7Y9V9	Color	prod_01JJJ3BQ3YZ56QQ55JMRXTT8BE	\N	2025-01-26 20:03:00.859502+00	2025-03-02 15:43:45.645+00	2025-03-02 15:43:45.63+00
+opt_01JJJ3BS56NXH01RR6B5E7FV7S	Material	prod_01JJJ3BS52QYC6ER938B1DY026	\N	2025-01-26 20:03:02.943018+00	2025-03-02 15:43:48.115+00	2025-03-02 15:43:48.108+00
+opt_01JJJ3BS56S16BJZT49Z7BRY4B	Color	prod_01JJJ3BS52QYC6ER938B1DY026	\N	2025-01-26 20:03:02.943018+00	2025-03-02 15:43:48.121+00	2025-03-02 15:43:48.108+00
+opt_01JJJ3BV557AEBB4TQD9BVC67E	Material	prod_01JJJ3BV521BJC2NR2QRM5F6ES	\N	2025-01-26 20:03:04.992002+00	2025-03-02 15:43:50.318+00	2025-03-02 15:43:50.304+00
+opt_01JJJ3BV559P4SZGBB78F7Z94B	Color	prod_01JJJ3BV521BJC2NR2QRM5F6ES	\N	2025-01-26 20:03:04.992002+00	2025-03-02 15:43:50.327+00	2025-03-02 15:43:50.304+00
 opt_01JJJRSF2M6S2VRZ1FTKS0TG3E	Size	prod_01JJJRSF1ZR7M1RM2H8V0A7YJJ	\N	2025-01-27 02:17:31.425957+00	2025-01-27 02:43:12.139+00	2025-01-27 02:43:12.125+00
 opt_01JJJRSF2MTTBT0R80XN7C0Q6R	Fit	prod_01JJJRSF203G1TM6AACNYH2F1K	\N	2025-01-27 02:17:31.425957+00	2025-01-27 02:43:12.638+00	2025-01-27 02:43:12.616+00
 opt_01JJJRSF2MZ8WXJTCCVSGGYD15	Size	prod_01JJJRSF203G1TM6AACNYH2F1K	\N	2025-01-27 02:17:31.425957+00	2025-01-27 02:43:12.644+00	2025-01-27 02:43:12.616+00
@@ -9527,6 +9523,10 @@ opt_01JJTE6Q62AZADMPF2C3F14M5W	Fit	prod_01JJTE6Q5GD36D3VBS30XAPRXT	\N	2025-01-30
 opt_01JJTE6Q626ZSWY5EH501767EW	Size	prod_01JJTE6Q5GD36D3VBS30XAPRXT	\N	2025-01-30 01:46:26.824169+00	2025-01-30 01:46:26.824169+00	\N
 opt_01JJTE6Q62HSB9K7G1VV5HQYJY	Fit	prod_01JJTE6Q5G6W0V56MRA5CVX60H	\N	2025-01-30 01:46:26.824169+00	2025-01-30 01:46:26.824169+00	\N
 opt_01JJTE6Q628ERT25Q51Z7NAAZK	Size	prod_01JJTE6Q5G6W0V56MRA5CVX60H	\N	2025-01-30 01:46:26.824169+00	2025-01-30 01:46:26.824169+00	\N
+opt_01JJJ37ZF3NJ4YPQCNPW6EN7QS	Material	prod_01JJJ37ZEXST341KJMS57F71ST	\N	2025-01-26 20:00:58.329214+00	2025-03-02 15:43:02.299+00	2025-03-02 15:43:02.286+00
+opt_01JJJ37ZF3DNYTVN4AEVEZYPRG	Color	prod_01JJJ37ZEXST341KJMS57F71ST	\N	2025-01-26 20:00:58.329214+00	2025-03-02 15:43:02.307+00	2025-03-02 15:43:02.286+00
+opt_01JJJ39B6EHY23A60NTZ0M42J3	Color	prod_01JJJ39B69A6DTJ3VQ0AWEV825	\N	2025-01-26 20:01:43.111275+00	2025-03-02 15:43:16.393+00	2025-03-02 15:43:16.369+00
+opt_01JJJ3BJ8061WPV1XG2XSD4TMW	Color	prod_01JJJ3BJ7WNNR061TVQSN4J32T	\N	2025-01-26 20:02:55.864849+00	2025-03-02 15:43:39.916+00	2025-03-02 15:43:39.899+00
 \.
 
 
@@ -9535,75 +9535,65 @@ opt_01JJTE6Q628ERT25Q51Z7NAAZK	Size	prod_01JJTE6Q5G6W0V56MRA5CVX60H	\N	2025-01-3
 --
 
 COPY public.product_option_value (id, value, option_id, metadata, created_at, updated_at, deleted_at) FROM stdin;
-optval_01JJJ37ZF52N9J31517PDVE9SP	Microfiber	opt_01JJJ37ZF3NJ4YPQCNPW6EN7QS	\N	2025-01-26 20:00:58.329214+00	2025-01-26 20:00:58.329214+00	\N
-optval_01JJJ37ZF5TX0HKYM5S2YKAXNZ	Velvet	opt_01JJJ37ZF3NJ4YPQCNPW6EN7QS	\N	2025-01-26 20:00:58.329214+00	2025-01-26 20:00:58.329214+00	\N
-optval_01JJJ37ZF5NJ5FGA96BGZE2M7P	Dark Gray	opt_01JJJ37ZF3DNYTVN4AEVEZYPRG	\N	2025-01-26 20:00:58.329214+00	2025-01-26 20:00:58.329214+00	\N
-optval_01JJJ37ZF50A93PZ64RJSMV5DG	Purple	opt_01JJJ37ZF3DNYTVN4AEVEZYPRG	\N	2025-01-26 20:00:58.329214+00	2025-01-26 20:00:58.329214+00	\N
-optval_01JJJ3819BGFJAG8YKP2ED286A	Linen	opt_01JJJ38198ER4HQW1T2N5Z1PA6	\N	2025-01-26 20:01:00.192368+00	2025-01-26 20:01:00.192368+00	\N
-optval_01JJJ3819BMP5PDDEA2CYQ6BR8	Boucle	opt_01JJJ38198ER4HQW1T2N5Z1PA6	\N	2025-01-26 20:01:00.192368+00	2025-01-26 20:01:00.192368+00	\N
-optval_01JJJ3819BTSQAFQM4Y4HRAT0W	Red	opt_01JJJ381985XJRT7FNAR2HSP1Y	\N	2025-01-26 20:01:00.192368+00	2025-01-26 20:01:00.192368+00	\N
-optval_01JJJ3819BXE0SJAY6838JZBEP	Blue	opt_01JJJ381985XJRT7FNAR2HSP1Y	\N	2025-01-26 20:01:00.192368+00	2025-01-26 20:01:00.192368+00	\N
-optval_01JJJ3819B04RHDBQ20XDEA186	Beige	opt_01JJJ381985XJRT7FNAR2HSP1Y	\N	2025-01-26 20:01:00.192368+00	2025-01-26 20:01:00.192368+00	\N
-optval_01JJJ383B5YREZMRHEF96C9A12	Leather	opt_01JJJ383B05HHXJVXKSGZNRNY9	\N	2025-01-26 20:01:02.283278+00	2025-01-26 20:01:02.283278+00	\N
-optval_01JJJ383B5B15491RBD7R7GZ57	Beige	opt_01JJJ383B0E0NZRG3HRR9TN5YG	\N	2025-01-26 20:01:02.283278+00	2025-01-26 20:01:02.283278+00	\N
-optval_01JJJ383B5CSFT4TEMQ7DF7FMD	Violet	opt_01JJJ383B0E0NZRG3HRR9TN5YG	\N	2025-01-26 20:01:02.283278+00	2025-01-26 20:01:02.283278+00	\N
-optval_01JJJ385AWNNY8DVXVMSY4B37F	Microfiber	opt_01JJJ385ASXSGVVXW5HV8PVW7F	\N	2025-01-26 20:01:04.340058+00	2025-01-26 20:01:04.340058+00	\N
-optval_01JJJ385AW3SNNTWRKYDNQ4GXA	Velvet	opt_01JJJ385ASXSGVVXW5HV8PVW7F	\N	2025-01-26 20:01:04.340058+00	2025-01-26 20:01:04.340058+00	\N
-optval_01JJJ385AWVMR51G31HVAA859M	Orange	opt_01JJJ385AT3VAYY2155HBYRB9C	\N	2025-01-26 20:01:04.340058+00	2025-01-26 20:01:04.340058+00	\N
-optval_01JJJ385AW71AVEKFGDWRH0PN9	Black	opt_01JJJ385AT3VAYY2155HBYRB9C	\N	2025-01-26 20:01:04.340058+00	2025-01-26 20:01:04.340058+00	\N
-optval_01JJJ398V05AHT7NNYG6C7J2MZ	Linen	opt_01JJJ398TX35RQFVFAY99DJCFZ	\N	2025-01-26 20:01:40.690004+00	2025-01-26 20:01:40.690004+00	\N
-optval_01JJJ398V0NAP3Q3E43FDSX8BH	Boucle	opt_01JJJ398TX35RQFVFAY99DJCFZ	\N	2025-01-26 20:01:40.690004+00	2025-01-26 20:01:40.690004+00	\N
-optval_01JJJ398V063NZJ22B276QMEA9	Green	opt_01JJJ398TXE3ZX92P869MA0DBW	\N	2025-01-26 20:01:40.690004+00	2025-01-26 20:01:40.690004+00	\N
-optval_01JJJ398V1QXKHCKPCFR0D3NDP	Light Gray	opt_01JJJ398TXE3ZX92P869MA0DBW	\N	2025-01-26 20:01:40.690004+00	2025-01-26 20:01:40.690004+00	\N
-optval_01JJJ398V1FPCGR34WWENZXBVR	Yellow	opt_01JJJ398TXE3ZX92P869MA0DBW	\N	2025-01-26 20:01:40.690004+00	2025-01-26 20:01:40.690004+00	\N
-optval_01JJJ39B6GK9NT8NBA113GEB0Q	Linen	opt_01JJJ39B6ES472GPRV37BE7Y7Z	\N	2025-01-26 20:01:43.111275+00	2025-01-26 20:01:43.111275+00	\N
-optval_01JJJ39B6GEAH47GCB258ET87H	Boucle	opt_01JJJ39B6ES472GPRV37BE7Y7Z	\N	2025-01-26 20:01:43.111275+00	2025-01-26 20:01:43.111275+00	\N
-optval_01JJJ39B6GKCZ0E1XMG164V6CX	Green	opt_01JJJ39B6EHY23A60NTZ0M42J3	\N	2025-01-26 20:01:43.111275+00	2025-01-26 20:01:43.111275+00	\N
-optval_01JJJ39B6GE3F70SRB5259PXYJ	Light Gray	opt_01JJJ39B6EHY23A60NTZ0M42J3	\N	2025-01-26 20:01:43.111275+00	2025-01-26 20:01:43.111275+00	\N
-optval_01JJJ39B6GE9DHCQ2ADWJPD6BB	Beige	opt_01JJJ39B6EHY23A60NTZ0M42J3	\N	2025-01-26 20:01:43.111275+00	2025-01-26 20:01:43.111275+00	\N
-optval_01JJJ39DAR3PHG3EKZY3HR3M6X	Boucle	opt_01JJJ39DAPKBQ22ZRJMYRZ04QM	\N	2025-01-26 20:01:45.296063+00	2025-01-26 20:01:45.296063+00	\N
-optval_01JJJ39DARYSG1GDPK1RNEBAFF	Linen	opt_01JJJ39DAPKBQ22ZRJMYRZ04QM	\N	2025-01-26 20:01:45.296063+00	2025-01-26 20:01:45.296063+00	\N
-optval_01JJJ39DAR3VAC429155RHTK9Y	Beige	opt_01JJJ39DAPQDJ33T279RB11BX8	\N	2025-01-26 20:01:45.296063+00	2025-01-26 20:01:45.296063+00	\N
-optval_01JJJ39DAR9VF49EYYV6A846DR	White	opt_01JJJ39DAPQDJ33T279RB11BX8	\N	2025-01-26 20:01:45.296063+00	2025-01-26 20:01:45.296063+00	\N
-optval_01JJJ39DARTEPWW4C621YE584H	Light Gray	opt_01JJJ39DAPQDJ33T279RB11BX8	\N	2025-01-26 20:01:45.296063+00	2025-01-26 20:01:45.296063+00	\N
-optval_01JJJ3A6FE99S024617N51MZEZ	Linen	opt_01JJJ3A6FBSSQ6XBQYEYZN8S3R	\N	2025-01-26 20:02:11.04189+00	2025-01-26 20:02:11.04189+00	\N
-optval_01JJJ3A6FEE6GP94544TGNW90N	Boucle	opt_01JJJ3A6FBSSQ6XBQYEYZN8S3R	\N	2025-01-26 20:02:11.04189+00	2025-01-26 20:02:11.04189+00	\N
-optval_01JJJ3A6FEX60HVZ8BRM0BPBCB	Light Gray	opt_01JJJ3A6FBPCV9K8XAM5QG1R8M	\N	2025-01-26 20:02:11.04189+00	2025-01-26 20:02:11.04189+00	\N
-optval_01JJJ3A6FET3CBTX9JKF75VFC9	White	opt_01JJJ3A6FBPCV9K8XAM5QG1R8M	\N	2025-01-26 20:02:11.04189+00	2025-01-26 20:02:11.04189+00	\N
-optval_01JJJ3A6FEABFQ1T2A28KYJ6WW	Beige	opt_01JJJ3A6FBPCV9K8XAM5QG1R8M	\N	2025-01-26 20:02:11.04189+00	2025-01-26 20:02:11.04189+00	\N
-optval_01JJJ3A924RYS932QSSKZ1XSBH	Boucle	opt_01JJJ3A9220PW6KVXWGER6KM46	\N	2025-01-26 20:02:13.692151+00	2025-01-26 20:02:13.692151+00	\N
-optval_01JJJ3A924HNYDX8C3TAEVT88K	Linen	opt_01JJJ3A9220PW6KVXWGER6KM46	\N	2025-01-26 20:02:13.692151+00	2025-01-26 20:02:13.692151+00	\N
-optval_01JJJ3A924XPFKZTCBNGFGV6MN	White	opt_01JJJ3A922Z8DKVCQ1B7Z900G8	\N	2025-01-26 20:02:13.692151+00	2025-01-26 20:02:13.692151+00	\N
-optval_01JJJ3A924RB884JMS33BJTRAF	Beige	opt_01JJJ3A922Z8DKVCQ1B7Z900G8	\N	2025-01-26 20:02:13.692151+00	2025-01-26 20:02:13.692151+00	\N
-optval_01JJJ3A924CVNSJ6PY4AY29YMC	Light Gray	opt_01JJJ3A922Z8DKVCQ1B7Z900G8	\N	2025-01-26 20:02:13.692151+00	2025-01-26 20:02:13.692151+00	\N
-optval_01JJJ3ABFQ921X05MWETFTPQB2	Leather	opt_01JJJ3ABFP1SAY64PDM62DGX84	\N	2025-01-26 20:02:16.176195+00	2025-01-26 20:02:16.176195+00	\N
-optval_01JJJ3ABFQ9FDWE1WDTN0GCWSC	Violet	opt_01JJJ3ABFPD3DSWYNF2DN2C1BN	\N	2025-01-26 20:02:16.176195+00	2025-01-26 20:02:16.176195+00	\N
-optval_01JJJ3ABFQ59RZS4D8CMD8S4TJ	Beige	opt_01JJJ3ABFPD3DSWYNF2DN2C1BN	\N	2025-01-26 20:02:16.176195+00	2025-01-26 20:02:16.176195+00	\N
-optval_01JJJ3ADBFMHG66YV5VRHVYVG0	Linen	opt_01JJJ3ADBE9T09G96DDTH3ZD1T	\N	2025-01-26 20:02:18.089337+00	2025-01-26 20:02:18.089337+00	\N
-optval_01JJJ3ADBF2062YDRMTE006R7H	Boucle	opt_01JJJ3ADBE9T09G96DDTH3ZD1T	\N	2025-01-26 20:02:18.089337+00	2025-01-26 20:02:18.089337+00	\N
-optval_01JJJ3ADBFFTR77KZT814S1RCS	Light Gray	opt_01JJJ3ADBE8PE3QFV02SD103G2	\N	2025-01-26 20:02:18.089337+00	2025-01-26 20:02:18.089337+00	\N
-optval_01JJJ3ADBFYBD3WDQ6TMR2Y69Y	Green	opt_01JJJ3ADBE8PE3QFV02SD103G2	\N	2025-01-26 20:02:18.089337+00	2025-01-26 20:02:18.089337+00	\N
-optval_01JJJ3ADBF9V6NJ8JAWV5MVVSV	Beige	opt_01JJJ3ADBE8PE3QFV02SD103G2	\N	2025-01-26 20:02:18.089337+00	2025-01-26 20:02:18.089337+00	\N
-optval_01JJJ3BJ83Z0SX3VHVRGH46WCE	Boucle	opt_01JJJ3BJ80SEWGZXHXDCPEE00H	\N	2025-01-26 20:02:55.864849+00	2025-01-26 20:02:55.864849+00	\N
-optval_01JJJ3BJ8383FGYZD8V1GXTWVC	Linen	opt_01JJJ3BJ80SEWGZXHXDCPEE00H	\N	2025-01-26 20:02:55.864849+00	2025-01-26 20:02:55.864849+00	\N
-optval_01JJJ3BJ83J6T60RBBEN94RVFB	Light Gray	opt_01JJJ3BJ8061WPV1XG2XSD4TMW	\N	2025-01-26 20:02:55.864849+00	2025-01-26 20:02:55.864849+00	\N
-optval_01JJJ3BJ83VEGE896045RC36Z0	Yellow	opt_01JJJ3BJ8061WPV1XG2XSD4TMW	\N	2025-01-26 20:02:55.864849+00	2025-01-26 20:02:55.864849+00	\N
-optval_01JJJ3BMFCTA5S2MKFFS1SQWNN	Microfiber	opt_01JJJ3BMFBJBC925M830B319MA	\N	2025-01-26 20:02:58.136169+00	2025-01-26 20:02:58.136169+00	\N
-optval_01JJJ3BMFD1FSSBK76V413WBDT	Velvet	opt_01JJJ3BMFBJBC925M830B319MA	\N	2025-01-26 20:02:58.136169+00	2025-01-26 20:02:58.136169+00	\N
-optval_01JJJ3BMFD9V2SF8R993JAEZT0	Black	opt_01JJJ3BMFBMF4TN6SVV4T3ZH1A	\N	2025-01-26 20:02:58.136169+00	2025-01-26 20:02:58.136169+00	\N
-optval_01JJJ3BMFD3Q35PTA41ZVGSHM7	Dark Gray	opt_01JJJ3BMFBMF4TN6SVV4T3ZH1A	\N	2025-01-26 20:02:58.136169+00	2025-01-26 20:02:58.136169+00	\N
-optval_01JJJ3BQ43YZW896CCAKYX5BXG	Velvet	opt_01JJJ3BQ42WM1PNSW9B92HESH8	\N	2025-01-26 20:03:00.859502+00	2025-01-26 20:03:00.859502+00	\N
-optval_01JJJ3BQ43M5EDQPWSC2EW8KCT	Microfiber	opt_01JJJ3BQ42WM1PNSW9B92HESH8	\N	2025-01-26 20:03:00.859502+00	2025-01-26 20:03:00.859502+00	\N
-optval_01JJJ3BQ43J4N6R71ERXZCT269	Purple	opt_01JJJ3BQ42QVYB5JSVJCY7Y9V9	\N	2025-01-26 20:03:00.859502+00	2025-01-26 20:03:00.859502+00	\N
-optval_01JJJ3BQ43BDQRHQVXX9N8R9S3	Dark Gray	opt_01JJJ3BQ42QVYB5JSVJCY7Y9V9	\N	2025-01-26 20:03:00.859502+00	2025-01-26 20:03:00.859502+00	\N
-optval_01JJJ3BS57CEAN2VQNXMX3W9KB	Velvet	opt_01JJJ3BS56NXH01RR6B5E7FV7S	\N	2025-01-26 20:03:02.943018+00	2025-01-26 20:03:02.943018+00	\N
-optval_01JJJ3BS5779H1C8Y3NM7MH6GS	Microfiber	opt_01JJJ3BS56NXH01RR6B5E7FV7S	\N	2025-01-26 20:03:02.943018+00	2025-01-26 20:03:02.943018+00	\N
-optval_01JJJ3BS5736F667GG4B5QR4AS	Black	opt_01JJJ3BS56S16BJZT49Z7BRY4B	\N	2025-01-26 20:03:02.943018+00	2025-01-26 20:03:02.943018+00	\N
-optval_01JJJ3BS57HFEDV6EWEK3TPFW2	Orange	opt_01JJJ3BS56S16BJZT49Z7BRY4B	\N	2025-01-26 20:03:02.943018+00	2025-01-26 20:03:02.943018+00	\N
-optval_01JJJ3BV578EKKFGJ1S5212R84	Linen	opt_01JJJ3BV557AEBB4TQD9BVC67E	\N	2025-01-26 20:03:04.992002+00	2025-01-26 20:03:04.992002+00	\N
-optval_01JJJ3BV577YNDPXVD7TAVP620	Boucle	opt_01JJJ3BV557AEBB4TQD9BVC67E	\N	2025-01-26 20:03:04.992002+00	2025-01-26 20:03:04.992002+00	\N
-optval_01JJJ3BV57YZXFNCBSB41T3MP6	Yellow	opt_01JJJ3BV559P4SZGBB78F7Z94B	\N	2025-01-26 20:03:04.992002+00	2025-01-26 20:03:04.992002+00	\N
-optval_01JJJ3BV57RXPC12YD6MRKD2HV	Light Gray	opt_01JJJ3BV559P4SZGBB78F7Z94B	\N	2025-01-26 20:03:04.992002+00	2025-01-26 20:03:04.992002+00	\N
+optval_01JJJ3819BGFJAG8YKP2ED286A	Linen	opt_01JJJ38198ER4HQW1T2N5Z1PA6	\N	2025-01-26 20:01:00.192368+00	2025-03-02 15:43:05.111+00	2025-03-02 15:43:05.094+00
+optval_01JJJ3819BMP5PDDEA2CYQ6BR8	Boucle	opt_01JJJ38198ER4HQW1T2N5Z1PA6	\N	2025-01-26 20:01:00.192368+00	2025-03-02 15:43:05.112+00	2025-03-02 15:43:05.094+00
+optval_01JJJ3819B04RHDBQ20XDEA186	Beige	opt_01JJJ381985XJRT7FNAR2HSP1Y	\N	2025-01-26 20:01:00.192368+00	2025-03-02 15:43:05.121+00	2025-03-02 15:43:05.094+00
+optval_01JJJ383B5YREZMRHEF96C9A12	Leather	opt_01JJJ383B05HHXJVXKSGZNRNY9	\N	2025-01-26 20:01:02.283278+00	2025-03-02 15:43:07.816+00	2025-03-02 15:43:07.8+00
+optval_01JJJ383B5B15491RBD7R7GZ57	Beige	opt_01JJJ383B0E0NZRG3HRR9TN5YG	\N	2025-01-26 20:01:02.283278+00	2025-03-02 15:43:07.824+00	2025-03-02 15:43:07.8+00
+optval_01JJJ383B5CSFT4TEMQ7DF7FMD	Violet	opt_01JJJ383B0E0NZRG3HRR9TN5YG	\N	2025-01-26 20:01:02.283278+00	2025-03-02 15:43:07.824+00	2025-03-02 15:43:07.8+00
+optval_01JJJ385AW3SNNTWRKYDNQ4GXA	Velvet	opt_01JJJ385ASXSGVVXW5HV8PVW7F	\N	2025-01-26 20:01:04.340058+00	2025-03-02 15:43:11.412+00	2025-03-02 15:43:11.396+00
+optval_01JJJ385AWNNY8DVXVMSY4B37F	Microfiber	opt_01JJJ385ASXSGVVXW5HV8PVW7F	\N	2025-01-26 20:01:04.340058+00	2025-03-02 15:43:11.412+00	2025-03-02 15:43:11.396+00
+optval_01JJJ385AW71AVEKFGDWRH0PN9	Black	opt_01JJJ385AT3VAYY2155HBYRB9C	\N	2025-01-26 20:01:04.340058+00	2025-03-02 15:43:11.435+00	2025-03-02 15:43:11.396+00
+optval_01JJJ385AWVMR51G31HVAA859M	Orange	opt_01JJJ385AT3VAYY2155HBYRB9C	\N	2025-01-26 20:01:04.340058+00	2025-03-02 15:43:11.435+00	2025-03-02 15:43:11.396+00
+optval_01JJJ398V05AHT7NNYG6C7J2MZ	Linen	opt_01JJJ398TX35RQFVFAY99DJCFZ	\N	2025-01-26 20:01:40.690004+00	2025-03-02 15:43:13.835+00	2025-03-02 15:43:13.823+00
+optval_01JJJ398V0NAP3Q3E43FDSX8BH	Boucle	opt_01JJJ398TX35RQFVFAY99DJCFZ	\N	2025-01-26 20:01:40.690004+00	2025-03-02 15:43:13.835+00	2025-03-02 15:43:13.823+00
+optval_01JJJ398V063NZJ22B276QMEA9	Green	opt_01JJJ398TXE3ZX92P869MA0DBW	\N	2025-01-26 20:01:40.690004+00	2025-03-02 15:43:13.844+00	2025-03-02 15:43:13.823+00
+optval_01JJJ398V1FPCGR34WWENZXBVR	Yellow	opt_01JJJ398TXE3ZX92P869MA0DBW	\N	2025-01-26 20:01:40.690004+00	2025-03-02 15:43:13.844+00	2025-03-02 15:43:13.823+00
+optval_01JJJ39B6GEAH47GCB258ET87H	Boucle	opt_01JJJ39B6ES472GPRV37BE7Y7Z	\N	2025-01-26 20:01:43.111275+00	2025-03-02 15:43:16.393+00	2025-03-02 15:43:16.369+00
+optval_01JJJ39B6GK9NT8NBA113GEB0Q	Linen	opt_01JJJ39B6ES472GPRV37BE7Y7Z	\N	2025-01-26 20:01:43.111275+00	2025-03-02 15:43:16.393+00	2025-03-02 15:43:16.369+00
+optval_01JJJ39B6GE3F70SRB5259PXYJ	Light Gray	opt_01JJJ39B6EHY23A60NTZ0M42J3	\N	2025-01-26 20:01:43.111275+00	2025-03-02 15:43:16.402+00	2025-03-02 15:43:16.369+00
+optval_01JJJ39B6GE9DHCQ2ADWJPD6BB	Beige	opt_01JJJ39B6EHY23A60NTZ0M42J3	\N	2025-01-26 20:01:43.111275+00	2025-03-02 15:43:16.402+00	2025-03-02 15:43:16.369+00
+optval_01JJJ39B6GKCZ0E1XMG164V6CX	Green	opt_01JJJ39B6EHY23A60NTZ0M42J3	\N	2025-01-26 20:01:43.111275+00	2025-03-02 15:43:16.402+00	2025-03-02 15:43:16.369+00
+optval_01JJJ39DAR3PHG3EKZY3HR3M6X	Boucle	opt_01JJJ39DAPKBQ22ZRJMYRZ04QM	\N	2025-01-26 20:01:45.296063+00	2025-03-02 15:43:19.38+00	2025-03-02 15:43:19.368+00
+optval_01JJJ39DARYSG1GDPK1RNEBAFF	Linen	opt_01JJJ39DAPKBQ22ZRJMYRZ04QM	\N	2025-01-26 20:01:45.296063+00	2025-03-02 15:43:19.381+00	2025-03-02 15:43:19.368+00
+optval_01JJJ39DAR3VAC429155RHTK9Y	Beige	opt_01JJJ39DAPQDJ33T279RB11BX8	\N	2025-01-26 20:01:45.296063+00	2025-03-02 15:43:19.387+00	2025-03-02 15:43:19.368+00
+optval_01JJJ39DAR9VF49EYYV6A846DR	White	opt_01JJJ39DAPQDJ33T279RB11BX8	\N	2025-01-26 20:01:45.296063+00	2025-03-02 15:43:19.387+00	2025-03-02 15:43:19.368+00
+optval_01JJJ3A6FE99S024617N51MZEZ	Linen	opt_01JJJ3A6FBSSQ6XBQYEYZN8S3R	\N	2025-01-26 20:02:11.04189+00	2025-03-02 15:43:21.986+00	2025-03-02 15:43:21.968+00
+optval_01JJJ3A6FEE6GP94544TGNW90N	Boucle	opt_01JJJ3A6FBSSQ6XBQYEYZN8S3R	\N	2025-01-26 20:02:11.04189+00	2025-03-02 15:43:21.986+00	2025-03-02 15:43:21.968+00
+optval_01JJJ3A6FEABFQ1T2A28KYJ6WW	Beige	opt_01JJJ3A6FBPCV9K8XAM5QG1R8M	\N	2025-01-26 20:02:11.04189+00	2025-03-02 15:43:21.996+00	2025-03-02 15:43:21.968+00
+optval_01JJJ3A6FET3CBTX9JKF75VFC9	White	opt_01JJJ3A6FBPCV9K8XAM5QG1R8M	\N	2025-01-26 20:02:11.04189+00	2025-03-02 15:43:21.996+00	2025-03-02 15:43:21.968+00
+optval_01JJJ3A6FEX60HVZ8BRM0BPBCB	Light Gray	opt_01JJJ3A6FBPCV9K8XAM5QG1R8M	\N	2025-01-26 20:02:11.04189+00	2025-03-02 15:43:21.996+00	2025-03-02 15:43:21.968+00
+optval_01JJJ3A924HNYDX8C3TAEVT88K	Linen	opt_01JJJ3A9220PW6KVXWGER6KM46	\N	2025-01-26 20:02:13.692151+00	2025-03-02 15:43:24.737+00	2025-03-02 15:43:24.728+00
+optval_01JJJ3A924RYS932QSSKZ1XSBH	Boucle	opt_01JJJ3A9220PW6KVXWGER6KM46	\N	2025-01-26 20:02:13.692151+00	2025-03-02 15:43:24.737+00	2025-03-02 15:43:24.728+00
+optval_01JJJ3A924CVNSJ6PY4AY29YMC	Light Gray	opt_01JJJ3A922Z8DKVCQ1B7Z900G8	\N	2025-01-26 20:02:13.692151+00	2025-03-02 15:43:24.742+00	2025-03-02 15:43:24.728+00
+optval_01JJJ3A924RB884JMS33BJTRAF	Beige	opt_01JJJ3A922Z8DKVCQ1B7Z900G8	\N	2025-01-26 20:02:13.692151+00	2025-03-02 15:43:24.742+00	2025-03-02 15:43:24.728+00
+optval_01JJJ3ABFQ921X05MWETFTPQB2	Leather	opt_01JJJ3ABFP1SAY64PDM62DGX84	\N	2025-01-26 20:02:16.176195+00	2025-03-02 15:43:27.899+00	2025-03-02 15:43:27.884+00
+optval_01JJJ3ABFQ59RZS4D8CMD8S4TJ	Beige	opt_01JJJ3ABFPD3DSWYNF2DN2C1BN	\N	2025-01-26 20:02:16.176195+00	2025-03-02 15:43:27.907+00	2025-03-02 15:43:27.884+00
+optval_01JJJ3ABFQ9FDWE1WDTN0GCWSC	Violet	opt_01JJJ3ABFPD3DSWYNF2DN2C1BN	\N	2025-01-26 20:02:16.176195+00	2025-03-02 15:43:27.907+00	2025-03-02 15:43:27.884+00
+optval_01JJJ3ADBF2062YDRMTE006R7H	Boucle	opt_01JJJ3ADBE9T09G96DDTH3ZD1T	\N	2025-01-26 20:02:18.089337+00	2025-03-02 15:43:35.505+00	2025-03-02 15:43:35.471+00
+optval_01JJJ3ADBFMHG66YV5VRHVYVG0	Linen	opt_01JJJ3ADBE9T09G96DDTH3ZD1T	\N	2025-01-26 20:02:18.089337+00	2025-03-02 15:43:35.505+00	2025-03-02 15:43:35.471+00
+optval_01JJJ3ADBF9V6NJ8JAWV5MVVSV	Beige	opt_01JJJ3ADBE8PE3QFV02SD103G2	\N	2025-01-26 20:02:18.089337+00	2025-03-02 15:43:35.514+00	2025-03-02 15:43:35.471+00
+optval_01JJJ3ADBFFTR77KZT814S1RCS	Light Gray	opt_01JJJ3ADBE8PE3QFV02SD103G2	\N	2025-01-26 20:02:18.089337+00	2025-03-02 15:43:35.513+00	2025-03-02 15:43:35.471+00
+optval_01JJJ3ADBFYBD3WDQ6TMR2Y69Y	Green	opt_01JJJ3ADBE8PE3QFV02SD103G2	\N	2025-01-26 20:02:18.089337+00	2025-03-02 15:43:35.514+00	2025-03-02 15:43:35.471+00
+optval_01JJJ3BJ8383FGYZD8V1GXTWVC	Linen	opt_01JJJ3BJ80SEWGZXHXDCPEE00H	\N	2025-01-26 20:02:55.864849+00	2025-03-02 15:43:39.916+00	2025-03-02 15:43:39.899+00
+optval_01JJJ3BJ83Z0SX3VHVRGH46WCE	Boucle	opt_01JJJ3BJ80SEWGZXHXDCPEE00H	\N	2025-01-26 20:02:55.864849+00	2025-03-02 15:43:39.916+00	2025-03-02 15:43:39.899+00
+optval_01JJJ3BJ83J6T60RBBEN94RVFB	Light Gray	opt_01JJJ3BJ8061WPV1XG2XSD4TMW	\N	2025-01-26 20:02:55.864849+00	2025-03-02 15:43:39.925+00	2025-03-02 15:43:39.899+00
+optval_01JJJ3BJ83VEGE896045RC36Z0	Yellow	opt_01JJJ3BJ8061WPV1XG2XSD4TMW	\N	2025-01-26 20:02:55.864849+00	2025-03-02 15:43:39.925+00	2025-03-02 15:43:39.899+00
+optval_01JJJ3BMFCTA5S2MKFFS1SQWNN	Microfiber	opt_01JJJ3BMFBJBC925M830B319MA	\N	2025-01-26 20:02:58.136169+00	2025-03-02 15:43:42.678+00	2025-03-02 15:43:42.644+00
+optval_01JJJ3BMFD1FSSBK76V413WBDT	Velvet	opt_01JJJ3BMFBJBC925M830B319MA	\N	2025-01-26 20:02:58.136169+00	2025-03-02 15:43:42.678+00	2025-03-02 15:43:42.644+00
+optval_01JJJ3BMFD3Q35PTA41ZVGSHM7	Dark Gray	opt_01JJJ3BMFBMF4TN6SVV4T3ZH1A	\N	2025-01-26 20:02:58.136169+00	2025-03-02 15:43:42.683+00	2025-03-02 15:43:42.644+00
+optval_01JJJ3BMFD9V2SF8R993JAEZT0	Black	opt_01JJJ3BMFBMF4TN6SVV4T3ZH1A	\N	2025-01-26 20:02:58.136169+00	2025-03-02 15:43:42.683+00	2025-03-02 15:43:42.644+00
+optval_01JJJ3BQ43M5EDQPWSC2EW8KCT	Microfiber	opt_01JJJ3BQ42WM1PNSW9B92HESH8	\N	2025-01-26 20:03:00.859502+00	2025-03-02 15:43:45.645+00	2025-03-02 15:43:45.63+00
+optval_01JJJ3BQ43YZW896CCAKYX5BXG	Velvet	opt_01JJJ3BQ42WM1PNSW9B92HESH8	\N	2025-01-26 20:03:00.859502+00	2025-03-02 15:43:45.645+00	2025-03-02 15:43:45.63+00
+optval_01JJJ3BQ43BDQRHQVXX9N8R9S3	Dark Gray	opt_01JJJ3BQ42QVYB5JSVJCY7Y9V9	\N	2025-01-26 20:03:00.859502+00	2025-03-02 15:43:45.654+00	2025-03-02 15:43:45.63+00
+optval_01JJJ3BS5779H1C8Y3NM7MH6GS	Microfiber	opt_01JJJ3BS56NXH01RR6B5E7FV7S	\N	2025-01-26 20:03:02.943018+00	2025-03-02 15:43:48.121+00	2025-03-02 15:43:48.108+00
+optval_01JJJ3BS57CEAN2VQNXMX3W9KB	Velvet	opt_01JJJ3BS56NXH01RR6B5E7FV7S	\N	2025-01-26 20:03:02.943018+00	2025-03-02 15:43:48.121+00	2025-03-02 15:43:48.108+00
+optval_01JJJ3BS5736F667GG4B5QR4AS	Black	opt_01JJJ3BS56S16BJZT49Z7BRY4B	\N	2025-01-26 20:03:02.943018+00	2025-03-02 15:43:48.13+00	2025-03-02 15:43:48.108+00
+optval_01JJJ3BS57HFEDV6EWEK3TPFW2	Orange	opt_01JJJ3BS56S16BJZT49Z7BRY4B	\N	2025-01-26 20:03:02.943018+00	2025-03-02 15:43:48.13+00	2025-03-02 15:43:48.108+00
+optval_01JJJ3BV577YNDPXVD7TAVP620	Boucle	opt_01JJJ3BV557AEBB4TQD9BVC67E	\N	2025-01-26 20:03:04.992002+00	2025-03-02 15:43:50.327+00	2025-03-02 15:43:50.304+00
+optval_01JJJ3BV578EKKFGJ1S5212R84	Linen	opt_01JJJ3BV557AEBB4TQD9BVC67E	\N	2025-01-26 20:03:04.992002+00	2025-03-02 15:43:50.327+00	2025-03-02 15:43:50.304+00
+optval_01JJJ3BV57RXPC12YD6MRKD2HV	Light Gray	opt_01JJJ3BV559P4SZGBB78F7Z94B	\N	2025-01-26 20:03:04.992002+00	2025-03-02 15:43:50.337+00	2025-03-02 15:43:50.304+00
+optval_01JJJ3BV57YZXFNCBSB41T3MP6	Yellow	opt_01JJJ3BV559P4SZGBB78F7Z94B	\N	2025-01-26 20:03:04.992002+00	2025-03-02 15:43:50.337+00	2025-03-02 15:43:50.304+00
 optval_01JJJGZ8TSKYJ8R3ZQDHE2K1WG	Modern Fit	opt_01JJJGZ8TDRG26P12JZ871YWBR	\N	2025-01-27 00:00:53.016348+00	2025-01-27 02:16:45.972+00	2025-01-27 02:16:45.937+00
 optval_01JJJGZ8TS71J6KKWG2CM65BKK	Slim Fit	opt_01JJJGZ8TDRG26P12JZ871YWBR	\N	2025-01-27 00:00:53.016348+00	2025-01-27 02:16:45.972+00	2025-01-27 02:16:45.937+00
 optval_01JJJGZ8TS3MVXT3TTRE7QC2XX	41	opt_01JJJGZ8TDM6Z5FG4TNPEJBKJE	\N	2025-01-27 00:00:53.016348+00	2025-01-27 02:16:45.982+00	2025-01-27 02:16:45.937+00
@@ -11627,6 +11617,16 @@ optval_01JJTE6Q82XW4S646WWRFTXXZZ	39	opt_01JJTE6Q628ERT25Q51Z7NAAZK	\N	2025-01-3
 optval_01JJTE6Q82KZ0QZ6XZ7VBBSZAC	40	opt_01JJTE6Q628ERT25Q51Z7NAAZK	\N	2025-01-30 01:46:26.824169+00	2025-01-30 01:46:26.824169+00	\N
 optval_01JJTE6Q824HFVNJMQ2858SY5C	45	opt_01JJTE6Q628ERT25Q51Z7NAAZK	\N	2025-01-30 01:46:26.824169+00	2025-01-30 01:46:26.824169+00	\N
 optval_01JJTE6Q82RT28TAB2TEP6R4WE	46	opt_01JJTE6Q628ERT25Q51Z7NAAZK	\N	2025-01-30 01:46:26.824169+00	2025-01-30 01:46:26.824169+00	\N
+optval_01JJJ37ZF52N9J31517PDVE9SP	Microfiber	opt_01JJJ37ZF3NJ4YPQCNPW6EN7QS	\N	2025-01-26 20:00:58.329214+00	2025-03-02 15:43:02.307+00	2025-03-02 15:43:02.286+00
+optval_01JJJ37ZF5TX0HKYM5S2YKAXNZ	Velvet	opt_01JJJ37ZF3NJ4YPQCNPW6EN7QS	\N	2025-01-26 20:00:58.329214+00	2025-03-02 15:43:02.307+00	2025-03-02 15:43:02.286+00
+optval_01JJJ37ZF50A93PZ64RJSMV5DG	Purple	opt_01JJJ37ZF3DNYTVN4AEVEZYPRG	\N	2025-01-26 20:00:58.329214+00	2025-03-02 15:43:02.317+00	2025-03-02 15:43:02.286+00
+optval_01JJJ37ZF5NJ5FGA96BGZE2M7P	Dark Gray	opt_01JJJ37ZF3DNYTVN4AEVEZYPRG	\N	2025-01-26 20:00:58.329214+00	2025-03-02 15:43:02.317+00	2025-03-02 15:43:02.286+00
+optval_01JJJ3819BTSQAFQM4Y4HRAT0W	Red	opt_01JJJ381985XJRT7FNAR2HSP1Y	\N	2025-01-26 20:01:00.192368+00	2025-03-02 15:43:05.121+00	2025-03-02 15:43:05.094+00
+optval_01JJJ3819BXE0SJAY6838JZBEP	Blue	opt_01JJJ381985XJRT7FNAR2HSP1Y	\N	2025-01-26 20:01:00.192368+00	2025-03-02 15:43:05.121+00	2025-03-02 15:43:05.094+00
+optval_01JJJ398V1QXKHCKPCFR0D3NDP	Light Gray	opt_01JJJ398TXE3ZX92P869MA0DBW	\N	2025-01-26 20:01:40.690004+00	2025-03-02 15:43:13.844+00	2025-03-02 15:43:13.823+00
+optval_01JJJ39DARTEPWW4C621YE584H	Light Gray	opt_01JJJ39DAPQDJ33T279RB11BX8	\N	2025-01-26 20:01:45.296063+00	2025-03-02 15:43:19.387+00	2025-03-02 15:43:19.368+00
+optval_01JJJ3A924XPFKZTCBNGFGV6MN	White	opt_01JJJ3A922Z8DKVCQ1B7Z900G8	\N	2025-01-26 20:02:13.692151+00	2025-03-02 15:43:24.742+00	2025-03-02 15:43:24.728+00
+optval_01JJJ3BQ43J4N6R71ERXZCT269	Purple	opt_01JJJ3BQ42QVYB5JSVJCY7Y9V9	\N	2025-01-26 20:03:00.859502+00	2025-03-02 15:43:45.654+00	2025-03-02 15:43:45.63+00
 \.
 
 
@@ -11865,53 +11865,48 @@ ptyp_01JJTF4QKWNTV7W1N8GQTH74XD	Polo Shirts	\N	2025-01-30 02:02:50.364+00	2025-0
 --
 
 COPY public.product_variant (id, title, sku, barcode, ean, upc, allow_backorder, manage_inventory, hs_code, origin_country, mid_code, material, weight, length, height, width, metadata, variant_rank, product_id, created_at, updated_at, deleted_at) FROM stdin;
-variant_01JJJ37ZFTQAWZKTWK8QSQZ1P1	Microfiber / Dark Gray	ASTRID-CURVE-MICROFIBER-DARK-GRAY	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ37ZEXST341KJMS57F71ST	2025-01-26 20:00:58.362+00	2025-01-26 20:00:58.362+00	\N
-variant_01JJJ3819Z5MRDQPQC957CHF53	Linen / Red	BELIME-ESTATE-LINEN-RED	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ38193C3DTKCMMPZWKP3AP	2025-01-26 20:01:00.224+00	2025-01-26 20:01:00.224+00	\N
-variant_01JJJ3819ZJNTHWF89JTFVFDXM	Linen / Blue	BELIME-ESTATE-LINEN-BLUE	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ38193C3DTKCMMPZWKP3AP	2025-01-26 20:01:00.224+00	2025-01-26 20:01:00.224+00	\N
-variant_01JJJ381A09B6QHWRDWW02MPCX	Boucle / Beige	BELIME-ESTATE-BOUCLE-BEIGE	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ38193C3DTKCMMPZWKP3AP	2025-01-26 20:01:00.224+00	2025-01-26 20:01:00.224+00	\N
-variant_01JJJ383CGW4746J9S2556X9WZ	Leather / Beige	CYPRESS-RETREAT-LEATHER-BEIGE	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ383AFX3GEATMCJ324VWK0	2025-01-26 20:01:02.352+00	2025-01-26 20:01:02.352+00	\N
-variant_01JJJ383CGNDX4518M4GQ9ES6G	Leather / Violet	CYPRESS-RETREAT-LEATHER-VIOLET	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ383AFX3GEATMCJ324VWK0	2025-01-26 20:01:02.352+00	2025-01-26 20:01:02.352+00	\N
-variant_01JJJ385BBRDMT4ZPNGWMY5RQT	Microfiber / Orange	EVERLY-ESTATE-MICROFIBER-ORANGE	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ385AN5AQBRT6HF26TPCY7	2025-01-26 20:01:04.363+00	2025-01-26 20:01:04.363+00	\N
-variant_01JJJ385BB69GY01KGWZXJAANF	Velvet / Black	EVERLY-ESTATE-VELVET-BLACK	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ385AN5AQBRT6HF26TPCY7	2025-01-26 20:01:04.363+00	2025-01-26 20:01:04.363+00	\N
-variant_01JJJ398VVY7EJRS3K56FW717N	Linen / Green	HAVENHILL-ESTATE-LINEN-GREEN	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ398TN3WTWMPHJE6CA2J6J	2025-01-26 20:01:40.731+00	2025-01-26 20:01:40.731+00	\N
-variant_01JJJ398VVMK52AFYF92J1ZFZ5	Boucle / Light Gray	HAVENHILL-ESTATE-BOUCLE-LIGHT-GRAY	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ398TN3WTWMPHJE6CA2J6J	2025-01-26 20:01:40.731+00	2025-01-26 20:01:40.731+00	\N
-variant_01JJJ39B75M2DD18PT93JSBBW4	Linen / Green	MONACO-FLAIR-LINEN-GREEN	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ39B69A6DTJ3VQ0AWEV825	2025-01-26 20:01:43.141+00	2025-01-26 20:01:43.141+00	\N
-variant_01JJJ39B75SW45P33HN8481235	Boucle / Light Gray	MONACO-FLAIR-BOUCLE-LIGHT-GRAY	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ39B69A6DTJ3VQ0AWEV825	2025-01-26 20:01:43.141+00	2025-01-26 20:01:43.141+00	\N
-variant_01JJJ39B75G84BGAJVNHN1FG1H	Boucle / Beige	MONACO-FLAIR-BOUCLE-BEIGE	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ39B69A6DTJ3VQ0AWEV825	2025-01-26 20:01:43.141+00	2025-01-26 20:01:43.141+00	\N
-variant_01JJJ39DBNNSDCDBJBY6S9XQ8D	Boucle / Beige	NORDIC-BREEZE-BOUCLE-BEIGE	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ39DAHARPP8F8HPZ7SGA0X	2025-01-26 20:01:45.334+00	2025-01-26 20:01:45.334+00	\N
-variant_01JJJ39DBN3ED47V0P2BQB3WJR	Boucle / White	NORDIC-BREEZE-BOUCLE-WHITE	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ39DAHARPP8F8HPZ7SGA0X	2025-01-26 20:01:45.334+00	2025-01-26 20:01:45.334+00	\N
-variant_01JJJ39DBNCRKS82ATH3RAARSY	Linen / Light Gray	NORDIC-BREEZE-LINEN-LIGHT-GRAY	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ39DAHARPP8F8HPZ7SGA0X	2025-01-26 20:01:45.334+00	2025-01-26 20:01:45.334+00	\N
-variant_01JJJ3A6G409G40Y42AQASQWWQ	Linen / Light Gray	NORDIC-HAVEN-LINEN-LIGHT-GRAY	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ3A6F5JPSR5NN1GWF28DEV	2025-01-26 20:02:11.077+00	2025-01-26 20:02:11.077+00	\N
-variant_01JJJ3A6G5NSH82MV4TE3YAJRR	Boucle / White	NORDIC-HAVEN-BOUCLE-WHITE	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ3A6F5JPSR5NN1GWF28DEV	2025-01-26 20:02:11.077+00	2025-01-26 20:02:11.077+00	\N
-variant_01JJJ3A6G5CTZRYYYXSZCHP2D7	Boucle / Beige	NORDIC-HAVEN-BOUCLE-BEIGE	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ3A6F5JPSR5NN1GWF28DEV	2025-01-26 20:02:11.077+00	2025-01-26 20:02:11.077+00	\N
-variant_01JJJ3A92KTWWJ72TE94PJ9HAN	Boucle / White	OSLO-DRIFT-BOUCLE-WHITE	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ3A91ZGCMK6R0J81QCD4FM	2025-01-26 20:02:13.715+00	2025-01-26 20:02:13.715+00	\N
-variant_01JJJ3A92K0GDPT6VD8P0MSFWG	Boucle / Beige	OSLO-DRIFT-BOUCLE-BEIGE	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ3A91ZGCMK6R0J81QCD4FM	2025-01-26 20:02:13.715+00	2025-01-26 20:02:13.715+00	\N
-variant_01JJJ3A92K6YHZHQVHXM42P81N	Linen / Light Gray	OSLO-DRIFT-LINEN-LIGHT-GRAY	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ3A91ZGCMK6R0J81QCD4FM	2025-01-26 20:02:13.715+00	2025-01-26 20:02:13.715+00	\N
-variant_01JJJ3ABG5X93S5JVPJC6QGT4X	Leather / Violet	OSLO-SERENITY-LEATHER-VIOLET	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ3ABFJWP331DGMYATE39P6	2025-01-26 20:02:16.197+00	2025-01-26 20:02:16.197+00	\N
-variant_01JJJ3ABG5XJ1SV2D05JNQSQHT	Leather / Beige	OSLO-SERENITY-LEATHER-BEIGE	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ3ABFJWP331DGMYATE39P6	2025-01-26 20:02:16.197+00	2025-01-26 20:02:16.197+00	\N
-variant_01JJJ3ADBW0QYQBR8497W4VGZ4	Linen / Light Gray	PALOMA-HAVEN-LINEN-LIGHT-GRAY	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ3ADBBRSNAQ4M082DBNTGE	2025-01-26 20:02:18.109+00	2025-01-26 20:02:18.109+00	\N
-variant_01JJJ3ADBX9GTMHD8XNQRQ8HB8	Linen / Green	PALOMA-HAVEN-LINEN-GREEN	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ3ADBBRSNAQ4M082DBNTGE	2025-01-26 20:02:18.109+00	2025-01-26 20:02:18.109+00	\N
-variant_01JJJ3ADBX656KH55J8B2Z38YW	Boucle / Beige	PALOMA-HAVEN-BOUCLE-BEIGE	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ3ADBBRSNAQ4M082DBNTGE	2025-01-26 20:02:18.109+00	2025-01-26 20:02:18.109+00	\N
-variant_01JJJ3BJ8J02M7RJJBCXJM8YVH	Boucle / Light Gray	SAVANNAH-GROVE-BOUCLE-LIGHT-GRAY	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ3BJ7WNNR061TVQSN4J32T	2025-01-26 20:02:55.89+00	2025-01-26 20:02:55.89+00	\N
-variant_01JJJ3BJ8J0GA0ZNDX00HVV1TD	Linen / Yellow	SAVANNAH-GROVE-LINEN-YELLOW	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ3BJ7WNNR061TVQSN4J32T	2025-01-26 20:02:55.89+00	2025-01-26 20:02:55.89+00	\N
-variant_01JJJ3BJ8JJ7NJF8S3QTYX9EK1	Linen / Light Gray	SAVANNAH-GROVE-LINEN-LIGHT-GRAY	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ3BJ7WNNR061TVQSN4J32T	2025-01-26 20:02:55.89+00	2025-01-26 20:02:55.89+00	\N
-variant_01JJJ3BMG4TFF9KHT5CHJEVGTF	Microfiber / Black	SERENA-MEADOW-MICROFIBER-BLACK	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ3BMF5RSY4ET62G6DFZ9H7	2025-01-26 20:02:58.18+00	2025-01-26 20:02:58.18+00	\N
-variant_01JJJ3BMG43ZFQTENZW5BGPJ3K	Microfiber / Dark Gray	SERENA-MEADOW-MICROFIBER-DARK-GRAY	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ3BMF5RSY4ET62G6DFZ9H7	2025-01-26 20:02:58.18+00	2025-01-26 20:02:58.18+00	\N
-variant_01JJJ3BMG4AVWV5387E1XRH197	Velvet / Black	SERENA-MEADOW-VELVET-BLACK	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ3BMF5RSY4ET62G6DFZ9H7	2025-01-26 20:02:58.18+00	2025-01-26 20:02:58.18+00	\N
-variant_01JJJ3BQ4K7MNPK6S6VF93R8MV	Velvet / Purple	SUTTON-ROYALE-VELVET-PURPLE	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ3BQ3YZ56QQ55JMRXTT8BE	2025-01-26 20:03:00.883+00	2025-01-26 20:03:00.883+00	\N
-variant_01JJJ3BQ4KEB5GJRAZHZFW2HJS	Microfiber / Dark Gray	SUTTON-ROYALE-MICROFIBER-DARK-GRAY	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ3BQ3YZ56QQ55JMRXTT8BE	2025-01-26 20:03:00.883+00	2025-01-26 20:03:00.883+00	\N
-variant_01JJJ3BS5MRQPC14X4W4XSKTP7	Velvet / Black	VELAR-LOFT-VELVET-BLACK	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ3BS52QYC6ER938B1DY026	2025-01-26 20:03:02.964+00	2025-01-26 20:03:02.964+00	\N
-variant_01JJJ3BS5M9R3GT0WT7HPJ6MQF	Microfiber / Orange	VELAR-LOFT-MICROFIBER-ORANGE	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ3BS52QYC6ER938B1DY026	2025-01-26 20:03:02.965+00	2025-01-26 20:03:02.965+00	\N
-variant_01JJJ3BV5P62RJ3AN8NE7NH4V5	Boucle / Light Gray	VELORA-LUXE-BOUCLE-LIGHT-GRAY	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ3BV521BJC2NR2QRM5F6ES	2025-01-26 20:03:05.014+00	2025-01-26 20:03:05.014+00	\N
 variant_01JJJGZ8YHBBVJH8Y5Q895PR19	41	4260581270209	4260581270209	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJGZ8SJ15J0HAN750E0ZY2J	2025-01-27 00:00:53.207+00	2025-01-27 02:16:45.958+00	2025-01-27 02:16:45.937+00
 variant_01JJJGZ8YH9D6PZT0X772KX5DN	42	4260581270216	4260581270216	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJGZ8SJ15J0HAN750E0ZY2J	2025-01-27 00:00:53.207+00	2025-01-27 02:16:45.958+00	2025-01-27 02:16:45.937+00
-variant_01JJJ54DSJQ2WJJXQJEBM2F96A	TEST	asfdsdf	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ3BV521BJC2NR2QRM5F6ES	2025-01-26 20:33:59.09+00	2025-01-26 20:33:59.09+00	\N
-variant_01JJJ3BV5PBSYP28XM7J8DXZCX	Linen / Yellow 2	VELORA-LUXE-LINEN-YELLOW	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ3BV521BJC2NR2QRM5F6ES	2025-01-26 20:03:05.014+00	2025-01-26 20:03:05.014+00	\N
 variant_01JJJGZ8YHAVW7NK74C862N7A1	43	4260581270223	4260581270223	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJGZ8SJ15J0HAN750E0ZY2J	2025-01-27 00:00:53.207+00	2025-01-27 02:16:45.958+00	2025-01-27 02:16:45.937+00
 variant_01JJJGZ8YHEXM572SR15930HTK	44	4260581270230	4260581270230	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJGZ8SJ15J0HAN750E0ZY2J	2025-01-27 00:00:53.207+00	2025-01-27 02:16:45.958+00	2025-01-27 02:16:45.937+00
 variant_01JJJGZ8YHEG4N9DS28599GGN6	39	4260581271404	4260581271404	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJGZ8SJ15J0HAN750E0ZY2J	2025-01-27 00:00:53.207+00	2025-01-27 02:16:45.959+00	2025-01-27 02:16:45.937+00
 variant_01JJJGZ8YHRTNJ86YZ65HFT1GZ	40	4260581271411	4260581271411	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJGZ8SJ15J0HAN750E0ZY2J	2025-01-27 00:00:53.207+00	2025-01-27 02:16:45.959+00	2025-01-27 02:16:45.937+00
 variant_01JJJGZ8YHKNJ8DS6EY5J4FTT4	41	4260581271428	4260581271428	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJGZ8SJ15J0HAN750E0ZY2J	2025-01-27 00:00:53.207+00	2025-01-27 02:16:45.959+00	2025-01-27 02:16:45.937+00
+variant_01JJJ3819Z5MRDQPQC957CHF53	Linen / Red	BELIME-ESTATE-LINEN-RED	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ38193C3DTKCMMPZWKP3AP	2025-01-26 20:01:00.224+00	2025-03-02 15:43:05.104+00	2025-03-02 15:43:05.094+00
+variant_01JJJ383CGNDX4518M4GQ9ES6G	Leather / Violet	CYPRESS-RETREAT-LEATHER-VIOLET	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ383AFX3GEATMCJ324VWK0	2025-01-26 20:01:02.352+00	2025-03-02 15:43:07.81+00	2025-03-02 15:43:07.8+00
+variant_01JJJ383CGW4746J9S2556X9WZ	Leather / Beige	CYPRESS-RETREAT-LEATHER-BEIGE	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ383AFX3GEATMCJ324VWK0	2025-01-26 20:01:02.352+00	2025-03-02 15:43:07.81+00	2025-03-02 15:43:07.8+00
+variant_01JJJ385BB69GY01KGWZXJAANF	Velvet / Black	EVERLY-ESTATE-VELVET-BLACK	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ385AN5AQBRT6HF26TPCY7	2025-01-26 20:01:04.363+00	2025-03-02 15:43:11.405+00	2025-03-02 15:43:11.396+00
+variant_01JJJ385BBRDMT4ZPNGWMY5RQT	Microfiber / Orange	EVERLY-ESTATE-MICROFIBER-ORANGE	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ385AN5AQBRT6HF26TPCY7	2025-01-26 20:01:04.363+00	2025-03-02 15:43:11.405+00	2025-03-02 15:43:11.396+00
+variant_01JJJ398VVMK52AFYF92J1ZFZ5	Boucle / Light Gray	HAVENHILL-ESTATE-BOUCLE-LIGHT-GRAY	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ398TN3WTWMPHJE6CA2J6J	2025-01-26 20:01:40.731+00	2025-03-02 15:43:13.829+00	2025-03-02 15:43:13.823+00
+variant_01JJJ398VVY7EJRS3K56FW717N	Linen / Green	HAVENHILL-ESTATE-LINEN-GREEN	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ398TN3WTWMPHJE6CA2J6J	2025-01-26 20:01:40.731+00	2025-03-02 15:43:13.829+00	2025-03-02 15:43:13.823+00
+variant_01JJJ39B75G84BGAJVNHN1FG1H	Boucle / Beige	MONACO-FLAIR-BOUCLE-BEIGE	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ39B69A6DTJ3VQ0AWEV825	2025-01-26 20:01:43.141+00	2025-03-02 15:43:16.38+00	2025-03-02 15:43:16.369+00
+variant_01JJJ39B75M2DD18PT93JSBBW4	Linen / Green	MONACO-FLAIR-LINEN-GREEN	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ39B69A6DTJ3VQ0AWEV825	2025-01-26 20:01:43.141+00	2025-03-02 15:43:16.38+00	2025-03-02 15:43:16.369+00
+variant_01JJJ39DBN3ED47V0P2BQB3WJR	Boucle / White	NORDIC-BREEZE-BOUCLE-WHITE	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ39DAHARPP8F8HPZ7SGA0X	2025-01-26 20:01:45.334+00	2025-03-02 15:43:19.376+00	2025-03-02 15:43:19.368+00
+variant_01JJJ39DBNCRKS82ATH3RAARSY	Linen / Light Gray	NORDIC-BREEZE-LINEN-LIGHT-GRAY	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ39DAHARPP8F8HPZ7SGA0X	2025-01-26 20:01:45.334+00	2025-03-02 15:43:19.376+00	2025-03-02 15:43:19.368+00
+variant_01JJJ39DBNNSDCDBJBY6S9XQ8D	Boucle / Beige	NORDIC-BREEZE-BOUCLE-BEIGE	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ39DAHARPP8F8HPZ7SGA0X	2025-01-26 20:01:45.334+00	2025-03-02 15:43:19.376+00	2025-03-02 15:43:19.368+00
+variant_01JJJ3A6G409G40Y42AQASQWWQ	Linen / Light Gray	NORDIC-HAVEN-LINEN-LIGHT-GRAY	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ3A6F5JPSR5NN1GWF28DEV	2025-01-26 20:02:11.077+00	2025-03-02 15:43:21.98+00	2025-03-02 15:43:21.968+00
+variant_01JJJ3A6G5CTZRYYYXSZCHP2D7	Boucle / Beige	NORDIC-HAVEN-BOUCLE-BEIGE	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ3A6F5JPSR5NN1GWF28DEV	2025-01-26 20:02:11.077+00	2025-03-02 15:43:21.98+00	2025-03-02 15:43:21.968+00
+variant_01JJJ3A6G5NSH82MV4TE3YAJRR	Boucle / White	NORDIC-HAVEN-BOUCLE-WHITE	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ3A6F5JPSR5NN1GWF28DEV	2025-01-26 20:02:11.077+00	2025-03-02 15:43:21.98+00	2025-03-02 15:43:21.968+00
+variant_01JJJ3A92K0GDPT6VD8P0MSFWG	Boucle / Beige	OSLO-DRIFT-BOUCLE-BEIGE	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ3A91ZGCMK6R0J81QCD4FM	2025-01-26 20:02:13.715+00	2025-03-02 15:43:24.732+00	2025-03-02 15:43:24.728+00
+variant_01JJJ3A92K6YHZHQVHXM42P81N	Linen / Light Gray	OSLO-DRIFT-LINEN-LIGHT-GRAY	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ3A91ZGCMK6R0J81QCD4FM	2025-01-26 20:02:13.715+00	2025-03-02 15:43:24.732+00	2025-03-02 15:43:24.728+00
+variant_01JJJ3A92KTWWJ72TE94PJ9HAN	Boucle / White	OSLO-DRIFT-BOUCLE-WHITE	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ3A91ZGCMK6R0J81QCD4FM	2025-01-26 20:02:13.715+00	2025-03-02 15:43:24.732+00	2025-03-02 15:43:24.728+00
+variant_01JJJ3ABG5X93S5JVPJC6QGT4X	Leather / Violet	OSLO-SERENITY-LEATHER-VIOLET	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ3ABFJWP331DGMYATE39P6	2025-01-26 20:02:16.197+00	2025-03-02 15:43:27.893+00	2025-03-02 15:43:27.884+00
+variant_01JJJ3ABG5XJ1SV2D05JNQSQHT	Leather / Beige	OSLO-SERENITY-LEATHER-BEIGE	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ3ABFJWP331DGMYATE39P6	2025-01-26 20:02:16.197+00	2025-03-02 15:43:27.893+00	2025-03-02 15:43:27.884+00
+variant_01JJJ3ADBW0QYQBR8497W4VGZ4	Linen / Light Gray	PALOMA-HAVEN-LINEN-LIGHT-GRAY	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ3ADBBRSNAQ4M082DBNTGE	2025-01-26 20:02:18.109+00	2025-03-02 15:43:35.496+00	2025-03-02 15:43:35.471+00
+variant_01JJJ3ADBX656KH55J8B2Z38YW	Boucle / Beige	PALOMA-HAVEN-BOUCLE-BEIGE	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ3ADBBRSNAQ4M082DBNTGE	2025-01-26 20:02:18.109+00	2025-03-02 15:43:35.496+00	2025-03-02 15:43:35.471+00
+variant_01JJJ3BJ8J02M7RJJBCXJM8YVH	Boucle / Light Gray	SAVANNAH-GROVE-BOUCLE-LIGHT-GRAY	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ3BJ7WNNR061TVQSN4J32T	2025-01-26 20:02:55.89+00	2025-03-02 15:43:39.909+00	2025-03-02 15:43:39.899+00
+variant_01JJJ3BJ8J0GA0ZNDX00HVV1TD	Linen / Yellow	SAVANNAH-GROVE-LINEN-YELLOW	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ3BJ7WNNR061TVQSN4J32T	2025-01-26 20:02:55.89+00	2025-03-02 15:43:39.909+00	2025-03-02 15:43:39.899+00
+variant_01JJJ3BJ8JJ7NJF8S3QTYX9EK1	Linen / Light Gray	SAVANNAH-GROVE-LINEN-LIGHT-GRAY	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ3BJ7WNNR061TVQSN4J32T	2025-01-26 20:02:55.89+00	2025-03-02 15:43:39.909+00	2025-03-02 15:43:39.899+00
+variant_01JJJ3BMG43ZFQTENZW5BGPJ3K	Microfiber / Dark Gray	SERENA-MEADOW-MICROFIBER-DARK-GRAY	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ3BMF5RSY4ET62G6DFZ9H7	2025-01-26 20:02:58.18+00	2025-03-02 15:43:42.652+00	2025-03-02 15:43:42.644+00
+variant_01JJJ3BMG4AVWV5387E1XRH197	Velvet / Black	SERENA-MEADOW-VELVET-BLACK	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ3BMF5RSY4ET62G6DFZ9H7	2025-01-26 20:02:58.18+00	2025-03-02 15:43:42.652+00	2025-03-02 15:43:42.644+00
+variant_01JJJ3BMG4TFF9KHT5CHJEVGTF	Microfiber / Black	SERENA-MEADOW-MICROFIBER-BLACK	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ3BMF5RSY4ET62G6DFZ9H7	2025-01-26 20:02:58.18+00	2025-03-02 15:43:42.652+00	2025-03-02 15:43:42.644+00
+variant_01JJJ3BQ4K7MNPK6S6VF93R8MV	Velvet / Purple	SUTTON-ROYALE-VELVET-PURPLE	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ3BQ3YZ56QQ55JMRXTT8BE	2025-01-26 20:03:00.883+00	2025-03-02 15:43:45.639+00	2025-03-02 15:43:45.63+00
+variant_01JJJ3BQ4KEB5GJRAZHZFW2HJS	Microfiber / Dark Gray	SUTTON-ROYALE-MICROFIBER-DARK-GRAY	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ3BQ3YZ56QQ55JMRXTT8BE	2025-01-26 20:03:00.883+00	2025-03-02 15:43:45.639+00	2025-03-02 15:43:45.63+00
+variant_01JJJ3BS5M9R3GT0WT7HPJ6MQF	Microfiber / Orange	VELAR-LOFT-MICROFIBER-ORANGE	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ3BS52QYC6ER938B1DY026	2025-01-26 20:03:02.965+00	2025-03-02 15:43:48.115+00	2025-03-02 15:43:48.108+00
+variant_01JJJ3BS5MRQPC14X4W4XSKTP7	Velvet / Black	VELAR-LOFT-VELVET-BLACK	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ3BS52QYC6ER938B1DY026	2025-01-26 20:03:02.964+00	2025-03-02 15:43:48.115+00	2025-03-02 15:43:48.108+00
+variant_01JJJ3BV5P62RJ3AN8NE7NH4V5	Boucle / Light Gray	VELORA-LUXE-BOUCLE-LIGHT-GRAY	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ3BV521BJC2NR2QRM5F6ES	2025-01-26 20:03:05.014+00	2025-03-02 15:43:50.318+00	2025-03-02 15:43:50.304+00
+variant_01JJJ3BV5PBSYP28XM7J8DXZCX	Linen / Yellow 2	VELORA-LUXE-LINEN-YELLOW	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ3BV521BJC2NR2QRM5F6ES	2025-01-26 20:03:05.014+00	2025-03-02 15:43:50.318+00	2025-03-02 15:43:50.304+00
+variant_01JJJ54DSJQ2WJJXQJEBM2F96A	TEST	asfdsdf	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ3BV521BJC2NR2QRM5F6ES	2025-01-26 20:33:59.09+00	2025-03-02 15:43:50.318+00	2025-03-02 15:43:50.304+00
 variant_01JJJGZ8YHP39JX7TFENNSKXR0	42	4260581271435	4260581271435	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJGZ8SJ15J0HAN750E0ZY2J	2025-01-27 00:00:53.207+00	2025-01-27 02:16:45.959+00	2025-01-27 02:16:45.937+00
 variant_01JJJGZ8YH2MY6Y9B996X69MJ3	43	4260581271442	4260581271442	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJGZ8SJ15J0HAN750E0ZY2J	2025-01-27 00:00:53.207+00	2025-01-27 02:16:45.959+00	2025-01-27 02:16:45.937+00
 variant_01JJJGZ8YHQPDP6V05ZS1QSQ9N	42	4260581271633	4260581271633	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJGZ8SJZTY2SPFH7JHA8EGZ	2025-01-27 00:00:53.207+00	2025-01-27 02:16:50.615+00	2025-01-27 02:16:50.603+00
@@ -12138,6 +12133,7 @@ variant_01JJJGZ8YJP9XFP26RK148VZFF	41	4260581271220	4260581271220	\N	\N	f	f	\N	\
 variant_01JJJGZ8YJYY59SDQH5JZTSDAX	42	4260581271237	4260581271237	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJGZ8SKTCYKV455QCMBGK4C	2025-01-27 00:00:53.207+00	2025-01-27 02:17:17.135+00	2025-01-27 02:17:17.119+00
 variant_01JJJRSF77GAJTDTZ9WJYR1E76	41	4260581270308	4260581270308	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	{"size": 41, "chest": "122 cm", "test\\r": "\\r", "waist": "118 cm", "back_length": "95 cm", "front_length": "85 cm", "sleeve_length": "72 cm"}	0	prod_01JJJRSF1Z0Q8X6DQJZ5JA02J0	2025-01-27 02:17:31.627+00	2025-01-27 02:43:10.027+00	2025-01-27 02:43:10.013+00
 variant_01JJJRSF77SX28XX6GJNYT6H6M	42	4260581270315	4260581270315	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	{"size": 42, "chest": "125 cm", "test\\r": "\\r", "waist": "121 cm", "back_length": "95 cm", "front_length": "85 cm", "sleeve_length": "72 cm"}	0	prod_01JJJRSF1Z0Q8X6DQJZ5JA02J0	2025-01-27 02:17:31.627+00	2025-01-27 02:43:10.027+00	2025-01-27 02:43:10.013+00
+variant_01JJJ37ZFTG0QA7MFJ7JWEDYZN	Velvet / Purple	ASTRID-CURVE-VELVET-PURPLE	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ37ZEXST341KJMS57F71ST	2025-01-26 20:00:58.362+00	2025-03-02 15:43:02.299+00	2025-03-02 15:43:02.286+00
 variant_01JJJRSF77ZZ6C8NTRC53ABNDY	43	4260581270322	4260581270322	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	{"size": 43, "chest": "127 cm", "test\\r": "\\r", "waist": "123 cm", "back_length": "96 cm", "front_length": "86 cm", "sleeve_length": "72 cm"}	0	prod_01JJJRSF1Z0Q8X6DQJZ5JA02J0	2025-01-27 02:17:31.627+00	2025-01-27 02:43:10.027+00	2025-01-27 02:43:10.013+00
 variant_01JJJRSF77GGP9KT8NSAZ7TWD4	44	4260581270339	4260581270339	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	{"size": 44, "chest": "129 cm", "test\\r": "\\r", "waist": "125 cm", "back_length": "96 cm", "front_length": "86 cm", "sleeve_length": "72 cm"}	0	prod_01JJJRSF1Z0Q8X6DQJZ5JA02J0	2025-01-27 02:17:31.627+00	2025-01-27 02:43:10.027+00	2025-01-27 02:43:10.013+00
 variant_01JJJGZ8YM6A62X98H3XFA8058	42	4260581271015	4260581271015	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJGZ8SKK4KENCT8465ZVE85	2025-01-27 00:00:53.207+00	2025-01-27 02:17:06.334+00	2025-01-27 02:17:06.314+00
@@ -12182,6 +12178,7 @@ variant_01JJJGZ8YPVMKRXNKWP04JN2W4	42	4260581272432	4260581272432	\N	\N	f	f	\N	\
 variant_01JJJGZ8YP6EPGGR8M6GNCNYBH	43	4260581272449	4260581272449	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJGZ8SMPCB4N498RP4YNSJD	2025-01-27 00:00:53.208+00	2025-01-27 02:17:25.679+00	2025-01-27 02:17:25.663+00
 variant_01JJJRSF75K570Y6DBWMHWEANT	39	4260581271602	4260581271602	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	{"size": 39, "chest": "108 cm", "test\\r": "\\r", "waist": "100 cm", "back_length": "95 cm", "front_length": "85 cm", "sleeve_length": "72 cm"}	0	prod_01JJJRSF1YVTCFAP3WH0Q0PG8J	2025-01-27 02:17:31.627+00	2025-01-27 02:43:09.733+00	2025-01-27 02:43:09.705+00
 variant_01JJJRSF75SYGK2XM9EA5BK3YQ	40	4260581271619	4260581271619	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	{"size": 40, "chest": "111 cm", "test\\r": "\\r", "waist": "103 cm", "back_length": "95 cm", "front_length": "85 cm", "sleeve_length": "72 cm"}	0	prod_01JJJRSF1YVTCFAP3WH0Q0PG8J	2025-01-27 02:17:31.627+00	2025-01-27 02:43:09.733+00	2025-01-27 02:43:09.705+00
+variant_01JJJ37ZFTQAWZKTWK8QSQZ1P1	Microfiber / Dark Gray	ASTRID-CURVE-MICROFIBER-DARK-GRAY	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ37ZEXST341KJMS57F71ST	2025-01-26 20:00:58.362+00	2025-03-02 15:43:02.299+00	2025-03-02 15:43:02.286+00
 variant_01JJJRSF75NHEVPHG1C9FBYDNK	41	4260581271626	4260581271626	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	{"size": 41, "chest": "115 cm", "test\\r": "\\r", "waist": "107 cm", "back_length": "95 cm", "front_length": "85 cm", "sleeve_length": "72 cm"}	0	prod_01JJJRSF1YVTCFAP3WH0Q0PG8J	2025-01-27 02:17:31.627+00	2025-01-27 02:43:09.733+00	2025-01-27 02:43:09.705+00
 variant_01JJJRSF773CBR9B204HPCBV44	45	4260581270346	4260581270346	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	{"size": 45, "chest": "131 cm", "test\\r": "\\r", "waist": "127 cm", "back_length": "97 cm", "front_length": "87 cm", "sleeve_length": "72 cm"}	0	prod_01JJJRSF1Z0Q8X6DQJZ5JA02J0	2025-01-27 02:17:31.627+00	2025-01-27 02:43:10.027+00	2025-01-27 02:43:10.013+00
 variant_01JJJRSF77GC88WX4S3NMMBSYS	46	4260581270353	4260581270353	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	{"size": 46, "chest": "133 cm", "test\\r": "\\r", "waist": "129 cm", "back_length": "97 cm", "front_length": "87 cm", "sleeve_length": "72 cm"}	0	prod_01JJJRSF1Z0Q8X6DQJZ5JA02J0	2025-01-27 02:17:31.627+00	2025-01-27 02:43:10.027+00	2025-01-27 02:43:10.013+00
@@ -12215,6 +12212,7 @@ variant_01JJJTAZAJ3NAVDAQ85GZRSEJN	46	4260581270056	4260581270056	\N	\N	f	f	\N	\
 variant_01JJJTAZAJDY3X2E29PV1ZVCMM	39	4260581271503	4260581271503	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJTAZ58P8MNYGJZGTBXVES9	2025-01-27 02:44:33.753+00	2025-01-27 02:46:29.682+00	2025-01-27 02:46:29.655+00
 variant_01JJJTEVM1SWCTGMMTRH8M4XHF	41	4260581270001	4260581270001	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	{"size": 41, "chest": "122 cm", "test\\r": "\\r", "waist": "118 cm", "back_length": "95 cm", "front_length": "85 cm", "sleeve_length": "72 cm"}	0	prod_01JJJTEVES2CXWN8A168DN71AX	2025-01-27 02:46:41.03+00	2025-01-27 02:49:38.816+00	2025-01-27 02:49:38.805+00
 variant_01JJJTEVM145WB6X351JHYEDBA	42	4260581270018	4260581270018	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	{"size": 42, "chest": "125 cm", "test\\r": "\\r", "waist": "121 cm", "back_length": "95 cm", "front_length": "85 cm", "sleeve_length": "72 cm"}	0	prod_01JJJTEVES2CXWN8A168DN71AX	2025-01-27 02:46:41.03+00	2025-01-27 02:49:38.816+00	2025-01-27 02:49:38.805+00
+variant_01JJJ3819ZJNTHWF89JTFVFDXM	Linen / Blue	BELIME-ESTATE-LINEN-BLUE	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ38193C3DTKCMMPZWKP3AP	2025-01-26 20:01:00.224+00	2025-03-02 15:43:05.104+00	2025-03-02 15:43:05.094+00
 variant_01JJJTEVM14JY40SQNDGX377J1	43	4260581270025	4260581270025	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	{"size": 43, "chest": "127 cm", "test\\r": "\\r", "waist": "123 cm", "back_length": "96 cm", "front_length": "86 cm", "sleeve_length": "72 cm"}	0	prod_01JJJTEVES2CXWN8A168DN71AX	2025-01-27 02:46:41.03+00	2025-01-27 02:49:38.816+00	2025-01-27 02:49:38.805+00
 variant_01JJJTEVM1H7ZHRTVJPNNFEQ59	44	4260581270032	4260581270032	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	{"size": 44, "chest": "129 cm", "test\\r": "\\r", "waist": "125 cm", "back_length": "96 cm", "front_length": "86 cm", "sleeve_length": "72 cm"}	0	prod_01JJJTEVES2CXWN8A168DN71AX	2025-01-27 02:46:41.03+00	2025-01-27 02:49:38.816+00	2025-01-27 02:49:38.805+00
 variant_01JJJTEVM12J4Y9B04WKEMFTN0	45	4260581270049	4260581270049	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	{"size": 45, "chest": "131 cm", "test\\r": "\\r", "waist": "127 cm", "back_length": "97 cm", "front_length": "87 cm", "sleeve_length": "72 cm"}	0	prod_01JJJTEVES2CXWN8A168DN71AX	2025-01-27 02:46:41.03+00	2025-01-27 02:49:38.816+00	2025-01-27 02:49:38.805+00
@@ -12274,6 +12272,7 @@ variant_01JJJTAZAN5VXS4KV993R43NNG	41	4260581270308	4260581270308	\N	\N	f	f	\N	\
 variant_01JJJTEVM2MV0M8NP8DMA48ETM	42	4260581271534	4260581271534	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	{"size": 42, "chest": "118 cm", "test\\r": "\\r", "waist": "110 cm", "back_length": "95 cm", "front_length": "85 cm", "sleeve_length": "72 cm"}	0	prod_01JJJTEVES2CXWN8A168DN71AX	2025-01-27 02:46:41.031+00	2025-01-27 02:49:38.816+00	2025-01-27 02:49:38.805+00
 variant_01JJJTEVM2SWPVZ12ZN0KP5VD5	43	4260581271541	4260581271541	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	{"size": 43, "chest": "121 cm", "test\\r": "\\r", "waist": "113 cm", "back_length": "96 cm", "front_length": "86 cm", "sleeve_length": "72 cm"}	0	prod_01JJJTEVES2CXWN8A168DN71AX	2025-01-27 02:46:41.031+00	2025-01-27 02:49:38.816+00	2025-01-27 02:49:38.805+00
 variant_01JJJTEVM400C2X7K3WZ8ZCRWK	45	4260581270544	4260581270544	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	{"size": 45, "chest": "131 cm", "test\\r": "\\r", "waist": "127 cm", "back_length": "97 cm", "front_length": "87 cm", "sleeve_length": "72 cm"}	0	prod_01JJJTEVETXQ413QYCFF4HYVSX	2025-01-27 02:46:41.031+00	2025-01-27 02:49:41.885+00	2025-01-27 02:49:41.869+00
+variant_01JJJ381A09B6QHWRDWW02MPCX	Boucle / Beige	BELIME-ESTATE-BOUCLE-BEIGE	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ38193C3DTKCMMPZWKP3AP	2025-01-26 20:01:00.224+00	2025-03-02 15:43:05.104+00	2025-03-02 15:43:05.094+00
 variant_01JJJTEVM4HTZHCSE565AXMRM8	46	4260581270551	4260581270551	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	{"size": 46, "chest": "133 cm", "test\\r": "\\r", "waist": "129 cm", "back_length": "97 cm", "front_length": "87 cm", "sleeve_length": "72 cm"}	0	prod_01JJJTEVETXQ413QYCFF4HYVSX	2025-01-27 02:46:41.031+00	2025-01-27 02:49:41.885+00	2025-01-27 02:49:41.869+00
 variant_01JJJTEVM4ACTD1SW4YW3YX8WV	39	4260581271305	4260581271305	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	{"size": 39, "chest": "108 cm", "test\\r": "\\r", "waist": "100 cm", "back_length": "95 cm", "front_length": "85 cm", "sleeve_length": "72 cm"}	0	prod_01JJJTEVETXQ413QYCFF4HYVSX	2025-01-27 02:46:41.031+00	2025-01-27 02:49:41.885+00	2025-01-27 02:49:41.869+00
 variant_01JJJRSF77MBG4RYEN9MXHW9TK	41	4260581271008	4260581271008	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	{"size": 41, "chest": "122 cm", "test\\r": "\\r", "waist": "118 cm", "back_length": "95 cm", "front_length": "85 cm", "sleeve_length": "72 cm"}	0	prod_01JJJRSF1ZKEYVFYYKJSR9R8R4	2025-01-27 02:17:31.627+00	2025-01-27 02:43:11.94+00	2025-01-27 02:43:11.927+00
@@ -12358,6 +12357,7 @@ variant_01JJJRSF751ZGQ0GB9876Q8WBF	41	4260581271428	4260581271428	\N	\N	f	f	\N	\
 variant_01JJJRSF75CCEXXA8VK74FVK4Z	42	4260581271435	4260581271435	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	{"size": 42, "chest": "118 cm", "test\\r": "\\r", "waist": "110 cm", "back_length": "95 cm", "front_length": "85 cm", "sleeve_length": "72 cm"}	0	prod_01JJJRSF1Z24PD0NE2N4CEC0KJ	2025-01-27 02:17:31.627+00	2025-01-27 02:43:10.859+00	2025-01-27 02:43:10.84+00
 variant_01JJJRSF75HJGJSZY8RZHSZGVA	43	4260581271442	4260581271442	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	{"size": 43, "chest": "121 cm", "test\\r": "\\r", "waist": "113 cm", "back_length": "96 cm", "front_length": "86 cm", "sleeve_length": "72 cm"}	0	prod_01JJJRSF1Z24PD0NE2N4CEC0KJ	2025-01-27 02:17:31.627+00	2025-01-27 02:43:10.859+00	2025-01-27 02:43:10.84+00
 variant_01JJJTEVM16KVBQ5WNSMCDTCKP	43	4260581271640	4260581271640	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	{"size": 43, "chest": "121 cm", "test\\r": "\\r", "waist": "113 cm", "back_length": "96 cm", "front_length": "86 cm", "sleeve_length": "72 cm"}	0	prod_01JJJTEVES9CTWPAGHQ1DKC85T	2025-01-27 02:46:41.03+00	2025-01-27 02:49:39.504+00	2025-01-27 02:49:39.478+00
+variant_01JJJ39B75SW45P33HN8481235	Boucle / Light Gray	MONACO-FLAIR-BOUCLE-LIGHT-GRAY	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ39B69A6DTJ3VQ0AWEV825	2025-01-26 20:01:43.141+00	2025-03-02 15:43:16.38+00	2025-03-02 15:43:16.369+00
 variant_01JJJTEVM3MWZKAWM1BTHSQ136	42	4260581270414	4260581270414	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	{"size": 42, "chest": "125 cm", "test\\r": "\\r", "waist": "121 cm", "back_length": "95 cm", "front_length": "85 cm", "sleeve_length": "72 cm"}	0	prod_01JJJTEVET8F8X3BP0ZN2KVJY8	2025-01-27 02:46:41.031+00	2025-01-27 02:49:40.514+00	2025-01-27 02:49:40.504+00
 variant_01JJJTEVM3R9N9VAAZW1DHZTZY	43	4260581270421	4260581270421	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	{"size": 43, "chest": "127 cm", "test\\r": "\\r", "waist": "123 cm", "back_length": "96 cm", "front_length": "86 cm", "sleeve_length": "72 cm"}	0	prod_01JJJTEVET8F8X3BP0ZN2KVJY8	2025-01-27 02:46:41.031+00	2025-01-27 02:49:40.514+00	2025-01-27 02:49:40.504+00
 variant_01JJJTEVM3RPGNQQNWZNSAKHTK	46	4260581270452	4260581270452	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	{"size": 46, "chest": "133 cm", "test\\r": "\\r", "waist": "129 cm", "back_length": "97 cm", "front_length": "87 cm", "sleeve_length": "72 cm"}	0	prod_01JJJTEVET8F8X3BP0ZN2KVJY8	2025-01-27 02:46:41.031+00	2025-01-27 02:49:40.514+00	2025-01-27 02:49:40.504+00
@@ -12559,7 +12559,6 @@ variant_01JJJTEVM1GY6WDC7G9N1XKQGB	43	4260581271442	4260581271442	\N	\N	f	f	\N	\
 variant_01JJJTEVM1QGRCY3DAD02M278J	41	4260581271428	4260581271428	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	{"size": 41, "chest": "115 cm", "test\\r": "\\r", "waist": "107 cm", "back_length": "95 cm", "front_length": "85 cm", "sleeve_length": "72 cm"}	0	prod_01JJJTEVESSRYE9CZZDTJJQFT1	2025-01-27 02:46:41.03+00	2025-01-27 02:49:39.992+00	2025-01-27 02:49:39.984+00
 variant_01JJJTEVM1VE2WEH7VVB9QS8D3	43	4260581270223	4260581270223	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	{"size": 43, "chest": "127 cm", "test\\r": "\\r", "waist": "123 cm", "back_length": "96 cm", "front_length": "86 cm", "sleeve_length": "72 cm"}	0	prod_01JJJTEVESSRYE9CZZDTJJQFT1	2025-01-27 02:46:41.03+00	2025-01-27 02:49:39.992+00	2025-01-27 02:49:39.984+00
 variant_01JJJTEVM1Z8A8QXNXHMDAA16B	42	4260581271435	4260581271435	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	{"size": 42, "chest": "118 cm", "test\\r": "\\r", "waist": "110 cm", "back_length": "95 cm", "front_length": "85 cm", "sleeve_length": "72 cm"}	0	prod_01JJJTEVESSRYE9CZZDTJJQFT1	2025-01-27 02:46:41.03+00	2025-01-27 02:49:39.992+00	2025-01-27 02:49:39.984+00
-variant_01JJJ37ZFTG0QA7MFJ7JWEDYZN	Velvet / Purple	ASTRID-CURVE-VELVET-PURPLE	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ37ZEXST341KJMS57F71ST	2025-01-26 20:00:58.362+00	2025-01-26 20:00:58.362+00	\N
 variant_01JJJTMNH22S6YZZ9831WQYX2T	39	4260581271602	4260581271602	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	{"size": 39, "chest": "108 cm", "test\\r": "\\r", "waist": "100 cm", "back_length": "95 cm", "front_length": "85 cm", "sleeve_length": "72 cm"}	0	prod_01JJJTMNCA9P0KV1AMYMS3F7TW	2025-01-27 02:49:51.399+00	2025-01-27 02:54:25.487+00	2025-01-27 02:54:25.477+00
 variant_01JJJTMNH24DP9BPR6089EGARW	43	4260581271640	4260581271640	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	{"size": 43, "chest": "121 cm", "test\\r": "\\r", "waist": "113 cm", "back_length": "96 cm", "front_length": "86 cm", "sleeve_length": "72 cm"}	0	prod_01JJJTMNCA9P0KV1AMYMS3F7TW	2025-01-27 02:49:51.4+00	2025-01-27 02:54:25.487+00	2025-01-27 02:54:25.477+00
 variant_01JJJTMNH27586J7CF9DDAX33B	40	4260581271619	4260581271619	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	{"size": 40, "chest": "111 cm", "test\\r": "\\r", "waist": "103 cm", "back_length": "95 cm", "front_length": "85 cm", "sleeve_length": "72 cm"}	0	prod_01JJJTMNCA9P0KV1AMYMS3F7TW	2025-01-27 02:49:51.399+00	2025-01-27 02:54:25.487+00	2025-01-27 02:54:25.477+00
@@ -12600,6 +12599,7 @@ variant_01JJJTY2GFBA5DPW9NK4QBDDHB	40	4260581271510	4260581271510	\N	\N	f	f	\N	\
 variant_01JJJTY2GFF355QMRAQ69JQPRR	43	4260581270025	4260581270025	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	{"size": 43, "chest": "127 cm", "test\\r": "\\r", "waist": "123 cm", "back_length": "96 cm", "front_length": "86 cm", "sleeve_length": "72 cm"}	0	prod_01JJJTY2ABX4S793E4N7H3V369	2025-01-27 02:54:59.604+00	2025-01-27 02:55:52.11+00	2025-01-27 02:55:52.088+00
 variant_01JJJTY2GFK9GTS3AEM7Y0P1AZ	39	4260581271503	4260581271503	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	{"size": 39, "chest": "108 cm", "test\\r": "\\r", "waist": "100 cm", "back_length": "95 cm", "front_length": "85 cm", "sleeve_length": "72 cm"}	0	prod_01JJJTY2ABX4S793E4N7H3V369	2025-01-27 02:54:59.604+00	2025-01-27 02:55:52.11+00	2025-01-27 02:55:52.088+00
 variant_01JJJTY2GFM4DMZJZYSQP7J013	44	4260581270032	4260581270032	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	{"size": 44, "chest": "129 cm", "test\\r": "\\r", "waist": "125 cm", "back_length": "96 cm", "front_length": "86 cm", "sleeve_length": "72 cm"}	0	prod_01JJJTY2ABX4S793E4N7H3V369	2025-01-27 02:54:59.604+00	2025-01-27 02:55:52.11+00	2025-01-27 02:55:52.088+00
+variant_01JJJ3ADBX9GTMHD8XNQRQ8HB8	Linen / Green	PALOMA-HAVEN-LINEN-GREEN	\N	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	prod_01JJJ3ADBBRSNAQ4M082DBNTGE	2025-01-26 20:02:18.109+00	2025-03-02 15:43:35.496+00	2025-03-02 15:43:35.471+00
 variant_01JJJTY2GFNXMM3QYH76VJH6JN	43	4260581271541	4260581271541	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	{"size": 43, "chest": "121 cm", "test\\r": "\\r", "waist": "113 cm", "back_length": "96 cm", "front_length": "86 cm", "sleeve_length": "72 cm"}	0	prod_01JJJTY2ABX4S793E4N7H3V369	2025-01-27 02:54:59.604+00	2025-01-27 02:55:52.11+00	2025-01-27 02:55:52.088+00
 variant_01JJJTY2GFY5W11V735HSD2RX1	42	4260581270018	4260581270018	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	{"size": 42, "chest": "125 cm", "test\\r": "\\r", "waist": "121 cm", "back_length": "95 cm", "front_length": "85 cm", "sleeve_length": "72 cm"}	0	prod_01JJJTY2ABX4S793E4N7H3V369	2025-01-27 02:54:59.604+00	2025-01-27 02:55:52.11+00	2025-01-27 02:55:52.088+00
 variant_01JJJTY2GFY676P4H8QWAR82DH	42	4260581271534	4260581271534	\N	\N	f	f	\N	\N	\N	\N	\N	\N	\N	\N	{"size": 42, "chest": "118 cm", "test\\r": "\\r", "waist": "110 cm", "back_length": "95 cm", "front_length": "85 cm", "sleeve_length": "72 cm"}	0	prod_01JJJTY2ABX4S793E4N7H3V369	2025-01-27 02:54:59.604+00	2025-01-27 02:55:52.11+00	2025-01-27 02:55:52.088+00
@@ -17750,47 +17750,6 @@ variant_01JJTE6QCV87HRBP46QDXB733P	optval_01JJTE6Q82NRKDJSPYJB5X8FCC
 --
 
 COPY public.product_variant_price_set (variant_id, price_set_id, id, created_at, updated_at, deleted_at) FROM stdin;
-variant_01JJJ37ZFTQAWZKTWK8QSQZ1P1	pset_01JJJ37ZG7PZ5502M9YD76J199	pvps_01JJJ37ZGFB517K4WJNB65J344	2025-01-26 20:00:58+00	2025-01-26 20:00:58+00	\N
-variant_01JJJ37ZFTG0QA7MFJ7JWEDYZN	pset_01JJJ37ZG7QTDF28Z5APZZ8WBC	pvps_01JJJ37ZGF1QXJ7KGT7F3FHSNS	2025-01-26 20:00:58+00	2025-01-26 20:00:58+00	\N
-variant_01JJJ3819Z5MRDQPQC957CHF53	pset_01JJJ381ANB73NC5C6R04ZM9V3	pvps_01JJJ381B1S9DX6G3QTNP3X886	2025-01-26 20:01:00+00	2025-01-26 20:01:00+00	\N
-variant_01JJJ3819ZJNTHWF89JTFVFDXM	pset_01JJJ381AP4G4Z9EHJSK986862	pvps_01JJJ381B11NQTTXAW88FATEWA	2025-01-26 20:01:00+00	2025-01-26 20:01:00+00	\N
-variant_01JJJ381A09B6QHWRDWW02MPCX	pset_01JJJ381APJKYXK8X7HR35F276	pvps_01JJJ381B1ZKX7N85W3SVDFMRT	2025-01-26 20:01:00+00	2025-01-26 20:01:00+00	\N
-variant_01JJJ383CGW4746J9S2556X9WZ	pset_01JJJ383CZP33VKRHXKXGYW89Z	pvps_01JJJ383DG5P1YTCND162GVPRT	2025-01-26 20:01:02+00	2025-01-26 20:01:02+00	\N
-variant_01JJJ383CGNDX4518M4GQ9ES6G	pset_01JJJ383D093EQAPA5CQ6V330D	pvps_01JJJ383DG3SCCTFPFZ0JTRHW7	2025-01-26 20:01:02+00	2025-01-26 20:01:02+00	\N
-variant_01JJJ385BBRDMT4ZPNGWMY5RQT	pset_01JJJ385BPBD48EF6PAHF85PP2	pvps_01JJJ385BWZAM16MMB382DXGKQ	2025-01-26 20:01:04+00	2025-01-26 20:01:04+00	\N
-variant_01JJJ385BB69GY01KGWZXJAANF	pset_01JJJ385BPFBD705K1YG0XD2BZ	pvps_01JJJ385BWJ0V7KWFDKT3SNPXT	2025-01-26 20:01:04+00	2025-01-26 20:01:04+00	\N
-variant_01JJJ398VVY7EJRS3K56FW717N	pset_01JJJ398W9VHC8P8SJPFTFH5RG	pvps_01JJJ398WHCRAVA5X2123HFW62	2025-01-26 20:01:41+00	2025-01-26 20:01:41+00	\N
-variant_01JJJ398VVMK52AFYF92J1ZFZ5	pset_01JJJ398W9FDD92D8T7MAXSFQR	pvps_01JJJ398WH0GD9MMBWTRWM3WK2	2025-01-26 20:01:41+00	2025-01-26 20:01:41+00	\N
-variant_01JJJ39B75M2DD18PT93JSBBW4	pset_01JJJ39B7T91MBD5APD2CADG6H	pvps_01JJJ39B8ERSNQBY8AZHY2A4F2	2025-01-26 20:01:43+00	2025-01-26 20:01:43+00	\N
-variant_01JJJ39B75SW45P33HN8481235	pset_01JJJ39B7TGQ0954YBZX7Y20H7	pvps_01JJJ39B8ENY9Z2EDT1C53DTQ7	2025-01-26 20:01:43+00	2025-01-26 20:01:43+00	\N
-variant_01JJJ39B75G84BGAJVNHN1FG1H	pset_01JJJ39B7TXQKCEQNX7YMT3JJJ	pvps_01JJJ39B8EJEX3GD465RD0N5AA	2025-01-26 20:01:43+00	2025-01-26 20:01:43+00	\N
-variant_01JJJ39DBNNSDCDBJBY6S9XQ8D	pset_01JJJ39DC71MB2XZWTJT9WEEMW	pvps_01JJJ39DCJ6JA6H8X5WYAXDWBK	2025-01-26 20:01:45+00	2025-01-26 20:01:45+00	\N
-variant_01JJJ39DBN3ED47V0P2BQB3WJR	pset_01JJJ39DC72AYANW3V6AN7FS1K	pvps_01JJJ39DCJ6QSZB7R48HA66B46	2025-01-26 20:01:45+00	2025-01-26 20:01:45+00	\N
-variant_01JJJ39DBNCRKS82ATH3RAARSY	pset_01JJJ39DC7J7W7PTH1Z2G6FFW9	pvps_01JJJ39DCJ1SHH5P825FM43RHQ	2025-01-26 20:01:45+00	2025-01-26 20:01:45+00	\N
-variant_01JJJ3A6G409G40Y42AQASQWWQ	pset_01JJJ3A6GPGZFZQE4M0XPS7F79	pvps_01JJJ3A6H0SFGAEDZV0TCVJB8Z	2025-01-26 20:02:11+00	2025-01-26 20:02:11+00	\N
-variant_01JJJ3A6G5NSH82MV4TE3YAJRR	pset_01JJJ3A6GPM445RAFR4V2M2FXK	pvps_01JJJ3A6H0SAFD410PSJNP9F6R	2025-01-26 20:02:11+00	2025-01-26 20:02:11+00	\N
-variant_01JJJ3A6G5CTZRYYYXSZCHP2D7	pset_01JJJ3A6GP8ZHGXHEF05Q8SBKF	pvps_01JJJ3A6H1FTK2EZMZJABC8XFT	2025-01-26 20:02:11+00	2025-01-26 20:02:11+00	\N
-variant_01JJJ3A92KTWWJ72TE94PJ9HAN	pset_01JJJ3A92XFQBZ6CB26P6F3DVX	pvps_01JJJ3A934TXFNR3KHKSHMZ0K9	2025-01-26 20:02:14+00	2025-01-26 20:02:14+00	\N
-variant_01JJJ3A92K0GDPT6VD8P0MSFWG	pset_01JJJ3A92X1DF6QJ9JMPRHV72C	pvps_01JJJ3A934G69MY4NN85SD0H6X	2025-01-26 20:02:14+00	2025-01-26 20:02:14+00	\N
-variant_01JJJ3A92K6YHZHQVHXM42P81N	pset_01JJJ3A92X0RDRNBR38K3N76KK	pvps_01JJJ3A9346YZBGTFPA1W4W3VN	2025-01-26 20:02:14+00	2025-01-26 20:02:14+00	\N
-variant_01JJJ3ABG5X93S5JVPJC6QGT4X	pset_01JJJ3ABGEDYKZ83H7R3E0E5RV	pvps_01JJJ3ABGMZPB3Q0GBVT9EMNSS	2025-01-26 20:02:16+00	2025-01-26 20:02:16+00	\N
-variant_01JJJ3ABG5XJ1SV2D05JNQSQHT	pset_01JJJ3ABGEEEKQD9GGGKVXX6BX	pvps_01JJJ3ABGMPDYTTHG2KBWC1Z85	2025-01-26 20:02:16+00	2025-01-26 20:02:16+00	\N
-variant_01JJJ3ADBW0QYQBR8497W4VGZ4	pset_01JJJ3ADC8M7XGCZZMMHM6QDN7	pvps_01JJJ3ADCEXQCY7BQH0F7T3103	2025-01-26 20:02:18+00	2025-01-26 20:02:18+00	\N
-variant_01JJJ3ADBX9GTMHD8XNQRQ8HB8	pset_01JJJ3ADC8F2NM89YM1KWJP4W3	pvps_01JJJ3ADCEDW9474NV3Z0B8XHS	2025-01-26 20:02:18+00	2025-01-26 20:02:18+00	\N
-variant_01JJJ3ADBX656KH55J8B2Z38YW	pset_01JJJ3ADC82R99ATZS1RR4Y24T	pvps_01JJJ3ADCEYKMH2EH1DX9W7RPC	2025-01-26 20:02:18+00	2025-01-26 20:02:18+00	\N
-variant_01JJJ3BJ8J02M7RJJBCXJM8YVH	pset_01JJJ3BJ9AJ4Z7T3ADEXY3HXVM	pvps_01JJJ3BJ9R37TAV701X49C1WBS	2025-01-26 20:02:56+00	2025-01-26 20:02:56+00	\N
-variant_01JJJ3BJ8J0GA0ZNDX00HVV1TD	pset_01JJJ3BJ9A4ANBNPZ7DXA5BSJT	pvps_01JJJ3BJ9S6QQBVM5QNGYE2D00	2025-01-26 20:02:56+00	2025-01-26 20:02:56+00	\N
-variant_01JJJ3BJ8JJ7NJF8S3QTYX9EK1	pset_01JJJ3BJ9AD8PVH1CQ7E3Q0CQV	pvps_01JJJ3BJ9SQXHYD1N8PRV93Q3Z	2025-01-26 20:02:56+00	2025-01-26 20:02:56+00	\N
-variant_01JJJ3BMG4TFF9KHT5CHJEVGTF	pset_01JJJ3BMGHR1YV572A5MSDTB47	pvps_01JJJ3BMH23CS3BE6C783P9XDB	2025-01-26 20:02:58+00	2025-01-26 20:02:58+00	\N
-variant_01JJJ3BMG43ZFQTENZW5BGPJ3K	pset_01JJJ3BMGJHCES3V0FJFQB34SD	pvps_01JJJ3BMH2NB7N5Z4ZJ13TER75	2025-01-26 20:02:58+00	2025-01-26 20:02:58+00	\N
-variant_01JJJ3BMG4AVWV5387E1XRH197	pset_01JJJ3BMGJGWETE2QJMV01JC7W	pvps_01JJJ3BMH3MRP711N5S0VAMDHS	2025-01-26 20:02:58+00	2025-01-26 20:02:58+00	\N
-variant_01JJJ3BQ4K7MNPK6S6VF93R8MV	pset_01JJJ3BQ54ECFJKKC8MMC4VJDY	pvps_01JJJ3BQ5W5R7PM0Y9032J9ZS2	2025-01-26 20:03:01+00	2025-01-26 20:03:01+00	\N
-variant_01JJJ3BQ4KEB5GJRAZHZFW2HJS	pset_01JJJ3BQ54J74HDFF872Y3ECE2	pvps_01JJJ3BQ5X23004W4ZTH7D3YEQ	2025-01-26 20:03:01+00	2025-01-26 20:03:01+00	\N
-variant_01JJJ3BS5MRQPC14X4W4XSKTP7	pset_01JJJ3BS62WNXNAKMBC6ST3V75	pvps_01JJJ3BS69Y8XN2QTZY3YSA0PK	2025-01-26 20:03:03+00	2025-01-26 20:03:03+00	\N
-variant_01JJJ3BS5M9R3GT0WT7HPJ6MQF	pset_01JJJ3BS62JK309PBVG0ZGA45B	pvps_01JJJ3BS6988D3EJD9ECXJWP04	2025-01-26 20:03:03+00	2025-01-26 20:03:03+00	\N
-variant_01JJJ3BV5PBSYP28XM7J8DXZCX	pset_01JJJ3BV60VVZQD96E9CGS92Q9	pvps_01JJJ3BV67PHMR87FZ40F3ZJMJ	2025-01-26 20:03:05+00	2025-01-26 20:03:05+00	\N
-variant_01JJJ3BV5P62RJ3AN8NE7NH4V5	pset_01JJJ3BV608AEH330JK0591BXJ	pvps_01JJJ3BV67GNJYRT4EMGT7JTKR	2025-01-26 20:03:05+00	2025-01-26 20:03:05+00	\N
-variant_01JJJ54DSJQ2WJJXQJEBM2F96A	pset_01JJJ54DTHCD1KKP03K3VRYCQD	pvps_01JJJ54DV4M5EQEFY4SSVQY7NG	2025-01-26 20:33:59+00	2025-01-26 20:33:59+00	\N
 variant_01JJJGZ8YHBBVJH8Y5Q895PR19	pset_01JJJGZ92G9M0J2YR3E007WE0E	pvps_01JJJGZ94FAF8FZKN452SJRDT2	2025-01-27 00:00:53+00	2025-01-27 02:16:46+00	2025-01-27 02:16:46+00
 variant_01JJJGZ8YH9D6PZT0X772KX5DN	pset_01JJJGZ92GCH60BG4PWJX7DGYT	pvps_01JJJGZ94GTX0SV051Q5HBT1J4	2025-01-27 00:00:53+00	2025-01-27 02:16:46+00	2025-01-27 02:16:46+00
 variant_01JJJGZ8YHAVW7NK74C862N7A1	pset_01JJJGZ92GHX7H1N0R2F1YHQ2Q	pvps_01JJJGZ94GQFWZ77KEY2BCH845	2025-01-27 00:00:53+00	2025-01-27 02:16:46+00	2025-01-27 02:16:46+00
@@ -17804,6 +17763,41 @@ variant_01JJJTEVM3FA0GVFQ8C2MQ0T6F	pset_01JJJTEVSD0FG1WYS4VJTR7MRP	pvps_01JJJTEV
 variant_01JJJGFK84AH535REGMXRN6JM3	pset_01JJJGFKE4WAX7FBD92EQVMP50	pvps_01JJJGFKG581M193H42AZMJGYH	2025-01-26 23:52:20+00	2025-01-27 00:00:11+00	2025-01-27 00:00:11+00
 variant_01JJJGFK845PXTG1EXCA7VZ9PF	pset_01JJJGFKE40NH5FV5X1K1DR37B	pvps_01JJJGFKG5VT5ZXNA2QFRDA0MC	2025-01-26 23:52:20+00	2025-01-27 00:00:11+00	2025-01-27 00:00:11+00
 variant_01JJJGFK84JMSJM61QD7YPTNNB	pset_01JJJGFKE4P3KQGWBE3XVQ6JNP	pvps_01JJJGFKG58GECDXFM5T2XT3DZ	2025-01-26 23:52:20+00	2025-01-27 00:00:11+00	2025-01-27 00:00:11+00
+variant_01JJJ3819Z5MRDQPQC957CHF53	pset_01JJJ381ANB73NC5C6R04ZM9V3	pvps_01JJJ381B1S9DX6G3QTNP3X886	2025-01-26 20:01:00+00	2025-03-02 15:43:05+00	2025-03-02 15:43:05+00
+variant_01JJJ3819ZJNTHWF89JTFVFDXM	pset_01JJJ381AP4G4Z9EHJSK986862	pvps_01JJJ381B11NQTTXAW88FATEWA	2025-01-26 20:01:00+00	2025-03-02 15:43:05+00	2025-03-02 15:43:05+00
+variant_01JJJ383CGW4746J9S2556X9WZ	pset_01JJJ383CZP33VKRHXKXGYW89Z	pvps_01JJJ383DG5P1YTCND162GVPRT	2025-01-26 20:01:02+00	2025-03-02 15:43:08+00	2025-03-02 15:43:08+00
+variant_01JJJ383CGNDX4518M4GQ9ES6G	pset_01JJJ383D093EQAPA5CQ6V330D	pvps_01JJJ383DG3SCCTFPFZ0JTRHW7	2025-01-26 20:01:02+00	2025-03-02 15:43:08+00	2025-03-02 15:43:08+00
+variant_01JJJ385BBRDMT4ZPNGWMY5RQT	pset_01JJJ385BPBD48EF6PAHF85PP2	pvps_01JJJ385BWZAM16MMB382DXGKQ	2025-01-26 20:01:04+00	2025-03-02 15:43:11+00	2025-03-02 15:43:11+00
+variant_01JJJ385BB69GY01KGWZXJAANF	pset_01JJJ385BPFBD705K1YG0XD2BZ	pvps_01JJJ385BWJ0V7KWFDKT3SNPXT	2025-01-26 20:01:04+00	2025-03-02 15:43:11+00	2025-03-02 15:43:11+00
+variant_01JJJ398VVY7EJRS3K56FW717N	pset_01JJJ398W9VHC8P8SJPFTFH5RG	pvps_01JJJ398WHCRAVA5X2123HFW62	2025-01-26 20:01:41+00	2025-03-02 15:43:14+00	2025-03-02 15:43:14+00
+variant_01JJJ398VVMK52AFYF92J1ZFZ5	pset_01JJJ398W9FDD92D8T7MAXSFQR	pvps_01JJJ398WH0GD9MMBWTRWM3WK2	2025-01-26 20:01:41+00	2025-03-02 15:43:14+00	2025-03-02 15:43:14+00
+variant_01JJJ39B75M2DD18PT93JSBBW4	pset_01JJJ39B7T91MBD5APD2CADG6H	pvps_01JJJ39B8ERSNQBY8AZHY2A4F2	2025-01-26 20:01:43+00	2025-03-02 15:43:16+00	2025-03-02 15:43:16+00
+variant_01JJJ39B75SW45P33HN8481235	pset_01JJJ39B7TGQ0954YBZX7Y20H7	pvps_01JJJ39B8ENY9Z2EDT1C53DTQ7	2025-01-26 20:01:43+00	2025-03-02 15:43:16+00	2025-03-02 15:43:16+00
+variant_01JJJ39DBNNSDCDBJBY6S9XQ8D	pset_01JJJ39DC71MB2XZWTJT9WEEMW	pvps_01JJJ39DCJ6JA6H8X5WYAXDWBK	2025-01-26 20:01:45+00	2025-03-02 15:43:19+00	2025-03-02 15:43:19+00
+variant_01JJJ39DBN3ED47V0P2BQB3WJR	pset_01JJJ39DC72AYANW3V6AN7FS1K	pvps_01JJJ39DCJ6QSZB7R48HA66B46	2025-01-26 20:01:45+00	2025-03-02 15:43:19+00	2025-03-02 15:43:19+00
+variant_01JJJ39DBNCRKS82ATH3RAARSY	pset_01JJJ39DC7J7W7PTH1Z2G6FFW9	pvps_01JJJ39DCJ1SHH5P825FM43RHQ	2025-01-26 20:01:45+00	2025-03-02 15:43:19+00	2025-03-02 15:43:19+00
+variant_01JJJ3A6G409G40Y42AQASQWWQ	pset_01JJJ3A6GPGZFZQE4M0XPS7F79	pvps_01JJJ3A6H0SFGAEDZV0TCVJB8Z	2025-01-26 20:02:11+00	2025-03-02 15:43:22+00	2025-03-02 15:43:22+00
+variant_01JJJ3A6G5NSH82MV4TE3YAJRR	pset_01JJJ3A6GPM445RAFR4V2M2FXK	pvps_01JJJ3A6H0SAFD410PSJNP9F6R	2025-01-26 20:02:11+00	2025-03-02 15:43:22+00	2025-03-02 15:43:22+00
+variant_01JJJ3A6G5CTZRYYYXSZCHP2D7	pset_01JJJ3A6GP8ZHGXHEF05Q8SBKF	pvps_01JJJ3A6H1FTK2EZMZJABC8XFT	2025-01-26 20:02:11+00	2025-03-02 15:43:22+00	2025-03-02 15:43:22+00
+variant_01JJJ3A92KTWWJ72TE94PJ9HAN	pset_01JJJ3A92XFQBZ6CB26P6F3DVX	pvps_01JJJ3A934TXFNR3KHKSHMZ0K9	2025-01-26 20:02:14+00	2025-03-02 15:43:25+00	2025-03-02 15:43:25+00
+variant_01JJJ3A92K0GDPT6VD8P0MSFWG	pset_01JJJ3A92X1DF6QJ9JMPRHV72C	pvps_01JJJ3A934G69MY4NN85SD0H6X	2025-01-26 20:02:14+00	2025-03-02 15:43:25+00	2025-03-02 15:43:25+00
+variant_01JJJ3ABG5X93S5JVPJC6QGT4X	pset_01JJJ3ABGEDYKZ83H7R3E0E5RV	pvps_01JJJ3ABGMZPB3Q0GBVT9EMNSS	2025-01-26 20:02:16+00	2025-03-02 15:43:28+00	2025-03-02 15:43:28+00
+variant_01JJJ3ABG5XJ1SV2D05JNQSQHT	pset_01JJJ3ABGEEEKQD9GGGKVXX6BX	pvps_01JJJ3ABGMPDYTTHG2KBWC1Z85	2025-01-26 20:02:16+00	2025-03-02 15:43:28+00	2025-03-02 15:43:28+00
+variant_01JJJ3ADBW0QYQBR8497W4VGZ4	pset_01JJJ3ADC8M7XGCZZMMHM6QDN7	pvps_01JJJ3ADCEXQCY7BQH0F7T3103	2025-01-26 20:02:18+00	2025-03-02 15:43:35+00	2025-03-02 15:43:35+00
+variant_01JJJ3ADBX9GTMHD8XNQRQ8HB8	pset_01JJJ3ADC8F2NM89YM1KWJP4W3	pvps_01JJJ3ADCEDW9474NV3Z0B8XHS	2025-01-26 20:02:18+00	2025-03-02 15:43:35+00	2025-03-02 15:43:35+00
+variant_01JJJ3ADBX656KH55J8B2Z38YW	pset_01JJJ3ADC82R99ATZS1RR4Y24T	pvps_01JJJ3ADCEYKMH2EH1DX9W7RPC	2025-01-26 20:02:18+00	2025-03-02 15:43:35+00	2025-03-02 15:43:35+00
+variant_01JJJ3BJ8J02M7RJJBCXJM8YVH	pset_01JJJ3BJ9AJ4Z7T3ADEXY3HXVM	pvps_01JJJ3BJ9R37TAV701X49C1WBS	2025-01-26 20:02:56+00	2025-03-02 15:43:40+00	2025-03-02 15:43:40+00
+variant_01JJJ3BJ8J0GA0ZNDX00HVV1TD	pset_01JJJ3BJ9A4ANBNPZ7DXA5BSJT	pvps_01JJJ3BJ9S6QQBVM5QNGYE2D00	2025-01-26 20:02:56+00	2025-03-02 15:43:40+00	2025-03-02 15:43:40+00
+variant_01JJJ3BJ8JJ7NJF8S3QTYX9EK1	pset_01JJJ3BJ9AD8PVH1CQ7E3Q0CQV	pvps_01JJJ3BJ9SQXHYD1N8PRV93Q3Z	2025-01-26 20:02:56+00	2025-03-02 15:43:40+00	2025-03-02 15:43:40+00
+variant_01JJJ3BMG4TFF9KHT5CHJEVGTF	pset_01JJJ3BMGHR1YV572A5MSDTB47	pvps_01JJJ3BMH23CS3BE6C783P9XDB	2025-01-26 20:02:58+00	2025-03-02 15:43:43+00	2025-03-02 15:43:43+00
+variant_01JJJ3BMG43ZFQTENZW5BGPJ3K	pset_01JJJ3BMGJHCES3V0FJFQB34SD	pvps_01JJJ3BMH2NB7N5Z4ZJ13TER75	2025-01-26 20:02:58+00	2025-03-02 15:43:43+00	2025-03-02 15:43:43+00
+variant_01JJJ3BMG4AVWV5387E1XRH197	pset_01JJJ3BMGJGWETE2QJMV01JC7W	pvps_01JJJ3BMH3MRP711N5S0VAMDHS	2025-01-26 20:02:58+00	2025-03-02 15:43:43+00	2025-03-02 15:43:43+00
+variant_01JJJ3BQ4K7MNPK6S6VF93R8MV	pset_01JJJ3BQ54ECFJKKC8MMC4VJDY	pvps_01JJJ3BQ5W5R7PM0Y9032J9ZS2	2025-01-26 20:03:01+00	2025-03-02 15:43:46+00	2025-03-02 15:43:46+00
+variant_01JJJ3BQ4KEB5GJRAZHZFW2HJS	pset_01JJJ3BQ54J74HDFF872Y3ECE2	pvps_01JJJ3BQ5X23004W4ZTH7D3YEQ	2025-01-26 20:03:01+00	2025-03-02 15:43:46+00	2025-03-02 15:43:46+00
+variant_01JJJ3BS5MRQPC14X4W4XSKTP7	pset_01JJJ3BS62WNXNAKMBC6ST3V75	pvps_01JJJ3BS69Y8XN2QTZY3YSA0PK	2025-01-26 20:03:03+00	2025-03-02 15:43:48+00	2025-03-02 15:43:48+00
+variant_01JJJ3BS5M9R3GT0WT7HPJ6MQF	pset_01JJJ3BS62JK309PBVG0ZGA45B	pvps_01JJJ3BS6988D3EJD9ECXJWP04	2025-01-26 20:03:03+00	2025-03-02 15:43:48+00	2025-03-02 15:43:48+00
+variant_01JJJ3BV5PBSYP28XM7J8DXZCX	pset_01JJJ3BV60VVZQD96E9CGS92Q9	pvps_01JJJ3BV67PHMR87FZ40F3ZJMJ	2025-01-26 20:03:05+00	2025-03-02 15:43:50+00	2025-03-02 15:43:50+00
+variant_01JJJ3BV5P62RJ3AN8NE7NH4V5	pset_01JJJ3BV608AEH330JK0591BXJ	pvps_01JJJ3BV67GNJYRT4EMGT7JTKR	2025-01-26 20:03:05+00	2025-03-02 15:43:50+00	2025-03-02 15:43:50+00
 variant_01JJJGZ8YHE3875F1G8Q6J99TN	pset_01JJJGZ92FXBRDTSXDEM9G93NH	pvps_01JJJGZ94FVN575SZYPNCV1EDG	2025-01-27 00:00:53+00	2025-01-27 02:16:51+00	2025-01-27 02:16:51+00
 variant_01JJJGZ8YHKVVSN2HJKAZBVTR5	pset_01JJJGZ92FH954Y5EZAMWQR3HB	pvps_01JJJGZ94FMTA5A41M37RBAG9X	2025-01-27 00:00:53+00	2025-01-27 02:16:51+00	2025-01-27 02:16:51+00
 variant_01JJJGZ8YHG2YFKH71C61DD4K0	pset_01JJJGZ92FGANJNFGEGRGEGVMJ	pvps_01JJJGZ94FXR4W81VAK6H4ZTE4	2025-01-27 00:00:53+00	2025-01-27 02:16:51+00	2025-01-27 02:16:51+00
@@ -19711,6 +19705,12 @@ variant_01JJJVVMGDQZD33SGC41HHKBWM	pset_01JJJVVMN3F7FTDHJ59501914Q	pvps_01JJJVVM
 variant_01JJJVVMGDQ57S629TQRFRH6CN	pset_01JJJVVMN3TFXF5TX6K7MZ056V	pvps_01JJJVVMQ0JBJBSNRRPAR4KN0K	2025-01-27 03:11:09+00	2025-01-30 01:43:32+00	2025-01-30 01:43:32+00
 variant_01JJJVVMGDWDHXFYJ0GAYRNSGP	pset_01JJJVVMN3TBQ3CM8HW75J4809	pvps_01JJJVVMQ0QDM389WHC678WSX7	2025-01-27 03:11:09+00	2025-01-30 01:43:32+00	2025-01-30 01:43:32+00
 variant_01JJJVVMGDTNMSDSMX880C3GYQ	pset_01JJJVVMN3KYJVC5Z2S7K8XG7K	pvps_01JJJVVMQ0HT481ZP141CRWBFS	2025-01-27 03:11:09+00	2025-01-30 01:43:32+00	2025-01-30 01:43:32+00
+variant_01JJJ37ZFTQAWZKTWK8QSQZ1P1	pset_01JJJ37ZG7PZ5502M9YD76J199	pvps_01JJJ37ZGFB517K4WJNB65J344	2025-01-26 20:00:58+00	2025-03-02 15:43:02+00	2025-03-02 15:43:02+00
+variant_01JJJ37ZFTG0QA7MFJ7JWEDYZN	pset_01JJJ37ZG7QTDF28Z5APZZ8WBC	pvps_01JJJ37ZGF1QXJ7KGT7F3FHSNS	2025-01-26 20:00:58+00	2025-03-02 15:43:02+00	2025-03-02 15:43:02+00
+variant_01JJJ381A09B6QHWRDWW02MPCX	pset_01JJJ381APJKYXK8X7HR35F276	pvps_01JJJ381B1ZKX7N85W3SVDFMRT	2025-01-26 20:01:00+00	2025-03-02 15:43:05+00	2025-03-02 15:43:05+00
+variant_01JJJ39B75G84BGAJVNHN1FG1H	pset_01JJJ39B7TXQKCEQNX7YMT3JJJ	pvps_01JJJ39B8EJEX3GD465RD0N5AA	2025-01-26 20:01:43+00	2025-03-02 15:43:16+00	2025-03-02 15:43:16+00
+variant_01JJJ3A92K6YHZHQVHXM42P81N	pset_01JJJ3A92X0RDRNBR38K3N76KK	pvps_01JJJ3A9346YZBGTFPA1W4W3VN	2025-01-26 20:02:14+00	2025-03-02 15:43:25+00	2025-03-02 15:43:25+00
+variant_01JJJ54DSJQ2WJJXQJEBM2F96A	pset_01JJJ54DTHCD1KKP03K3VRYCQD	pvps_01JJJ54DV4M5EQEFY4SSVQY7NG	2025-01-26 20:33:59+00	2025-03-02 15:43:50+00	2025-03-02 15:43:50+00
 \.
 
 

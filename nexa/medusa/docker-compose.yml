@@ -8,7 +8,7 @@ services:
       POSTGRES_PASSWORD: postgres
       POSTGRES_DB: medusa
     volumes:
-      - medusa-postgres-data:/var/lib/postgresql/data
+      - medusa_dev-postgres-data:/var/lib/postgresql/data
 
   redis:
     image: redis
@@ -21,7 +21,7 @@ services:
       - 9090:9000
       - 9001:9001
     volumes:
-      - medusa-minio-data:/data
+      - medusa_dev-minio-data:/data
     environment:
       MINIO_ROOT_USER: medusaminio
       MINIO_ROOT_PASSWORD: medusaminio
@@ -47,5 +47,5 @@ services:
       "
 
 volumes:
-  medusa-postgres-data:
-  medusa-minio-data:
+  medusa_dev-postgres-data:
+  medusa_dev-minio-data:
