@@ -11,7 +11,7 @@ ROOT_DIR="$(pwd)/nexa"
 
 # Setup Medusa backend
 echo "Setting up Medusa backend..."
-cd "$ROOT_DIR/medusa"
+cd "$ROOT_DIR/prototype"
 
 # Create .env file
 echo "Creating .env file..."
@@ -20,6 +20,12 @@ cp .env.template .env
 # Install dependencies
 echo "Installing Medusa dependencies..."
 yarn
+# restoring docker volume
+docker volume create medusa_dev_medusa_dev-minio-data
+docker run --rm \
+  -v medusa_dev_medusa_dev-minio-data:/data \
+  -v $(pwd)/data_backup:/backup \
+  alpine sh -c "cd /data && tar -xzf /backup/minio-data-new.tar.gz"
 
 # Start Docker containers
 echo "Starting Docker services..."
@@ -31,8 +37,8 @@ sleep 10
 
 # Restore database
 echo "Restoring database from backup..."
-if [ -f ./medusa_db_backup.sql ]; then
-  docker exec -i medusa_dev-postgres-1 psql -U postgres -d medusa < ./medusa_db_backup.sql
+if [ -f ./data_backup/medusa_db_backup.sql ]; then
+  docker exec -i medusa_dev-postgres-1 psql -U postgres -d medusa < ./data_backup/medusa_db_backup.sql
 else
   echo "Warning: Database backup file not found. Skipping restore."
 fi

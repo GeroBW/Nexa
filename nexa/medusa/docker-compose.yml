@@ -49,3 +49,5 @@ services:
 volumes:
   medusa_dev-postgres-data:
   medusa_dev-minio-data:
+    external: true
+    name: medusa_dev_medusa_dev-minio-data
