@@ -43,10 +43,11 @@ docker run --rm \
   alpine sh -c "cd /data && tar -xzf /backup/minio-data-new.tar.gz"
 
 # Spin up the database, Redis and minio
-docker-compose -p medusa_dev up -d
+docker compose -p medusa_dev up -d
 
 # Restore the postgres database from the backup
-docker exec -i medusa_dev-postgres-1 psql -U postgres -d medusa < ./medusa_db_backup.sql
+docker exec -i medusa_dev-postgres-1 psql -U postgres -d medusa < ./data_backup/medusa_db_backup.sql
+
 
 # Build the project
 yarn build
