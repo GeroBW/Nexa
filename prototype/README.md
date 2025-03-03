@@ -17,6 +17,7 @@ Please follow the steps for Medusa and Storefront below if this script does not 
 
 ```bash
 # make sure you are in the prototype folder
+# on ubuntu, optionally chmod +x and run ./install.sh to install all prerequisites
 
 chmod +x ./start.sh
 ./start.sh
