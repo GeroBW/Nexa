@@ -77,7 +77,7 @@ STOREFRONT_PID=$!
 echo ""
 echo "Setup completed!"
 echo ""
-echo "Medusa admin is running at: http://localhost:9000/app"
+echo "Medusa admin is running at: http://localhost:9000/app, with 'admin@medusa.local', 'supersecret'."
 echo "Storefront is running at: http://localhost:8000"
 echo ""
 # echo "IMPORTANT: You need to manually copy the publishable API key from Medusa admin"

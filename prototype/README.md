@@ -18,6 +18,8 @@ Please follow the steps for Medusa and Storefront below if this script does not 
 ```bash
 chmod +x ./start.sh
 ./start.sh
+
+At this point, you should be able to access the Medusa admin at http://localhost:9000/app with the credentials "admin@medusa.local", "supersecret".
 ```
 
 ### Medusa
@@ -51,8 +53,7 @@ yarn build
 yarn dev
 ```
 
-At this point, you should be able to access the Medusa admin at http://localhost:9000/app with the credentials you just created. After logging in, you should go to http://localhost:9000/app/settings/publishable-api-keys, copy the publishable key, and paste it into the `NEXT_PUBLIC_MEDUSA_PUBLISHABLE_KEY` env variable in the `storefront/.env.local` file.
-
+At this point, you should be able to access the Medusa admin at http://localhost:9000/app with the credentials "admin@medusa.local", "supersecret".
 ### Storefront
 
 ```bash
