@@ -37,7 +37,7 @@ export const Header: React.FC = async () => {
               </h1>
               <div className="flex items-center gap-8 max-md:hidden">
                 <LocalizedLink href="/store">Shop</LocalizedLink>
-                <LocalizedLink href="/store">Collections</LocalizedLink>
+                <LocalizedLink href="/about">About</LocalizedLink>
                 {/* <LocalizedLink href="/inspiration">Inspiration</LocalizedLink> */}
               </div>
               <div className="flex items-center gap-3 lg:gap-6 max-md:hidden">
