@@ -12,7 +12,7 @@ For technical support or any questions, please email: bone-winkel@campus.tu-berl
 - Docker and Docker Compose
 
 ## Quickstart
-Tested on MacOS and Ubuntu 20.04.
+Tested on MacOS and Ubuntu 24.04.
 Not recommended. This script is for convenience and may not work on all systems.
 Go to the next section for a more detailed setup.
 
