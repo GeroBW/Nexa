@@ -7,7 +7,7 @@ set -e
 echo "Starting Nexa Project Setup..."
 
 # Set root directory
-ROOT_DIR="$(pwd)/prototype"
+ROOT_DIR="$(pwd)"
 
 # Setup Medusa backend
 echo "Setting up Medusa backend..."
@@ -29,7 +29,7 @@ docker run --rm \
 
 # Start Docker containers
 echo "Starting Docker services..."
-docker-compose -p medusa_dev up -d
+docker compose -p medusa_dev up -d
 
 # Wait for PostgreSQL to be ready
 echo "Waiting for PostgreSQL to be ready..."
