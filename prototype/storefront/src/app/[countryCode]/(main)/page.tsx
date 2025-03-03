@@ -79,6 +79,7 @@ export default async function Home({
           objectPosition="top"
           alt="Living room"
           className="md:h-[70vh] md:object-cover"
+          priority={true}
         />
         <div className="absolute inset-0 bg-red-500 opacity-50 z-10"></div>
       </div>
