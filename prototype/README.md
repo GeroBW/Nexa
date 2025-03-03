@@ -1,6 +1,6 @@
 <h1 align="center">Nexa Prototype using Medusa 2.0</h1>
 
-This prototype was built using Medusa 2.0 and Next.js. It is a simple e-commerce platform that allows users to browse products, filter by size, add them to their cart, and checkout. The Medusa admin can be used to manage products, orders, and shipping methods and much more.
+This prototype was built using Medusa 2.0 and Next.js. It is a simple e-commerce platform that allows users to browse products, filter them by size, add them to their cart, and checkout. The Medusa admin can be used to manage products, orders, and shipping methods and much more.
 
 The initial starting point was: https://github.com/Agilo/fashion-starter
 
@@ -12,9 +12,8 @@ For technical support or any questions, please email: bone-winkel@campus.tu-berl
 - Docker and Docker Compose
 
 ## Quickstart
-Tested on MacOS and Ubuntu 24.04.
-Not recommended. This script is for convenience and may not work on all systems.
-Go to the next section for a more detailed setup.
+Tested on MacOS and Ubuntu 24.04. This script was written for personal convenience only. 
+Please follow the steps for Medusa and Storefront below if this script does not work on your system or you are not comfortable running student-made shell scripts ;)
 
 ```bash
 chmod +x ./start.sh
@@ -32,7 +31,14 @@ cp .env.template .env
 # Install dependencies
 yarn
 
-# Spin up the database and Redis
+# restoring docker volume used for minio storage
+docker volume create medusa_dev_medusa_dev-minio-data
+docker run --rm \
+  -v medusa_dev_medusa_dev-minio-data:/data \
+  -v $(pwd)/data_backup:/backup \
+  alpine sh -c "cd /data && tar -xzf /backup/minio-data-new.tar.gz"
+
+# Spin up the database, Redis and minio
 docker-compose -p medusa_dev up -d
 
 # Restore the postgres database from the backup
