@@ -16,10 +16,12 @@ Tested on MacOS and Ubuntu 24.04. This script was written for personal convenien
 Please follow the steps for Medusa and Storefront below if this script does not work on your system or you are not comfortable running student-made shell scripts ;)
 
 ```bash
+# make sure you are in the prototype folder
+
 chmod +x ./start.sh
 ./start.sh
 
-At this point, you should be able to access the Medusa admin at http://localhost:9000/app with the credentials "admin@medusa.local", "supersecret".
+# At this point, you should be able to access the Medusa admin at http://localhost:9000/app with the credentials "admin@medusa.local", "supersecret".
 ```
 
 ### Medusa
