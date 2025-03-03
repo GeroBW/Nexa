@@ -36,7 +36,7 @@ export const Footer: React.FC = () => {
                 <ul className="flex flex-col gap-6 md:gap-3.5">
                   <li>
                     <a
-                      href="https://www.instagram.com/agiloltd/"
+                      href="https://www.instagram.com/"
                       target="_blank"
                     >
                       Instagram

@@ -30,7 +30,7 @@ export default function CookiePolicyPage() {
         start={{ base: 1, lg: 2, xl: 3 }}
         end={{ base: 13, lg: 11, xl: 10 }}
       >
-        <h1 className="text-2xl mb-25">Cookie Policy for Sofa Society</h1>
+        <h1 className="text-2xl mb-25">Cookie Policy for Nexa</h1>
       </LayoutColumn>
       <LayoutColumn
         start={{ base: 1, lg: 2, xl: 3 }}
@@ -38,7 +38,7 @@ export default function CookiePolicyPage() {
         className="article"
       >
         <p>
-          This Cookie Policy explains how Sofa Society uses cookies and similar
+          This Cookie Policy explains how Nexa uses cookies and similar
           technologies on our website. By using our website, you consent to the
           use of cookies as described in this policy.
         </p>

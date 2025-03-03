@@ -45,14 +45,14 @@ export default function AboutPage() {
         <Layout>
           <LayoutColumn start={1} end={{ base: 13, lg: 7 }}>
             <h3 className="text-lg max-lg:mb-6 md:text-2xl">
-              At Sofa Society, we believe that a sofa is the heart of every
+              At Nexa, we believe that a sofa is the heart of every
               home.
             </h3>
           </LayoutColumn>
           <LayoutColumn start={{ base: 1, lg: 8 }} end={13}>
             <div className="md:text-md lg:mt-18">
               <p className="mb-6 lg:mb-8">
-                Welcome to Sofa Society, where we believe that comfort and style
+                Welcome to Nexa, where we believe that comfort and style
                 should be effortlessly intertwined. Our mission is to help you
                 create beautiful, functional spaces that bring warmth and
                 relaxation into your home.
@@ -155,7 +155,7 @@ export default function AboutPage() {
               <p>
                 We&apos;re not just selling sofas - we&apos;re helping you
                 create spaces where you can relax, recharge, and make lasting
-                memories. Thank you for choosing Sofa Society to be a part of
+                memories. Thank you for choosing Nexa to be a part of
                 your home!
               </p>
             </div>
