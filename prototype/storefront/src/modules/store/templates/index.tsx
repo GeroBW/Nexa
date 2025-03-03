@@ -30,7 +30,12 @@ const CollectionsSlider = async () => {
 
   return (
     <Carousel
-      heading={<h3 className="text-lg md:text-2xl">Collections</h3>}
+    heading={
+      <>
+        <h3 className="text-lg md:text-2xl">Collections</h3>
+        <p className="text-sm md:text-base mt-2 text-gray-600">Explore Nexa's unique search-by-size feature in our collections</p>
+      </>
+    }
       className="mb-26 md:mb-36"
     >
       {collections.collections.map((c) => (
