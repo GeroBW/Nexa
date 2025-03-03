@@ -30,7 +30,7 @@ export default function TermsOfUsePage() {
         start={{ base: 1, lg: 2, xl: 3 }}
         end={{ base: 13, lg: 11, xl: 10 }}
       >
-        <h1 className="text-2xl mb-25">Terms of Use for Sofa Society</h1>
+        <h1 className="text-2xl mb-25">Terms of Use for Nexa</h1>
       </LayoutColumn>
       <LayoutColumn
         start={{ base: 1, lg: 2, xl: 3 }}
@@ -38,7 +38,7 @@ export default function TermsOfUsePage() {
         className="article"
       >
         <p>
-          Welcome to Sofa Society. These Terms of Use govern your access to and
+          Welcome to Nexa. These Terms of Use govern your access to and
           use of our website, products, and services. By accessing or using our
           platform, you agree to be bound by these terms and conditions. If you
           do not agree with any part of these terms, please do not use our
@@ -107,7 +107,7 @@ export default function TermsOfUsePage() {
         </p>
         <h2>5. Limitation of Liability:</h2>
         <p>
-          To the maximum extent permitted by law, Sofa Society and its
+          To the maximum extent permitted by law, Nexa and its
           affiliates, officers, directors, employees, and agents shall not be
           liable for any direct, indirect, incidental, consequential, or special
           damages arising out of or in connection with your use of our website,
@@ -115,7 +115,7 @@ export default function TermsOfUsePage() {
         </p>
         <h2>6. Indemnification:</h2>
         <p>
-          You agree to indemnify, defend, and hold harmless Sofa Society and its
+          You agree to indemnify, defend, and hold harmless Nexa and its
           affiliates, officers, directors, employees, and agents from and
           against any claims, liabilities, damages, losses, and expenses,
           including reasonable attorney&apos;s fees, arising out of or in
@@ -124,7 +124,7 @@ export default function TermsOfUsePage() {
         </p>
         <h2>7. Modifications to the Terms:</h2>
         <p>
-          You agree to indemnify, defend, and hold harmless Sofa Society and its
+          You agree to indemnify, defend, and hold harmless Nexa and its
           affiliates, officers, directors, employees, and agents from and
           against any claims, liabilities, damages, losses, and expenses,
           including reasonable attorney&apos;s fees, arising out of or in
